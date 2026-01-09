@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Crimeware server catering to â€œgrab and runâ€ criminals"
+title: "Crimeware server catering to \"grab and run\" criminals"
 date: 2008-05-06
 permalink: /blog/crimeware-server-catering-to-%e2%80%9cgrab-and-run%e2%80%9d-criminals/
 ---
