@@ -22,7 +22,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":2818,"sizeSlug":"full"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5084-scaled.jpeg" alt="Autumn at full force" class="wp-image-2818"/><figcaption class="wp-element-caption">Autumn at full force</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5084-scaled.jpeg" alt="Autumn at full force" class="wp-image-2818"/><figcaption class="wp-element-caption">Autumn at full force</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -34,7 +34,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2774,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture2.png" alt="" class="wp-image-2774"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture2.png" alt="" class="wp-image-2774"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -42,7 +42,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2819,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5089-scaled.jpeg" alt="Approaching Mosnov Airport for night training" class="wp-image-2819"/><figcaption class="wp-element-caption">Approaching Mosnov Airport for night training</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5089-scaled.jpeg" alt="Approaching Mosnov Airport for night training" class="wp-image-2819"/><figcaption class="wp-element-caption">Approaching Mosnov Airport for night training</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -54,15 +54,15 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2821,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5429-scaled.jpeg" alt="The rolling hills between the Czech Republic and Slovenia" class="wp-image-2821"/><figcaption class="wp-element-caption">The rolling hills between the Czech Republic and Slovenia</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5429-scaled.jpeg" alt="The rolling hills between the Czech Republic and Slovenia" class="wp-image-2821"/><figcaption class="wp-element-caption">The rolling hills between the Czech Republic and Slovenia</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2822,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5436-scaled.jpeg" alt="Crossing the mountain ridges in Hungary" class="wp-image-2822"/><figcaption class="wp-element-caption">Crossing the mountain ridges in Hungary</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5436-scaled.jpeg" alt="Crossing the mountain ridges in Hungary" class="wp-image-2822"/><figcaption class="wp-element-caption">Crossing the mountain ridges in Hungary</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2778,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture6.png" alt="" class="wp-image-2778"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture6.png" alt="" class="wp-image-2778"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -70,7 +70,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2779,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture7.png" alt="My night solo pattern work" class="wp-image-2779"/><figcaption class="wp-element-caption">My night solo pattern work</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture7.png" alt="My night solo pattern work" class="wp-image-2779"/><figcaption class="wp-element-caption">My night solo pattern work</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -82,7 +82,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2823,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5445-scaled.jpeg" alt="Early morning mist across the Czech plains" class="wp-image-2823"/><figcaption class="wp-element-caption">Early morning mist across the Czech plains</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5445-scaled.jpeg" alt="Early morning mist across the Czech plains" class="wp-image-2823"/><figcaption class="wp-element-caption">Early morning mist across the Czech plains</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -90,7 +90,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2781,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture9.png" alt="" class="wp-image-2781"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture9.png" alt="" class="wp-image-2781"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -122,11 +122,11 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2824,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5459-scaled.jpeg" alt="Right side – VFR. Left side – nope." class="wp-image-2824"/><figcaption class="wp-element-caption">Right side – VFR. Left side – nope.</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5459-scaled.jpeg" alt="Right side – VFR. Left side – nope." class="wp-image-2824"/><figcaption class="wp-element-caption">Right side – VFR. Left side – nope.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2783,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture11.png" alt="" class="wp-image-2783"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture11.png" alt="" class="wp-image-2783"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -138,7 +138,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2825,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5467-scaled.jpeg" alt="Riding the fog line" class="wp-image-2825"/><figcaption class="wp-element-caption">Riding the fog line</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5467-scaled.jpeg" alt="Riding the fog line" class="wp-image-2825"/><figcaption class="wp-element-caption">Riding the fog line</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -146,11 +146,11 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2826,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5470-scaled.jpeg" alt="Arnbruck Airport" class="wp-image-2826"/><figcaption class="wp-element-caption">Arnbruck Airport</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5470-scaled.jpeg" alt="Arnbruck Airport" class="wp-image-2826"/><figcaption class="wp-element-caption">Arnbruck Airport</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2786,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture14.png" alt="" class="wp-image-2786"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture14.png" alt="" class="wp-image-2786"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -166,7 +166,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2827,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5473-scaled.jpeg" alt="Arnbruck felt like a Disney theme park, but for real" class="wp-image-2827"/><figcaption class="wp-element-caption">Arnbruck felt like a Disney theme park, but for real</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5473-scaled.jpeg" alt="Arnbruck felt like a Disney theme park, but for real" class="wp-image-2827"/><figcaption class="wp-element-caption">Arnbruck felt like a Disney theme park, but for real</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -178,7 +178,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2828,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5475-scaled.jpeg" alt="Safety first – took a while to get all the frost off the wings and windshield" class="wp-image-2828"/><figcaption class="wp-element-caption">Safety first – took a while to get all the frost off the wings and windshield</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5475-scaled.jpeg" alt="Safety first – took a while to get all the frost off the wings and windshield" class="wp-image-2828"/><figcaption class="wp-element-caption">Safety first – took a while to get all the frost off the wings and windshield</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -186,7 +186,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2829,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5491-scaled.jpeg" alt="The rivers converging around Passau" class="wp-image-2829"/><figcaption class="wp-element-caption">The rivers converging around Passau</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5491-scaled.jpeg" alt="The rivers converging around Passau" class="wp-image-2829"/><figcaption class="wp-element-caption">The rivers converging around Passau</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -194,11 +194,11 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2830,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5504-scaled.jpeg" alt="Getting close to the Alps" class="wp-image-2830"/><figcaption class="wp-element-caption">Getting close to the Alps</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5504-scaled.jpeg" alt="Getting close to the Alps" class="wp-image-2830"/><figcaption class="wp-element-caption">Getting close to the Alps</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2831,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5519-scaled.jpeg" alt="Alpine ridges – there are the northeastern parts of it" class="wp-image-2831"/><figcaption class="wp-element-caption">Alpine ridges – there are the northeastern parts of it</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5519-scaled.jpeg" alt="Alpine ridges – there are the northeastern parts of it" class="wp-image-2831"/><figcaption class="wp-element-caption">Alpine ridges – there are the northeastern parts of it</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -214,7 +214,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2832,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5523-scaled.jpeg" alt="That’s Innsbruck airport and as much as it looks serene the wind was unforgiving" class="wp-image-2832"/><figcaption class="wp-element-caption">That’s Innsbruck airport and as much as it looks serene the wind was unforgiving</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5523-scaled.jpeg" alt="That’s Innsbruck airport and as much as it looks serene the wind was unforgiving" class="wp-image-2832"/><figcaption class="wp-element-caption">That’s Innsbruck airport and as much as it looks serene the wind was unforgiving</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -222,7 +222,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2795,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture21.png" alt="" class="wp-image-2795"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture21.png" alt="" class="wp-image-2795"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -234,7 +234,7 @@ permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2833,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5527-scaled.jpeg" alt="Langkampfen is nestled in the Alpine valley" class="wp-image-2833"/><figcaption class="wp-element-caption">Langkampfen is nestled in the Alpine valley</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5527-scaled.jpeg" alt="Langkampfen is nestled in the Alpine valley" class="wp-image-2833"/><figcaption class="wp-element-caption">Langkampfen is nestled in the Alpine valley</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -252,15 +252,15 @@ https://youtu.be/-8kCDLI5U5c
 <!-- /wp:embed -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2834,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5536-scaled.jpeg" alt="Vilshofen as seen from the airport" class="wp-image-2834"/><figcaption class="wp-element-caption">Vilshofen as seen from the airport</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5536-scaled.jpeg" alt="Vilshofen as seen from the airport" class="wp-image-2834"/><figcaption class="wp-element-caption">Vilshofen as seen from the airport</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2835,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5540-scaled.jpeg" alt="Old town center Vilshofen" class="wp-image-2835"/><figcaption class="wp-element-caption">Old town center Vilshofen</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5540-scaled.jpeg" alt="Old town center Vilshofen" class="wp-image-2835"/><figcaption class="wp-element-caption">Old town center Vilshofen</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2799,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture25.png" alt="" class="wp-image-2799"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture25.png" alt="" class="wp-image-2799"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -276,7 +276,7 @@ https://youtu.be/-8kCDLI5U5c
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2836,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5547-scaled.jpeg" alt="Heading back towards Prague" class="wp-image-2836"/><figcaption class="wp-element-caption">Heading back towards Prague</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5547-scaled.jpeg" alt="Heading back towards Prague" class="wp-image-2836"/><figcaption class="wp-element-caption">Heading back towards Prague</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -292,7 +292,7 @@ https://youtu.be/-8kCDLI5U5c
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2837,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5557-scaled.jpeg" alt="Dresden sightseeing" class="wp-image-2837"/><figcaption class="wp-element-caption">Dresden sightseeing</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5557-scaled.jpeg" alt="Dresden sightseeing" class="wp-image-2837"/><figcaption class="wp-element-caption">Dresden sightseeing</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -304,11 +304,11 @@ https://youtu.be/-8kCDLI5U5c
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2838,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5564-scaled.jpeg" alt="Approaching Graz international airport" class="wp-image-2838"/><figcaption class="wp-element-caption">Approaching Graz international airport</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5564-scaled.jpeg" alt="Approaching Graz international airport" class="wp-image-2838"/><figcaption class="wp-element-caption">Approaching Graz international airport</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2803,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture29.png" alt="" class="wp-image-2803"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture29.png" alt="" class="wp-image-2803"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -328,7 +328,7 @@ https://youtu.be/-8kCDLI5U5c
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2839,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5580-scaled.jpeg" alt="Crossing the lower ridges of the Alps at 9,000ft" class="wp-image-2839"/><figcaption class="wp-element-caption">Crossing the lower ridges of the Alps at 9,000ft</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5580-scaled.jpeg" alt="Crossing the lower ridges of the Alps at 9,000ft" class="wp-image-2839"/><figcaption class="wp-element-caption">Crossing the lower ridges of the Alps at 9,000ft</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -336,7 +336,7 @@ https://youtu.be/-8kCDLI5U5c
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2840,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5598-scaled.jpeg" alt="The Maribor Airport" class="wp-image-2840"/><figcaption class="wp-element-caption">The Maribor Airport</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5598-scaled.jpeg" alt="The Maribor Airport" class="wp-image-2840"/><figcaption class="wp-element-caption">The Maribor Airport</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -348,7 +348,7 @@ https://youtu.be/-8kCDLI5U5c
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2841,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/IMG_5615-scaled.jpeg" alt="Parked at LKZB to wait for better weather" class="wp-image-2841"/><figcaption class="wp-element-caption">Parked at LKZB to wait for better weather</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/IMG_5615-scaled.jpeg" alt="Parked at LKZB to wait for better weather" class="wp-image-2841"/><figcaption class="wp-element-caption">Parked at LKZB to wait for better weather</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:embed {"url":"https://youtu.be/OSc-4vdX8Jc","type":"video","providerNameSlug":"youtube","responsive":true,"align":"center","className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
@@ -358,7 +358,7 @@ https://youtu.be/OSc-4vdX8Jc
 <!-- /wp:embed -->
 
 <!-- wp:image {"align":"center","lightbox":{"enabled":true},"id":2807,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/blog/assets/uploads/2021/12/Picture32.png" alt="" class="wp-image-2807"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://www.iamit.org/assets/uploads/2021/12/Picture32.png" alt="" class="wp-image-2807"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

@@ -5,7 +5,7 @@ date: 2012-01-09
 permalink: /blog/advanced-data-exfiltration/
 ---
 
-This paper has been published in several security conferences during 2011, and is now being made fully available (as well as a <a href="http://www.iamit.org/blog/assets/uploads/2012/01/Advanced-data-exfiltration-â€“-the-way-Q-would-have-done-it.pdf">PDF</a> version for downloading)
+This paper has been published in several security conferences during 2011, and is now being made fully available (as well as a <a href="http://www.iamit.org/assets/uploads/2012/01/Advanced-data-exfiltration-â€“-the-way-Q-would-have-done-it.pdf">PDF</a> version for downloading)
 
 &nbsp;
 <h1>Abstract</h1>

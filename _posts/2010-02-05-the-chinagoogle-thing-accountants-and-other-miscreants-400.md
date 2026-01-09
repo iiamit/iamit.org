@@ -9,7 +9,7 @@ Aha! Can't believe I managed to avoid the unbelievable hype flood that swept acr
 
 Just to set the stage right - we are at a point where I just saw a USA Today "Money" section front page article on how Google's engagement with the NSA post the breach will affect the security vendor market, and a few VCs were also quoted to the fact that we will be seeing IPOs this year that will ride this trend.
 
-<img class="alignright size-medium wp-image-403" title="dblock-security" src="http://www.iamit.org/blog/assets/uploads/2010/02/dblock-security-298x300.jpg" alt="" width="298" height="300" />
+<img class="alignright size-medium wp-image-403" title="dblock-security" src="http://www.iamit.org/assets/uploads/2010/02/dblock-security-298x300.jpg" alt="" width="298" height="300" />
 
 Overhyped - definitely. Real - just as it's overhyped. You must be asking then what to do? If the hype is too much, then there must not be so much behind these scary global cyberwar threats! Not exactly - the threat exists, and countries do deal with making sure they have an edge over everyone else (see how I didn't use adversaries... hint, hint ;-) ), but at the same time this has been happening for years now.
 

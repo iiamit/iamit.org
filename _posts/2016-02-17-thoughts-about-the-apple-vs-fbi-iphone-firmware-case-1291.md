@@ -36,7 +36,7 @@ If this indeedÂ is the case, we are looking at a much more problematic practic
 
 https://twitter.com/CountyWire/status/700887823482630144
 
-<a href="http://www.iamit.org/blog/assets/uploads/2016/02/line-in-the-sand1.jpg" rel="attachment wp-att-1292"><img class="aligncenter size-large wp-image-1292" src="http://www.iamit.org/blog/assets/uploads/2016/02/line-in-the-sand1-700x385.jpg" alt="line-in-the-sand1" width="604" height="332" /></a>
+<a href="http://www.iamit.org/assets/uploads/2016/02/line-in-the-sand1.jpg" rel="attachment wp-att-1292"><img class="aligncenter size-large wp-image-1292" src="http://www.iamit.org/assets/uploads/2016/02/line-in-the-sand1-700x385.jpg" alt="line-in-the-sand1" width="604" height="332" /></a>
 
 p.s. additional reading on this, from a couple of different authors who I wholeheartedly agree with:
 

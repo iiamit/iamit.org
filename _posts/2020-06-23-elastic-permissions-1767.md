@@ -30,7 +30,7 @@ permalink: /blog/elastic-permissions/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1773,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://www.iamit.org/blog/assets/uploads/2020/06/elastic-permissions-image.png" alt="" class="wp-image-1773"/></figure>
+<figure class="wp-block-image size-large"><img src="https://www.iamit.org/assets/uploads/2020/06/elastic-permissions-image.png" alt="" class="wp-image-1773"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

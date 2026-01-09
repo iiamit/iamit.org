@@ -18,7 +18,7 @@ But worry not, only afterÂ actually reading the details of the article (<a hre
 	<li>It's not even really an Android issue. One could have jailbroken an iPad, install a backdoor/trojan on it, and sell it online. The Android part is relates more to the price point and the ability to sell really cheap tablets.</li>
 	<li>I dare you to recognize any of the "brands" of tablets sold with these trojans. Funny, the top "brand" is actually, wait for it, "NO BRAND". I kid you not.</li>
 </ol>
-<a href="http://www.iamit.org/blog/assets/uploads/2015/11/brands.png"><img class="aligncenter size-full wp-image-1264" src="http://www.iamit.org/blog/assets/uploads/2015/11/brands.png" alt="brands" width="480" height="290" /></a>
+<a href="http://www.iamit.org/assets/uploads/2015/11/brands.png"><img class="aligncenter size-full wp-image-1264" src="http://www.iamit.org/assets/uploads/2015/11/brands.png" alt="brands" width="480" height="290" /></a>
 
 So after sorting out the FUD, we are left with no much of a scare. Suspiciously cheap tablets, marketed mostly as "no brand" (or other brands which at least I've never heard of), are filledÂ with questionable software. Kind'a reminds me of even "big name" manufacturers who load their phones/tablets/laptops with assorted unwanted software (officially dubbed "bloatware"). Wow. How did this not make headline news across the nation?
 

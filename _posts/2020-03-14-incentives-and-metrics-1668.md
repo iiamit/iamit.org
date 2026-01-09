@@ -24,7 +24,7 @@ permalink: /blog/incentives-and-metrics/
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"right","id":1672,"sizeSlug":"medium"} -->
-<figure class="wp-block-image alignright size-medium"><img src="https://www.iamit.org/blog/assets/uploads/2020/03/mousetrap-300x199.jpeg" alt="" class="wp-image-1672"/></figure>
+<figure class="wp-block-image alignright size-medium"><img src="https://www.iamit.org/assets/uploads/2020/03/mousetrap-300x199.jpeg" alt="" class="wp-image-1672"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

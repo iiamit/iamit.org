@@ -18,33 +18,33 @@ Medical record:
 <div><span style="border: 1px solid #000000; display: block; width: 560px;"><em>http://...../de...nts/.../MedicalRecordReview/ "Diagnosis=Admitted for IV abx 2nd spinal rod infection. Hx of SMA, wheelchair bound, on bipap c back up rate. ESR increased. Ctx neg. Not getting meds at home. Will need 42 days abxâ€¦. low grade fever 2 days ago." </em></span></div>
 Email communications:
 <div><span style="border: 1px solid #000000; display: block; width: 560px;"><em>"â€¦Attached you will find our personnel file. Please fill it out in its entirety and return via emailâ€¦.These forms are kept confidential and locked up" </em></span></div>
-<img class="alignnone size-full wp-image-293" title="crimeserver1" src="http://www.iamit.org/blog/assets/uploads/2008/05/crimeserver1.jpg" alt="crimeserver1" width="560" height="151" />
+<img class="alignnone size-full wp-image-293" title="crimeserver1" src="http://www.iamit.org/assets/uploads/2008/05/crimeserver1.jpg" alt="crimeserver1" width="560" height="151" />
 
 Outlook with email communications:
 
-<img class="alignnone size-full wp-image-294" title="crimeserver2" src="http://www.iamit.org/blog/assets/uploads/2008/05/crimeserver2.jpg" alt="crimeserver2" width="422" height="310" />
+<img class="alignnone size-full wp-image-294" title="crimeserver2" src="http://www.iamit.org/assets/uploads/2008/05/crimeserver2.jpg" alt="crimeserver2" width="422" height="310" />
 <p align="center"></p>
 
 Bank customerâ€™s credit card details:
 
-<img class="alignnone size-full wp-image-295" title="crimeserver3" src="http://www.iamit.org/blog/assets/uploads/2008/05/crimeserver3.jpg" alt="crimeserver3" width="437" height="223" />
+<img class="alignnone size-full wp-image-295" title="crimeserver3" src="http://www.iamit.org/assets/uploads/2008/05/crimeserver3.jpg" alt="crimeserver3" width="437" height="223" />
 <p align="center"></p>
 
 We were especially curious how these user data for grabs were managed by the cybercriminals, and we found a C&amp;C application that they used for that purpose.
 The administration of this Command &amp; Control (C&amp;C) function consists of a PHP based web application. It managed the infected machines, and enabled the criminal to address specific groups of â€œusersâ€ â€“by country, by IP, by type of logs, you name it!
 
-<img class="alignnone size-full wp-image-297" title="crimeserver4" src="http://www.iamit.org/blog/assets/uploads/2008/05/crimeserver4.jpg" alt="crimeserver4" width="504" height="413" />
+<img class="alignnone size-full wp-image-297" title="crimeserver4" src="http://www.iamit.org/assets/uploads/2008/05/crimeserver4.jpg" alt="crimeserver4" width="504" height="413" />
 <p align="center"></p>
 
 The administrator could also issue commands, instructing the Crimeware on the infected machines to perform certain actions:
 
-<img class="alignnone size-full wp-image-298" title="crimeserver5" src="http://www.iamit.org/blog/assets/uploads/2008/05/crimeserver5.gif" alt="crimeserver5" width="207" height="233" />
+<img class="alignnone size-full wp-image-298" title="crimeserver5" src="http://www.iamit.org/assets/uploads/2008/05/crimeserver5.gif" alt="crimeserver5" width="207" height="233" />
 <p align="center"></p>
 
 The server we investigated hosted multiple â€œattack campaignsâ€.
 Each campaign had its own logged data from the infected users, as well as an administrative interface to the attack Crimeware toolkit that was used to infect the users (in this case the â€œAdPackâ€ toolkit).
 
-<img class="alignnone size-full wp-image-299" title="crimeserver6" src="http://www.iamit.org/blog/assets/uploads/2008/05/crimeserver6.jpg" alt="crimeserver6" width="514" height="421" />
+<img class="alignnone size-full wp-image-299" title="crimeserver6" src="http://www.iamit.org/assets/uploads/2008/05/crimeserver6.jpg" alt="crimeserver6" width="514" height="421" />
 <p align="center"></p>
 
 The administrative (statistics) interface to these AdPack toolkits showed how effective each campaign was, and provided statistical information on the geographical location of the infections, and of course, referral statistics to accurately measure where did the infections come from.

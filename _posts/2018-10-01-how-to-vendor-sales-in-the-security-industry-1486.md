@@ -32,4 +32,4 @@ And even when you do your homework, you need to remember that you are dealing wi
 
 Update: found <a href="https://cisoseries.com/30-security-vendor-behaviors-that-set-off-a-cisos-bs-detector/">this gem of a post</a> - sadly I've ran across each and every item listed there. Go study it and figure out how to avoid getting into the blacklist ;-)
 
-<img class="size-medium wp-image-1478 aligncenter" src="http://www.iamit.org/blog/assets/uploads/2018/10/used-car-salesman-300x225.jpg" alt="" width="300" height="225" />
+<img class="size-medium wp-image-1478 aligncenter" src="http://www.iamit.org/assets/uploads/2018/10/used-car-salesman-300x225.jpg" alt="" width="300" height="225" />

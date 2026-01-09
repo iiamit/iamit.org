@@ -11,10 +11,10 @@ This new feature is basically an implementation for a new header (X-FRAME-OPTION
 
 The solution that is being proposed here is nice, but time will tell if or when sites would start adopting it. Nevertheless, while playing around with the new feature behavior, I noticed that without much PR, Firefox is also supporting the same functionality.
 
-<img class="alignnone size-full wp-image-279" title="cj" src="http://www.iamit.org/blog/assets/uploads/2009/02/cj.jpeg" alt="cj" width="450" height="357" />
+<img class="alignnone size-full wp-image-279" title="cj" src="http://www.iamit.org/assets/uploads/2009/02/cj.jpeg" alt="cj" width="450" height="357" />
 Image 1: blocking the inclusion of a site in an IFRAME where the site returned a header X-FRAME-OPTIONS: DENY
 
-<img class="alignnone size-full wp-image-280" title="cj2" src="http://www.iamit.org/blog/assets/uploads/2009/02/cj2.jpeg" alt="cj2" width="398" height="558" />
+<img class="alignnone size-full wp-image-280" title="cj2" src="http://www.iamit.org/assets/uploads/2009/02/cj2.jpeg" alt="cj2" width="398" height="558" />
 Image 2: Firefox blocking the included IFrame, and showing the actual header returned from the site.
 
 Now with only Chrome and Opera to jump on the bandwagon, we might actually have a chance to see some changes in the web security landscape (as you may remember â€“ most of the web borne attacks are delivered through the inclusion of an invisible IFrame hosting malicious code). That isif only this protocol could have been reversed to define that no IFrames should be rendered ON a said site, thus preventing injected IFrame elements from being delivered to the users of a compromised site.

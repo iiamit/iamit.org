@@ -11,9 +11,9 @@ We have been talking about the risks of Web2.0 in terms of user contributed cont
 
 The security violations were found on two different profiles, and contained two different malicious attacks (see below) â€“ the first picture shows a QuickTime exploit that contained a Trojan Downloader, and the second one is a WMA exploit containing â€“ a Trojan Downloaderâ€¦
 
-<a href="http://www.iamit.org/blog/assets/uploads/2007/06/MySpace001.png"><img class="alignnone size-medium wp-image-322" title="MySpace001" src="http://www.iamit.org/blog/assets/uploads/2007/06/MySpace001-300x180.png" alt="MySpace001" width="300" height="180" /></a>
+<a href="http://www.iamit.org/assets/uploads/2007/06/MySpace001.png"><img class="alignnone size-medium wp-image-322" title="MySpace001" src="http://www.iamit.org/assets/uploads/2007/06/MySpace001-300x180.png" alt="MySpace001" width="300" height="180" /></a>
 
-<a href="http://www.iamit.org/blog/assets/uploads/2007/06/MySpace002.png"><img class="alignnone size-medium wp-image-323" title="MySpace002" src="http://www.iamit.org/blog/assets/uploads/2007/06/MySpace002-300x180.png" alt="MySpace002" width="300" height="180" /></a>
+<a href="http://www.iamit.org/assets/uploads/2007/06/MySpace002.png"><img class="alignnone size-medium wp-image-323" title="MySpace002" src="http://www.iamit.org/assets/uploads/2007/06/MySpace002-300x180.png" alt="MySpace002" width="300" height="180" /></a>
 
 The MySpace abuse team was fairly quick to take down the malicious code (in less than 24 hours) - good job guys!
 

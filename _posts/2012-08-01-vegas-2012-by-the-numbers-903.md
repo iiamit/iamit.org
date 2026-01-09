@@ -31,4 +31,4 @@ Nevertheless, some of the experiences were priceless - like having a chat with I
 
 Guess it's time to wrap up and figure out what timezone my body is on...
 
-<img class="size-large wp-image-904 alignnone" title="2012-07-25 12.17.09 copy" src="http://www.iamit.org/blog/assets/uploads/2012/08/2012-07-25-12.17.09-copy-524x700.jpg" alt="" width="524" height="700" />
+<img class="size-large wp-image-904 alignnone" title="2012-07-25 12.17.09 copy" src="http://www.iamit.org/assets/uploads/2012/08/2012-07-25-12.17.09-copy-524x700.jpg" alt="" width="524" height="700" />

@@ -5,7 +5,7 @@ date: 2010-08-31
 permalink: /blog/security-innovation-is-an-art-now/
 ---
 
-<a href="http://www.iamit.org/blog/assets/uploads/2010/08/SecInnovArt.png"><img class="alignright size-medium wp-image-525" title="SecInnovArt" src="http://www.iamit.org/blog/assets/uploads/2010/08/SecInnovArt-259x300.png" alt="" width="259" height="300" /></a>Itâ€™s very intriguing to see how our perceptions sometimes work against us - I have noted my â€œbusinessâ€ connections on LinkedIn regarding the recent merge of the <a href="http://www.securityandinnovation.com">Security &amp; Innovation</a> business into <a href="http://www.security-art.com">Security Art</a> as part of me joining it as VP Business Development.
+<a href="http://www.iamit.org/assets/uploads/2010/08/SecInnovArt.png"><img class="alignright size-medium wp-image-525" title="SecInnovArt" src="http://www.iamit.org/assets/uploads/2010/08/SecInnovArt-259x300.png" alt="" width="259" height="300" /></a>Itâ€™s very intriguing to see how our perceptions sometimes work against us - I have noted my â€œbusinessâ€ connections on LinkedIn regarding the recent merge of the <a href="http://www.securityandinnovation.com">Security &amp; Innovation</a> business into <a href="http://www.security-art.com">Security Art</a> as part of me joining it as VP Business Development.
 
 One of the first feedback I got arrived through twitter. the next few came in to my inbox, then LinkedIn, more twitter, and some text messages. Wow. Have I realized that twitter got to be as important as LinkedIn was I would have tweeted my move there first :-). Anyway, to finalize the social media roundup if the news here it is:
 

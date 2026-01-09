@@ -27,7 +27,7 @@ So, as if I didn't have enough flights this year, here is where you can find me 
 
 <a href="http://www.govcert.nl/symposium">GovCERT.NL symposium</a>Â (November 15-16). This is one of the best CERT teams I have had a chance to know (people-wise as well as professionally), and I'm really excited to have a chance to work with them again on some of the more burning issues in national level security.
 
-<a href="http://www.iamit.org/blog/assets/uploads/2011/07/Screen-shot-2011-07-10-at-7.05.43-PM.png"><img class="size-thumbnail wp-image-628 alignnone" title="Screen shot 2011-07-10 at 7.05.43 PM" src="http://www.iamit.org/blog/assets/uploads/2011/07/Screen-shot-2011-07-10-at-7.05.43-PM-150x150.png" alt="" width="90" height="90" /></a>
+<a href="http://www.iamit.org/assets/uploads/2011/07/Screen-shot-2011-07-10-at-7.05.43-PM.png"><img class="size-thumbnail wp-image-628 alignnone" title="Screen shot 2011-07-10 at 7.05.43 PM" src="http://www.iamit.org/assets/uploads/2011/07/Screen-shot-2011-07-10-at-7.05.43-PM-150x150.png" alt="" width="90" height="90" /></a>
 
 <a href="http://themurogroup.com/securityzone/">SecurityZone</a>Â (November 28-30). Finally - Latin America. Again - my first time at this conference. Looking at the speaker lineup this should be really fun, and the opportunity to mix in with the local Colombian security scene should be terrific!
 

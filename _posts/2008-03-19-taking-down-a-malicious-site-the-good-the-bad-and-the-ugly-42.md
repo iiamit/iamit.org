@@ -10,7 +10,7 @@ As part of the "closure" on the <a href="http://www.finjan.com/GetObject.aspx?Ob
 Meoryprof.info was the first to buckle (probably under the press exposure), but spywaresafe.net have managed to stay afloat for quite a while. The problem with such domains these days, is that they are usually designed to hide the true owner in the best possible way.
 
 Spywaresafe.net has been running in full-steam for only a short period of time, but has managed to rack up quite a track record of user visits and infections (see the below screenshot from its NeoSploit admin page)
-<p align="center"><img class="alignnone size-full wp-image-301" title="takingDown" src="http://www.iamit.org/blog/assets/uploads/2008/03/takingDown.jpg" alt="takingDown" width="564" height="141" /></p>
+<p align="center"><img class="alignnone size-full wp-image-301" title="takingDown" src="http://www.iamit.org/assets/uploads/2008/03/takingDown.jpg" alt="takingDown" width="564" height="141" /></p>
 
 (note that this screenshot is rather old and contains data on the first half of February onlyâ€¦ nevertheless, almost 300k visits were logged to the main user and 150k more on the second user)
 

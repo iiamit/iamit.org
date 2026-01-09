@@ -9,7 +9,7 @@ Not a virus. Not even a malware. Neither is the runner upâ€¦ It's the method
 
 According to <a href="http://www.sophos.com/pressoffice/news/articles/2008/01/toptendec07.html" target="_blank">a report</a>, the most common malware attack in 2007 is the notorious IFRAME.
 
-<img class="aligncenter size-full wp-image-308" title="top_virus_2007" src="http://www.iamit.org/blog/assets/uploads/2008/01/top_virus_2007.png" alt="top_virus_2007" width="454" height="298" />
+<img class="aligncenter size-full wp-image-308" title="top_virus_2007" src="http://www.iamit.org/assets/uploads/2008/01/top_virus_2007.png" alt="top_virus_2007" width="454" height="298" />
 <p align="center"></p>
 
 On our <a href="http://www.finjan.com/content.aspx?id=1367">monthly</a> and <a href="http://www.finjan.com/content.aspx?id=827">quarterly</a> reports we provided more in-depth analysis of such top-ranking IFRAME and obfuscated code.

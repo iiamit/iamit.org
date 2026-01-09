@@ -9,7 +9,7 @@ Following the recent news on how an anonymous group has managed to take over Sar
 
 Our assumptions are that as usersÂ  foundÂ  the original site unavailable, they started resorting to deepening their searches to try and find other copies of the original images. It seems that e-Criminals are just in-tune with the latest news and browsing habits, and have managed to publish (or alter an already published) zip archive of the original wikileaks post with a small alteration that included a malicious script appended to the html content. Users that are eager to take a look at the leaked images finally found themselves looking at an archive copy of the original wikileaks page, but without having any clue about the malicious script running on their PC at the same time.
 
-<a href="http://www.iamit.org/blog/assets/uploads/2008/09/palin.jpg"><img class="alignnone size-medium wp-image-291" title="palin" src="http://www.iamit.org/blog/assets/uploads/2008/09/palin-300x278.jpg" alt="palin" width="300" height="278" /></a>
+<a href="http://www.iamit.org/assets/uploads/2008/09/palin.jpg"><img class="alignnone size-medium wp-image-291" title="palin" src="http://www.iamit.org/assets/uploads/2008/09/palin-300x278.jpg" alt="palin" width="300" height="278" /></a>
 
 The script used is the usual obfuscated JavaScript that is designed to evade detection, which exploits a couple of vulnerabilities in QuickTime and Microsoft's WMV components. The exploits are designed such that once successful, a Trojan is installed on the local machine with the pretence of an Anti-Virus application. The specific Trojan that is being used in this incident is similar to other related attacks covered in our latest security research findings that traced sites connected to recent news as well.
 

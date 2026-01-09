@@ -33,6 +33,6 @@ If it would be, 90% of the show would be someone staring at a debugger on a scre
 
 So ease off. Be thankful that this isn't another Scorpion, and that there are enough elements in the script based on reality, kick back, take a load off and watch your entertainment on TV. If you want more accuracy - feel free to watch the hundreds of videos from conferences like BlackHat, Defcon, Derbycon, etc. You'll get educated. Can't promise anything about entertained though ;-)
 
-Oh. here's a bonus for you if you thought that the image above was cool - my desk is much simpler :-P<a href="http://www.iamit.org/blog/assets/uploads/2015/03/2015-03-05-10.43.43.jpg"><img class=" wp-image-1189 size-large alignnone" src="http://www.iamit.org/blog/assets/uploads/2015/03/2015-03-05-10.43.43-700x519.jpg" alt="2015-03-05 10.43.43" width="604" height="448" /></a>
+Oh. here's a bonus for you if you thought that the image above was cool - my desk is much simpler :-P<a href="http://www.iamit.org/assets/uploads/2015/03/2015-03-05-10.43.43.jpg"><img class=" wp-image-1189 size-large alignnone" src="http://www.iamit.org/assets/uploads/2015/03/2015-03-05-10.43.43-700x519.jpg" alt="2015-03-05 10.43.43" width="604" height="448" /></a>
 
 &nbsp;

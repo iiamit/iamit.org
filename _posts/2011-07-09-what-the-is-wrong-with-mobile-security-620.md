@@ -5,7 +5,7 @@ date: 2011-07-09
 permalink: /blog/what-the-is-wrong-with-mobile-security/
 ---
 
-Long time no post. Sorry about that &lt;insert favorite excuse&gt;.<a href="http://www.iamit.org/blog/assets/uploads/2011/07/never_go_full_retard1.jpg"><img class="alignright size-medium wp-image-621" title="never_go_full_retard1" src="http://www.iamit.org/blog/assets/uploads/2011/07/never_go_full_retard1-300x199.jpg" alt="" width="300" height="199" /></a>
+Long time no post. Sorry about that &lt;insert favorite excuse&gt;.<a href="http://www.iamit.org/assets/uploads/2011/07/never_go_full_retard1.jpg"><img class="alignright size-medium wp-image-621" title="never_go_full_retard1" src="http://www.iamit.org/assets/uploads/2011/07/never_go_full_retard1-300x199.jpg" alt="" width="300" height="199" /></a>
 
 Anyway, as you can probably imagine, here's another rant brewing. We have been dealing with a barrage of mobile application security issues lately, and although I had the feeling that there was a lot wrong with the industry back there I haven't realized it was that bad.
 

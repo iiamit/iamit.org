@@ -5,7 +5,7 @@ date: 2010-04-15
 permalink: /blog/cybercrimewar-connecting-the-dots-blackhat-eu-2010/
 ---
 
-<img class="alignleft size-full wp-image-436" title="bh-eu10-head" src="http://www.iamit.org/blog/assets/uploads/2010/04/bh-eu10-head.png" alt="" width="600" height="188" />
+<img class="alignleft size-full wp-image-436" title="bh-eu10-head" src="http://www.iamit.org/assets/uploads/2010/04/bh-eu10-head.png" alt="" width="600" height="188" />
 
 Hola from Barcelona!
 

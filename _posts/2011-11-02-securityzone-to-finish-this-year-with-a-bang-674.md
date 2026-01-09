@@ -5,7 +5,7 @@ date: 2011-11-02
 permalink: /blog/securityzone-to-finish-this-year-with-a-bang/
 ---
 
-<a href="http://www.iamit.org/blog/assets/uploads/2011/11/Screen-Shot-2011-11-02-at-2.58.18-PM.png"><img class="alignright size-medium wp-image-675" title="Screen Shot 2011-11-02 at 2.58.18 PM" src="http://www.iamit.org/blog/assets/uploads/2011/11/Screen-Shot-2011-11-02-at-2.58.18-PM-284x300.png" alt="" width="284" height="300" /></a>So, some of you have heard of <a href="http://securityzone.co/indexeng.html">SecurityZone</a>, some are skeptical and some just jealous. Here's the gist of it from my view:
+<a href="http://www.iamit.org/assets/uploads/2011/11/Screen-Shot-2011-11-02-at-2.58.18-PM.png"><img class="alignright size-medium wp-image-675" title="Screen Shot 2011-11-02 at 2.58.18 PM" src="http://www.iamit.org/assets/uploads/2011/11/Screen-Shot-2011-11-02-at-2.58.18-PM-284x300.png" alt="" width="284" height="300" /></a>So, some of you have heard of <a href="http://securityzone.co/indexeng.html">SecurityZone</a>, some are skeptical and some just jealous. Here's the gist of it from my view:
 
 Professional:
 <ul>

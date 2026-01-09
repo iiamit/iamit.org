@@ -13,15 +13,15 @@ After BlackHat Europe (see <a href="http://www.iamit.org/blog/2010/04/cybercrime
 
 <a href="http://ph-neutral.darklab.org/talks.html">ph-neutral</a> - Basically the real deal... If you are FoFX (Friends of FX) expect to rub shoulders with some of the world's best security experts
 
-<img class="size-medium wp-image-448 alignnone" title="AthCon" src="http://www.iamit.org/blog/assets/uploads/2010/05/AthCon-300x89.png" alt="" width="300" height="89" />
+<img class="size-medium wp-image-448 alignnone" title="AthCon" src="http://www.iamit.org/assets/uploads/2010/05/AthCon-300x89.png" alt="" width="300" height="89" />
 
 <a href="http://www.athcon.org/">AthCon</a> - A new regional conference in Greece, close to home, sponsored by some great guys from encode, and a very interesting lineup of speakers.
 
-<img class="alignnone size-full wp-image-449" title="FIRST2010-Sunset-SPEAKER" src="http://www.iamit.org/blog/assets/uploads/2010/05/FIRST2010-Sunset-SPEAKER.gif" alt="" width="255" height="260" />
+<img class="alignnone size-full wp-image-449" title="FIRST2010-Sunset-SPEAKER" src="http://www.iamit.org/assets/uploads/2010/05/FIRST2010-Sunset-SPEAKER.gif" alt="" width="255" height="260" />
 
 <a href="http://conference.first.org/">FIRST Conference</a> - If you have ever dealt with incident handling, CSIRT, CERT, and alike, this is the conference to be at. A whole day workshop, and 5 full days packed with great talks in sunny Miami. Can't go wrong...
 
-<img class="alignnone size-full wp-image-455" title="1" src="http://www.iamit.org/blog/assets/uploads/2010/05/1.jpg" alt="" width="128" height="128" />
+<img class="alignnone size-full wp-image-455" title="1" src="http://www.iamit.org/assets/uploads/2010/05/1.jpg" alt="" width="128" height="128" />
 
 <a href="http://brucon.org/">BruCON</a> -  Brussel's local security conference. Last year has been EPIC (so I've  heard from authoritative sources :-) ) and this year is shaping up to  exceed the expectations!
 

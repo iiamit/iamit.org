@@ -11,7 +11,7 @@ Obviously, this is a daunting task by itself, and although sometimes security re
 
 Well then, back to our little server â€“ the domain name hosting the crimeware (Neosploit 2.0.13) was hosted in Hong-Kong (see below)
 
-<img class="alignnone size-full wp-image-303" title="mistery001" src="http://www.iamit.org/blog/assets/uploads/2008/02/mistery001.png" alt="mistery001" width="564" height="312" />
+<img class="alignnone size-full wp-image-303" title="mistery001" src="http://www.iamit.org/assets/uploads/2008/02/mistery001.png" alt="mistery001" width="564" height="312" />
 <p align="center"></p>
 
 So that does not bring us any closer to who is this â€“ as the address is located at a hosting company. Fortunately, our research brought in some additional IP addresses. We managed to grab these from the web server just like we have uncovered the 8,700 FTP account credentials that the research paper talks about (no exploits or attacks were used to do so â€“ simply thinking outside the box sufficed).
@@ -130,7 +130,7 @@ source:Â Â Â Â Â Â Â Â  RIPE # Filtered</td>
 </tbody></table>
 Putting all these guys on the map results in a very interesting â€œinternational man of mysteryâ€ cross-continent network of connections:
 
-<img class="alignnone size-full wp-image-305" title="mistery002" src="http://www.iamit.org/blog/assets/uploads/2008/02/mistery002.png" alt="mistery002" width="564" height="305" />
+<img class="alignnone size-full wp-image-305" title="mistery002" src="http://www.iamit.org/assets/uploads/2008/02/mistery002.png" alt="mistery002" width="564" height="305" />
 <p align="center"></p>
 
 Obviously we are looking at some eastern-bloc oriented operation, with some access to resources in the Netherlands and the US (either other people, or just computers from which access could have been made).

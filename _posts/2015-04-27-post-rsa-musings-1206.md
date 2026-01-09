@@ -17,5 +17,5 @@ Last (and I saved the downer for here) - the show floor. After getting over the 
 
 Overall, a great experience (and yes - lots of new business too), so yes, I believe my #notatrsa streak has come to an end. Or maybe I'm just getting old ;-)
 
-<a href="http://www.iamit.org/blog/assets/uploads/2015/04/2015-04-21-15.57.44.jpg"><img class="aligncenter size-large wp-image-1210" src="http://www.iamit.org/blog/assets/uploads/2015/04/2015-04-21-15.57.44-519x700.jpg" alt="2015-04-21 15.57.44" width="519" height="700" /></a>
+<a href="http://www.iamit.org/assets/uploads/2015/04/2015-04-21-15.57.44.jpg"><img class="aligncenter size-large wp-image-1210" src="http://www.iamit.org/assets/uploads/2015/04/2015-04-21-15.57.44-519x700.jpg" alt="2015-04-21 15.57.44" width="519" height="700" /></a>
 <blockquote>Yes - you can engage with other evangelists at RSA! (and what seemed like a weird obsession - collect truckloads of branded t-shirts and vendor giveaways).</blockquote>

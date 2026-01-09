@@ -7,7 +7,7 @@ permalink: /blog/seeing-red-in-your-future-recap-from-derbycon-3-0/
 
 Yes, I know, It's been a while since I updated anything here. Work, life, etc...
 
-<img class="alignright size-medium wp-image-1020" alt="yin and yang" src="http://www.iamit.org/blog/assets/uploads/2013/09/IMG_0772-copy-300x200.jpg" width="300" height="200" />
+<img class="alignright size-medium wp-image-1020" alt="yin and yang" src="http://www.iamit.org/assets/uploads/2013/09/IMG_0772-copy-300x200.jpg" width="300" height="200" />
 
 So here's a quick update/recap on some of the latest: SecurityZone 2013 was an excellent experience. Always great to get back to Cali to meet who are now friends rather than just colleagues and conference organizers. I delivered the keynote there, where it was fun getting feedback for stating out-loud some of the things that we all (should) realize, which is our reliance on products is hurting us.
 
