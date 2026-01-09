@@ -303,3 +303,27 @@ footer {
     .img-wrapper { margin: 0 auto; max-width: 300px; }
     .nav-links { display: none; } /* Consider adding a mobile menu if needed, for now hidden on small screens for simplicity */
 }
+
+/* BLOG CONTENT IMAGE FIXES */
+
+/* Force images to fit the container width */
+.post-content img {
+    max-width: 100%;       /* Never wider than the text column */
+    height: auto;          /* Maintain aspect ratio */
+    display: block;        /* Remove inline spacing issues */
+    margin: 30px auto;     /* Add space above/below and center */
+    border-radius: 8px;    /* Slight curve on corners */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3); /* Add depth */
+    border: 1px solid rgba(255,255,255,0.1); /* Subtle border definition */
+}
+
+/* If images are wrapped in links (common in WP), ensure the link block behaves */
+.post-content a > img {
+    cursor: zoom-in; /* Optional: hints that it might be clickable, or use default */
+}
+
+/* Remove the underline that sometimes appears on image links */
+.post-content a:has(img) {
+    border-bottom: none;
+    text-decoration: none;
+}
