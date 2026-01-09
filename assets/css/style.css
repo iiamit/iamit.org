@@ -347,3 +347,76 @@ article p:has(img) {
     font-style: italic;
     margin-bottom: 40px;
 }
+
+/* MOBILE MENU STYLES */
+
+/* The Hamburger Button (Hidden on Desktop) */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--accent); /* Green */
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    
+    /* Show the hamburger button */
+    .menu-toggle {
+        display: flex;
+        z-index: 2000; /* Ensure it sits on top */
+    }
+
+    /* Transform the nav-links into a dropdown */
+    .nav-links {
+        display: none; /* Hidden by default */
+        position: absolute;
+        top: 70px; /* Push it below the navbar */
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        border-bottom: 2px solid var(--accent);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+
+    /* The class JavaScript will add to SHOW the menu */
+    .nav-links.active {
+        display: flex;
+        animation: slideDown 0.3s ease-in-out;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+    
+    .nav-links a {
+        font-size: 1.2rem;
+    }
+
+    /* Animation for the Hamburger transforming into an 'X' */
+    .menu-toggle.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-toggle.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu-toggle.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

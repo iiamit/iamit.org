@@ -45,9 +45,17 @@ layout: null
     <nav class="navbar">
         <div class="container nav-container">
             <a href="/" class="logo">iamit<span class="cursor">_</span></a>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
             <ul class="nav-links">
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#experience">Experience</a></li>
+                <li><a href="/#speaking">Speaking</a></li>
                 <li><a href="/blog/" class="btn-blog">Blog</a></li>
             </ul>
         </div>
@@ -113,6 +121,20 @@ layout: null
             <p>&copy; 2026 Ian Amit. Terminals never sleep.</p>
         </div>
     </footer>
+<script>
+    const menu = document.querySelector('#mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
 
+    menu.addEventListener('click', function() {
+        menu.classList.toggle('is-active');
+        navLinks.classList.toggle('active');
+    });
+    
+    // Optional: Close menu when a link is clicked
+    document.querySelectorAll('.nav-links a').forEach(n => n.addEventListener('click', () => {
+        menu.classList.remove('is-active');
+        navLinks.classList.remove('active');
+    }));
+</script>
 </body>
 </html>
