@@ -9,6 +9,36 @@ layout: null
     <title>Blog | Ian Amit</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Hide posts by default if they have this class */
+        .hidden-post {
+            display: none;
+        }
+        
+        /* Load More Button Styling */
+        .load-more-container {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .btn-load-more {
+            background-color: transparent;
+            border: 1px solid #10b981;
+            color: #10b981;
+            padding: 12px 30px;
+            font-family: 'JetBrains Mono', monospace;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 1rem;
+            border-radius: 4px;
+        }
+        
+        .btn-load-more:hover {
+            background-color: rgba(16, 185, 129, 0.1);
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body>
 
@@ -18,7 +48,7 @@ layout: null
             <ul class="nav-links">
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#experience">Experience</a></li>
-                <li><a href="/blog.html" class="btn-blog">Blog</a></li>
+                <li><a href="/blog/" class="btn-blog">Blog</a></li>
             </ul>
         </div>
     </nav>
@@ -27,9 +57,11 @@ layout: null
         <div class="container">
             <h1 class="section-title">Intelligence Log</h1>
             
-            <div class="blog-list">
+            <div class="blog-list" id="blog-feed">
                 {% for post in site.posts %}
-                <div class="card timeline-item" style="margin-bottom: 30px; border-left: 2px solid #10b981; padding-left: 20px;">
+                <div class="card timeline-item blog-entry {% if forloop.index > 6 %}hidden-post{% endif %}" 
+                     style="margin-bottom: 30px; border-left: 2px solid #10b981; padding-left: 20px;">
+                    
                     <span class="date" style="color: #10b981; font-family: 'JetBrains Mono';">{{ post.date | date: "%Y-%m-%d" }}</span>
                     <h2 style="margin: 10px 0;">
                         <a href="{{ post.url }}" style="text-decoration: none; color: white;">{{ post.title }}</a>
@@ -40,8 +72,47 @@ layout: null
                 {% endfor %}
             </div>
 
+            <div class="load-more-container">
+                <button id="btn-load-more" onclick="loadMorePosts()" class="btn-load-more">
+                    [ Load More Data ]
+                </button>
+            </div>
+
         </div>
     </section>
+
+    <script>
+        function loadMorePosts() {
+            // Select all currently hidden posts
+            var hiddenPosts = document.querySelectorAll('.hidden-post');
+            var batchSize = 6;
+            
+            // Loop through the next batch and remove the hidden class
+            for (var i = 0; i < batchSize; i++) {
+                if (hiddenPosts[i]) {
+                    hiddenPosts[i].classList.remove('hidden-post');
+                }
+            }
+            
+            // If no hidden posts remain, hide the button
+            if (document.querySelectorAll('.hidden-post').length === 0) {
+                document.getElementById('btn-load-more').style.display = 'none';
+            }
+        }
+        
+        // Initial check: if total posts < 6, hide button immediately
+        document.addEventListener("DOMContentLoaded", function() {
+            if (document.querySelectorAll('.hidden-post').length === 0) {
+                document.getElementById('btn-load-more').style.display = 'none';
+            }
+        });
+    </script>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Ian Amit. Terminals never sleep.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
