@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Botnet communications moving to Web2.0"
+date: 2009-08-15
+permalink: /blog/botnet-communications-moving-to-web2-0/
+---
+
+A great<a href="http://www.wired.com/threatlevel/2009/08/botnet-tweets/"> find by Jose Nazario</a> shows how botnets have moved on from relying on old-school communication schemes (usually IRC or direct HTTP connections) to utilizing the tools that Web2.0 provides.
+
+I have been naming this development since it started being discussed in the back-channels, and predicted that these would be the next generation communication methods as they provide not only another layer of separation (anonymity) between the botnet manager and the controlled bots/trojans, but also a layer of scalability to the control scheme.
+
+You can check out the last time I discussed this on my <a href="http://defcon.org/html/defcon-17/dc-17-speakers.html#Amit">DefCon presentation</a> slides which should be uploaded to the DefCon site soon. In the meantime here is an older presentation (at least 10 months old) where the same subject is being demonstrated (slides 31-32):
+<a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View Behind the Scenes of E Crime July09 on Scribd" href="http://www.scribd.com/doc/17507712/Behind-the-Scenes-of-E-Crime-July09">Behind the Scenes of E Crime July09</a> <object id="doc_531270451359438" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="500" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="name" value="doc_531270451359438" /><param name="align" value="middle" /><param name="quality" value="high" /><param name="play" value="true" /><param name="loop" value="true" /><param name="scale" value="showall" /><param name="wmode" value="opaque" /><param name="devicefont" value="false" /><param name="bgcolor" value="#ffffff" /><param name="menu" value="true" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="src" value="http://d.scribd.com/ScribdViewer.swf?document_id=17507712&amp;access_key=key-1ho9ackqhoy4jpdujqwy&amp;page=1&amp;version=1&amp;viewMode=" /><param name="allowfullscreen" value="true" /><embed id="doc_531270451359438" type="application/x-shockwave-flash" width="100%" height="500" src="http://d.scribd.com/ScribdViewer.swf?document_id=17507712&amp;access_key=key-1ho9ackqhoy4jpdujqwy&amp;page=1&amp;version=1&amp;viewMode=" allowscriptaccess="always" allowfullscreen="true" menu="true" bgcolor="#ffffff" devicefont="false" wmode="opaque" scale="showall" loop="true" play="true" quality="high" align="middle" name="doc_531270451359438"></embed></object>
+
+Basically, the Twitter messages are encrypted codes being sent between the command and control and the controlled bots, which is very close to the "homework" I mentioned at the end of my DefCon talk - encouraging researchers to look for "garbage" data on blogs and Web2.0 services which are actually encrypted data being passed over a public medium.
+
+I guess that that's one more issue to deal with when trying to deal with the growing threat of eCrime and cyberwarfare.

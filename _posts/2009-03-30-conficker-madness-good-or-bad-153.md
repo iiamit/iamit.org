@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Conficker madness - good or bad?"
+date: 2009-03-30
+permalink: /blog/conficker-madness-good-or-bad/
+---
+
+<div>
+
+Just like BBCâ€™s botnet debacle which fueled a vivid discussion amongst security circles, debating if the exposure is good (i.e., raising awareness to the threat) or bad (i.e., not really ethical, everyone knew about the ability to rent a botnet), CBSâ€™s 60 minutes had a 15 minute spot focusing on Conficker. Check it out here:
+<div><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="324" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="width" value="425" /><param name="height" value="324" /><param name="pluginspage" value="http://www.macromedia.com/go/getflashplayer" /><param name="allowfullscreen" value="true" /><param name="flashvars" value="link=http%3A%2F%2Fwww%2Ecbsnews%2Ecom%2Fvideo%2Fwatch%2F%3Fid%3D4901282n&amp;partner=news&amp;vert=News&amp;autoPlayVid=false&amp;releaseURL=http://release.theplatform.com/content.select?pid=s6zQn6Q1bsoQGPxamor6flIhLn1jxsVJ&amp;name=cbsPlayer&amp;allowScriptAccess=always&amp;wmode=transparent&amp;embedded=y&amp;scale=noscale&amp;rv=n&amp;salign=tl" /><param name="src" value="http://www.cbs.com/thunder/swf30can10cbsnews/rcpHolderCbs-3-4x3.swf" /> <embed type="application/x-shockwave-flash" width="425" height="324" src="http://www.cbs.com/thunder/swf30can10cbsnews/rcpHolderCbs-3-4x3.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" allowfullscreen="true" flashvars="link=http%3A%2F%2Fwww%2Ecbsnews%2Ecom%2Fvideo%2Fwatch%2F%3Fid%3D4901282n&amp;partner=news&amp;vert=News&amp;autoPlayVid=false&amp;releaseURL=http://release.theplatform.com/content.select?pid=s6zQn6Q1bsoQGPxamor6flIhLn1jxsVJ&amp;name=cbsPlayer&amp;allowScriptAccess=always&amp;wmode=transparent&amp;embedded=y&amp;scale=noscale&amp;rv=n&amp;salign=tl"></embed></object></div>
+On one hand, getting more awareness out there is great â€“ not a lot of people realize how real the threat is, and how organized is the business of managing that threat (favorite quotes â€“ itâ€™s like a business, and uses advertising to promote itself). On the other hand, getting all rattled up towards April 1st might not be effective and may cause an uncalled for panic (and yes, a rush to buy or upgrade security software, which is probably why a certain vendor is highlighted on the CBS pieceâ€¦).
+
+Bottom line â€“ keep cool, make sure you surf securely, and don't click on every possible link you are presented with (think first, count to ten, and then click).</div>

@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Taking the Red Pill Down the Rabbit Hole"
+date: 2008-10-12
+permalink: /blog/taking-the-red-pill-down-the-rabbit-hole/
+---
+
+<div>
+
+Iâ€™ve been contemplating a title for this post for a long time, eventually I decided to merge two of my favorites (and leave the third alone: looking for the cuckooâ€™s egg). Basically, after a couple of weeks of almost nonstop work on a major research project (hence the relatively quiet blog), and some major news outbreak following this research (<a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9116138&amp;intsrc=hm_list" target="_blank">1</a>, <a href="http://www.internetnews.com/security/article.php/3775981/Researcher+Claims+200K+Websites+at+Risk.htm" target="_blank">2</a>, <a href="http://www.itbusiness.ca/it/client/en/home/news.asp?id=50188" target="_blank">3</a>, <a href="http://www.computerworlduk.com/management/security/cybercrime/news/index.cfm?newsid=11322&amp;email" target="_blank">4</a>, <a href="http://www.scmagazineus.com/Researcher-finds-server-with-stolen-FTP-credentials/article/118756/" target="_blank">5</a>, <a href="http://www.theregister.co.uk/2008/10/03/neosploit_powered_mass_hack_attack/" target="_blank">6</a>, <a href="http://it.themarker.com/tmit/article/4593" target="_blank">7</a>, <a href="http://www.inside-it.ch/frontend/insideit?&amp;site=ii&amp;_d=_article&amp;news.id=15728" target="_blank">8</a>, <a href="http://www.calcalist.co.il/internet/articles/0,7340,L-3128323,00.html" target="_blank">9</a>, and moreâ€¦), itâ€™s time for a quick recap and a preview.
+
+Recap: so, we saw that Neosploit was back, even after the groupâ€™s demise in July, we clearly saw that its activity has not subsided and that a build, dated August, is pretty much active and doing its rounds on the net (see <a href="http://www.iamit.org/blog/?p=107">older post</a>). We didnâ€™t just sit there trying to watch where the server would go next (which it did in fact â€“ from Argentine to sunny Florida), but also had the chance to do some digging around it, and take a peek into one of the largest cybercrime operations uncovered in the wild, considering the fact that it is being run from a single server.
+
+You are probably familiar with the numbers; over 200,000 credentials to servers around the world (mainly focused on western Europe and the US), tons of back-end applications that the criminals used to manage their operations, and even a brief encounter with a person logged on to the serverâ€¦ (for that, youâ€™ll have to wait for our monthly threat report!).
+
+As part of this activity, <a href="http://www.cert.org/" target="_blank">CERT</a> has been working days and nights to help us contact all the affected parties. These guys are amazing! Theyâ€™ve been sorting through the data and figuring out how to communicate securely with the 86 different countries affected is a major operation, (in addition to handling law enforcement communications in the US), so huge kudos to them (you know who Iâ€™m referring to NIâ€¦).
+
+Nevertheless, we are talking about hundreds of thousands of compromised credentials â€“ we never imagine these could all be contacted by law enforcement or the local CERTs and CSIRTs, so we have set up <a href="http://www.aladdin.com/forms/airc-news-entries/form.aspx?CID=Neosploit">a page on our site</a> where all you have to do is enter some basic contact info and the domain in your responsibility, and weâ€™ll check to see if they have been compromised or not. Spam free, no commitments â€“ just because we are nice ;-)
+
+The preview, well, the heaps of data that we managed to pull from the criminal server is going to make for quite an interesting read on our next monthly threat report, so stay tuned and watch our brand new <a href="http://www.aladdin.com/airc/">AIRC homepage</a> for updates! As I mentioned, backend applications and even a look through the peeping hole to see the attackers on the other side.
+
+Thatâ€™s it for this time, I'm off to get ready for my talk at <a href="http://technet.microsoft.com/en-us/security/cc748656.aspx" target="_blank">BlueHat</a> later this week (more infoÂ is alsoÂ available <a href="http://blogs.technet.com/bluehat/archive/2008/08/01/the-business-of-putting-us-out-of-business.aspx" target="_blank">here</a>).</div>

@@ -1,0 +1,8 @@
+title: Ian Amit
+email: ian@iamit.org
+description: "Security Executive & Builder"
+baseurl: ""
+url: "https://iamit.org"
+theme: jekyll-theme-prime # Optional, but we are using custom layouts
+markdown: kramdown
+permalink: /blog/:title/

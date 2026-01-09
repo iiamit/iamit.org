@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Dumpster fires and security incidents"
+date: 2017-09-11
+permalink: /blog/dumpster-fires-and-security-incidents/
+---
+
+Full disclosure: this post isn't about security per-se. It's here because of recent conversations I've had with people from outside the immediate security "industry" who wondered about Equifax from a technical perspective, but mostly from a "WTF are these guys smoking" one ;-). I'm also happily not selling any of this (although I did in the past, and ran crisis management for a few major incidents - ones that happily did not end up like Equifax - although had every opportunity to...)
+
+A lot wasÂ said and written on the Equifax hack (check out <a href="https://krebsonsecurity.com/2017/09/equifax-breach-response-turns-dumpster-fire/">Brian's coverage</a> for most of it). Mostly about how badly Equifax handled their security by blaming <a href="http://nypost.com/2017/09/08/equifax-blames-giant-breach-on-vendor-software-flaw/">Apache Struts</a>, and havingÂ <a href="https://www.bloomberg.com/news/articles/2017-09-07/three-equifax-executives-sold-stock-before-revealing-cyber-hack">3 executives dumping stock</a> before the public announcement. How they handled the incident response by working with a 3rd party that leaked the event by registering equihax.com without proper OPSEC. And obvious security issues while working on communicating with their customers such as pointing people to use a newly registered domain name, hosting a fairly static site on WordPress, leaving trails of user config from said WordPress, etc...
+
+But I'm not here to talk about this (again - enough have been said). I'm here to talk about how all these came out to be in the first place. Well not the original breach (that took years of neglect IMHO), but how does a major company like this gets to commit to a string of poor decisions in time of crisis.
+
+And the simple answer is crisis management. They don't have any. I'm not talking about a "cyber incident plan" that includes communication strategies (which I'm sure all the vendors are hawking these days in light of the major fail that Equifax are exhibiting). I'm talking about properly handling a crisis from a company management perspective.
+
+Companies this size that go through a major breach and do not have a very strong leadership internally, tend to fall into mode of operation where all the executives areÂ taking care of themselves, and have zero to negative cooperation. Everyone is trying to CYA, and rush to the closest "action" they can hide behind while saying "I did my job". That's how you end up with registering a new domain to handle the incident and running it on WordPress (instead of using your established "credible" domain).
+
+Crisis management is often done best by bringing an outsider. It can be someone from the advisory board who doesn't have a direct stake with the company, or just someone who's JOB is to manage crisis scenarios. Much like the security consultants (that Equifax probably didn't use as much as they should have), crisis management people come in, and represent the company's best interest.
+
+Unlike security consultants, the crisis manager is responsible for making decisions, and vetting any action the company does. Everything goes through them. From communications, through legal, to technical remediation. This assures that there is a clear line in how the company operates, there's an owner to these actions, and the owner can report back to the board with accountability and represent the company's best interests. Clearly, Equifax did not have any of this. I'm sure they were advised by the incident responders they hired, and potentially by other security consultants. But these don't have crisis management experience. They lack the perspective, and the breadth of thinking about all the implications, and the solutions they propose are usually scoped to a technical element.
+
+That's how security incidents turn into dumpster fires. Even when you have the best security professionals working for you on the incident. Companies need to learn, that regardless of their size, for situations that exceed the typical "shit's broken", they need professional crisis management help. Just like they get for performing incident response (because they don't have the skill-set) or forensics (because the don't have the skill-set). See the trend?
