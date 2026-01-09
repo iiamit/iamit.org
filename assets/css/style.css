@@ -304,26 +304,46 @@ footer {
     .nav-links { display: none; } /* Consider adding a mobile menu if needed, for now hidden on small screens for simplicity */
 }
 
-/* BLOG CONTENT IMAGE FIXES */
+/* BLOG IMAGE FIXES */
 
-/* Force images to fit the container width */
-.post-content img {
-    max-width: 100%;       /* Never wider than the text column */
-    height: auto;          /* Maintain aspect ratio */
-    display: block;        /* Remove inline spacing issues */
-    margin: 30px auto;     /* Add space above/below and center */
-    border-radius: 8px;    /* Slight curve on corners */
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3); /* Add depth */
-    border: 1px solid rgba(255,255,255,0.1); /* Subtle border definition */
+/* Target images inside ANY article or main content area */
+article img, 
+.post-content img,
+.content-block img {
+    max-width: 100% !important;   /* Force fit to container width */
+    height: auto !important;      /* Maintain aspect ratio */
+    display: block !important;    /* Remove inline behavior */
+    margin: 40px auto 10px auto;  /* Center image, space above/below */
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-/* If images are wrapped in links (common in WP), ensure the link block behaves */
+/* Fix images wrapped in links (common in your blog) */
+article a > img,
 .post-content a > img {
-    cursor: zoom-in; /* Optional: hints that it might be clickable, or use default */
+    cursor: zoom-in;
+    display: block; /* Ensures the link container doesn't shrink wrap weirdly */
 }
 
-/* Remove the underline that sometimes appears on image links */
-.post-content a:has(img) {
-    border-bottom: none;
-    text-decoration: none;
+/* Remove underlines from image links */
+article a:has(img) {
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+/* CAPTION STYLING (The text immediately following an image) */
+/* Since Markdown puts text in the same <p> tag, we style the whole paragraph */
+article p,
+.post-content p {
+    text-align: left; /* Keep normal text left-aligned */
+}
+
+/* Identify paragraphs that are likely just an image + caption */
+/* This centers the caption text under the image */
+article p:has(img) {
+    text-align: center;
+    color: #94a3b8; /* Muted color for captions */
+    font-size: 0.9em;
+    font-style: italic;
+    margin-bottom: 40px;
 }
