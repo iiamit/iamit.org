@@ -1,0 +1,60 @@
+==================================================================
+https://keybase.io/iamit
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://iamit.org
+  * I am iamit (https://keybase.io/iamit) on keybase.
+  * I have a public key with fingerprint F41F EF5C 43AF 9EAA BE5B  CE28 D5C0 1ED9 9C9F 6E55
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "f41fef5c43af9eaabe5bce28d5c01ed99c9f6e55",
+            "host": "keybase.io",
+            "key_id": "d5c01ed99c9f6e55",
+            "uid": "6db6e6397315432a17726f2f57cc3c00",
+            "username": "iamit"
+        },
+        "service": {
+            "hostname": "iamit.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1402709233,
+    "expire_in": 157680000,
+    "prev": "00431d76555b206a880cc3430014f3e409a7e10a8f91a53aaf69bd17609179b0",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFtUb2LFDEUH1c98UDw/gGLgGCxHMlkkkzmevFq0Upc8vGyF/Qm40x2dVlPLE6w
+EdTC5g6usbMUQbC5ws7CSkEtLGws/ANsBJNDwcI0j/ze7+M93uMzx4vR2ofDc5/2
+D9orx94d/tDF5b3nP5dIB7tAzRLdgKPifDuFvut9G1GDXEUcOGYqqpwEpTQwbaCs
+LTOYgJXSSMeBMTRGW2HIimSj1QDrPiQsfSbeJvQ//NlRg1vNgVMpKGEVLRURouSu
+dEwYQw3GmThA36ptSGyvtn1EO2OUoLk3kAfOuf+210M/TaquDzGYcDPBWzF2TVbF
+RZdpt0FP/hhMtG9t2jgJ5tAPPrSoIYlpos+OpMKlwLKkdIzgTud7mPjMYILXOL0c
+A/NkiXFFiRWcMaZLzFVd4zR/RTEmlaNQYakEEKxqJ4liVCnHpbZEcCyJkDqvOcCt
+NqAmJUU1TZaDn7YqznpAO6sPL54o1kbFyslRvlmxevrs30teWxYH8+/m7amNJ68u
+vF7cffbr0saX6+cfFHsrH3ffv3nx6LP92tx/+nLz3tXZ/rff
+=S8b7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/iamit
+
+==================================================================
+
