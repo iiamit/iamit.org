@@ -1,140 +1,253 @@
 ---
-layout: null
+layout: default
+title: Blog
+permalink: /blog/
+pagination:
+  enabled: true
+  per_page: 6
+  collection: posts
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Ian Amit</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Hide posts by default if they have this class */
-        .hidden-post {
-            display: none;
-        }
-        
-        /* Load More Button Styling */
-        .load-more-container {
-            text-align: center;
-            margin-top: 40px;
-            margin-bottom: 60px;
-        }
-        
-        .btn-load-more {
-            background-color: transparent;
-            border: 1px solid #10b981;
-            color: #10b981;
-            padding: 12px 30px;
-            font-family: 'JetBrains Mono', monospace;
-            cursor: pointer;
-            transition: 0.3s;
-            font-size: 1rem;
-            border-radius: 4px;
-        }
-        
-        .btn-load-more:hover {
-            background-color: rgba(16, 185, 129, 0.1);
-            transform: translateY(-2px);
-        }
-    </style>
-</head>
-<body>
 
-    <nav class="navbar">
-        <div class="container nav-container">
-            <a href="/" class="logo">iamit<span class="cursor">_</span></a>
-            
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+<section class="section">
+  <div class="container">
+    <h1 class="section-title">Blog</h1>
 
-            <ul class="nav-links">
-                <li><a href="/#about">About</a></li>
-                <li><a href="/#experience">Experience</a></li>
-                <li><a href="/#speaking">Speaking</a></li>
-                <li><a href="/blog/" class="btn-blog">Blog</a></li>
-            </ul>
-        </div>
+    <div class="posts-list">
+      {% for post in paginator.posts %}
+      <article class="post-preview">
+        <a href="{{ post.url | relative_url }}" class="post-link">
+          {% if post.featured_image %}
+          <div class="post-image">
+            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" loading="lazy" />
+          </div>
+          {% endif %}
+          <div class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            <h3 class="post-title">{{ post.title }}</h3>
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+
+    <!-- Progressive enhancement: server-page fallback remains (pagination nav below) -->
+    {% if paginator.next_page %}
+    <div class="progressive-load" style="text-align:center; margin-top:28px;">
+      <button id="load-more"
+              class="btn-load-more"
+              aria-label="Load more posts"
+              aria-busy="false"
+              data-next="{{ paginator.next_page_path | relative_url }}">
+        <span class="btn-text">Load more posts</span>
+        <span class="spinner" aria-hidden="true" hidden>
+          <!-- Simple accessible spinner -->
+          <svg width="16" height="16" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+            <circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-opacity="0.15"></circle>
+            <path d="M45 25a20 20 0 0 0-20-20" stroke="currentColor" stroke-width="5" stroke-linecap="round"></path>
+          </svg>
+        </span>
+      </button>
+    </div>
+    {% endif %}
+
+    <nav class="pagination" role="navigation" aria-label="Pagination">
+      {% if paginator.previous_page %}
+        <a class="pagination-prev" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous page">&larr; Newer</a>
+      {% endif %}
+
+      <div class="pagination-pages" aria-hidden="false">
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <span class="page current" aria-current="page">{{ page }}</span>
+          {% else %}
+            {% if page == 1 %}
+              <a class="page" href="{{ '/blog/' | relative_url }}">{{ page }}</a>
+            {% else %}
+              <a class="page" href="{{ paginator.paginate_path | replace: ':num', page | relative_url }}">{{ page }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      {% if paginator.next_page %}
+        <a class="pagination-next" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next page">Older &rarr;</a>
+      {% endif %}
     </nav>
+  </div>
+</section>
 
-    <section class="section">
-        <div class="container">
-            <h1 class="section-title">Intelligence Log</h1>
-            
-            <div class="blog-list" id="blog-feed">
-                {% for post in site.posts %}
-                <div class="card timeline-item blog-entry {% if forloop.index > 6 %}hidden-post{% endif %}" 
-                     style="margin-bottom: 30px; border-left: 2px solid #10b981; padding-left: 20px;">
-                    
-                    <span class="date" style="color: #10b981; font-family: 'JetBrains Mono';">{{ post.date | date: "%Y-%m-%d" }}</span>
-                    <h2 style="margin: 10px 0;">
-                        <a href="{{ post.url }}" style="text-decoration: none; color: white;">{{ post.title }}</a>
-                    </h2>
-                    <p style="color: #94a3b8;">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-                    <a href="{{ post.url }}" class="more-link">Read Entry ></a>
-                </div>
-                {% endfor %}
-            </div>
-
-            <div class="load-more-container">
-                <button id="btn-load-more" onclick="loadMorePosts()" class="btn-load-more">
-                    [ Load More Data ]
-                </button>
-            </div>
-
-        </div>
-    </section>
-
-    <script>
-        function loadMorePosts() {
-            // Select all currently hidden posts
-            var hiddenPosts = document.querySelectorAll('.hidden-post');
-            var batchSize = 6;
-            
-            // Loop through the next batch and remove the hidden class
-            for (var i = 0; i < batchSize; i++) {
-                if (hiddenPosts[i]) {
-                    hiddenPosts[i].classList.remove('hidden-post');
-                }
-            }
-            
-            // If no hidden posts remain, hide the button
-            if (document.querySelectorAll('.hidden-post').length === 0) {
-                document.getElementById('btn-load-more').style.display = 'none';
-            }
-        }
-        
-        // Initial check: if total posts < 6, hide button immediately
-        document.addEventListener("DOMContentLoaded", function() {
-            if (document.querySelectorAll('.hidden-post').length === 0) {
-                document.getElementById('btn-load-more').style.display = 'none';
-            }
-        });
-    </script>
-
-    <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 Ian Amit. Terminals never sleep.</p>
-        </div>
-    </footer>
 <script>
-    const menu = document.querySelector('#mobile-menu');
-    const navLinks = document.querySelector('.nav-links');
+document.addEventListener('DOMContentLoaded', function () {
+  const menu = document.querySelector('#mobile-menu');
+  const navLinks = document.querySelector('#primary-navigation');
+  let loadMoreBtn = document.getElementById('load-more'); // allow reassignment
+  const postsList = document.querySelector('.posts-list');
+  const paginationNav = document.querySelector('.pagination');
+  const progressiveContainer = document.getElementById('progressive-load') || document.querySelector('.progressive-load');
 
-    menu.addEventListener('click', function() {
-        menu.classList.toggle('is-active');
-        navLinks.classList.toggle('active');
+  // helper to attach click handler
+  function attachLoadMoreHandler(btn) {
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const next = btn.dataset.next;
+      if (next) loadNextPage(next);
     });
-    
-    // Optional: Close menu when a link is clicked
-    document.querySelectorAll('.nav-links a').forEach(n => n.addEventListener('click', () => {
-        menu.classList.remove('is-active');
-        navLinks.classList.remove('active');
-    }));
+  }
+
+  // helper to create the button (used on popstate restore)
+  function createLoadMoreButton(nextPath) {
+    const btn = document.createElement('button');
+    btn.id = 'load-more';
+    btn.className = 'btn-load-more';
+    btn.setAttribute('aria-label', 'Load more posts');
+    btn.setAttribute('aria-busy', 'false');
+    btn.dataset.next = nextPath;
+    btn.innerHTML = '<span class="btn-text">Load more posts</span>' +
+      '<span class="spinner" aria-hidden="true" hidden>' +
+      '<svg width="16" height="16" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">' +
+      '<circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-opacity="0.15"></circle>' +
+      '<path d="M45 25a20 20 0 0 0-20-20" stroke="currentColor" stroke-width="5" stroke-linecap="round"></path>' +
+      '</svg></span>';
+    return btn;
+  }
+
+  // Seed initial history state (so pop/forward can restore)
+  const currentPage = (function () {
+    const m = window.location.pathname.match(/page\/(\d+)\/?/);
+    return m ? Number(m[1]) : 1;
+  })();
+
+  history.replaceState({
+    page: currentPage,
+    postsHTML: postsList ? postsList.innerHTML : '',
+    nextPath: loadMoreBtn ? loadMoreBtn.dataset.next : null,
+    paginationHTML: paginationNav ? paginationNav.innerHTML : null
+  }, '', window.location.href);
+
+  // Attach handler if a button exists on initial load
+  attachLoadMoreHandler(loadMoreBtn);
+
+  // Progressive "Load more" implementation (uses server-side pagination pages)
+  async function loadNextPage(nextPath) {
+    if (!nextPath || !progressiveContainer) return null;
+
+    if (!loadMoreBtn) {
+      // If someone triggered load and the button is missing (edge), create one
+      loadMoreBtn = createLoadMoreButton(nextPath);
+      progressiveContainer.appendChild(loadMoreBtn);
+      attachLoadMoreHandler(loadMoreBtn);
+    }
+
+    // UI: disable + show spinner
+    loadMoreBtn.disabled = true;
+    loadMoreBtn.setAttribute('aria-busy', 'true');
+    const btnText = loadMoreBtn.querySelector('.btn-text');
+    const spinner = loadMoreBtn.querySelector('.spinner');
+    if (btnText) btnText.textContent = 'Loading...';
+    if (spinner) spinner.removeAttribute('hidden');
+
+    try {
+      const resp = await fetch(nextPath, { credentials: 'same-origin' });
+      if (!resp.ok) throw new Error('Network error');
+      const html = await resp.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+
+      // Append new posts
+      const newPosts = doc.querySelectorAll('.posts-list .post-preview');
+      newPosts.forEach(p => postsList.appendChild(p.cloneNode(true)));
+
+      // Update pagination nav (replace inner contents)
+      const remotePagination = doc.querySelector('.pagination');
+      if (remotePagination && paginationNav) {
+        paginationNav.innerHTML = remotePagination.innerHTML;
+        // Remove numbered pages block to favor Load More UX
+        const pagesEl = paginationNav.querySelector('.pagination-pages');
+        if (pagesEl) pagesEl.remove();
+      }
+
+      // Update load-more next attribute, or remove the button if there is no next page
+      const remoteNext = doc.querySelector('.pagination .pagination-next');
+      const newNext = remoteNext ? remoteNext.getAttribute('href') : null;
+
+      // Determine page number we just loaded
+      const pageMatch = nextPath.match(/page\/(\d+)\/?/);
+      const pageNum = pageMatch ? Number(pageMatch[1]) : (currentPage + 1);
+
+      // Push a history state storing the full posts HTML snapshot & pagination
+      history.pushState({
+        page: pageNum,
+        postsHTML: postsList.innerHTML,
+        nextPath: newNext,
+        paginationHTML: paginationNav ? paginationNav.innerHTML : null
+      }, '', nextPath);
+
+      if (newNext) {
+        loadMoreBtn.dataset.next = newNext;
+        loadMoreBtn.disabled = false;
+        loadMoreBtn.setAttribute('aria-busy', 'false');
+        if (btnText) btnText.textContent = 'Load more posts';
+        if (spinner) spinner.setAttribute('hidden', '');
+      } else {
+        // No next page -> remove the button
+        loadMoreBtn.remove();
+        loadMoreBtn = null;
+      }
+    } catch (e) {
+      console.error('Failed to load next page:', e);
+      if (loadMoreBtn) {
+        loadMoreBtn.disabled = false;
+        loadMoreBtn.setAttribute('aria-busy', 'false');
+        if (btnText) btnText.textContent = 'Load more posts';
+        if (spinner) spinner.setAttribute('hidden', '');
+      }
+    }
+  }
+
+  // popstate: restore DOM from saved state (no full reload)
+  window.addEventListener('popstate', function (e) {
+    const state = e.state;
+    if (!state) {
+      // No saved state: fallback to reload to server-rendered content
+      window.location.reload();
+      return;
+    }
+
+    // Restore posts list
+    if (state.postsHTML && postsList) {
+      postsList.innerHTML = state.postsHTML;
+    }
+
+    // Restore pagination HTML
+    if (paginationNav && state.paginationHTML) {
+      paginationNav.innerHTML = state.paginationHTML;
+      // Ensure numbered pages are removed if we prefer Load More UX
+      const pagesEl = paginationNav.querySelector('.pagination-pages');
+      if (pagesEl) pagesEl.remove();
+    }
+
+    // Ensure Load More button reflects state.nextPath
+    let btn = document.getElementById('load-more');
+    if (state.nextPath) {
+      if (!btn) {
+        // create and insert
+        btn = createLoadMoreButton(state.nextPath);
+        if (progressiveContainer) progressiveContainer.appendChild(btn);
+        attachLoadMoreHandler(btn);
+      } else {
+        btn.dataset.next = state.nextPath;
+        btn.disabled = false;
+        btn.setAttribute('aria-busy', 'false');
+        const t = btn.querySelector('.btn-text'); if (t) t.textContent = 'Load more posts';
+        const sp = btn.querySelector('.spinner'); if (sp) sp.setAttribute('hidden', '');
+      }
+      loadMoreBtn = btn;
+    } else {
+      if (btn) { btn.remove(); loadMoreBtn = null; }
+    }
+  });
+
+  // ...existing code for menu, experience toggle, external link rel enforcement, image fallbacks...
+});
 </script>
-</body>
-</html>
