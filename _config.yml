@@ -6,16 +6,3 @@ url: "https://iamit.org"
 # theme: jekyll-theme-prime # Optional, but we are using custom layouts
 markdown: kramdown
 permalink: /blog/:title/
-
-# (added pagination plugin and basic settings)
-plugins:
-  - jekyll-paginate-v2
-
-pagination:
-  enabled: true
-  per_page: 6
-  permalink: '/blog/page/:num/'
-  title: ':title - page :num'
-  trail:
-    before: 2
-    after: 2
