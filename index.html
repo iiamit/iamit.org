@@ -46,9 +46,24 @@
                     <a href="mailto:ian@iamit.org" title="Email"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="img-wrapper">
-                    <img src="assets/images/profile.jpg" alt="Ian Amit" onerror="this.src='https://ui-avatars.com/api/?name=Ian+Amit&background=10b981&color=fff&size=512&font-size=0.3'">
+            <div class="video-hero-container">
+                <video autoplay muted loop playsinline class="hero-video-file">
+                    <source src="assets/videos/Ian_Amit_Hero_Loop.mp4" type="video/mp4">
+                </video>
+                
+                <div class="video-overlay">
+                    <button onclick="openModal()" class="terminal-button">
+                        [ RUN_SYSTEM_REEL ]
+                    </button>
+                </div>
+            </div>
+
+            <div id="videoModal" class="video-modal" onclick="closeModal()">
+                <div class="modal-content">
+                    <video id="fullReel" controls>
+                        <source src="assets/videos/Ian_Amit_Master_Reel_FINAL.mp4" type="video/mp4">
+                    </video>
+                    <div class="modal-close">[ ESC_TO_EXIT ]</div>
                 </div>
             </div>
         </div>
@@ -348,6 +363,28 @@
         menu.classList.remove('is-active');
         navLinks.classList.remove('active');
     }));
+</script>
+<script>
+    const modal = document.getElementById("videoModal");
+    const fullVideo = document.getElementById("fullReel");
+
+    function openModal() {
+        modal.style.display = "flex";
+        fullVideo.play();
+    }
+
+    function closeModal() {
+        modal.style.display = "none";
+        fullVideo.pause();
+        fullVideo.currentTime = 0;
+    }
+
+    // Close on 'Esc' key
+    window.onkeydown = function(event) {
+        if (event.key === "Escape") {
+            closeModal();
+        }
+    };
 </script>
 </body>
 </html>
