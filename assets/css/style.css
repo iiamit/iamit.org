@@ -430,6 +430,7 @@ article p:has(img) {
     border-radius: 4px;
     overflow: hidden;
     background: #000;
+    display: inline-block;
     z-index: 1; /* Establishes a stacking context */
 }
 
@@ -445,7 +446,9 @@ article p:has(img) {
 .video-overlay {
     position: absolute;
     z-index: 10; /* Higher than the video */
-    bottom: 20px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
     width: 100%;
     display: flex;
     justify-content: center;
