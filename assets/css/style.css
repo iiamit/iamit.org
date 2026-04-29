@@ -421,7 +421,7 @@ article p:has(img) {
     to { opacity: 1; transform: translateY(0); }
 }
 
-* Container for the loop */
+
 .video-hero-container {
     position: relative;
     width: 100%;
@@ -431,6 +431,8 @@ article p:has(img) {
     overflow: hidden;
     background: #000;
     display: inline-block;
+    vertical-align: middle; 
+    line-height: 0;
     z-index: 1; /* Establishes a stacking context */
 }
 
