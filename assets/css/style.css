@@ -430,10 +430,13 @@ article p:has(img) {
     border-radius: 4px;
     overflow: hidden;
     background: #000;
+    z-index: 1; /* Establishes a stacking context */
 }
 
 .hero-video-file {
     width: 100%;
+    z-index: -1;
+    position: relative;
     display: block;
     filter: brightness(0.7) contrast(1.1);
 }
@@ -441,10 +444,12 @@ article p:has(img) {
 /* Button Overlay */
 .video-overlay {
     position: absolute;
+    z-index: 10; /* Higher than the video */
     bottom: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
+    pointer-events: auto; /* Ensures it's clickable */
 }
 
 .terminal-button {
