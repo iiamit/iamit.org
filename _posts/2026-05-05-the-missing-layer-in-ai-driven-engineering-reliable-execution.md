@@ -19,6 +19,8 @@ But those are not the metrics that determine whether something can be trusted in
 
 For most teams today, the answer is still no. But it's often a limitation of execution, not intelligence.
 
+## The Rise Of Paid Uncertainty
+
 That gap is becoming increasingly visible in the latest wave of AI-driven code review tools. Multi-agent systems can now scan pull requests (PRs), identify potential issues and generate feedback at scale. The promise is compelling: faster reviews, broader coverage and fewer bugs reaching production.
 
 But when you look more closely, a different reality emerges.
@@ -35,6 +37,8 @@ It effectively prices uncertainty into the workflow. Every AI-generated output c
 
 As usage scales, those costs compound. More generated code leads to more reviews, more findings and more downstream work.​​
 
+## Why This Model Will Struggle To Scale
+
 ​This is where the diminishing returns of generative AI become visible. Creating code is relatively easy to accelerate. Maintaining it, debugging it and securing it within real systems is far more complex. That is where most engineering effort is spent, and where probabilistic outputs create the most friction.
 
 In fact, Faros ​AI analyzed over 10,000 developers to find that while developers using AI completed 21% more tasks and merged 98% more PRs, the review time for PRs increased 91%.
@@ -47,6 +51,8 @@ This dynamic does not scale. As AI systems improve, the volume of generated outp
 
 The more AI you introduce, the more review work you create.
 
+## The Missing Layer: Reliable Execution
+
 This points to a deeper structural issue. We do not have a reliable way to move from generated output to production-safe execution without inserting a human into every decision.
 
 As long as that remains true, AI will remain assistive rather than autonomous.
@@ -58,6 +64,8 @@ In traditional engineering systems, trust is built through determinism. A test e
 AI-generated outputs sit outside of that structure. They are usually created before those constraints are enforced, which is why they require review.
 
 If AI is to move beyond assistance, execution must become part of the system itself. Outputs need to be evaluated and transformed in ways that guarantee alignment with the rules governing the environment in which they are applied. When that layer is in place, the economics and workflow change. Teams are no longer paying per review or waiting on validation cycles. Engineers shift from reviewing outputs to defining the constraints that govern them.
+
+## Where This Leaves Us
 
 For the foreseeable future, AI in engineering will likely continue to feel powerful but incomplete. It will accelerate the generation of work, but it will not eliminate the need to validate that work. The industry is not being held back by a lack of intelligence but by a lack of reliable execution. ​
 
