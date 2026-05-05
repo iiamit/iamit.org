@@ -44,12 +44,12 @@ layout: null
             <h1>Intelligence log.</h1>
             <p class="feed-lede">Field notes on security, AI, risk and what actually works in practice. New entries roughly monthly.</p>
             <div class="toolbar">
-                <button class="filter on" data-filter="all">All <span class="count">{% assign total = site.posts | size %}{{ total }}</span></button>
-                <button class="filter" data-filter="ai">AI <span class="count">{% assign ai_posts = site.posts | where_exp: "post", "post.tags contains 'AI' or post.tags contains 'ai'" %}{{ ai_posts | size }}</span></button>
-                <button class="filter" data-filter="cloud">Cloud <span class="count">{% assign cloud_posts = site.posts | where_exp: "post", "post.tags contains 'Cloud' or post.tags contains 'cloud'" %}{{ cloud_posts | size }}</span></button>
-                <button class="filter" data-filter="risk">Risk <span class="count">{% assign risk_posts = site.posts | where_exp: "post", "post.tags contains 'Risk' or post.tags contains 'risk'" %}{{ risk_posts | size }}</span></button>
-                <button class="filter" data-filter="leadership">Leadership <span class="count">{% assign lead_posts = site.posts | where_exp: "post", "post.tags contains 'Leadership' or post.tags contains 'leadership'" %}{{ lead_posts | size }}</span></button>
-                <button class="filter" data-filter="offense">Offense <span class="count">{% assign off_posts = site.posts | where_exp: "post", "post.tags contains 'Offense' or post.tags contains 'offense'" %}{{ off_posts | size }}</span></button>
+                <button class="filter on" data-filter="all">All <span class="count" id="count-all"></span></button>
+                <button class="filter" data-filter="ai">AI <span class="count" id="count-ai"></span></button>
+                <button class="filter" data-filter="cloud">Cloud <span class="count" id="count-cloud"></span></button>
+                <button class="filter" data-filter="risk">Risk <span class="count" id="count-risk"></span></button>
+                <button class="filter" data-filter="leadership">Leadership <span class="count" id="count-leadership"></span></button>
+                <button class="filter" data-filter="offense">Offense <span class="count" id="count-offense"></span></button>
             </div>
         </div>
     </div>
@@ -153,6 +153,20 @@ layout: null
 
     filters.forEach(btn => {
         btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
+    });
+
+    // Compute tag counts from rendered rows
+    const filterKeys = ['ai', 'cloud', 'risk', 'leadership', 'offense'];
+    document.getElementById('count-all').textContent = rows.length;
+    filterKeys.forEach(function(key) {
+        const el = document.getElementById('count-' + key);
+        if (!el) return;
+        let n = 0;
+        rows.forEach(function(row) {
+            const tags = (row.dataset.tags || '').split(',').map(function(t) { return t.trim(); });
+            if (tags.includes(key)) n++;
+        });
+        el.textContent = n;
     });
 
     // Apply filter from URL on load
