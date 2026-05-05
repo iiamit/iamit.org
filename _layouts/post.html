@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | Ian Amit</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% endif %}">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="/" class="logo">iamit<span class="cursor">_</span></a>
-            
+            <div class="nav-left">
+                <a href="/" class="logo">iamit<span class="blink">_</span></a>
+                <span class="session-chip" id="session-chip">reading · <span id="reading-time-chip">...</span> min</span>
+            </div>
+
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -21,50 +26,179 @@
             </div>
 
             <ul class="nav-links">
-                <li><a href="/#about">About</a></li>
-                <li><a href="/#experience">Experience</a></li>
-                <li><a href="/#speaking">Speaking</a></li>
-                <li><a href="/blog/" class="btn-blog">Blog</a></li>
+                <li><a href="/#about">~/about</a></li>
+                <li><a href="/#experience">~/experience</a></li>
+                <li><a href="/#speaking">~/speaking</a></li>
+                <li><a href="/blog/" class="active">~/blog</a></li>
             </ul>
         </div>
     </nav>
 
-    <article class="section">
-        <div class="container" style="max-width: 800px;">
-            <header class="post-header">
-                <p class="overline">{{ page.date | date: "%B %d, %Y" }}</p>
+    <div class="container">
+        <div class="post-shell">
+
+            <!-- Left rail: TOC + meta -->
+            <aside class="post-rail">
+                <div class="rail-h">On this page</div>
+                <nav class="toc-list" id="toc-list">
+                    <!-- Populated by JS from H2s in post body -->
+                </nav>
+
+                <div class="meta-block">
+                    <div class="row">
+                        <span class="k">published</span>
+                        <span class="v">{{ page.date | date: "%Y-%m-%d" }}</span>
+                    </div>
+                    <div class="row">
+                        <span class="k">read</span>
+                        <span class="v" id="read-time-meta">—</span>
+                    </div>
+                    <div class="row">
+                        <span class="k">words</span>
+                        <span class="v" id="word-count-meta">—</span>
+                    </div>
+                    {% if page.tags.size > 0 %}
+                    <div class="row">
+                        <span class="k">topic</span>
+                        <span class="v">{{ page.tags | first }}</span>
+                    </div>
+                    {% endif %}
+                </div>
+            </aside>
+
+            <!-- Center: post body -->
+            <article class="post-main" id="post-main">
+
+                <div class="post-eyebrow">
+                    {% if page.tags.size > 0 %}
+                    <span class="cat">▸ {{ page.tags | join: " · " }}</span>
+                    {% endif %}
+                    <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+                </div>
+
                 <h1 class="post-title">{{ page.title }}</h1>
-            </header>
-            
-            <div class="content-block post-content">
+
+                {% if page.description %}
+                <p class="standfirst">{{ page.description }}</p>
+                {% endif %}
+
                 {{ content }}
-            </div>
-            
-            <div class="post-footer">
-                <a href="/blog/" class="btn-outline">&larr; Return to Blog</a>
-            </div>
+
+                <div class="post-footer">
+                    <a href="/blog/" class="btn-outline">&larr; Return to Intelligence Log</a>
+                </div>
+            </article>
+
+            <!-- Right aside: related posts + progress -->
+            <aside class="post-aside">
+                <div class="related">
+                    <div class="h">Related dispatches</div>
+                    {% assign related_count = 0 %}
+                    {% for post in site.posts %}
+                        {% if post.url != page.url and related_count < 3 %}
+                        <a href="{{ post.url }}">
+                            <span class="d">{{ post.date | date: "%Y-%m-%d" }}</span>
+                            {{ post.title }}
+                        </a>
+                        {% assign related_count = related_count | plus: 1 %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <div class="progress-card">
+                    <div class="row">
+                        <span class="k">progress</span>
+                        <span class="v" id="progress-pct">0%</span>
+                    </div>
+                    <div class="row">
+                        <span class="k">section</span>
+                        <span class="v" id="progress-section">—</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" id="progress-fill"></div>
+                    </div>
+                </div>
+            </aside>
+
         </div>
-    </article>
+    </div>
 
     <footer>
         <div class="container footer-content">
             <p>&copy; 2026 Ian Amit. Terminals never sleep.</p>
         </div>
     </footer>
-<script>
-    const menu = document.querySelector('#mobile-menu');
-    const navLinks = document.querySelector('.nav-links');
 
-    menu.addEventListener('click', function() {
-        menu.classList.toggle('is-active');
+<script>
+    // Mobile nav
+    const menuToggle = document.querySelector('#mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.addEventListener('click', function() {
+        menuToggle.classList.toggle('is-active');
         navLinks.classList.toggle('active');
     });
-    
-    // Optional: Close menu when a link is clicked
-    document.querySelectorAll('.nav-links a').forEach(n => n.addEventListener('click', () => {
-        menu.classList.remove('is-active');
-        navLinks.classList.remove('active');
-    }));
+
+    // Word count + read time
+    const postMain = document.getElementById('post-main');
+    const bodyText = postMain ? postMain.innerText : '';
+    const wordCount = bodyText.trim().split(/\s+/).length;
+    const readMinutes = Math.max(1, Math.round(wordCount / 200));
+
+    document.getElementById('read-time-meta').textContent = readMinutes + ' min';
+    document.getElementById('word-count-meta').textContent = wordCount.toLocaleString();
+    const chipEl = document.getElementById('reading-time-chip');
+    if (chipEl) chipEl.textContent = readMinutes;
+
+    // Build TOC from H2s
+    const tocList = document.getElementById('toc-list');
+    const h2s = postMain ? postMain.querySelectorAll('h2') : [];
+
+    h2s.forEach(function(h, i) {
+        if (!h.id) h.id = 'section-' + i;
+        const a = document.createElement('a');
+        a.className = 'toc-item';
+        a.href = '#' + h.id;
+        a.textContent = h.textContent;
+        a.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById(h.id).scrollIntoView({ behavior: 'smooth' });
+        });
+        tocList.appendChild(a);
+    });
+
+    // TOC scroll-spy
+    if (h2s.length > 0) {
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                const link = tocList.querySelector('[href="#' + entry.target.id + '"]');
+                if (!link) return;
+                if (entry.isIntersecting) {
+                    tocList.querySelectorAll('.toc-item').forEach(function(l) { l.classList.remove('active'); });
+                    link.classList.add('active');
+                    document.getElementById('progress-section').textContent = entry.target.textContent;
+                }
+            });
+        }, { rootMargin: '-15% 0px -70% 0px' });
+
+        h2s.forEach(function(h) { observer.observe(h); });
+    }
+
+    // Reading progress bar
+    const fill = document.getElementById('progress-fill');
+    const pctEl = document.getElementById('progress-pct');
+
+    function updateProgress() {
+        if (!postMain || !fill) return;
+        const rect = postMain.getBoundingClientRect();
+        const scrollable = postMain.offsetHeight - window.innerHeight;
+        if (scrollable <= 0) return;
+        const progress = Math.min(100, Math.max(0, Math.round(-rect.top / scrollable * 100)));
+        fill.style.width = progress + '%';
+        if (pctEl) pctEl.textContent = progress + '%';
+    }
+
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
 </script>
 </body>
 </html>

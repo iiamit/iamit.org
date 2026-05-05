@@ -7,15 +7,18 @@
     <meta name="description" content="Personal site of Ian Amit - CEO & Co-founder Gomboc AI, former CSO at Rapid7, Cimpress, and Amazon.">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="/" class="logo">iamit<span class="cursor">_</span></a>
-            
+            <div class="nav-left">
+                <a href="/" class="logo">iamit<span class="blink">_</span></a>
+                <span class="session-chip">session · online</span>
+            </div>
+
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -23,59 +26,76 @@
             </div>
 
             <ul class="nav-links">
-                <li><a href="/#about">About</a></li>
-                <li><a href="/#experience">Experience</a></li>
-                <li><a href="/#speaking">Speaking</a></li>
-                <li><a href="/blog/" class="btn-blog">Blog</a></li>
+                <li><a href="/#about">~/about</a></li>
+                <li><a href="/#experience">~/experience</a></li>
+                <li><a href="/#speaking">~/speaking</a></li>
+                <li><a href="/blog/">~/blog</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- Hero -->
     <header class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <p class="overline">System Status: Online</p>
-                <h1>Iftach Ian Amit</h1>
-                <h2>CEO & Co-Founder at <span class="highlight">Gomboc AI</span></h2>
-                <p class="bio-subtitle">
-                    Former CSO and Executive leader at Cimpress, Rapid7, Amazon and ZeroFOX.
-                </p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/iamit/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://twitter.com/iiamit" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="https://github.com/iiamit" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="mailto:ian@iamit.org" title="Email"><i class="fas fa-envelope"></i></a>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="lead">
+                        <span class="dot"></span>
+                        Security executive · builder · operator
+                    </p>
+                    <h1>Iftach Ian Amit<br><em>CEO. CSO. Operator.</em></h1>
+                    <p class="subline">
+                        <strong>CEO &amp; Co-Founder of Gomboc AI.</strong> Former CSO at Rapid7 and Cimpress; security leader at Amazon and ZeroFOX. Twenty-five years building security programs at global scale — grounded in a practitioner's view of how systems actually break.
+                    </p>
+                    <div class="ctas">
+                        <a href="/blog/cyberqrm-making-cyber-risk-quantification-accessible/" class="btn primary">
+                            Read latest dispatch <span class="arrow">→</span>
+                        </a>
+                        <a href="mailto:ian@iamit.org" class="btn">Talk to me</a>
+                    </div>
                 </div>
-            </div>
-            <div class="video-hero-container">
-                <video autoplay muted loop playsinline class="hero-video-file">
-                    <source src="assets/videos/Ian_Amit_Hero_Loop.mp4" type="video/mp4">
-                </video>
-                
-                <div class="video-overlay">
-                    <button onclick="openModal()" class="terminal-button">
-                        [ RUN_SYSTEM_REEL ]
-                    </button>
-                </div>
-            </div>
 
-            <div id="videoModal" class="video-modal" onclick="closeModal()">
-                <div class="modal-content">
-                    <video id="fullReel" controls>
-                        <source src="assets/videos/Ian_Amit_Master_Reel_FINAL.mp4" type="video/mp4">
-                    </video>
-                    <div class="modal-close">[ ESC_TO_EXIT ]</div>
+                <div class="side-card">
+                    <div class="heading">Currently</div>
+                    <div class="row"><span class="k">role</span><span class="v">CEO, Gomboc AI</span></div>
+                    <div class="row"><span class="k">based</span><span class="v">NYC / TLV</span></div>
+                    <div class="row"><span class="k">writing</span><span class="v">Apr 2026</span></div>
+                    <div class="row"><span class="k">speaking</span><span class="v">Jun 2026, DC</span></div>
+                    <div class="row"><span class="k">years in field</span><span class="v">25</span></div>
+                    <div class="row" style="margin-top:14px;padding-top:14px;border-top:1px dashed var(--hair);">
+                        <span class="k"></span>
+                        <span class="v">
+                            <button onclick="openModal()" style="background:none;border:none;cursor:pointer;font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:0.06em;padding:0;transition:color 0.15s;" onmouseover="this.style.color='var(--signal)'" onmouseout="this.style.color='var(--ink-3)'">Watch reel →</button>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- Video modal -->
+    <div id="videoModal" class="video-modal" onclick="closeModal()">
+        <div class="modal-content">
+            <video id="fullReel" controls>
+                <source src="assets/videos/Ian_Amit_Master_Reel_FINAL.mp4" type="video/mp4">
+            </video>
+            <div class="modal-close">[ ESC_TO_EXIT ]</div>
+        </div>
+    </div>
+
+    <!-- About -->
     <section id="about" class="section">
         <div class="container">
-            <h3 class="section-title">About Me</h3>
+            <div class="section-head">
+                <div class="num">01 · About</div>
+                <div class="head-right">
+                    <h2>About.</h2>
+                    <p class="lede">Building companies, breaking systems, leading teams.</p>
+                </div>
+            </div>
             <div class="content-block">
                 <p>
-                    I split my time between building companies and breaking systems. Currently, I am leading <strong>Gomboc AI</strong>, 
+                    I split my time between building companies and breaking systems. Currently, I am leading <strong>Gomboc AI</strong>,
                     where we are solving cloud infrastructure security using deterministic AI — giving engineering teams actual fixes, not just alerts.
                 </p>
                 <p>
@@ -84,177 +104,330 @@
                     and the CISO, and I build products that reflect both perspectives.
                 </p>
                 <p>
-                    Beyond the corporate world, I am deeply involved in the community—serving on the board of <strong>BSides Las Vegas</strong>, 
+                    Beyond the corporate world, I am deeply involved in the community — serving on the board of <strong>BSides Las Vegas</strong>,
                     founding the Tel Aviv DefCon chapter (<strong>DC9723</strong>), acting as faculty for <strong>IANS</strong>, and
-                    writing about what actually matters in security at <a href="/blog/" class="highlight">the Intelligence Log</a>.
+                    writing about what actually matters in security at <a href="/blog/">the Intelligence Log</a>.
                 </p>
             </div>
         </div>
     </section>
 
+    <!-- Career Trajectory -->
     <section id="experience" class="section bg-offset">
         <div class="container">
-            <h3 class="section-title">Career Trajectory</h3>
-            <p class="section-intro">From breaking systems as a researcher to defending them at global scale — a 25-year arc from red team to the boardroom, and back to building.</p>
-            <div class="timeline">
-                
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <span class="date">2022 - Present</span>
-                        <h4>CEO & Co-Founder</h4>
-                        <span class="company">Gomboc AI</span>
-                        <p>Solving the last mile of cloud security: not more alerts, but actual fixes. Built Gomboc AI from zero to a funded, deployed product that gives engineering teams deterministic AI-generated remediations for infrastructure misconfigurations.</p>
-                        <div class="role-tags"><span class="tag">Founding</span><span class="tag">AI/ML</span><span class="tag">Cloud Security</span><span class="tag">Go-to-Market</span></div>
+            <div class="section-head">
+                <div class="num">02 · Career</div>
+                <div class="head-right">
+                    <h2>Career trajectory.</h2>
+                    <p class="lede">From breaking systems as a researcher to defending them at global scale — a 25-year arc from red team to the boardroom, and back to building.</p>
+                </div>
+            </div>
+
+            <div class="trajectory">
+
+                <div class="traj-row">
+                    <div class="yrs">2022 — <span class="now">NOW</span></div>
+                    <div class="traj-body">
+                        <div>
+                            <div class="traj-headline">
+                                <span class="role">CEO &amp; Co-Founder</span>
+                                <span class="at">at</span>
+                                <span class="co">Gomboc AI</span>
+                            </div>
+                            <p class="traj-summary">Solving the last mile of cloud security: not more alerts, but actual fixes. Built Gomboc AI from zero to a funded, deployed product that gives engineering teams deterministic AI-generated remediations for infrastructure misconfigurations.</p>
+                        </div>
+                        <div class="traj-meta">
+                            <div class="tags">
+                                <span class="tag">Founder</span>
+                                <span class="tag">AI/ML</span>
+                                <span class="tag">Cloud</span>
+                            </div>
+                            <div class="scale-bar">
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="seg"></span>
+                                <span class="seg"></span>
+                                <span class="seg"></span>
+                                <span class="scale-label">early-stage</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <span class="date">2019 - 2022</span>
-                        <h4>Chief Security Officer</h4>
-                        <span class="company">Rapid7</span>
-                        <p>Led enterprise security, physical security, and global IT for a publicly traded cybersecurity company. Scaled the security program through rapid international expansion, M&A integration, and IPO-era scrutiny — while staying practitioner-close to the product teams.</p>
-                        <div class="role-tags"><span class="tag">CISO</span><span class="tag">M&A</span><span class="tag">Public Company</span><span class="tag">Team Scaling</span></div>
+                <div class="traj-row">
+                    <div class="yrs">2019 — 2022</div>
+                    <div class="traj-body">
+                        <div>
+                            <div class="traj-headline">
+                                <span class="role">Chief Security Officer</span>
+                                <span class="at">at</span>
+                                <span class="co">Rapid7</span>
+                            </div>
+                            <p class="traj-summary">Led enterprise security, physical security, and global IT for a publicly traded cybersecurity company. Scaled the security program through rapid international expansion, M&amp;A integration, and IPO-era scrutiny — while staying practitioner-close to the product teams.</p>
+                        </div>
+                        <div class="traj-meta">
+                            <div class="tags">
+                                <span class="tag">CISO</span>
+                                <span class="tag">Public Co.</span>
+                                <span class="tag">IPO</span>
+                            </div>
+                            <div class="scale-bar">
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="scale-label">global, public</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <span class="date">2017 - 2019</span>
-                        <h4>Chief Security Officer</h4>
-                        <span class="company">Cimpress</span>
-                        <p>Built and led security strategy across a global portfolio of mass-customization businesses spanning 20+ brands and 40+ countries. Established a federated security model that scaled across a decentralized enterprise without sacrificing control.</p>
-                        <div class="role-tags"><span class="tag">CISO</span><span class="tag">Global</span><span class="tag">Decentralized Org</span><span class="tag">Risk Strategy</span></div>
+                <div class="traj-row">
+                    <div class="yrs">2017 — 2019</div>
+                    <div class="traj-body">
+                        <div>
+                            <div class="traj-headline">
+                                <span class="role">Chief Security Officer</span>
+                                <span class="at">at</span>
+                                <span class="co">Cimpress</span>
+                            </div>
+                            <p class="traj-summary">Built and led security strategy across a global portfolio of mass-customization businesses spanning 20+ brands and 40+ countries. Established a federated security model that scaled across a decentralized enterprise without sacrificing control.</p>
+                        </div>
+                        <div class="traj-meta">
+                            <div class="tags">
+                                <span class="tag">CISO</span>
+                                <span class="tag">Public Co.</span>
+                                <span class="tag">Federated</span>
+                                <span class="tag">M&amp;A</span>
+                            </div>
+                            <div class="scale-bar">
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="scale-label">global enterprise</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div id="experience-hidden" style="display: none;">
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <span class="date">2014 - 2017</span>
-                            <h4>Senior Manager, Security Engineering</h4>
-                            <span class="company">Amazon (AWS)</span>
-                            <p>Led security engineering teams inside the world's largest cloud provider. Operated at a scale most security leaders never see — and learned how to build systems that are secure by design, not patched after the fact.</p>
-                            <div class="role-tags"><span class="tag">Engineering Leadership</span><span class="tag">Cloud</span><span class="tag">Scale</span></div>
+                <div class="traj-row">
+                    <div class="yrs">2015 — 2017</div>
+                    <div class="traj-body">
+                        <div>
+                            <div class="traj-headline">
+                                <span class="role">VP Security</span>
+                                <span class="at">at</span>
+                                <span class="co">ZeroFOX</span>
+                            </div>
+                            <p class="traj-summary">Early executive at a digital risk monitoring startup. Helped shape the product vision and go-to-market for social media threat intelligence — before that category even had a name.</p>
+                        </div>
+                        <div class="traj-meta">
+                            <div class="tags">
+                                <span class="tag">VP Sec</span>
+                                <span class="tag">Threat Intel</span>
+                            </div>
+                            <div class="scale-bar">
+                                <span class="seg on"></span>
+                                <span class="seg on"></span>
+                                <span class="seg"></span>
+                                <span class="seg"></span>
+                                <span class="seg"></span>
+                                <span class="scale-label">growth-stage</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="earlier-roles" style="display:none;">
+
+                    <div class="traj-row">
+                        <div class="yrs">2014 — 2017</div>
+                        <div class="traj-body">
+                            <div>
+                                <div class="traj-headline">
+                                    <span class="role">Senior Manager, Security Engineering</span>
+                                    <span class="at">at</span>
+                                    <span class="co">Amazon (AWS)</span>
+                                </div>
+                                <p class="traj-summary">Led security engineering teams inside the world's largest cloud provider. Operated at a scale most security leaders never see — and learned how to build systems that are secure by design, not patched after the fact.</p>
+                            </div>
+                            <div class="traj-meta">
+                                <div class="tags">
+                                    <span class="tag">Engineering Leadership</span>
+                                    <span class="tag">Cloud</span>
+                                </div>
+                                <div class="scale-bar">
+                                    <span class="seg on"></span>
+                                    <span class="seg on"></span>
+                                    <span class="seg on"></span>
+                                    <span class="seg on"></span>
+                                    <span class="seg"></span>
+                                    <span class="scale-label">global scale</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <span class="date">2013 - 2014</span>
-                            <h4>Vice President</h4>
-                            <span class="company">ZeroFOX</span>
-                            <p>Early executive at a digital risk monitoring startup. Helped shape the product vision and go-to-market for social media threat intelligence — before that category even had a name.</p>
-                            <div class="role-tags"><span class="tag">Startup</span><span class="tag">Threat Intelligence</span><span class="tag">GTM</span></div>
+                    <div class="traj-row">
+                        <div class="yrs">2013 — 2014</div>
+                        <div class="traj-body">
+                            <div>
+                                <div class="traj-headline">
+                                    <span class="role">Vice President</span>
+                                    <span class="at">at</span>
+                                    <span class="co">ZeroFOX</span>
+                                </div>
+                                <p class="traj-summary">Early executive at a digital risk monitoring startup. Helped shape the product vision and go-to-market for social media threat intelligence — before that category even had a name.</p>
+                            </div>
+                            <div class="traj-meta">
+                                <div class="tags">
+                                    <span class="tag">Startup</span>
+                                    <span class="tag">Threat Intel</span>
+                                    <span class="tag">GTM</span>
+                                </div>
+                                <div class="scale-bar">
+                                    <span class="seg on"></span>
+                                    <span class="seg on"></span>
+                                    <span class="seg"></span>
+                                    <span class="seg"></span>
+                                    <span class="seg"></span>
+                                    <span class="scale-label">growth-stage</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <span class="date">2010 - 2013</span>
-                            <h4>Director of Services</h4>
-                            <span class="company">IOActive</span>
-                            <p>Directed elite security consulting and research for Fortune 500 clients. IOActive was where serious offensive research happened — I ran the services practice while also contributing to the research that put us on the map at BlackHat and DefCon.</p>
-                            <div class="role-tags"><span class="tag">Offensive Security</span><span class="tag">Research</span><span class="tag">Consulting</span></div>
+                    <div class="traj-row">
+                        <div class="yrs">2010 — 2013</div>
+                        <div class="traj-body">
+                            <div>
+                                <div class="traj-headline">
+                                    <span class="role">Director of Services</span>
+                                    <span class="at">at</span>
+                                    <span class="co">IOActive</span>
+                                </div>
+                                <p class="traj-summary">Directed elite security consulting and research for Fortune 500 clients. IOActive was where serious offensive research happened — I ran the services practice while also contributing to the research that put us on the map at BlackHat and DefCon.</p>
+                            </div>
+                            <div class="traj-meta">
+                                <div class="tags">
+                                    <span class="tag">Offensive Security</span>
+                                    <span class="tag">Research</span>
+                                    <span class="tag">Consulting</span>
+                                </div>
+                                <div class="scale-bar">
+                                    <span class="seg on"></span>
+                                    <span class="seg on"></span>
+                                    <span class="seg on"></span>
+                                    <span class="seg"></span>
+                                    <span class="seg"></span>
+                                    <span class="scale-label">boutique global</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                
-                </div>
 
-                <div class="why-gomboc">
-                    <h4 class="highlight">Why Gomboc AI</h4>
-                    <p>Twenty-five years of watching the same movie: security teams find problems, hand them to engineering as tickets, and watch them sit in backlogs indefinitely. I've been on both sides of that friction — as the attacker, the defender, and the executive funding both. Gomboc AI exists to close that loop. Not more dashboards. Actual fixes, automatically generated, that engineers actually merge.</p>
                 </div>
 
             </div>
-            
-                <div style="text-align: left; margin-top: 20px; padding-left: 30px;">
-                    <button id="btn-show-more" onclick="toggleExperience()" class="more-link" style="background:none; border:none; cursor:pointer; font-size:1rem;">
-                        <i class="fas fa-chevron-down"></i> Show Earlier Roles
-                    </button>
-                </div>
 
-                <div class="resume-container">
-                    <a href="https://www.linkedin.com/in/iamit/" target="_blank" class="btn-outline">
-                        <i class="fab fa-linkedin"></i> View Full Experience on LinkedIn
-                    </a>
-                </div>
+            <div class="why-gomboc">
+                <h4>Why Gomboc AI</h4>
+                <p>Twenty-five years of watching the same movie: security teams find problems, hand them to engineering as tickets, and watch them sit in backlogs indefinitely. I've been on both sides of that friction — as the attacker, the defender, and the executive funding both. Gomboc AI exists to close that loop. Not more dashboards. Actual fixes, automatically generated, that engineers actually merge.</p>
             </div>
-        </section>
 
-    <script>
-        function toggleExperience() {
-            var hiddenDiv = document.getElementById("experience-hidden");
-            var btn = document.getElementById("btn-show-more");
-            
-            if (hiddenDiv.style.display === "none") {
-                hiddenDiv.style.display = "block";
-                btn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Less';
-            } else {
-                hiddenDiv.style.display = "none";
-                btn.innerHTML = '<i class="fas fa-chevron-down"></i> Show Earlier Roles';
-            }
-        }
-    </script>
-
-    <section id="insights" class="section">
-        <div class="container">
-            <h3 class="section-title">Latest Insights</h3>
-            <p class="section-intro">Thinking out loud on security, AI, risk, and what actually works in practice.</p>
-            <div class="insights-grid">
-
-                <div class="insight-card">
-                    <span class="insight-date">2026-04-13</span>
-                    <h4><a href="/blog/cyberqrm-making-cyber-risk-quantification-accessible/">CyberQRM: Making Cyber Risk Quantification Actually Accessible</a></h4>
-                    <p>I built an open-source FAIR implementation because the existing options are either six-figure enterprise tools or Excel spreadsheets that make your eyes bleed. Here's what I made and why it matters.</p>
-                    <a href="/blog/cyberqrm-making-cyber-risk-quantification-accessible/" class="more-link">Read Entry &rsaquo;</a>
-                </div>
-
-                <div class="insight-card">
-                    <span class="insight-date">2020-06-23</span>
-                    <h4><a href="/blog/elastic-permissions/">Elastic Permissions</a></h4>
-                    <p>A mental model I've been applying — and evangelizing — for years: permissions that expand and contract based on context, minimizing attack surface without breaking how people actually work.</p>
-                    <a href="/blog/elastic-permissions/" class="more-link">Read Entry &rsaquo;</a>
-                </div>
-
-                <div class="insight-card">
-                    <span class="insight-date">2020-03-14</span>
-                    <h4><a href="/blog/incentives-and-metrics/">Incentives and Metrics</a></h4>
-                    <p>Security programs fail not because of bad tools but because of bad incentive structures. What you measure shapes what people do — and most security metrics incentivize the wrong things entirely.</p>
-                    <a href="/blog/incentives-and-metrics/" class="more-link">Read Entry &rsaquo;</a>
-                </div>
-
-                <div class="insight-card">
-                    <span class="insight-date">2020-02-11</span>
-                    <h4><a href="/blog/the-product-versus-skill-pendulum-in-security-and-the-need-for-better-solutions/">The Product vs. Skill Pendulum in Security</a></h4>
-                    <p>Security swings between buying products and developing skills — and misses the point both ways. Originally published on Forbes Tech Council.</p>
-                    <a href="/blog/the-product-versus-skill-pendulum-in-security-and-the-need-for-better-solutions/" class="more-link">Read Entry &rsaquo;</a>
-                </div>
-
-            </div>
-            <div style="text-align: center; margin-top: 40px;">
-                <a href="/blog/" class="btn-outline">View All Posts &rsaquo;</a>
+            <div class="career-footer">
+                <button id="btn-show-more" onclick="toggleEarlier()" class="show-more-btn">
+                    <span id="toggle-icon">↓</span>&nbsp;<span id="toggle-label">Show earlier roles</span>
+                </button>
+                <a href="https://www.linkedin.com/in/iamit/" target="_blank" class="btn-outline">
+                    <i class="fab fa-linkedin"></i> View full experience on LinkedIn
+                </a>
             </div>
         </div>
     </section>
 
+    <!-- Latest Insights -->
+    <section id="insights" class="section">
+        <div class="container">
+            <div class="section-head">
+                <div class="num">03 · Dispatches</div>
+                <div class="head-right">
+                    <h2>Latest insights.</h2>
+                    <p class="lede">Thinking out loud on security, AI, risk, and what actually works in practice.</p>
+                </div>
+            </div>
+
+            <div class="insights-list">
+
+                <a href="/blog/cyberqrm-making-cyber-risk-quantification-accessible/" class="insight-row">
+                    <div class="when">2026&#x2011;04&#x2011;13</div>
+                    <div>
+                        <div class="ins-title">CyberQRM: Making Cyber Risk Quantification Actually Accessible</div>
+                        <div class="ins-summary">I built an open-source FAIR implementation because the existing options are either six-figure enterprise tools or Excel spreadsheets that make your eyes bleed. Here's what I made and why it matters.</div>
+                        <div class="ins-tags"><span>Risk</span><span>AI</span><span>Open Source</span></div>
+                    </div>
+                    <div class="read">Read entry <span class="arrow">→</span><span class="min">7 min</span></div>
+                </a>
+
+                <a href="/blog/elastic-permissions/" class="insight-row">
+                    <div class="when">2020&#x2011;06&#x2011;23</div>
+                    <div>
+                        <div class="ins-title">Elastic Permissions</div>
+                        <div class="ins-summary">A mental model I've been applying — and evangelizing — for years: permissions that expand and contract based on context, minimizing attack surface without breaking how people actually work.</div>
+                        <div class="ins-tags"><span>Cloud</span><span>Risk</span></div>
+                    </div>
+                    <div class="read">Read entry <span class="arrow">→</span><span class="min">6 min</span></div>
+                </a>
+
+                <a href="/blog/incentives-and-metrics/" class="insight-row">
+                    <div class="when">2020&#x2011;03&#x2011;14</div>
+                    <div>
+                        <div class="ins-title">Incentives and Metrics</div>
+                        <div class="ins-summary">Security programs fail not because of bad tools but because of bad incentive structures. What you measure shapes what people do — and most security metrics incentivize the wrong things entirely.</div>
+                        <div class="ins-tags"><span>Leadership</span><span>Risk</span></div>
+                    </div>
+                    <div class="read">Read entry <span class="arrow">→</span><span class="min">5 min</span></div>
+                </a>
+
+                <a href="/blog/the-product-versus-skill-pendulum-in-security-and-the-need-for-better-solutions/" class="insight-row">
+                    <div class="when">2020&#x2011;02&#x2011;11</div>
+                    <div>
+                        <div class="ins-title">The Product vs. Skill Pendulum in Security</div>
+                        <div class="ins-summary">Security swings between buying products and developing skills — and misses the point both ways. Originally published on Forbes Tech Council.</div>
+                        <div class="ins-tags"><span>Leadership</span><span>Offense</span></div>
+                    </div>
+                    <div class="read">Read entry <span class="arrow">→</span><span class="min">5 min</span></div>
+                </a>
+
+            </div>
+
+            <div class="insights-footer">
+                <a href="/blog/" class="btn-outline">View all dispatches →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speaking & Media -->
     <section id="speaking" class="section bg-offset">
         <div class="container">
-            <h3 class="section-title">Speaking & Media</h3>
+            <div class="section-head">
+                <div class="num">04 · Speaking</div>
+                <div class="head-right">
+                    <h2>Speaking &amp; media.</h2>
+                    <p class="lede">Keynotes, research talks, press, and community leadership across the security industry.</p>
+                </div>
+            </div>
+
             <div class="grid-3">
-                
+
                 <div class="card interactive-card">
                     <details>
                         <summary>
                             <i class="fas fa-microphone-alt icon"></i>
-                            <h4>Keynote & Technical</h4>
+                            <h4>Keynote &amp; Technical</h4>
                             <p>BlackHat, DefCon, RSA, BlueHat</p>
                             <span class="more-link">View Talks <i class="fas fa-chevron-down"></i></span>
                         </summary>
@@ -273,7 +446,7 @@
                     <details>
                         <summary>
                             <i class="fas fa-newspaper icon"></i>
-                            <h4>Press & Writing</h4>
+                            <h4>Press &amp; Writing</h4>
                             <p>Forbes, DevOps.com, DarkReading</p>
                             <span class="more-link">View Articles <i class="fas fa-chevron-down"></i></span>
                         </summary>
@@ -281,7 +454,7 @@
                             <ul>
                                 <li><a href="https://councils.forbes.com/profile/Ian-Amit-Chief-Executive-Officer-Gomboc-ai/6364d032-df71-43ce-be13-95016ccadf8f" target="_blank">Forbes Tech Council Profile</a></li>
                                 <li><a href="https://devops.com/author/ian-amit/" target="_blank">DevOps.com: "Can AI Replace DevOps Engineers?"</a></li>
-                                <li><a href="#">The Right Kind of AI for Infrastructure as Code</a></li>
+                                <li>The Right Kind of AI for Infrastructure as Code</li>
                             </ul>
                         </div>
                     </details>
@@ -299,7 +472,7 @@
                             <ul>
                                 <li><strong>BSides Las Vegas:</strong> Board Member</li>
                                 <li><strong>DC9723:</strong> Founder (Tel Aviv DefCon Group)</li>
-                                <li><strong>The CISO Track:</strong> Creator & Co-CEO</li>
+                                <li><strong>The CISO Track:</strong> Creator &amp; Co-CEO</li>
                                 <li><strong>IANS:</strong> Faculty Member</li>
                             </ul>
                         </div>
@@ -331,8 +504,8 @@
                     <div class="topic-chip"><i class="fas fa-chart-bar"></i> Cyber Risk Quantification</div>
                     <div class="topic-chip"><i class="fas fa-cloud"></i> Cloud Security at Scale</div>
                     <div class="topic-chip"><i class="fas fa-users-cog"></i> Building Security Teams</div>
-                    <div class="topic-chip"><i class="fas fa-crosshairs"></i> Offensive Security & Red Teaming</div>
-                    <div class="topic-chip"><i class="fas fa-chess"></i> Security Strategy & Leadership</div>
+                    <div class="topic-chip"><i class="fas fa-crosshairs"></i> Offensive Security &amp; Red Teaming</div>
+                    <div class="topic-chip"><i class="fas fa-chess"></i> Security Strategy &amp; Leadership</div>
                 </div>
             </div>
 
@@ -340,7 +513,6 @@
                 <p>Interested in having me speak at your conference, podcast, or event?</p>
                 <a href="mailto:ian@iamit.org" class="btn-outline"><i class="fas fa-envelope"></i> Get in Touch</a>
             </div>
-
         </div>
     </section>
 
@@ -350,22 +522,32 @@
             <p class="subtext">Terminals never sleep.</p>
         </div>
     </footer>
+
 <script>
+    // Mobile nav
     const menu = document.querySelector('#mobile-menu');
     const navLinks = document.querySelector('.nav-links');
-
     menu.addEventListener('click', function() {
         menu.classList.toggle('is-active');
         navLinks.classList.toggle('active');
     });
-    
-    // Optional: Close menu when a link is clicked
     document.querySelectorAll('.nav-links a').forEach(n => n.addEventListener('click', () => {
         menu.classList.remove('is-active');
         navLinks.classList.remove('active');
     }));
-</script>
-<script>
+
+    // Earlier roles toggle
+    function toggleEarlier() {
+        const el = document.getElementById('earlier-roles');
+        const icon = document.getElementById('toggle-icon');
+        const label = document.getElementById('toggle-label');
+        const visible = el.style.display !== 'none';
+        el.style.display = visible ? 'none' : 'block';
+        icon.textContent = visible ? '↓' : '↑';
+        label.textContent = visible ? 'Show earlier roles' : 'Show less';
+    }
+
+    // Video modal
     const modal = document.getElementById("videoModal");
     const fullVideo = document.getElementById("fullReel");
 
@@ -380,11 +562,8 @@
         fullVideo.currentTime = 0;
     }
 
-    // Close on 'Esc' key
     window.onkeydown = function(event) {
-        if (event.key === "Escape") {
-            closeModal();
-        }
+        if (event.key === "Escape") closeModal();
     };
 </script>
 </body>
