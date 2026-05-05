@@ -6,46 +6,22 @@ layout: null
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Ian Amit</title>
+    <title>Intelligence Log | Ian Amit</title>
+    <meta name="description" content="Field notes on security, AI, risk and what actually works in practice.">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Hide posts by default if they have this class */
-        .hidden-post {
-            display: none;
-        }
-        
-        /* Load More Button Styling */
-        .load-more-container {
-            text-align: center;
-            margin-top: 40px;
-            margin-bottom: 60px;
-        }
-        
-        .btn-load-more {
-            background-color: transparent;
-            border: 1px solid #10b981;
-            color: #10b981;
-            padding: 12px 30px;
-            font-family: 'JetBrains Mono', monospace;
-            cursor: pointer;
-            transition: 0.3s;
-            font-size: 1rem;
-            border-radius: 4px;
-        }
-        
-        .btn-load-more:hover {
-            background-color: rgba(16, 185, 129, 0.1);
-            transform: translateY(-2px);
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="/" class="logo">iamit<span class="cursor">_</span></a>
-            
+            <div class="nav-left">
+                <a href="/" class="logo">iamit<span class="blink">_</span></a>
+                <span class="session-chip">session · online</span>
+            </div>
+
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -53,88 +29,134 @@ layout: null
             </div>
 
             <ul class="nav-links">
-                <li><a href="/#about">About</a></li>
-                <li><a href="/#experience">Experience</a></li>
-                <li><a href="/#speaking">Speaking</a></li>
-                <li><a href="/blog/" class="btn-blog">Blog</a></li>
+                <li><a href="/#about">~/about</a></li>
+                <li><a href="/#experience">~/experience</a></li>
+                <li><a href="/#speaking">~/speaking</a></li>
+                <li><a href="/blog/" class="active">~/blog</a></li>
             </ul>
         </div>
     </nav>
 
-    <section class="section">
+    <!-- Feed header -->
+    <div class="feed-head">
         <div class="container">
-            <h1 class="section-title">Intelligence Log</h1>
-            
-            <div class="blog-list" id="blog-feed">
-                {% for post in site.posts %}
-                <div class="card timeline-item blog-entry {% if forloop.index > 6 %}hidden-post{% endif %}" 
-                     style="margin-bottom: 30px; border-left: 2px solid #10b981; padding-left: 20px;">
-                    
-                    <span class="date" style="color: #10b981; font-family: 'JetBrains Mono';">{{ post.date | date: "%Y-%m-%d" }}</span>
-                    <h2 style="margin: 10px 0;">
-                        <a href="{{ post.url }}" style="text-decoration: none; color: white;">{{ post.title }}</a>
-                    </h2>
-                    <p style="color: #94a3b8;">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-                    <a href="{{ post.url }}" class="more-link">Read Entry ></a>
+            <div class="crumb">~/blog · intelligence log</div>
+            <h1>Intelligence log.</h1>
+            <p class="feed-lede">Field notes on security, AI, risk and what actually works in practice. New entries roughly monthly.</p>
+            <div class="toolbar">
+                <button class="filter on" data-filter="all">All <span class="count">{% assign total = site.posts | size %}{{ total }}</span></button>
+                <button class="filter" data-filter="ai">AI <span class="count">{% assign ai_posts = site.posts | where_exp: "post", "post.tags contains 'AI' or post.tags contains 'ai'" %}{{ ai_posts | size }}</span></button>
+                <button class="filter" data-filter="cloud">Cloud <span class="count">{% assign cloud_posts = site.posts | where_exp: "post", "post.tags contains 'Cloud' or post.tags contains 'cloud'" %}{{ cloud_posts | size }}</span></button>
+                <button class="filter" data-filter="risk">Risk <span class="count">{% assign risk_posts = site.posts | where_exp: "post", "post.tags contains 'Risk' or post.tags contains 'risk'" %}{{ risk_posts | size }}</span></button>
+                <button class="filter" data-filter="leadership">Leadership <span class="count">{% assign lead_posts = site.posts | where_exp: "post", "post.tags contains 'Leadership' or post.tags contains 'leadership'" %}{{ lead_posts | size }}</span></button>
+                <button class="filter" data-filter="offense">Offense <span class="count">{% assign off_posts = site.posts | where_exp: "post", "post.tags contains 'Offense' or post.tags contains 'offense'" %}{{ off_posts | size }}</span></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured post (latest) -->
+    {% assign featured = site.posts.first %}
+    {% if featured %}
+    <div class="feed-featured">
+        <div class="container" style="display:grid;grid-template-columns:1fr 360px;gap:56px;align-items:start;">
+            <div>
+                <div class="feat-mark">▸ Latest dispatch · {{ featured.date | date: "%b %-d, %Y" }}</div>
+                <h2><a href="{{ featured.url }}">{{ featured.title }}</a></h2>
+                <p class="feat-excerpt">{{ featured.excerpt | strip_html | truncatewords: 40 }}</p>
+                <div class="meta-row">
+                    <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
+                    <span>7 min read</span>
+                    {% for tag in featured.tags limit:3 %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
                 </div>
+            </div>
+            <div class="quote-aside">
+                <div class="q-label">From the piece</div>
+                <blockquote>{{ featured.excerpt | strip_html | truncatewords: 30 }}</blockquote>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Feed list (all posts after the first) -->
+    <div class="feed-list">
+        <div class="container">
+            <div class="insights-list" id="feed">
+                {% for post in site.posts offset:1 %}
+                <a href="{{ post.url }}" class="insight-row" data-tags="{{ post.tags | join: ',' | downcase }}">
+                    <div class="when">{{ post.date | date: "%Y&#x2011;%m&#x2011;%d" }}</div>
+                    <div>
+                        <div class="ins-title">{{ post.title }}</div>
+                        <div class="ins-summary">{{ post.excerpt | strip_html | truncatewords: 28 }}</div>
+                        {% if post.tags.size > 0 %}
+                        <div class="ins-tags">
+                            {% for tag in post.tags limit:3 %}
+                            <span>{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="read">Read entry <span class="arrow">→</span><span class="min">5 min</span></div>
+                </a>
                 {% endfor %}
             </div>
-
-            <div class="load-more-container">
-                <button id="btn-load-more" onclick="loadMorePosts()" class="btn-load-more">
-                    [ Load More Data ]
-                </button>
-            </div>
-
         </div>
-    </section>
-
-    <script>
-        function loadMorePosts() {
-            // Select all currently hidden posts
-            var hiddenPosts = document.querySelectorAll('.hidden-post');
-            var batchSize = 6;
-            
-            // Loop through the next batch and remove the hidden class
-            for (var i = 0; i < batchSize; i++) {
-                if (hiddenPosts[i]) {
-                    hiddenPosts[i].classList.remove('hidden-post');
-                }
-            }
-            
-            // If no hidden posts remain, hide the button
-            if (document.querySelectorAll('.hidden-post').length === 0) {
-                document.getElementById('btn-load-more').style.display = 'none';
-            }
-        }
-        
-        // Initial check: if total posts < 6, hide button immediately
-        document.addEventListener("DOMContentLoaded", function() {
-            if (document.querySelectorAll('.hidden-post').length === 0) {
-                document.getElementById('btn-load-more').style.display = 'none';
-            }
-        });
-    </script>
+    </div>
 
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 Ian Amit. Terminals never sleep.</p>
+            <p>&copy; 2026 Ian Amit. All rights reserved.</p>
+            <p class="subtext">Terminals never sleep.</p>
         </div>
     </footer>
+
 <script>
+    // Mobile nav
     const menu = document.querySelector('#mobile-menu');
     const navLinks = document.querySelector('.nav-links');
-
     menu.addEventListener('click', function() {
         menu.classList.toggle('is-active');
         navLinks.classList.toggle('active');
     });
-    
-    // Optional: Close menu when a link is clicked
     document.querySelectorAll('.nav-links a').forEach(n => n.addEventListener('click', () => {
         menu.classList.remove('is-active');
         navLinks.classList.remove('active');
     }));
+
+    // Filter chips
+    const filters = document.querySelectorAll('.filter');
+    const rows = document.querySelectorAll('#feed .insight-row');
+
+    function getActiveFilter() {
+        return new URLSearchParams(location.search).get('topic') || 'all';
+    }
+
+    function applyFilter(topic) {
+        filters.forEach(btn => btn.classList.toggle('on', btn.dataset.filter === topic));
+        rows.forEach(row => {
+            if (topic === 'all') {
+                row.style.display = '';
+            } else {
+                const tags = (row.dataset.tags || '').split(',').map(t => t.trim());
+                row.style.display = tags.includes(topic) ? '' : 'none';
+            }
+        });
+        const url = new URL(location);
+        if (topic === 'all') {
+            url.searchParams.delete('topic');
+        } else {
+            url.searchParams.set('topic', topic);
+        }
+        history.replaceState(null, '', url);
+    }
+
+    filters.forEach(btn => {
+        btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
+    });
+
+    // Apply filter from URL on load
+    applyFilter(getActiveFilter());
 </script>
 </body>
 </html>
