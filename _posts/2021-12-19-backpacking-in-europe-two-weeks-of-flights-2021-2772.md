@@ -3,6 +3,7 @@ layout: post
 title: "Backpacking In Europe - Two Weeks Of Flights 2021"
 date: 2021-12-19
 permalink: /blog/backpacking-in-europe-two-weeks-of-flights-2021/
+categories: [aviation]
 ---
 
 <!-- wp:paragraph -->
