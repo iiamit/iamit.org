@@ -57,15 +57,17 @@ layout: null
     <!-- Featured post (latest) -->
     {% assign featured = site.posts.first %}
     {% if featured %}
+    {% assign feat_words = featured.content | strip_html | number_of_words %}
+    {% assign feat_minutes = feat_words | divided_by: 200 | at_least: 1 %}
     <div class="feed-featured">
         <div class="container" style="display:grid;grid-template-columns:1fr 360px;gap:56px;align-items:start;">
             <div>
                 <div class="feat-mark">▸ Latest dispatch · {{ featured.date | date: "%b %-d, %Y" }}</div>
                 <h2><a href="{{ featured.url }}">{{ featured.title }}</a></h2>
-                <p class="feat-excerpt">{{ featured.excerpt | strip_html | truncatewords: 40 }}</p>
+                <p class="feat-excerpt">{{ featured.description | default: featured.excerpt | strip_html | truncatewords: 40 }}</p>
                 <div class="meta-row">
                     <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
-                    <span>7 min read</span>
+                    <span>{{ feat_minutes }} min read</span>
                     {% for tag in featured.categories limit:3 %}
                     <span class="tag">{{ tag }}</span>
                     {% endfor %}
@@ -73,7 +75,7 @@ layout: null
             </div>
             <div class="quote-aside">
                 <div class="q-label">From the piece</div>
-                <blockquote>{{ featured.excerpt | strip_html | truncatewords: 30 }}</blockquote>
+                <blockquote>{{ featured.pull_quote | default: featured.excerpt | strip_html | truncatewords: 24 }}</blockquote>
             </div>
         </div>
     </div>
@@ -84,6 +86,8 @@ layout: null
         <div class="container">
             <div class="insights-list" id="feed">
                 {% for post in site.posts offset:1 %}
+                {% assign words = post.content | strip_html | number_of_words %}
+                {% assign minutes = words | divided_by: 200 | at_least: 1 %}
                 <a href="{{ post.url }}" class="insight-row" data-tags="{{ post.categories | join: ',' | downcase }}">
                     <div class="when">{{ post.date | date: "%Y&#x2011;%m&#x2011;%d" }}</div>
                     <div>
@@ -97,7 +101,7 @@ layout: null
                         </div>
                         {% endif %}
                     </div>
-                    <div class="read">Read entry <span class="arrow">→</span><span class="min">5 min</span></div>
+                    <div class="read">Read entry <span class="arrow">→</span><span class="min">{{ minutes }} min</span></div>
                 </a>
                 {% endfor %}
             </div>

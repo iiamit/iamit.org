@@ -1,9 +1,12 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ian Amit | Security Executive & Builder</title>
+    <title>Security Executive & Builder | Ian Amit</title>
     <meta name="description" content="Personal site of Ian Amit - CEO & Co-founder Gomboc AI, former CSO at Rapid7, Cimpress, and Amazon.">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -26,7 +29,7 @@
             </div>
 
             <ul class="nav-links">
-                <li><a href="/#about">~/about</a></li>
+                <li><a href="/#about" class="active">~/about</a></li>
                 <li><a href="/#experience">~/experience</a></li>
                 <li><a href="/#speaking">~/speaking</a></li>
                 <li><a href="/blog/">~/blog</a></li>
@@ -55,12 +58,16 @@
                     </div>
                 </div>
 
+                {% assign latest = site.posts.first %}
+                {% assign today = site.time | date: "%Y-%m-%d" %}
+                {% assign upcoming_speaking = site.data.speaking | where_exp: "i", "i.date >= today" | sort: "date" | first %}
+                {% if upcoming_speaking == nil %}{% assign upcoming_speaking = site.data.speaking | first %}{% endif %}
                 <div class="side-card">
                     <div class="heading">Currently</div>
                     <div class="row"><span class="k">role</span><span class="v">CEO, Gomboc AI</span></div>
                     <div class="row"><span class="k">based</span><span class="v">NYC / TLV</span></div>
-                    <div class="row"><span class="k">writing</span><span class="v">Apr 2026</span></div>
-                    <div class="row"><span class="k">speaking</span><span class="v">Jun 2026, DC</span></div>
+                    <div class="row"><span class="k">writing</span><span class="v">{{ latest.date | date: "%b %Y" }}</span></div>
+                    <div class="row"><span class="k">speaking</span><span class="v">{{ upcoming_speaking.short_date }}</span></div>
                     <div class="row"><span class="k">years in field</span><span class="v">25</span></div>
                     <div class="row" style="margin-top:14px;padding-top:14px;border-top:1px dashed var(--hair);">
                         <span class="k"></span>
@@ -93,21 +100,39 @@
                     <p class="lede">Building companies, breaking systems, leading teams.</p>
                 </div>
             </div>
-            <div class="content-block">
-                <p>
-                    I split my time between building companies and breaking systems. Currently, I am leading <strong>Gomboc AI</strong>,
-                    where we are solving cloud infrastructure security using deterministic AI — giving engineering teams actual fixes, not just alerts.
-                </p>
-                <p>
-                    With over 25 years in the industry, I've led security programs at global scale: from <strong>Cimpress</strong>, <strong>Amazon (AWS)</strong> and <strong>Rapid7</strong>
-                    to founding my own ventures. My approach bridges deep technical offense with executive-level strategy — I've been both the hacker
-                    and the CISO, and I build products that reflect both perspectives.
-                </p>
-                <p>
-                    Beyond the corporate world, I am deeply involved in the community — serving on the board of <strong>BSides Las Vegas</strong>,
-                    founding the Tel Aviv DefCon chapter (<strong>DC9723</strong>), acting as faculty for <strong>IANS</strong>, and
-                    writing about what actually matters in security at <a href="/blog/">the Intelligence Log</a>.
-                </p>
+            <div class="about-grid">
+                <div class="content-block">
+                    <p>
+                        I split my time between building companies and breaking systems. Currently, I am leading <strong>Gomboc AI</strong>,
+                        where we are solving cloud infrastructure security using deterministic AI — giving engineering teams actual fixes, not just alerts.
+                    </p>
+                    <p>
+                        With over 25 years in the industry, I've led security programs at global scale: from <strong>Cimpress</strong>, <strong>Amazon (AWS)</strong> and <strong>Rapid7</strong>
+                        to founding my own ventures. My approach bridges deep technical offense with executive-level strategy — I've been both the hacker
+                        and the CISO, and I build products that reflect both perspectives.
+                    </p>
+                    <p>
+                        Beyond the corporate world, I am deeply involved in the community — serving on the board of <strong>BSides Las Vegas</strong>,
+                        founding the Tel Aviv DefCon chapter (<strong>DC9723</strong>), acting as faculty for <strong>IANS</strong>, and
+                        writing about what actually matters in security at <a href="/blog/">the Intelligence Log</a>.
+                    </p>
+                </div>
+
+                <aside class="about-side">
+                    <figure class="portrait">
+                        <img src="{{ '/assets/images/portrait-ian-amit.png' | relative_url }}"
+                             alt="Iftach Ian Amit"
+                             width="336" height="336"
+                             loading="lazy">
+                    </figure>
+                    <dl class="ident">
+                        <div class="row"><dt>Name</dt><dd>Iftach Ian Amit</dd></div>
+                        <div class="row"><dt>Role</dt><dd>CEO, Gomboc AI</dd></div>
+                        <div class="row"><dt>Based</dt><dd>Tel Aviv · NYC</dd></div>
+                        <div class="row"><dt>Reach</dt><dd><a href="mailto:ian@iamit.org">ian@iamit.org</a></dd></div>
+                    </dl>
+                    <div class="portrait-cap">PORTRAIT · 2025</div>
+                </aside>
             </div>
         </div>
     </section>
@@ -481,21 +506,26 @@
 
             </div>
 
+            {% assign future_speaking = site.data.speaking | where_exp: "i", "i.date >= today" | sort: "date" %}
+            {% if future_speaking.size > 0 %}
             <div class="upcoming-talks">
                 <h4 class="speaking-topics-title">Upcoming</h4>
                 <div class="upcoming-list">
+                    {% for ev in future_speaking %}
                     <div class="upcoming-item">
                         <div class="upcoming-meta">
-                            <span class="upcoming-date">Jun 12–14, 2026</span>
-                            <span class="upcoming-location"><i class="fas fa-map-marker-alt"></i> Washington, DC</span>
+                            <span class="upcoming-date">{{ ev.display_date }}</span>
+                            <span class="upcoming-location"><i class="fas fa-map-marker-alt"></i> {{ ev.location }}</span>
                         </div>
                         <div class="upcoming-details">
-                            <a href="https://www.rbln.com/events/2026/east" target="_blank" class="upcoming-conf">Rebellion East 2026</a>
-                            <p>Speaker — cybersecurity conference for hackers, AI builders &amp; operators.</p>
+                            <a href="{{ ev.url }}" target="_blank" class="upcoming-conf">{{ ev.conference }}</a>
+                            <p>{{ ev.blurb }}</p>
                         </div>
                     </div>
+                    {% endfor %}
                 </div>
             </div>
+            {% endif %}
 
             <div class="speaking-topics">
                 <h4 class="speaking-topics-title">Topics I Speak On</h4>

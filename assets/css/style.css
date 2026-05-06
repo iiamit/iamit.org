@@ -143,7 +143,7 @@ img { max-width: 100%; height: auto; display: block; }
 .bar {
   width: 25px;
   height: 3px;
-  background: var(--signal);
+  background: var(--ink);
   border-radius: 2px;
   transition: 0.3s;
 }
@@ -365,7 +365,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .traj-row:last-child { border-bottom: 1px solid var(--hair); }
-.traj-row:hover { background: rgba(255,255,255,0.015); }
+.traj-row:hover { background: var(--bg-3); }
 
 .traj-row .yrs {
   font-family: var(--font-mono);
@@ -518,7 +518,7 @@ a.insight-row {
   transition: background 0.15s;
 }
 
-a.insight-row:hover { background: rgba(124,240,200,0.03); }
+a.insight-row:hover { background: var(--bg-3); }
 
 .insight-row .when {
   font-family: var(--font-mono);
@@ -688,7 +688,7 @@ a.insight-row:hover .read .arrow { transform: translateX(3px); }
   transition: border-color 0.2s;
 }
 
-.upcoming-item:hover { border-color: var(--hair-2); }
+.upcoming-item:hover { background: var(--bg-3); border-color: var(--hair-2); }
 
 .upcoming-meta {
   display: flex;
@@ -700,7 +700,7 @@ a.insight-row:hover .read .arrow { transform: translateX(3px); }
 .upcoming-date {
   font-family: var(--font-mono);
   font-size: 11px;
-  color: var(--signal);
+  color: var(--ink-3);
 }
 
 .upcoming-location { font-size: 12px; color: var(--ink-3); }
@@ -852,7 +852,7 @@ footer {
   font-size: 10.5px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--signal);
+  color: var(--ink-3);
   margin-bottom: 14px;
 }
 
@@ -1034,6 +1034,7 @@ h1.post-title {
   color: var(--ink);
   margin-bottom: 22px;
   max-width: 64ch;
+  text-wrap: pretty;
 }
 
 .post-main li { margin-bottom: 8px; }
@@ -1094,6 +1095,29 @@ h1.post-title {
 }
 
 .post-main blockquote p { font-style: italic; color: var(--ink-2); }
+
+.post-main .pullquote {
+  font-family: var(--font-sans);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  border-top: 1px solid var(--hair);
+  border-bottom: 1px solid var(--hair);
+  padding: 32px 0;
+  margin: 48px 0;
+  max-width: 60ch;
+}
+.post-main .pullquote::before {
+  content: "PULL QUOTE";
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  color: var(--ink-3);
+  margin-bottom: 12px;
+}
 
 .post-main img {
   max-width: 100%;
@@ -1322,4 +1346,73 @@ h1.post-title {
   .standfirst { font-size: 18px; }
   .post-main p, .post-main li { font-size: 16px; }
   .grid-3 { grid-template-columns: 1fr; }
+}
+
+/* About — two-column layout with portrait sidebar */
+#about .about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 64px;
+  align-items: start;
+}
+
+@media (max-width: 880px) {
+  #about .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  #about .about-side { max-width: 320px; }
+}
+
+.about-side .portrait {
+  margin: 0 0 20px 0;
+  width: 168px;
+  height: 168px;
+  border: 1px solid var(--hair);
+  background: var(--bg-2);
+  overflow: hidden;
+}
+.about-side .portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-side .ident {
+  margin: 0 0 12px 0;
+  padding: 16px 0 4px 0;
+  border-top: 1px solid var(--hair);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.about-side .ident .row {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 12px;
+  padding: 6px 0;
+}
+.about-side .ident dt {
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 10.5px;
+}
+.about-side .ident dd {
+  margin: 0;
+  color: var(--ink);
+}
+.about-side .ident a {
+  color: var(--ink);
+  border-bottom: 1px solid var(--hair);
+}
+.about-side .ident a:hover { color: var(--signal); border-bottom-color: var(--signal); }
+
+.about-side .portrait-cap {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  color: var(--ink-3);
+  text-transform: uppercase;
 }
