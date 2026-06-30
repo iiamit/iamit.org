@@ -1,9 +1,17 @@
-- date: "2026-06-12"
-  end_date: "2026-06-14"
-  display_date: "Jun 12–14, 2026"
-  short_date: "Jun 2026, DC"
-  location: "Washington, DC"
-  conference: "Rebellion East 2026"
-  url: "https://www.rbln.com/events/2026/east"
-  role: "Speaker"
-  blurb: "Speaker — cybersecurity conference for hackers, AI builders & operators."
+# Upcoming speaking engagements.
+# Add an entry below to populate the hero "speaking" stat and the homepage
+# "Upcoming" block. Entries auto-hide once their date passes — when nothing is
+# scheduled, leave this file with no active entries (all commented out).
+#
+# Template:
+# - date: "2026-08-04"          # start date (YYYY-MM-DD) — drives "is it upcoming?"
+#   end_date: "2026-08-05"
+#   display_date: "Aug 4–5, 2026"
+#   short_date: "Aug 2026, LV"   # compact form shown in the hero side-card
+#   location: "Las Vegas, NV"
+#   conference: "BSides Las Vegas"
+#   url: "https://bsideslv.org/"
+#   role: "Speaker"
+#   blurb: "Speaker — short description of the talk or track."
+#
+# Past appearance (Rebellion East 2026, Jun 12–14, Washington DC) — completed.

@@ -7,7 +7,7 @@ layout: null
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Security Executive & Builder | Ian Amit</title>
-    <meta name="description" content="Personal site of Ian Amit - CEO & Co-founder Gomboc AI, former CSO at Rapid7, Cimpress, and Amazon.">
+    <meta name="description" content="Personal site of Ian Amit - CEO & Co-founder Gomboc AI, former CSO at Rapid7 and Cimpress, and senior security executive at Amazon.">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
@@ -51,7 +51,7 @@ layout: null
                         <strong>CEO &amp; Co-Founder of Gomboc AI.</strong> Former CSO at Rapid7 and Cimpress; security leader at Amazon and ZeroFOX. Twenty-five years building security programs at global scale — grounded in a practitioner's view of how systems actually break.
                     </p>
                     <div class="ctas">
-                        <a href="/blog/cyberqrm-making-cyber-risk-quantification-accessible/" class="btn primary">
+                        <a href="/blog/the-missing-layer-in-ai-driven-engineering-reliable-execution/" class="btn primary">
                             Read latest dispatch <span class="arrow">→</span>
                         </a>
                         <a href="mailto:ian@iamit.org" class="btn">Talk to me</a>
@@ -61,13 +61,12 @@ layout: null
                 {% assign latest = site.posts.first %}
                 {% assign today = site.time | date: "%Y-%m-%d" %}
                 {% assign upcoming_speaking = site.data.speaking | where_exp: "i", "i.date >= today" | sort: "date" | first %}
-                {% if upcoming_speaking == nil %}{% assign upcoming_speaking = site.data.speaking | first %}{% endif %}
                 <div class="side-card">
                     <div class="heading">Currently</div>
                     <div class="row"><span class="k">role</span><span class="v">CEO, Gomboc AI</span></div>
                     <div class="row"><span class="k">based</span><span class="v">NYC / TLV</span></div>
                     <div class="row"><span class="k">writing</span><span class="v">{{ latest.date | date: "%b %Y" }}</span></div>
-                    <div class="row"><span class="k">speaking</span><span class="v">{{ upcoming_speaking.short_date }}</span></div>
+                    {% if upcoming_speaking %}<div class="row"><span class="k">speaking</span><span class="v">{{ upcoming_speaking.short_date }}</span></div>{% endif %}
                     <div class="row"><span class="k">years in field</span><span class="v">25</span></div>
                     <div class="row" style="margin-top:14px;padding-top:14px;border-top:1px dashed var(--hair);">
                         <span class="k"></span>
@@ -338,7 +337,7 @@ layout: null
                 <button id="btn-show-more" onclick="toggleEarlier()" class="show-more-btn">
                     <span id="toggle-icon">↓</span>&nbsp;<span id="toggle-label">Show earlier roles</span>
                 </button>
-                <a href="https://www.linkedin.com/in/iamit/" target="_blank" class="btn-outline">
+                <a href="https://www.linkedin.com/in/iamit/" target="_blank" rel="noopener" class="btn-outline">
                     <i class="fab fa-linkedin"></i> View full experience on LinkedIn
                 </a>
             </div>
@@ -358,6 +357,16 @@ layout: null
 
             <div class="insights-list">
 
+                <a href="/blog/the-missing-layer-in-ai-driven-engineering-reliable-execution/" class="insight-row">
+                    <div class="when">2026&#x2011;05&#x2011;05</div>
+                    <div>
+                        <div class="ins-title">The Missing Layer in AI-Driven Engineering</div>
+                        <div class="ins-summary">AI makes engineering output look finished, but most teams are just producing work that still needs review. The missing layer isn't smarter generation — it's reliable execution.</div>
+                        <div class="ins-tags"><span>AI</span><span>DevOps</span></div>
+                    </div>
+                    <div class="read">Read entry <span class="arrow">→</span><span class="min">6 min</span></div>
+                </a>
+
                 <a href="/blog/cyberqrm-making-cyber-risk-quantification-accessible/" class="insight-row">
                     <div class="when">2026&#x2011;04&#x2011;13</div>
                     <div>
@@ -368,32 +377,22 @@ layout: null
                     <div class="read">Read entry <span class="arrow">→</span><span class="min">7 min</span></div>
                 </a>
 
-                <a href="/blog/elastic-permissions/" class="insight-row">
-                    <div class="when">2020&#x2011;06&#x2011;23</div>
+                <a href="/blog/security-policy-is-already-code-we-just-dont-treat-it-that-way/" class="insight-row">
+                    <div class="when">2026&#x2011;03&#x2011;19</div>
                     <div>
-                        <div class="ins-title">Elastic Permissions</div>
-                        <div class="ins-summary">A mental model I've been applying — and evangelizing — for years: permissions that expand and contract based on context, minimizing attack surface without breaking how people actually work.</div>
-                        <div class="ins-tags"><span>Cloud</span><span>Risk</span></div>
-                    </div>
-                    <div class="read">Read entry <span class="arrow">→</span><span class="min">6 min</span></div>
-                </a>
-
-                <a href="/blog/incentives-and-metrics/" class="insight-row">
-                    <div class="when">2020&#x2011;03&#x2011;14</div>
-                    <div>
-                        <div class="ins-title">Incentives and Metrics</div>
-                        <div class="ins-summary">Security programs fail not because of bad tools but because of bad incentive structures. What you measure shapes what people do — and most security metrics incentivize the wrong things entirely.</div>
-                        <div class="ins-tags"><span>Leadership</span><span>Risk</span></div>
+                        <div class="ins-title">Security Policy Is Already Code</div>
+                        <div class="ins-summary">Security policy already behaves like code — versioned, continuously evaluated, pass/fail. So why do we still treat it as PDFs and dashboards instead of executable logic that fixes itself?</div>
+                        <div class="ins-tags"><span>DevOps</span><span>AI</span></div>
                     </div>
                     <div class="read">Read entry <span class="arrow">→</span><span class="min">5 min</span></div>
                 </a>
 
-                <a href="/blog/the-product-versus-skill-pendulum-in-security-and-the-need-for-better-solutions/" class="insight-row">
-                    <div class="when">2020&#x2011;02&#x2011;11</div>
+                <a href="/blog/the-hidden-cost-of-security-backlogs-no-one-puts-on-a-p-l/" class="insight-row">
+                    <div class="when">2026&#x2011;02&#x2011;12</div>
                     <div>
-                        <div class="ins-title">The Product vs. Skill Pendulum in Security</div>
-                        <div class="ins-summary">Security swings between buying products and developing skills — and misses the point both ways. Originally published on Forbes Tech Council.</div>
-                        <div class="ins-tags"><span>Leadership</span><span>Offense</span></div>
+                        <div class="ins-title">The Hidden Cost of Security Backlogs</div>
+                        <div class="ins-summary">No breach doesn't mean no cost. Unresolved security findings are operational debt that quietly drains engineering capacity and erodes margins — and never shows up on the P&amp;L.</div>
+                        <div class="ins-tags"><span>Risk</span><span>Leadership</span></div>
                     </div>
                     <div class="read">Read entry <span class="arrow">→</span><span class="min">5 min</span></div>
                 </a>
@@ -448,8 +447,8 @@ layout: null
                         </summary>
                         <div class="card-details">
                             <ul>
-                                <li><a href="https://councils.forbes.com/profile/Ian-Amit-Chief-Executive-Officer-Gomboc-ai/6364d032-df71-43ce-be13-95016ccadf8f" target="_blank">Forbes Tech Council Profile</a></li>
-                                <li><a href="https://devops.com/author/ian-amit/" target="_blank">DevOps.com: "Can AI Replace DevOps Engineers?"</a></li>
+                                <li><a href="https://councils.forbes.com/profile/Ian-Amit-Chief-Executive-Officer-Gomboc-ai/6364d032-df71-43ce-be13-95016ccadf8f" target="_blank" rel="noopener">Forbes Tech Council Profile</a></li>
+                                <li><a href="https://devops.com/author/ian-amit/" target="_blank" rel="noopener">DevOps.com: "Can AI Replace DevOps Engineers?"</a></li>
                                 <li>The Right Kind of AI for Infrastructure as Code</li>
                             </ul>
                         </div>
@@ -489,7 +488,7 @@ layout: null
                             <span class="upcoming-location"><i class="fas fa-map-marker-alt"></i> {{ ev.location }}</span>
                         </div>
                         <div class="upcoming-details">
-                            <a href="{{ ev.url }}" target="_blank" class="upcoming-conf">{{ ev.conference }}</a>
+                            <a href="{{ ev.url }}" target="_blank" rel="noopener" class="upcoming-conf">{{ ev.conference }}</a>
                             <p>{{ ev.blurb }}</p>
                         </div>
                     </div>
