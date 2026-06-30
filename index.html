@@ -60,7 +60,8 @@ layout: null
 
                 {% assign latest = site.posts.first %}
                 {% assign today = site.time | date: "%Y-%m-%d" %}
-                {% assign upcoming_speaking = site.data.speaking | where_exp: "i", "i.date >= today" | sort: "date" | first %}
+                {% assign upcoming_speaking = nil %}
+                {% if site.data.speaking %}{% assign upcoming_speaking = site.data.speaking | where_exp: "i", "i.date >= today" | sort: "date" | first %}{% endif %}
                 <div class="side-card">
                     <div class="heading">Currently</div>
                     <div class="row"><span class="k">role</span><span class="v">CEO, Gomboc AI</span></div>
@@ -476,8 +477,9 @@ layout: null
 
             </div>
 
-            {% assign future_speaking = site.data.speaking | where_exp: "i", "i.date >= today" | sort: "date" %}
-            {% if future_speaking.size > 0 %}
+            {% assign future_speaking = nil %}
+            {% if site.data.speaking %}{% assign future_speaking = site.data.speaking | where_exp: "i", "i.date >= today" | sort: "date" %}{% endif %}
+            {% if future_speaking and future_speaking.size > 0 %}
             <div class="upcoming-talks">
                 <h4 class="speaking-topics-title">Upcoming</h4>
                 <div class="upcoming-list">
