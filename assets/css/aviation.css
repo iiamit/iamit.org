@@ -556,3 +556,14 @@ a { color: inherit; }
   .hero h1 { font-size: 34px; }
   .stat-big .value { font-size: 48px; }
 }
+
+/* Tools — reuses .ferry-grid / .callout / .ferry-meta; only the card heading
+   and link row need rules (the sheet has no global h3). */
+.tools-grid { align-items: stretch; }
+.tool-card { margin: 0; display: flex; flex-direction: column; }
+.tool-card h3 {
+  font-family: var(--font-sans); font-size: 24px; font-weight: 600;
+  letter-spacing: -0.01em; color: var(--ink); margin: 0 0 10px;
+}
+.tool-card .ferry-meta { margin-top: 18px; }
+.tool-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: auto; padding-top: 24px; }
