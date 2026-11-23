@@ -8,34 +8,42 @@ layout: null
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intelligence Log | Ian Amit</title>
     <meta name="description" content="Field notes on security, AI, risk and what actually works in practice.">
+    <link rel="canonical" href="{{ site.url }}/blog/">
+    <meta property="og:title" content="Intelligence Log | Ian Amit">
+    <meta property="og:description" content="Field notes on security, AI, risk and what actually works in practice.">
+    <meta property="og:url" content="{{ site.url }}/blog/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-ian-amit.jpg">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Primary" data-site-nav>
         <div class="container nav-container">
             <div class="nav-left">
                 <a href="/" class="logo">iamit<span class="blink">_</span></a>
                 <span class="session-chip">session · online</span>
             </div>
 
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button type="button" class="menu-toggle" popovertarget="site-menu" aria-controls="site-menu" aria-label="Menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="site-menu" popover="auto">
                 <li><a href="/#about">~/about</a></li>
                 <li><a href="/#experience">~/experience</a></li>
                 <li><a href="/#speaking">~/speaking</a></li>
-                <li><a href="/blog/" class="active">~/blog</a></li>
+                <li><a href="/blog/" aria-current="page">~/blog</a></li>
             </ul>
         </div>
     </nav>
+
+    <main>
 
     <!-- Feed header -->
     <div class="feed-head">
@@ -108,26 +116,17 @@ layout: null
         </div>
     </div>
 
+    </main>
+
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 Ian Amit. All rights reserved.</p>
+            <p>&copy; {{ site.time | date: "%Y" }} Ian Amit. All rights reserved.</p>
             <p class="subtext">Terminals never sleep.</p>
         </div>
     </footer>
 
+<script src="/assets/js/site-nav.js" defer></script>
 <script>
-    // Mobile nav
-    const menu = document.querySelector('#mobile-menu');
-    const navLinks = document.querySelector('.nav-links');
-    menu.addEventListener('click', function() {
-        menu.classList.toggle('is-active');
-        navLinks.classList.toggle('active');
-    });
-    document.querySelectorAll('.nav-links a').forEach(n => n.addEventListener('click', () => {
-        menu.classList.remove('is-active');
-        navLinks.classList.remove('active');
-    }));
-
     // Filter chips
     const filters = document.querySelectorAll('.filter');
     const rows = document.querySelectorAll('#feed .insight-row');

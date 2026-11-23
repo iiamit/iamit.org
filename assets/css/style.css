@@ -25,8 +25,42 @@
 }
 
 /* --- Reset ------------------------------------------------- */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* Scales fallback fonts to the web font's x-height so text doesn't jump on swap */
+  font-size-adjust: from-font;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Sections are focusable (tabindex="-1") so in-page nav moves keyboard focus; no ring needed */
+section[tabindex="-1"]:focus { outline: none; }
+
+.i {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  flex-shrink: 0;
+  vertical-align: -0.125em;
+}
 
 body {
   background: var(--bg);
@@ -56,6 +90,7 @@ img { max-width: 100%; height: auto; display: block; }
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--hair);
+  anchor-name: --site-nav;
 }
 
 .nav-container {
@@ -113,9 +148,12 @@ img { max-width: 100%; height: auto; display: block; }
   display: flex;
   gap: 6px;
   align-items: center;
+  /* Native scrollspy: in-page links match :target-current while their section is in view */
+  scroll-target-group: auto;
 }
 
 .nav-links a {
+  display: block;
   font-family: var(--font-sans);
   font-size: 13px;
   color: var(--ink-2);
@@ -126,18 +164,39 @@ img { max-width: 100%; height: auto; display: block; }
 
 .nav-links a:hover { color: var(--ink); }
 
-.nav-links a.active {
+/* :is() keeps the rule valid where :target-current is unsupported (.target-current is the JS fallback) */
+.nav-links a:is([aria-current="page"], [aria-current="true"], :target-current, .target-current) {
   color: var(--ink);
   background: rgba(255,255,255,0.04);
-  border-color: var(--hair);
+  border-color: var(--hair-2);
+}
+
+/* Wide layout: the list is inline. Undo the UA popover styles in case script hasn't removed the attribute. */
+@media (min-width: 721px) {
+  .nav-links[popover] {
+    position: static;
+    inset: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    overflow: visible;
+  }
 }
 
 /* Mobile hamburger */
 .menu-toggle {
   display: none;
   flex-direction: column;
-  cursor: pointer;
   gap: 5px;
+  padding: 8px;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .bar {
@@ -608,14 +667,24 @@ a.insight-row:hover .read .arrow { transform: translateX(3px); }
 
 .card:hover { border-color: var(--hair-2); }
 
-.interactive-card details { padding: 28px; cursor: pointer; }
-.interactive-card summary { list-style: none; outline: none; }
+.interactive-card details { padding: 28px; }
+.interactive-card summary { list-style: none; cursor: pointer; }
 .interactive-card summary::-webkit-details-marker { display: none; }
 
-.icon { font-size: 1.6rem; color: var(--signal); margin-bottom: 16px; }
+.icon { display: block; font-size: 1.6rem; color: var(--signal); margin-bottom: 16px; }
+
+/* Plain text, not a heading: screen readers drop headings inside <summary> */
+.card-title {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
 
 .more-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 6px;
   margin-top: 12px;
   font-size: 11px;
   font-family: var(--font-mono);
@@ -624,16 +693,32 @@ a.insight-row:hover .read .arrow { transform: translateX(3px); }
   text-transform: uppercase;
 }
 
+.more-link .i { rotate: -90deg; }
+details[open] .more-link .i { rotate: 0deg; }
+
 .card-details {
   margin-top: 18px;
   padding-top: 18px;
   border-top: 1px solid var(--hair);
-  animation: fadeIn 0.2s ease;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-4px); }
-  to   { opacity: 1; transform: translateY(0); }
+/* Slide open/closed; browsers without interpolate-size just open instantly */
+.interactive-card details::details-content {
+  interpolate-size: allow-keywords;
+  overflow: clip;
+  contain: layout;
+}
+
+.interactive-card details:not([open])::details-content { block-size: 0; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .interactive-card details::details-content {
+    transition: block-size, content-visibility;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-behavior: allow-discrete;
+  }
+  .more-link .i { transition: rotate 0.2s; }
 }
 
 .card-details ul li {
@@ -704,7 +789,7 @@ a.insight-row:hover .read .arrow { transform: translateX(3px); }
 }
 
 .upcoming-location { font-size: 12px; color: var(--ink-3); }
-.upcoming-location i { margin-right: 4px; font-size: 10px; }
+.upcoming-location .i { margin-right: 4px; font-size: 10px; }
 
 .upcoming-details { flex: 1; }
 
@@ -741,7 +826,7 @@ a.insight-row:hover .read .arrow { transform: translateX(3px); }
   transition: 0.2s;
 }
 
-.topic-chip i { color: var(--signal); font-size: 12px; }
+.topic-chip .i { color: var(--signal); font-size: 12px; }
 .topic-chip:hover { border-color: var(--hair-2); color: var(--ink); }
 
 /* Speaking CTA */
@@ -1222,36 +1307,56 @@ h1.post-title {
 }
 
 /* --- Video modal ------------------------------------------ */
-.video-modal {
-  display: none;
-  position: fixed;
-  z-index: 2000;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.95);
-  justify-content: center;
-  align-items: center;
+.reel-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+  transition: color 0.15s;
 }
 
-.modal-content {
-  width: 80%;
-  max-width: 1000px;
+.reel-btn:hover { color: var(--signal); }
+
+.reel-dialog {
+  width: min(1000px, 90vw);
+  max-width: none;
+  margin: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  overflow: visible;
 }
 
-.modal-content video {
+.reel-dialog::backdrop { background: rgba(0,0,0,0.92); }
+
+.reel-dialog video {
+  display: block;
   width: 100%;
+  height: auto;
   border: 1px solid var(--hair);
   border-radius: 4px;
+  background: #000;
 }
 
-.modal-close {
-  text-align: center;
-  color: var(--ink-4);
-  margin-top: 10px;
+.reel-close {
+  display: block;
+  margin: 10px auto 0;
+  background: none;
+  border: 0;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: var(--ink-3);
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.1em;
 }
+
+.reel-close:hover { color: var(--signal); }
 
 /* --- Responsive ------------------------------------------- */
 @media (max-width: 1100px) {
@@ -1292,15 +1397,24 @@ h1.post-title {
 @media (max-width: 720px) {
   .container { padding: 0 20px; }
 
-  .menu-toggle { display: flex; z-index: 2000; }
+  .menu-toggle { display: flex; }
 
+  /* Narrow layout: the list is a popover="auto" opened by the menu button */
   .nav-links {
     display: none;
-    position: absolute;
-    top: 65px;
-    left: 0;
+    position: fixed;
+    z-index: 1001;
+    inset: auto 0;
+    /* Fallback without anchor positioning: roughly the navbar height (site-nav.js refines it) */
+    inset-block-start: 65px;
+    inset-block-start: anchor(--site-nav bottom);
     width: 100%;
+    max-block-size: calc(100dvh - 80px);
+    overflow: auto;
+    margin: 0;
     background: var(--bg);
+    color: var(--ink);
+    border: 0;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
@@ -1308,23 +1422,25 @@ h1.post-title {
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
   }
 
-  .nav-links.active {
-    display: flex;
-    animation: slideDown 0.25s ease;
-  }
+  /* .\:popover-open is set by the script where the Popover API is missing */
+  .nav-links:is(:popover-open, .\:popover-open) { display: flex; }
 
-  @keyframes slideDown {
-    from { opacity: 0; transform: translateY(-8px); }
-    to   { opacity: 1; transform: translateY(0); }
+  @media (prefers-reduced-motion: no-preference) {
+    .nav-links:popover-open {
+      transition: opacity 0.25s ease, translate 0.25s ease;
+    }
+    @starting-style {
+      .nav-links:popover-open { opacity: 0; translate: 0 -8px; }
+    }
   }
 
   .nav-links li { margin: 10px 0; }
   .nav-links a { font-size: 15px; }
   .session-chip { display: none; }
 
-  .menu-toggle.is-active .bar:nth-child(2) { opacity: 0; }
-  .menu-toggle.is-active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
-  .menu-toggle.is-active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+  .nav-container:has(.nav-links:is(:popover-open, .\:popover-open)) .bar:nth-child(2) { opacity: 0; }
+  .nav-container:has(.nav-links:is(:popover-open, .\:popover-open)) .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .nav-container:has(.nav-links:is(:popover-open, .\:popover-open)) .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
   .hero { padding: 64px 0 48px; }
   .hero-text h1 { font-size: 48px; letter-spacing: -0.02em; }

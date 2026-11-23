@@ -8,36 +8,46 @@ layout: null
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Security Executive & Builder | Ian Amit</title>
     <meta name="description" content="Personal site of Ian Amit - CEO & Co-founder Gomboc AI, former CSO at Rapid7 and Cimpress, and senior security executive at Amazon.">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="canonical" href="{{ site.url }}/">
+    <meta property="og:title" content="Ian Amit | Security Executive &amp; Builder">
+    <meta property="og:description" content="CEO &amp; Co-founder of Gomboc AI, former CSO at Rapid7 and Cimpress, and senior security executive at Amazon.">
+    <meta property="og:url" content="{{ site.url }}/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-ian-amit.jpg">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Primary" data-site-nav>
         <div class="container nav-container">
             <div class="nav-left">
                 <a href="/" class="logo">iamit<span class="blink">_</span></a>
                 <span class="session-chip">session · online</span>
             </div>
 
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button type="button" class="menu-toggle" popovertarget="site-menu" aria-controls="site-menu" aria-label="Menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
 
-            <ul class="nav-links">
-                <li><a href="/#about" class="active">~/about</a></li>
-                <li><a href="/#experience">~/experience</a></li>
-                <li><a href="/#speaking">~/speaking</a></li>
+            <ul class="nav-links" id="site-menu" popover="auto">
+                <li><a href="#about">~/about</a></li>
+                <li><a href="#experience">~/experience</a></li>
+                <li><a href="#speaking">~/speaking</a></li>
                 <li><a href="/blog/">~/blog</a></li>
             </ul>
         </div>
     </nav>
 
+    <main>
+
     <!-- Hero -->
+    {% assign latest = site.posts.first %}
+    {% assign today = site.time | date: "%Y-%m-%d" %}
     <header class="hero">
         <div class="container">
             <div class="hero-content">
@@ -51,15 +61,13 @@ layout: null
                         <strong>CEO &amp; Co-Founder of Gomboc AI.</strong> Former CSO at Rapid7 and Cimpress; security leader at Amazon and ZeroFOX. Twenty-five years building security programs at global scale — grounded in a practitioner's view of how systems actually break.
                     </p>
                     <div class="ctas">
-                        <a href="/blog/the-missing-layer-in-ai-driven-engineering-reliable-execution/" class="btn primary">
+                        <a href="{{ latest.url }}" class="btn primary">
                             Read latest dispatch <span class="arrow">→</span>
                         </a>
                         <a href="mailto:ian@iamit.org" class="btn">Talk to me</a>
                     </div>
                 </div>
 
-                {% assign latest = site.posts.first %}
-                {% assign today = site.time | date: "%Y-%m-%d" %}
                 {% assign upcoming_speaking = nil %}
                 {% if site.data.speaking %}{% assign upcoming_speaking = site.data.speaking | where_exp: "i", "i.date >= today" | sort: "date" | first %}{% endif %}
                 <div class="side-card">
@@ -72,7 +80,7 @@ layout: null
                     <div class="row" style="margin-top:14px;padding-top:14px;border-top:1px dashed var(--hair);">
                         <span class="k"></span>
                         <span class="v">
-                            <button onclick="openModal()" style="background:none;border:none;cursor:pointer;font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:0.06em;padding:0;transition:color 0.15s;" onmouseover="this.style.color='var(--signal)'" onmouseout="this.style.color='var(--ink-3)'">Watch reel →</button>
+                            <button type="button" class="reel-btn" id="open-reel">Watch reel →</button>
                         </span>
                     </div>
                 </div>
@@ -80,18 +88,18 @@ layout: null
         </div>
     </header>
 
-    <!-- Video modal -->
-    <div id="videoModal" class="video-modal" onclick="closeModal()">
-        <div class="modal-content">
-            <video id="fullReel" controls>
-                <source src="assets/videos/Ian_Amit_Master_Reel_FINAL.mp4" type="video/mp4">
-            </video>
-            <div class="modal-close">[ ESC_TO_EXIT ]</div>
-        </div>
-    </div>
+    <!-- Video reel -->
+    <dialog id="reel-dialog" class="reel-dialog" closedby="any" aria-label="Ian Amit video reel">
+        <video id="reel-video" controls preload="none" playsinline width="1280" height="720">
+            <source src="/assets/videos/Ian_Amit_Master_Reel_FINAL.mp4" type="video/mp4">
+        </video>
+        <form method="dialog">
+            <button type="submit" class="reel-close">[ CLOSE · ESC ]</button>
+        </form>
+    </dialog>
 
     <!-- About -->
-    <section id="about" class="section">
+    <section id="about" class="section" tabindex="-1">
         <div class="container">
             <div class="section-head">
                 <div class="num">01 · About</div>
@@ -120,7 +128,7 @@ layout: null
 
                 <aside class="about-side">
                     <figure class="portrait">
-                        <img src="{{ '/assets/images/portrait-ian-amit.png' | relative_url }}"
+                        <img src="{{ '/assets/images/portrait-ian-amit.webp' | relative_url }}"
                              alt="Iftach Ian Amit"
                              width="336" height="336"
                              loading="lazy">
@@ -138,7 +146,7 @@ layout: null
     </section>
 
     <!-- Career Trajectory -->
-    <section id="experience" class="section bg-offset">
+    <section id="experience" class="section bg-offset" tabindex="-1">
         <div class="container">
             <div class="section-head">
                 <div class="num">02 · Career</div>
@@ -339,7 +347,7 @@ layout: null
                     <span id="toggle-icon">↓</span>&nbsp;<span id="toggle-label">Show earlier roles</span>
                 </button>
                 <a href="https://www.linkedin.com/in/iamit/" target="_blank" rel="noopener" class="btn-outline">
-                    <i class="fab fa-linkedin"></i> View full experience on LinkedIn
+                    <svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#linkedin"></use></svg> View full experience on LinkedIn
                 </a>
             </div>
         </div>
@@ -357,47 +365,21 @@ layout: null
             </div>
 
             <div class="insights-list">
-
-                <a href="/blog/the-missing-layer-in-ai-driven-engineering-reliable-execution/" class="insight-row">
-                    <div class="when">2026&#x2011;05&#x2011;05</div>
+                {% for post in site.posts limit:4 %}
+                {% assign words = post.content | strip_html | number_of_words %}
+                {% assign minutes = words | divided_by: 200 | at_least: 1 %}
+                <a href="{{ post.url }}" class="insight-row">
+                    <div class="when">{{ post.date | date: "%Y&#x2011;%m&#x2011;%d" }}</div>
                     <div>
-                        <div class="ins-title">The Missing Layer in AI-Driven Engineering</div>
-                        <div class="ins-summary">AI makes engineering output look finished, but most teams are just producing work that still needs review. The missing layer isn't smarter generation — it's reliable execution.</div>
-                        <div class="ins-tags"><span>AI</span><span>DevOps</span></div>
+                        <div class="ins-title">{{ post.title }}</div>
+                        <div class="ins-summary">{{ post.description | default: post.excerpt | strip_html | truncatewords: 32 }}</div>
+                        {% if post.categories.size > 0 %}
+                        <div class="ins-tags">{% for tag in post.categories limit:3 %}<span>{{ tag }}</span>{% endfor %}</div>
+                        {% endif %}
                     </div>
-                    <div class="read">Read entry <span class="arrow">→</span><span class="min">6 min</span></div>
+                    <div class="read">Read entry <span class="arrow">→</span><span class="min">{{ minutes }} min</span></div>
                 </a>
-
-                <a href="/blog/cyberqrm-making-cyber-risk-quantification-accessible/" class="insight-row">
-                    <div class="when">2026&#x2011;04&#x2011;13</div>
-                    <div>
-                        <div class="ins-title">CyberQRM: Making Cyber Risk Quantification Actually Accessible</div>
-                        <div class="ins-summary">I built an open-source FAIR implementation because the existing options are either six-figure enterprise tools or Excel spreadsheets that make your eyes bleed. Here's what I made and why it matters.</div>
-                        <div class="ins-tags"><span>Risk</span><span>AI</span><span>Open Source</span></div>
-                    </div>
-                    <div class="read">Read entry <span class="arrow">→</span><span class="min">7 min</span></div>
-                </a>
-
-                <a href="/blog/security-policy-is-already-code-we-just-dont-treat-it-that-way/" class="insight-row">
-                    <div class="when">2026&#x2011;03&#x2011;19</div>
-                    <div>
-                        <div class="ins-title">Security Policy Is Already Code</div>
-                        <div class="ins-summary">Security policy already behaves like code — versioned, continuously evaluated, pass/fail. So why do we still treat it as PDFs and dashboards instead of executable logic that fixes itself?</div>
-                        <div class="ins-tags"><span>DevOps</span><span>AI</span></div>
-                    </div>
-                    <div class="read">Read entry <span class="arrow">→</span><span class="min">5 min</span></div>
-                </a>
-
-                <a href="/blog/the-hidden-cost-of-security-backlogs-no-one-puts-on-a-p-l/" class="insight-row">
-                    <div class="when">2026&#x2011;02&#x2011;12</div>
-                    <div>
-                        <div class="ins-title">The Hidden Cost of Security Backlogs</div>
-                        <div class="ins-summary">No breach doesn't mean no cost. Unresolved security findings are operational debt that quietly drains engineering capacity and erodes margins — and never shows up on the P&amp;L.</div>
-                        <div class="ins-tags"><span>Risk</span><span>Leadership</span></div>
-                    </div>
-                    <div class="read">Read entry <span class="arrow">→</span><span class="min">5 min</span></div>
-                </a>
-
+                {% endfor %}
             </div>
 
             <div class="insights-footer">
@@ -407,7 +389,7 @@ layout: null
     </section>
 
     <!-- Speaking & Media -->
-    <section id="speaking" class="section bg-offset">
+    <section id="speaking" class="section bg-offset" tabindex="-1">
         <div class="container">
             <div class="section-head">
                 <div class="num">04 · Speaking</div>
@@ -422,10 +404,10 @@ layout: null
                 <div class="card interactive-card">
                     <details>
                         <summary>
-                            <i class="fas fa-microphone-alt icon"></i>
-                            <h4>Keynote &amp; Technical</h4>
+                            <svg class="i icon" aria-hidden="true"><use href="/assets/icons/icons.svg#microphone-lines"></use></svg>
+                            <span class="card-title">Keynote &amp; Technical</span>
                             <p>BlackHat, DefCon, RSA, BlueHat</p>
-                            <span class="more-link">View Talks <i class="fas fa-chevron-down"></i></span>
+                            <span class="more-link">View Talks <svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-down"></use></svg></span>
                         </summary>
                         <div class="card-details">
                             <ul>
@@ -441,10 +423,10 @@ layout: null
                 <div class="card interactive-card">
                     <details>
                         <summary>
-                            <i class="fas fa-newspaper icon"></i>
-                            <h4>Press &amp; Writing</h4>
+                            <svg class="i icon" aria-hidden="true"><use href="/assets/icons/icons.svg#newspaper"></use></svg>
+                            <span class="card-title">Press &amp; Writing</span>
                             <p>Forbes, DevOps.com, DarkReading</p>
-                            <span class="more-link">View Articles <i class="fas fa-chevron-down"></i></span>
+                            <span class="more-link">View Articles <svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-down"></use></svg></span>
                         </summary>
                         <div class="card-details">
                             <ul>
@@ -459,10 +441,10 @@ layout: null
                 <div class="card interactive-card">
                     <details>
                         <summary>
-                            <i class="fas fa-users icon"></i>
-                            <h4>Community Leadership</h4>
+                            <svg class="i icon" aria-hidden="true"><use href="/assets/icons/icons.svg#users"></use></svg>
+                            <span class="card-title">Community Leadership</span>
                             <p>BSidesLV, DC9723, The CISO Track</p>
-                            <span class="more-link">View Roles <i class="fas fa-chevron-down"></i></span>
+                            <span class="more-link">View Roles <svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-down"></use></svg></span>
                         </summary>
                         <div class="card-details">
                             <ul>
@@ -487,7 +469,7 @@ layout: null
                     <div class="upcoming-item">
                         <div class="upcoming-meta">
                             <span class="upcoming-date">{{ ev.display_date }}</span>
-                            <span class="upcoming-location"><i class="fas fa-map-marker-alt"></i> {{ ev.location }}</span>
+                            <span class="upcoming-location"><svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#location-dot"></use></svg> {{ ev.location }}</span>
                         </div>
                         <div class="upcoming-details">
                             <a href="{{ ev.url }}" target="_blank" rel="noopener" class="upcoming-conf">{{ ev.conference }}</a>
@@ -502,42 +484,33 @@ layout: null
             <div class="speaking-topics">
                 <h4 class="speaking-topics-title">Topics I Speak On</h4>
                 <div class="topics-grid">
-                    <div class="topic-chip"><i class="fas fa-brain"></i> AI in Security</div>
-                    <div class="topic-chip"><i class="fas fa-chart-bar"></i> Cyber Risk Quantification</div>
-                    <div class="topic-chip"><i class="fas fa-cloud"></i> Cloud Security at Scale</div>
-                    <div class="topic-chip"><i class="fas fa-users-cog"></i> Building Security Teams</div>
-                    <div class="topic-chip"><i class="fas fa-crosshairs"></i> Offensive Security &amp; Red Teaming</div>
-                    <div class="topic-chip"><i class="fas fa-chess"></i> Security Strategy &amp; Leadership</div>
+                    <div class="topic-chip"><svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#brain"></use></svg> AI in Security</div>
+                    <div class="topic-chip"><svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#chart-bar"></use></svg> Cyber Risk Quantification</div>
+                    <div class="topic-chip"><svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#cloud"></use></svg> Cloud Security at Scale</div>
+                    <div class="topic-chip"><svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#users-gear"></use></svg> Building Security Teams</div>
+                    <div class="topic-chip"><svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#crosshairs"></use></svg> Offensive Security &amp; Red Teaming</div>
+                    <div class="topic-chip"><svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#chess"></use></svg> Security Strategy &amp; Leadership</div>
                 </div>
             </div>
 
             <div class="speaking-cta">
                 <p>Interested in having me speak at your conference, podcast, or event?</p>
-                <a href="mailto:ian@iamit.org" class="btn-outline"><i class="fas fa-envelope"></i> Get in Touch</a>
+                <a href="mailto:ian@iamit.org" class="btn-outline"><svg class="i" aria-hidden="true"><use href="/assets/icons/icons.svg#envelope"></use></svg> Get in Touch</a>
             </div>
         </div>
     </section>
 
+    </main>
+
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 Ian Amit. All rights reserved.</p>
+            <p>&copy; {{ site.time | date: "%Y" }} Ian Amit. All rights reserved.</p>
             <p class="subtext">Terminals never sleep.</p>
         </div>
     </footer>
 
+<script src="/assets/js/site-nav.js" defer></script>
 <script>
-    // Mobile nav
-    const menu = document.querySelector('#mobile-menu');
-    const navLinks = document.querySelector('.nav-links');
-    menu.addEventListener('click', function() {
-        menu.classList.toggle('is-active');
-        navLinks.classList.toggle('active');
-    });
-    document.querySelectorAll('.nav-links a').forEach(n => n.addEventListener('click', () => {
-        menu.classList.remove('is-active');
-        navLinks.classList.remove('active');
-    }));
-
     // Earlier roles toggle
     function toggleEarlier() {
         const el = document.getElementById('earlier-roles');
@@ -549,24 +522,30 @@ layout: null
         label.textContent = visible ? 'Show earlier roles' : 'Show less';
     }
 
-    // Video modal
-    const modal = document.getElementById("videoModal");
-    const fullVideo = document.getElementById("fullReel");
+    // Video reel dialog
+    const reelDialog = document.getElementById('reel-dialog');
+    const reelVideo = document.getElementById('reel-video');
 
-    function openModal() {
-        modal.style.display = "flex";
-        fullVideo.play();
+    document.getElementById('open-reel').addEventListener('click', function() {
+        reelDialog.showModal();
+        reelVideo.play();
+    });
+
+    reelDialog.addEventListener('close', function() {
+        reelVideo.pause();
+        reelVideo.currentTime = 0;
+    });
+
+    // Light-dismiss fallback where <dialog closedby> is unsupported (Safari)
+    if (!('closedBy' in HTMLDialogElement.prototype)) {
+        reelDialog.addEventListener('click', function(event) {
+            if (event.target !== reelDialog) return;
+            const rect = reelDialog.getBoundingClientRect();
+            const inside = rect.top <= event.clientY && event.clientY <= rect.bottom &&
+                           rect.left <= event.clientX && event.clientX <= rect.right;
+            if (!inside) reelDialog.close();
+        });
     }
-
-    function closeModal() {
-        modal.style.display = "none";
-        fullVideo.pause();
-        fullVideo.currentTime = 0;
-    }
-
-    window.onkeydown = function(event) {
-        if (event.key === "Escape") closeModal();
-    };
 </script>
 </body>
 </html>

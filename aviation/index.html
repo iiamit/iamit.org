@@ -15,7 +15,9 @@ permalink: /aviation/
 <meta property="og:description" content="CFI/CFII flight instruction and single-engine aircraft ferry, Mooney specialty. Based at KCDW, serving NY/NJ/PA. Ferry across the continental US." />
 <meta property="og:url" content="https://iamit.org/aviation/" />
 <meta property="og:type" content="website" />
+<meta property="og:image" content="https://iamit.org/assets/images/aviation/n9363v-air.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://iamit.org/aviation/" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -40,16 +42,16 @@ permalink: /aviation/
 </div>
 
 <!-- ============ NAV ============ -->
-<nav class="nav">
+<nav class="nav" aria-label="Primary" data-site-nav>
   <div class="wrap nav-row">
     <div class="nav-left">
       <a class="brand" href="https://iamit.org">iamit<span class="blink">_</span></a>
       <span class="session-chip">~/aviation</span>
     </div>
-    <button class="nav-toggle" aria-label="Menu" id="navToggle">
-      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    <button type="button" class="nav-toggle" popovertarget="site-menu" aria-controls="site-menu" aria-label="Menu">
+      <span class="bar" aria-hidden="true"></span><span class="bar" aria-hidden="true"></span><span class="bar" aria-hidden="true"></span>
     </button>
-    <ul class="nav-links" id="navLinks">
+    <ul class="nav-links" id="site-menu" popover="auto">
       <li><a href="#about">About</a></li>
       <li><a href="#instruction">Instruction</a></li>
       <li><a href="#ferry">Ferry</a></li>
@@ -60,6 +62,8 @@ permalink: /aviation/
     </ul>
   </div>
 </nav>
+
+<main>
 
 <!-- ============ HERO ============ -->
 <header class="hero" id="top" data-layout="split">
@@ -74,14 +78,14 @@ permalink: /aviation/
       </div>
     </div>
     <figure class="hero-media">
-      <img src="{{ '/assets/images/aviation/n9363v-air.jpg' | relative_url }}" alt="N9363V, a Mooney M20F, air-to-air in clean sky" />
+      <img src="{{ '/assets/images/aviation/n9363v-air.jpg' | relative_url }}" alt="N9363V, a Mooney M20F, air-to-air in clean sky" width="1600" height="915" fetchpriority="high" />
       <span class="tail-chip"><b>N9363V</b> · Mooney M20F</span>
     </figure>
   </div>
 </header>
 
 <!-- ============ ABOUT ============ -->
-<section class="section" id="about">
+<section class="section" id="about" tabindex="-1">
   <div class="wrap">
     <div class="section-head">
       <div class="num">01 · About</div>
@@ -113,7 +117,7 @@ permalink: /aviation/
 </section>
 
 <!-- ============ INSTRUCTION ============ -->
-<section class="section" id="instruction">
+<section class="section" id="instruction" tabindex="-1">
   <div class="wrap">
     <div class="section-head">
       <div class="num">02 · Instruction</div>
@@ -136,7 +140,7 @@ permalink: /aviation/
       </div>
       <div class="instr-side">
         <div class="instr-media">
-          <img src="{{ '/assets/images/aviation/dropped-cockpit.webp' | relative_url }}" alt="The N9363V panel — six-pack, GPS, and radio stack" />
+          <img src="{{ '/assets/images/aviation/dropped-cockpit.webp' | relative_url }}" alt="The N9363V panel — six-pack, GPS, and radio stack" width="1040" height="780" loading="lazy" />
         </div>
         <div class="spec-card">
           <div class="row"><span class="k">format</span><span class="v">Weekends</span></div>
@@ -152,7 +156,7 @@ permalink: /aviation/
 </section>
 
 <!-- ============ FERRY ============ -->
-<section class="section" id="ferry">
+<section class="section" id="ferry" tabindex="-1">
   <div class="wrap">
     <div class="section-head">
       <div class="num">03 · Ferry</div>
@@ -232,7 +236,7 @@ permalink: /aviation/
 </section>
 
 <!-- ============ EXPERIENCE ============ -->
-<section class="section" id="experience">
+<section class="section" id="experience" tabindex="-1">
   <div class="wrap">
     <div class="section-head">
       <div class="num">04 · Experience</div>
@@ -313,7 +317,7 @@ permalink: /aviation/
 </section>
 
 <!-- ============ AIRCRAFT ============ -->
-<section class="section" id="aircraft">
+<section class="section" id="aircraft" tabindex="-1">
   <div class="wrap">
     <div class="section-head">
       <div class="num">06 · Aircraft</div>
@@ -324,7 +328,7 @@ permalink: /aviation/
     </div>
     <div class="ac-feature">
       <div class="media">
-        <img src="{{ '/assets/images/aviation/n9363v-ramp.jpg' | relative_url }}" alt="N9363V Mooney M20F on the ramp" />
+        <img src="{{ '/assets/images/aviation/n9363v-ramp.jpg' | relative_url }}" alt="N9363V Mooney M20F on the ramp" width="1600" height="1200" loading="lazy" />
       </div>
       <div class="body">
         <div class="tail">N9363V</div>
@@ -334,23 +338,23 @@ permalink: /aviation/
     </div>
     <div class="ac-grid">
       <div class="ac-card">
-        <img src="{{ '/assets/images/aviation/n312d-ovation.webp' | relative_url }}" alt="A Mooney Ovation (N312D) on the ramp" style="object-position:center 60%" />
+        <img src="{{ '/assets/images/aviation/n312d-ovation.webp' | relative_url }}" alt="A Mooney Ovation (N312D) on the ramp" width="1200" height="900" loading="lazy" style="object-position:center 60%" />
         <div class="cap"><div class="name">Mooney Ovation</div><p>A long-body M20 Ovation3 — more airplane, same precise DNA.</p></div>
       </div>
       <div class="ac-card">
-        <img src="{{ '/assets/images/aviation/dropped-ac-172.webp' | relative_url }}" alt="A Cessna 172 on a mountain ramp under a rainbow" style="object-position:center 58%" />
+        <img src="{{ '/assets/images/aviation/dropped-ac-172.webp' | relative_url }}" alt="A Cessna 172 on a mountain ramp under a rainbow" width="704" height="701" loading="lazy" style="object-position:center 58%" />
         <div class="cap"><div class="name">Cessna 172</div><p>Where most pilots start. Still a great teacher.</p></div>
       </div>
       <div class="ac-card">
-        <img src="{{ '/assets/images/aviation/dropped-ac-cherokee.webp' | relative_url }}" alt="A Piper Cherokee on the ramp" style="object-position:center 50%" />
+        <img src="{{ '/assets/images/aviation/dropped-ac-cherokee.webp' | relative_url }}" alt="A Piper Cherokee on the ramp" width="704" height="404" loading="lazy" style="object-position:center 50%" />
         <div class="cap"><div class="name">Piper Cherokee</div><p>Honest and forgiving. A good airplane to learn the system in.</p></div>
       </div>
       <div class="ac-card">
-        <img src="{{ '/assets/images/aviation/dropped-ac-saratoga.webp' | relative_url }}" alt="A Piper Saratoga on the ramp" style="object-position:center 52%" />
+        <img src="{{ '/assets/images/aviation/dropped-ac-saratoga.webp' | relative_url }}" alt="A Piper Saratoga on the ramp" width="704" height="528" loading="lazy" style="object-position:center 52%" />
         <div class="cap"><div class="name">Piper Saratoga</div><p>Six seats and real load. A serious cross-country machine.</p></div>
       </div>
       <div class="ac-card">
-        <img src="{{ '/assets/images/aviation/dropped-ac-cub.webp' | relative_url }}" alt="A yellow Piper Cub on the ramp" style="object-position:center 62%" />
+        <img src="{{ '/assets/images/aviation/dropped-ac-cub.webp' | relative_url }}" alt="A yellow Piper Cub on the ramp" width="704" height="528" loading="lazy" style="object-position:center 62%" />
         <div class="cap"><div class="name">Piper Cub</div><p>Stick, rudder, and a tailwheel. The fundamentals, undiluted.</p></div>
       </div>
     </div>
@@ -388,7 +392,7 @@ permalink: /aviation/
 </section>
 
 <!-- ============ CONTACT ============ -->
-<section class="section" id="contact">
+<section class="section" id="contact" tabindex="-1">
   <div class="wrap">
     <div class="section-head">
       <div class="num">08 · Contact</div>
@@ -417,6 +421,8 @@ permalink: /aviation/
   </div>
 </section>
 
+</main>
+
 <!-- ============ FOOTER ============ -->
 <footer class="foot">
   <div class="wrap">
@@ -426,17 +432,6 @@ permalink: /aviation/
   </div>
 </footer>
 
-<script>
-  (function () {
-    var t = document.getElementById('navToggle');
-    var l = document.getElementById('navLinks');
-    if (t && l) {
-      t.addEventListener('click', function () { l.classList.toggle('open'); });
-      l.addEventListener('click', function (e) {
-        if (e.target.tagName === 'A') l.classList.remove('open');
-      });
-    }
-  })();
-</script>
+<script src="{{ '/assets/js/site-nav.js' | relative_url }}" defer></script>
 </body>
 </html>
