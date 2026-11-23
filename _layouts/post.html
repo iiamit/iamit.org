@@ -5,36 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | Ian Amit</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% endif %}">
+    {% capture post_description %}{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 30 }}{% endif %}{% endcapture %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:description" content="{{ post_description | strip | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="{{ site.url }}{{ page.image | default: '/assets/images/og-ian-amit.jpg' }}">
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Primary" data-site-nav>
         <div class="container nav-container">
             <div class="nav-left">
                 <a href="/" class="logo">iamit<span class="blink">_</span></a>
                 <span class="session-chip" id="session-chip">reading · <span id="reading-time-chip">...</span> min</span>
             </div>
 
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button type="button" class="menu-toggle" popovertarget="site-menu" aria-controls="site-menu" aria-label="Menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="site-menu" popover="auto">
                 <li><a href="/#about">~/about</a></li>
                 <li><a href="/#experience">~/experience</a></li>
                 <li><a href="/#speaking">~/speaking</a></li>
-                <li><a href="/blog/" class="active">~/blog</a></li>
+                <li><a href="/blog/" aria-current="true">~/blog</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
+    <main class="container">
         <div class="post-shell">
 
             <!-- Left rail: TOC + meta -->
@@ -121,22 +129,17 @@
             </aside>
 
         </div>
-    </div>
+    </main>
 
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 Ian Amit. Terminals never sleep.</p>
+            <p>&copy; {{ site.time | date: "%Y" }} Ian Amit. Terminals never sleep.</p>
         </div>
     </footer>
 
+<script src="/assets/js/site-nav.js" defer></script>
 <script>
-    // Mobile nav
-    const menuToggle = document.querySelector('#mobile-menu');
-    const navLinks = document.querySelector('.nav-links');
-    menuToggle.addEventListener('click', function() {
-        menuToggle.classList.toggle('is-active');
-        navLinks.classList.toggle('active');
-    });
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
     // Word count + read time
     const postMain = document.getElementById('post-main');
@@ -161,7 +164,7 @@
         a.textContent = h.textContent;
         a.addEventListener('click', function(e) {
             e.preventDefault();
-            document.getElementById(h.id).scrollIntoView({ behavior: 'smooth' });
+            document.getElementById(h.id).scrollIntoView({ behavior: reduceMotion.matches ? 'auto' : 'smooth' });
         });
         tocList.appendChild(a);
     });
@@ -173,8 +176,12 @@
                 const link = tocList.querySelector('[href="#' + entry.target.id + '"]');
                 if (!link) return;
                 if (entry.isIntersecting) {
-                    tocList.querySelectorAll('.toc-item').forEach(function(l) { l.classList.remove('active'); });
+                    tocList.querySelectorAll('.toc-item').forEach(function(l) {
+                        l.classList.remove('active');
+                        l.removeAttribute('aria-current');
+                    });
                     link.classList.add('active');
+                    link.setAttribute('aria-current', 'true');
                     document.getElementById('progress-section').textContent = entry.target.textContent;
                 }
             });
