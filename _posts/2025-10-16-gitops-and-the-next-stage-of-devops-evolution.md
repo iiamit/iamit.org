@@ -2,7 +2,8 @@
 layout: post
 title: "GitOps And The Next Stage Of DevOps Evolution"
 date: 2025-10-16
-categories: [forbes, security, devops, ai]
+categories: [cloud-devops]
+publication: Forbes
 ---
 
 In the past decade, DevOps has evolved from a cultural aspiration into a discipline that has reshaped how organizations build and ship software. Platform engineering has since emerged to scale those practices across teams and technologies. Yet many enterprises find themselves plateauing: adopting some automation, some pipelines, some cloud-native tooling, but still struggling with consistency, compliance and velocity.

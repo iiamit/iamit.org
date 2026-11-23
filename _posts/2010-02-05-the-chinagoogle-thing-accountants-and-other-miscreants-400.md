@@ -3,6 +3,7 @@ layout: post
 title: "The China/Google thing, accountants and other miscreants"
 date: 2010-02-05
 permalink: /blog/the-chinagoogle-thing-accountants-and-other-miscreants/
+categories: [cyber-policy, strategy-risk]
 ---
 
 Aha! Can't believe I managed to avoid the unbelievable hype flood that swept across the interwebs in the last month. And to think that the last post (long overdue, I know... had REALLY good reasons for not being able to post anything) was somewhat oracleish in predicting that this would be the focus of this year.

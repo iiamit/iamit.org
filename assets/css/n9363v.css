@@ -19,7 +19,7 @@
   border: 1px solid var(--hair-2); border-radius: 3px;
 }
 .lst-hero figcaption {
-  font-family: var(--font-mono); font-size: 11px; color: var(--ink-3);
+  font-family: var(--font-mono); font-size: 12px; color: var(--ink-3);
   letter-spacing: 0.06em; text-transform: uppercase; padding-top: 10px;
 }
 
@@ -29,7 +29,7 @@
   background: var(--bg-3); padding: 20px 22px; margin: 0 0 26px; max-width: 420px;
 }
 .price-block .k {
-  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.09em;
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.09em;
   text-transform: uppercase; color: var(--ink-3); display: block; margin-bottom: 6px;
 }
 .price-block .amount {
@@ -49,7 +49,7 @@
   padding: 11px 4px; border-bottom: 1px solid var(--hair); align-items: baseline;
 }
 .spec-table .k {
-  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em;
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--ink-3);
 }
 .spec-table .v { font-size: 15px; color: var(--ink); }
@@ -60,8 +60,8 @@
 
 /* ---------- avionics columns ---------- */
 .av-cols { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; }
-.av-group h4 {
-  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em;
+.av-group h3 {
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--signal); margin: 0 0 12px; font-weight: 500;
 }
 .av-group ul { list-style: none; margin: 0 0 30px; padding: 0; }
@@ -83,7 +83,7 @@
   width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; display: block;
 }
 .gallery figcaption {
-  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.06em;
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--ink-3); padding: 9px 11px;
   border-top: 1px solid var(--hair);
 }
@@ -96,10 +96,10 @@
   border: 1px solid var(--hair-2); background: var(--bg-2); padding: 22px;
 }
 .term-card .n {
-  font-family: var(--font-mono); font-size: 11px; color: var(--signal);
+  font-family: var(--font-mono); font-size: 12px; color: var(--signal);
   letter-spacing: 0.09em; margin-bottom: 10px;
 }
-.term-card h4 { margin: 0 0 8px; font-size: 16px; font-weight: 600; }
+.term-card h3 { margin: 0 0 8px; font-size: 16px; font-weight: 600; }
 .term-card p { margin: 0; font-size: 14px; color: var(--ink-2); line-height: 1.6; }
 
 /* ---------- disclosure ---------- */
@@ -107,8 +107,8 @@
   border: 1px solid var(--hair-2); border-left: 2px solid var(--ink-4);
   background: var(--bg-2); padding: 22px 24px;
 }
-.disclosure h4 {
-  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em;
+.disclosure h3 {
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--ink-3); margin: 0 0 12px; font-weight: 500;
 }
 .disclosure p { margin: 0 0 10px; font-size: 14px; color: var(--ink-2); }

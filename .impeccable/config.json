@@ -1,0 +1,57 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "_layouts/post.html",
+          "blog.html",
+          "index.html",
+          "scripts/social-card.html"
+        ],
+        "createdAt": "2026-11-23T02:04:58.823Z",
+        "reason": "Agent: preserve incumbent typography in the user-approved before/after design; the sharing card intentionally matches the website."
+      },
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          "_layouts/post.html",
+          "blog.html"
+        ],
+        "createdAt": "2026-11-23T02:04:58.880Z",
+        "reason": "Agent: inspected source and rendered pages; uppercase applies only to short metadata, topic labels, and section labels. Liquid template syntax inflates the detector character counts; article prose and titles remain mixed case."
+      },
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          "_layouts/post.html"
+        ],
+        "createdAt": "2026-11-23T02:04:58.937Z",
+        "reason": "Agent: the matched 0.05em tracking belongs solely to compact publication dates in the related-writing sidebar, not prose."
+      },
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-23T02:23:52.423Z",
+        "reason": "Agent: uppercase in the changed writing rows applies only to compact topic tags. Liquid filter syntax inflates source character counts; article titles and prose remain mixed case."
+      },
+      {
+        "rule": "em-dash-overuse",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-23T02:23:52.431Z",
+        "reason": "Agent: inspected the 11 matches; they include structured career date ranges and retained career descriptions in the approved homepage composition, not newly generated prose cadence."
+      }
+    ]
+  }
+}

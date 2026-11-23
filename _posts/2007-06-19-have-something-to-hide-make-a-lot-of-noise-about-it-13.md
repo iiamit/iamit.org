@@ -3,6 +3,7 @@ layout: post
 title: "Have something to hide? make a lot of noise about it!"
 date: 2007-06-19
 permalink: /blog/have-something-to-hide-make-a-lot-of-noise-about-it/
+categories: [research]
 ---
 
 There has been a lot of noise on the web over the past few days in regard to the MPack toolkit being used in the Italy region. Everyone has been talking about it vigorously: From the <a href="http://blog.washingtonpost.com/securityfix/2007/06/the_mother_of_all_exploits_1.html" target="_blank">washington post</a>, <a href="http://www.websense.com/securitylabs/alerts/alert.php?AlertID=782" target="_blank">WebSense</a>, <a href="http://blog.trendmicro.com/another-malware-pulls-an-italian-job/" target="_blank">TrendMicro</a>, so eventually even <a href="http://it.slashdot.org/article.pl?sid=07/06/19/0215244" target="_blank">Slashdot</a> picked up on it.

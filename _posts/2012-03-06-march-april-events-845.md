@@ -3,6 +3,7 @@ layout: post
 title: "March - April Events"
 date: 2012-03-06
 permalink: /blog/march-april-events/
+categories: [community]
 ---
 
 <p>After a quiet start for the year (and keeping up with my promise to try and cut down on travel) we are fast approaching exciting times. March will have a couple of great events I'm really looking forward to, and April packs a really great conference and training. So, without further adue:</p>

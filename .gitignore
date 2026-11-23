@@ -1,3 +1,5 @@
 # Ignore macOS system files
 .DS_Store
 .claude/
+# Local design-hook runtime state
+.impeccable/hook.cache.json

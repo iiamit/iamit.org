@@ -3,6 +3,7 @@ layout: post
 title: "Cyber, Cyber, Cyber. What are we talking about anyway?"
 date: 2012-02-17
 permalink: /blog/cyber-cyber-cyber-what-are-we-talking-about-anyway/
+categories: [cyber-policy]
 ---
 
 A long draught (almost a month) in this blog is finally coming to an end after I had some great conversations with good friends at the <a href="http://cyberunconference.pbworks.com/w/page/49960606/activities">cyber un-conference</a> here in Israel. One of the obvious discussions is around the use of the term cyber (surprise). The general agreement is that the term has been violated pretty badly by security consulting firms and vendors trying to jump on the "cyber" bandwagon without a slim clue of what they are talking about (another shocker!).
@@ -12,7 +13,7 @@ But seriously now, we are all to blame for using the term once in a while (yours
 For me, cyber starts from way up. Beyond technology and Internet, and even beyond warfare and conflict. Cyber is first and foremost a domain. Much like air, land, sea, and space. A domain is (from the <a href="http://www.merriam-webster.com/dictionary/domain">Merriam-Webster dictionary</a>):
 <blockquote>1. a. complete and absolute ownership of land
 b. land so owned
-2.Â a territory over which dominion is exercised</blockquote>
+2. a territory over which dominion is exercised</blockquote>
 As such, domains that are not under the direct ownership, are treated by sovereign countries as first and foremost economical factors that affect their well-being. Most importantly, shared, or international domains are crucial to enabling international trade, communication, travel and freedom (especially air, sea and space). Such domains are referred to as "<a href="http://en.wikipedia.org/wiki/Global_commons">global commons</a>".
 
 Now think of the Internet and the underlying parts that make it work. Computers, network equipment, cabling, satellite communications and other elements that are owned by a variety of private companies, governments, and are under different jurisdictions around the world. Because it is so hard to pinpoint the ownership of a specific part of the Internet, it is much simpler to treat it as a general domain, and as such, a global common. This is exactly how most modern countries act, and how it, much like the other global commons, became an element of conflicts when such countries escalate diplomatic efforts into actions. A good example of how this works can be seen in <a href="http://www.act.nato.int/cyberspace">the work that NATO are putting</a> to address this exact question. Note how a lot of the efforts are placed first on the legal and cooperative elements before addressing the battlefield (<a href="http://www.carlisle.army.mil/DIME/documents/NATO%20and%20Cyber%20Defence.pdf">NATO and Cyber Defense - PDF</a>) .

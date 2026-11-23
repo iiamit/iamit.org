@@ -3,6 +3,7 @@ layout: post
 title: "Local PayPal Phishing - and why we need a CERT"
 date: 2011-05-03
 permalink: /blog/local-paypal-phishing-and-why-we-need-a-cert/
+categories: [research, cyber-policy]
 ---
 
 This just came in the mail: (twice - at two different mailboxes - I must be a high value target for these guys)

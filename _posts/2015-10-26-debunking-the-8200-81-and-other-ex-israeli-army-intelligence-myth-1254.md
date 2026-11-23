@@ -3,6 +3,7 @@ layout: post
 title: "Debunking the \"8200\", \"81\" and other #### ex-Israeli Army Intelligence myth"
 date: 2015-10-26
 permalink: /blog/debunking-the-8200-81-and-other-ex-israeli-army-intelligence-myth/
+categories: [community]
 ---
 
 I'm a known and pretty vocal advocate of self learning, self starting, and inquisitive entrepreneurial spirit. As such, I've witnessed over my years in the security industry, a lot of occasions where the halo or myth surrounding some so-called "elite" units in the Israeli Army Intelligence has blinded people.

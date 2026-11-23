@@ -3,6 +3,7 @@ layout: post
 title: "Offtopic - a story about customer service (or lack of such)"
 date: 2010-02-17
 permalink: /blog/offtopic-a-story-about-customer-service-or-lack-of-such/
+categories: [personal]
 ---
 
 So some of you know that I switched (back) to a mac. Great.

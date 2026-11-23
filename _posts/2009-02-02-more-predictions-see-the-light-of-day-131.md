@@ -3,6 +3,7 @@ layout: post
 title: "More predictions see the light of day?"
 date: 2009-02-02
 permalink: /blog/more-predictions-see-the-light-of-day/
+categories: [research, strategy-risk]
 ---
 
 <div>

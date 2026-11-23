@@ -3,6 +3,7 @@ layout: post
 title: "Building a brand loyalty - how NOT to"
 date: 2010-12-26
 permalink: /blog/building-a-brand-loyalty-how-not-to/
+categories: [personal]
 ---
 
 <p><strong>Disclaimer: this is a rant.</strong></p>

@@ -2,7 +2,8 @@
 layout: post
 title: "Post-AI Engineering: Designing Infrastructure For AI That Writes Infrastructure"
 date: 2025-11-26
-categories: [forbes, security, devops, ai]
+categories: [ai, cloud-devops]
+publication: Forbes
 ---
 
 By 2026, AI won’t just help us write infrastructure. It will evolve it. The first generation of AI-assisted coding changed how we build software. The next will change how that software and the infrastructure beneath it evolve, adapt, and optimize themself. The shift is inevitable. The question is no longer whether AI can manage infrastructure, but whether we can trust it to do so.

@@ -3,11 +3,12 @@ layout: post
 title: "It's all about the money"
 date: 2010-03-18
 permalink: /blog/its-all-about-the-money/
+categories: [research, strategy-risk]
 ---
 
 In my recent coverage of CyberCrime and CyberWar, I have neglected my old "friends" at the criminal world and gave them a little less attention (at least on their consumer business). It's time to take a look back and see what are they up to.
 
-Well - it might seem as non-news for readers of this blog (or people who were in my presentations at <a href="http://www.blackhat.com/html/bh-europe-08/bh-eu-08-archives.html#Amit">BlackHat</a>, <a href="http://defcon.org/html/links/dc-archives/dc-17-archive.html#Amit">DefCon</a>, <a href="http://hackerhalted.com/Conference/Speakers/IftachIanAmit/tabid/114/Default.aspx">HackerHalted</a>, <a href="http://www.newcamelotcouncil.com/SpeakersEN.html">ExcaliburCon</a>, <a href="http://technet.microsoft.com/en-us/security/cc748656.aspx">BlueHat</a>, or in other venues), but a couple of interestingÂ sound-bytesÂ may catch your eye:
+Well - it might seem as non-news for readers of this blog (or people who were in my presentations at <a href="http://www.blackhat.com/html/bh-europe-08/bh-eu-08-archives.html#Amit">BlackHat</a>, <a href="http://defcon.org/html/links/dc-archives/dc-17-archive.html#Amit">DefCon</a>, <a href="http://hackerhalted.com/Conference/Speakers/IftachIanAmit/tabid/114/Default.aspx">HackerHalted</a>, <a href="http://www.newcamelotcouncil.com/SpeakersEN.html">ExcaliburCon</a>, <a href="http://technet.microsoft.com/en-us/security/cc748656.aspx">BlueHat</a>, or in other venues), but a couple of interesting sound-bytes may catch your eye:
 
 <img class="  alignright" title="That's how $205M look like..." src="http://www.justice.gov/dea/photos/operations/205million_fig1.jpg" alt="" width="300" height="225" />
 

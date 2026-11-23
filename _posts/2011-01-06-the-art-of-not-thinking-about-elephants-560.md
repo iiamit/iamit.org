@@ -3,6 +3,7 @@ layout: post
 title: "the art of not thinking about elephants"
 date: 2011-01-06
 permalink: /blog/the-art-of-not-thinking-about-elephants/
+categories: [strategy-risk, offensive-security]
 ---
 
 We have been quite busy here at Security Art in the last few weeks  (as the blog posting frequency suggests), but I figured I would provide a  quick preview of some of the elements we have been working on in terms  of risk management.

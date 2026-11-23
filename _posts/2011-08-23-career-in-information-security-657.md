@@ -3,13 +3,14 @@ layout: post
 title: "Career in Information Security"
 date: 2011-08-23
 permalink: /blog/career-in-information-security/
+categories: [community]
 ---
 
 So, here comes the time when I say out loud something about where I work on this blog... My company - Security Art, is at the challenging phase where we are growing rapidly, and as a result are also looking to grow our excellent team.
 
 <a title="Full Metal Jacket" href="http://flickr.com/photos/71038389@N00/3185492739"><img class="alignright" src="http://farm4.static.flickr.com/3398/3185492739_fda6fc7647_m.jpg" alt="" width="240" height="140" /></a>If you ever ran a small company you know how hard this phase is. Making sure not to outgrow the amount of work you can take, making sure you can still deliver the top-notch services you got your customers used to (and what built your reputation in the first place), managing the growth, having people trained and lined up to the way you do business, the list goes on and on...
 
-Bottom line, It's one of the more exciting (and scary) phases that aÂ boutiqueÂ company such as ours goes through, and we are looking for more talents to join our team.
+Bottom line, It's one of the more exciting (and scary) phases that a boutique company such as ours goes through, and we are looking for more talents to join our team.
 
 Beyond the "standard" job descriptions you can find on the <a href="http://www.security-art.com/careers">careers page</a> on our company website, I can only say that:
 <ol>

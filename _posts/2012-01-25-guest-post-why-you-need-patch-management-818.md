@@ -3,12 +3,13 @@ layout: post
 title: "Guest post: Why you need patch management"
 date: 2012-01-25
 permalink: /blog/guest-post-why-you-need-patch-management/
+categories: [strategy-risk, research]
 ---
 
 <blockquote>Today we have another guest post from our friends at GFI - this time on patch management (which unfortunately is one of the reasons that so many pentests are so easy to succeed in...)</blockquote>
 <a href="http://www.iamit.org/assets/uploads/2012/01/patches.jpg"><img class="alignright size-medium wp-image-820" title="patches" src="http://www.iamit.org/assets/uploads/2012/01/patches-300x300.jpg" alt="" width="300" height="300" /></a>Every organization uses several types of software such as operating systems, servers, clients and many other third party applications. Every software package is a complicated piece of engineering. Programs are created from hundreds of thousands to millions of lines of code and each line of code is further converted by the compiler into many low level instructions that a computer needs to execute. With all this complexity, it is not surprising that issues will arise affecting the smooth running of the system on which the software is installed.
 
-Be it a coding mishap, a combination of inputs that the developer didnâ€™t foresee, or even an unexpected interaction between the billions of low level instructions, an application can have a vulnerability that would allow someone to maliciously exploit in order to perform some undesired action.
+Be it a coding mishap, a combination of inputs that the developer didn’t foresee, or even an unexpected interaction between the billions of low level instructions, an application can have a vulnerability that would allow someone to maliciously exploit in order to perform some undesired action.
 
 Malicious hackers are constantly looking for these software deficiencies both for fame and profit. A zero-day vulnerability in a popular application may be sold for hundreds of thousands of dollars on the black market. Such vulnerabilities could be used to infect a large number of computers before vendors get a chance to detect and address the problem.
 
@@ -20,7 +21,7 @@ While security researchers play an important role in discovering vulnerabilities
 
 Hackers are aware that many IT admins take their time to patch their systems, sometimes waiting months to deploy a released patch. Code Red is a perfect example. While Code Red exploited a vulnerability for which a patch had been available for over a month, countless systems were compromised by the malware because many had not yet deployed the critical patch.
 
-One also needs to take a holistic approach to patch management.Â  As in all security cases, it is the weakest link in the system that is exploited. An attacker does not need to compromise all your systemsâ€™ vulnerabilities, they only need to compromise one vulnerability to get access to your systems. That is why selective patch management is not recommended. While operating system patch management is essential and easiest to perform, that alone will not protect you against vulnerabilities in third-party products such as a PDF file exploiting a vulnerability in a PDF reader.
+One also needs to take a holistic approach to patch management.  As in all security cases, it is the weakest link in the system that is exploited. An attacker does not need to compromise all your systems’ vulnerabilities, they only need to compromise one vulnerability to get access to your systems. That is why selective patch management is not recommended. While operating system patch management is essential and easiest to perform, that alone will not protect you against vulnerabilities in third-party products such as a PDF file exploiting a vulnerability in a PDF reader.
 
 It is obviously preferable to do operating system patch management exclusively rather than having no patch management at all, but the more applications you keep up to date the more effective your security will be.
 <blockquote><em>

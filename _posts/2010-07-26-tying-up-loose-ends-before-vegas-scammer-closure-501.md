@@ -3,9 +3,10 @@ layout: post
 title: "Tying up loose ends before Vegas (scammer closure)"
 date: 2010-07-26
 permalink: /blog/tying-up-loose-ends-before-vegas-scammer-closure/
+categories: [research]
 ---
 
-Instead of updating the <a href="http://www.iamit.org/blog/2010/07/how-not-to-scam-security-people/">post in question</a> (again), I figured I'll post all the new info here and call this a wrap.
+Instead of updating the <a href="/blog/how-not-to-scam-security-people/">post in question</a> (again), I figured I'll post all the new info here and call this a wrap.
 
 So, we all know about the security scammer now, and the different ways he is working to defraud innocent users and steal their data and money. It has been quite an experience tracking this scam down and getting all the facts right (from the technical aspect of inspecting the keylogger and binaries used to sniff your data, to actually communicating with the scammer and getting his take on things).
 

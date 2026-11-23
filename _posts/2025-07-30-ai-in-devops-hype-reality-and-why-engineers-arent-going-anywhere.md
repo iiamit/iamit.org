@@ -2,7 +2,8 @@
 layout: post
 title: "AI In DevOps: Hype, Reality And Why Engineers Aren't Going Anywhere"
 date: 2025-07-30
-categories: [forbes, security, devops, ai]
+categories: [ai, cloud-devops]
+publication: Forbes
 ---
 
 Let’s cut through the noise: AI in DevOps is everywhere, and the hype machine is running at full throttle. Every vendor claims their AI tool will make your engineers obsolete, automate away your headaches and maybe even make your coffee. But here’s the reality: AI is moving fast, but it’s not even close to replacing real engineers, and anyone telling you otherwise is overselling unproven capabilities.

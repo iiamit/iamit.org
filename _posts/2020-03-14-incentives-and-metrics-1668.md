@@ -3,6 +3,7 @@ layout: post
 title: "Incentives and metrics"
 date: 2020-03-14
 permalink: /blog/incentives-and-metrics/
+categories: [strategy-risk]
 ---
 
 <!-- wp:paragraph -->
@@ -11,7 +12,7 @@ permalink: /blog/incentives-and-metrics/
 
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p>"you have to be very careful of what you incent people to do, because various incentive structures create all sorts of consequences that you can't anticipate"</p>
+<p>"you have to be very careful of what you incent people to do, because various incentive structures create all sorts of consequences that you can't anticipate"</p>
 <!-- /wp:paragraph --><cite>Steve Jobs</cite></blockquote>
 <!-- /wp:quote -->
 
@@ -32,7 +33,7 @@ permalink: /blog/incentives-and-metrics/
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I'll start with the first (quite miserable) realization: if you work for a company that boasts fancy office perks, you are underpaid and are incentivized to spend more time in the office. The latter is pretty obvious, and I am sure you realized that when you signed up. The second usually takes a while to sink in. Look around the office, and count the money. All the people there catering for your needs, all the food, dry cleaning, cooks, massage therapists, and whatever other ostentatious pers you see, cost a lot of money. And all this money - is taken out of your pocket.<br> I had the luxury of having an opportunity to decide between two jobs - one with Amazon, and another with a large company that offered said perks, and quickly realized how the amazon frugality translates into more employee satisfaction and more take-home pay. Simple - as an Amazonian, your perks end up with a $100 discount on shopping at amazon.com. Per year (manifested as a 10% discount on the first $1000 spent). And for the same role you are getting significantly more in your total compensation than with the other â€œfancy perksâ€ company.</p>
+<p>I'll start with the first (quite miserable) realization: if you work for a company that boasts fancy office perks, you are underpaid and are incentivized to spend more time in the office. The latter is pretty obvious, and I am sure you realized that when you signed up. The second usually takes a while to sink in. Look around the office, and count the money. All the people there catering for your needs, all the food, dry cleaning, cooks, massage therapists, and whatever other ostentatious pers you see, cost a lot of money. And all this money - is taken out of your pocket.<br> I had the luxury of having an opportunity to decide between two jobs - one with Amazon, and another with a large company that offered said perks, and quickly realized how the amazon frugality translates into more employee satisfaction and more take-home pay. Simple - as an Amazonian, your perks end up with a $100 discount on shopping at amazon.com. Per year (manifested as a 10% discount on the first $1000 spent). And for the same role you are getting significantly more in your total compensation than with the other “fancy perks” company.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

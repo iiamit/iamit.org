@@ -6,3 +6,4 @@ url: "https://iamit.org"
 # theme: jekyll-theme-prime # Optional, but we are using custom layouts
 markdown: kramdown
 permalink: /blog/:title/
+exclude: [tests, scripts]

@@ -3,11 +3,12 @@ layout: post
 title: "Snooping into Palin emails? Watch out for the criminals snooping on you!"
 date: 2008-09-18
 permalink: /blog/snooping-into-palin-emails-watch-out-for-the-criminals-snooping-on-you/
+categories: [research]
 ---
 
 Following the recent news on how an anonymous group has managed to take over Sarah Palin's Yahoo! email account; we have noticed some interesting happenings. As wikileaks which was the original posting location of the images taken from Palin's yahoo inbox was unavailable for some time, copies of the wikileaks post started to appear on other sites.
 
-Our assumptions are that as usersÂ  foundÂ  the original site unavailable, they started resorting to deepening their searches to try and find other copies of the original images. It seems that e-Criminals are just in-tune with the latest news and browsing habits, and have managed to publish (or alter an already published) zip archive of the original wikileaks post with a small alteration that included a malicious script appended to the html content. Users that are eager to take a look at the leaked images finally found themselves looking at an archive copy of the original wikileaks page, but without having any clue about the malicious script running on their PC at the same time.
+Our assumptions are that as users  found  the original site unavailable, they started resorting to deepening their searches to try and find other copies of the original images. It seems that e-Criminals are just in-tune with the latest news and browsing habits, and have managed to publish (or alter an already published) zip archive of the original wikileaks post with a small alteration that included a malicious script appended to the html content. Users that are eager to take a look at the leaked images finally found themselves looking at an archive copy of the original wikileaks page, but without having any clue about the malicious script running on their PC at the same time.
 
 <a href="http://www.iamit.org/assets/uploads/2008/09/palin.jpg"><img class="alignnone size-medium wp-image-291" title="palin" src="http://www.iamit.org/assets/uploads/2008/09/palin-300x278.jpg" alt="palin" width="300" height="278" /></a>
 

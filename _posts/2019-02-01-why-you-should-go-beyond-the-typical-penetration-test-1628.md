@@ -3,6 +3,7 @@ layout: post
 title: "Why You Should Go Beyond The Typical Penetration Test"
 date: 2019-02-01
 permalink: /blog/why-you-should-go-beyond-the-typical-penetration-test/
+categories: [offensive-security, strategy-risk]
 ---
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
@@ -10,15 +11,15 @@ permalink: /blog/why-you-should-go-beyond-the-typical-penetration-test/
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If youâ€™ve ever run across a penetration  test report, they usually look bleak. I should know; Iâ€™ve authored  hundreds of them. By their very nature, they try to focus on the most  egregious security issues within a system or network. Having an  understanding of how an actual adversary would perceive the organization  (which is a lot different than how a hired penetration tester does) and  a grasp of the business and operational relevance of the tested  environment are crucial to driving an effective result.</p>
+<p>If you’ve ever run across a penetration  test report, they usually look bleak. I should know; I’ve authored  hundreds of them. By their very nature, they try to focus on the most  egregious security issues within a system or network. Having an  understanding of how an actual adversary would perceive the organization  (which is a lot different than how a hired penetration tester does) and  a grasp of the business and operational relevance of the tested  environment are crucial to driving an effective result.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>In combination with a good understanding of the business risks and how they relate to cybersecurity (see my <a href="https://www.forbes.com/sites/forbestechcouncil/2019/01/02/two-frameworks-for-securing-a-decentralized-enterprise/">previous article</a>
  on utilizing two frameworks for securing a decentralized organization),
- a companyâ€™s security organization can provide context for such 
+ a company’s security organization can provide context for such
 technical and scope-focused penetration tests. As we go through a report
- and align it with business risks, we should keep asking â€œwhy/what.â€ Why
+ and align it with business risks, we should keep asking “why/what.” Why
  is this finding relevant? Why is this issue so critical? What is the 
 root cause that allowed an asset to be exploited? What are the 
 environmental factors that are part of this scenario?</p>
@@ -58,9 +59,9 @@ report findings from a penetration test, but rather, it should compel
 you to enhance them within the business context and make them more 
 applicable for your organization. Many of these tests are done through 
 narrow scoping, so as you get more proficient in contextualizing the 
-results, youâ€™ll be able to work more closely with your penetration 
+results, you’ll be able to work more closely with your penetration
 testers and guide them to provide tests and results that are attuned to 
-your businessâ€™ needs.</p>
+your business’ needs.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

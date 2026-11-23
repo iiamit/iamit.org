@@ -3,6 +3,7 @@ layout: post
 title: "Relying on AV? Really?"
 date: 2014-04-06
 permalink: /blog/relying-on-av-really/
+categories: [research, strategy-risk]
 ---
 
 I tried to hold back on this one, but if you've read this blog (or met me in person) you know it's hard... Another <strong>amazing</strong> research coming out of your favorite AV vendor - uncovering ground breaking security implications. Take a minute to read this:
@@ -21,6 +22,6 @@ The question remains though - are you still relying on AV vendors to have your b
 <img class="aligncenter" alt="" src="http://blog.lib.umn.edu/ladex007/myblog/placebo.gif" width="413" height="310" />
 
 Think again...
-Oh, and here's a late edition just to top it off:Â <a href="http://mincore.c9x.org/breaking_av_software.pdf">http://mincore.c9x.org/breaking_av_software.pdf</a>Â (Breaking AV Software - from Syscan 2014).
+Oh, and here's a late edition just to top it off: <a href="http://mincore.c9x.org/breaking_av_software.pdf">http://mincore.c9x.org/breaking_av_software.pdf</a> (Breaking AV Software - from Syscan 2014).
 
 And guess what, perfect timing - next week I'm going to be in Boston again for Source - where this post basically all began :-) See you <a href="http://sourceconference.com/boston/speakers_2014.html">there</a>!

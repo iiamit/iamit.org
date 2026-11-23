@@ -3,6 +3,7 @@ layout: post
 title: "Analyzing an AJAX Attack Vector in the wild"
 date: 2007-03-15
 permalink: /blog/analyzing-an-ajax-attack-vector-in-the-wild/
+categories: [research]
 ---
 
 We have just finished working on a new monthly released paper that will focus on a new "page" (dubbed "Malicious Page of the Month"). This month we have analyzed an AJAX attack vector found by our labs in the wild.

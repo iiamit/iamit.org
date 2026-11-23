@@ -3,6 +3,7 @@ layout: post
 title: "Elastic Permissions"
 date: 2020-06-23
 permalink: /blog/elastic-permissions/
+categories: [strategy-risk, cloud-devops]
 ---
 
 <!-- wp:paragraph -->

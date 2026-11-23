@@ -3,11 +3,12 @@ layout: post
 title: "Defining Penetration Testing"
 date: 2011-03-04
 permalink: /blog/defining-penetration-testing/
+categories: [offensive-security, strategy-risk]
 ---
 
 I have been fortunate enough to be working with a group of peers from the security industry over the past few months (since November 2010) on finally creating a solid definition of what a penetration testing is.
 
-It has been a topic that has been abused, cannibalized, and lowered toÂ a level where we (as in people in the industry) could not relate to it anymore. It was time to get the fake stuff out, and focus on content. We were all getting tired of "penetration tests" that were nothing more than a Nessus scan printed out and slapped on with the "security consultancy" logo.
+It has been a topic that has been abused, cannibalized, and lowered to a level where we (as in people in the industry) could not relate to it anymore. It was time to get the fake stuff out, and focus on content. We were all getting tired of "penetration tests" that were nothing more than a Nessus scan printed out and slapped on with the "security consultancy" logo.
 
 <img class="alignright" title="PTES" src="http://www.pentest-standard.org/images/ptes-2.png" alt="" width="135" height="135" />Enter - the <a href="http://www.pentest-standard.org">Penetration Testing Execution Standard</a>.
 

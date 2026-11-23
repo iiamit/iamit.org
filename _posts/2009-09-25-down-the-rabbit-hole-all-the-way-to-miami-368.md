@@ -3,6 +3,7 @@ layout: post
 title: "Down the rabbit hole all the way to Miami"
 date: 2009-09-25
 permalink: /blog/down-the-rabbit-hole-all-the-way-to-miami/
+categories: [research, community]
 ---
 
 So the talk at Hacker Halted was really good - I was impressed with the quality of the audience and the presentations.

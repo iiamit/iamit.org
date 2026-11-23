@@ -3,6 +3,7 @@ layout: post
 title: "The curious case of Dropbox security"
 date: 2011-04-13
 permalink: /blog/the-curious-case-of-dropbox-security/
+categories: [research, cloud-devops]
 ---
 
 <img class="alignright" title="Dropbox logo" src="https://www.dropbox.com/static/images/dropbox_logo_home.png" alt="The Dropbox logo" width="290" height="75" />After the <a href="http://dereknewton.com/2011/04/dropbox-authentication-static-host-ids/">disclosure of the host_id</a> authentication issues that plagued the popular Dropbox service last week, a<a href="http://paranoia.dubfire.net/2011/04/how-dropbox-sacrifices-user-privacy-for.html"> new issue came up</a> with the fact that Dropbox can detect whether the files you are trying to upload to their cloud already exist there, and "save you the bandwidth" of uploading it if they already have a copy in hand.

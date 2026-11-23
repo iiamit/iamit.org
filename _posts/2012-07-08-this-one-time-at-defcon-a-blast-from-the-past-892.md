@@ -3,6 +3,7 @@ layout: post
 title: "This one time, at Defcon... (a blast from the past)"
 date: 2012-07-08
 permalink: /blog/this-one-time-at-defcon-a-blast-from-the-past/
+categories: [offensive-security, community]
 ---
 
 Wow, there's a blog here...
@@ -11,6 +12,6 @@ Wow, there's a blog here...
 
 My good friend Itzik Kotler has just written a blog post about bypassing DLP systems using some of our elements from last year's DefCon talk (and BSides, and Hashdays, and Brucon, you get the idea...). It features some awkwardly written code (yours truly) and some wickedly useful evasion techniques (still mostly unhandled :-)).
 
-The post is right here:Â <a href="http://blog.ikotler.org/2012/07/modulation-and-data-loss-prevention-dlp.html">http://blog.ikotler.org/2012/07/modulation-and-data-loss-prevention-dlp.html</a> so go check out Itzik's blog, and feel free to <a href="https://github.com/iiamit/data-sound-poc">fork off the code</a> and improve (fix?) it.
+The post is right here: <a href="http://blog.ikotler.org/2012/07/modulation-and-data-loss-prevention-dlp.html">http://blog.ikotler.org/2012/07/modulation-and-data-loss-prevention-dlp.html</a> so go check out Itzik's blog, and feel free to <a href="https://github.com/iiamit/data-sound-poc">fork off the code</a> and improve (fix?) it.
 
 See you all in a couple of weeks in Vegas! (at the <a href="http://blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Amit">SexyDefense</a> session...)

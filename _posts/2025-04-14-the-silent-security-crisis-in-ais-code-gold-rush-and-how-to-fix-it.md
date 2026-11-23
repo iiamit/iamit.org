@@ -2,7 +2,8 @@
 layout: post
 title: "The Silent Security Crisis In AI’s Code Gold Rush—And How To Fix It"
 date: 2025-04-14
-categories: [forbes, security, devops, ai]
+categories: [ai, cloud-devops]
+publication: Forbes
 ---
 
 CEO & Co-Founder at Gomboc AI .

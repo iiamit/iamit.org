@@ -2,7 +2,8 @@
 layout: post
 title: "Hire Another Engineer Or Invest In Automation? Rethinking Platform Engineering In The AI Era"
 date: 2025-09-09
-categories: [forbes, security, devops, ai]
+categories: [ai, cloud-devops]
+publication: Forbes
 ---
 
 In 2025, platform teams face a critical choice: add headcount or buy/invest in automation and deterministic tooling to scale developer velocity and control costs. With margins tightening and demand for speed escalating, framing this as a cost-efficiency decision is no longer optional—it’s strategic.

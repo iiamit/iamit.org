@@ -3,6 +3,7 @@ layout: post
 title: "Google's \"Ghost in a Browser\", WebSense, and more..."
 date: 2007-05-17
 permalink: /blog/googles-ghost-in-a-browser-websense-and-more/
+categories: [research]
 ---
 
 First things first - big Kudos to Google for their research paper. We at MCRC have found it to be very reassuring for us - now we know we are not the only nuts out there running around in the security arena and wondering how come nobody sees the imminent threats described in the paper.

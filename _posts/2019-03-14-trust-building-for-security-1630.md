@@ -3,6 +3,7 @@ layout: post
 title: "Trust-Building For Security"
 date: 2019-03-14
 permalink: /blog/trust-building-for-security/
+categories: [strategy-risk, cloud-devops]
 ---
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
@@ -10,7 +11,7 @@ permalink: /blog/trust-building-for-security/
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Trust is a fickle thing. And, weirdly  enough, the basic assumption of a lot of security practices seems to  include a certain level of trust in users that is pretty hard to justify  these days. This is why we see so many successful breaches that can be  traced back to compromised accounts,  default passwords and social engineering. One then asks, â€œHow should I  reduce or eliminate inherent trust from the equation?â€ Good question!</p>
+<p>Trust is a fickle thing. And, weirdly  enough, the basic assumption of a lot of security practices seems to  include a certain level of trust in users that is pretty hard to justify  these days. This is why we see so many successful breaches that can be  traced back to compromised accounts,  default passwords and social engineering. One then asks, “How should I  reduce or eliminate inherent trust from the equation?” Good question!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -62,15 +63,15 @@ permissions. Why should these activities be constantly accessible to our
 <!-- wp:paragraph -->
 <p>In a trustless world, our user will have the defined relationship 
 with said reporting functionality, but exercising this functionality 
-would be scrutinized both on a temporal perspective (â€œIs it the right 
-time of the quarter?â€) as well as on a trustworthiness level (â€œCan we 
+would be scrutinized both on a temporal perspective (“Is it the right
+time of the quarter?”) as well as on a trustworthiness level (“Can we
 accumulate enough evidence to ensure this is indeed the user in 
-question?â€). From the user's perspective, the process is still pretty 
+question?”). From the user's perspective, the process is still pretty
 much the same. They may be required to present additional validation for
  their identity (responding to a multifactor authentication process), 
 but the rest of the elements can be gathered and analyzed automatically 
-(â€œCan we identify the device? Is it adequately patched/protected? Can we
- identify the environment?â€).</p>
+(“Can we identify the device? Is it adequately patched/protected? Can we
+ identify the environment?”).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -109,9 +110,9 @@ nimble.</p>
 <p>So here's a quick takeaway for you: Look at the common ways in which 
 users in your organization access assets. Now, figure out what trust 
 assumptions are being made (implicitly and explicitly) through the 
-process. Scrutinize each trust assumption, and ask yourself, â€œShould 
+process. Scrutinize each trust assumption, and ask yourself, “Should
 this be an explicit trust assertion that's based on evidence relevant to
- this context?â€ Repeat periodically to make sure you are comfortable 
+ this context?” Repeat periodically to make sure you are comfortable
 with the kinds of risks you are taking when leaving these implied trust 
 assertions in place.</p>
 <!-- /wp:paragraph -->

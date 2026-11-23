@@ -3,6 +3,7 @@ layout: post
 title: "Phishing/Threatening done wrong"
 date: 2012-11-30
 permalink: /blog/phishingthreatening-done-wrong/
+categories: [research]
 ---
 
 It's been a long time since I posted here since life and work really got in the way (in a very good way!) to publishing here. But I just had to share this as it has some relevance to security...
@@ -18,11 +19,11 @@ Second - the attached PDF has no exploits, no trojans, nothing. At least TRY to 
 
 Last - come on, all of the speakers are "foreign". None of us really speaks/reads spanish that well. Putting a note "Whether you need translation go google" at the top isn't really showing a lot of investment from your end. The least you could do is get someone who speaks English to help you a bit.
 <div>I mean - this is what I do for a <strong>living</strong>. Next time - ping me before so we can at least get a decent domain, set up a nice mail service on it, get some content on it, generate some plausible background data, something...</div>
-<div>Although we won't have the red-team class next week, I highly suggest whoever tried this to spring up the money and fly to The Hague for the <a href="https://www.ncsc.nl/conference/conference-2013/training-sessions/red-teaming">NCSC Â Conference</a> in January for our red-team class.</div>
-<div>I personally promise free drinks fromÂ <a href="https://www.facebook.com/indigosax" data-hovercard="/ajax/hovercard/user.php?id=500490370">Chris Nickerson</a>Â and myself if you can prove that you sent the email. And you know what - the class is on me. Just show up! :-)</div>
+<div>Although we won't have the red-team class next week, I highly suggest whoever tried this to spring up the money and fly to The Hague for the <a href="https://www.ncsc.nl/conference/conference-2013/training-sessions/red-teaming">NCSC  Conference</a> in January for our red-team class.</div>
+<div>I personally promise free drinks from <a href="https://www.facebook.com/indigosax" data-hovercard="/ajax/hovercard/user.php?id=500490370">Chris Nickerson</a> and myself if you can prove that you sent the email. And you know what - the class is on me. Just show up! :-)</div>
 <div></div>
 <div><a href="http://www.iamit.org/assets/uploads/2012/11/Invitacion_FARC-EP.png"><img class="aligncenter size-large wp-image-938" title="Invitacion_FARC-EP" src="http://www.iamit.org/assets/uploads/2012/11/Invitacion_FARC-EP-494x700.png" alt="" width="494" height="700" /></a></div>
-<div>Here's the PDF if you are so inclined to have a laugh:Â <a href="http://www.iamit.org/assets/uploads/2012/11/Invitacion_FARC-EP.pdf">Invitacion_FARC-EP</a></div>
+<div>Here's the PDF if you are so inclined to have a laugh: <a href="http://www.iamit.org/assets/uploads/2012/11/Invitacion_FARC-EP.pdf">Invitacion_FARC-EP</a></div>
 <div></div>
 <div><strong>Update - December 1st, 2012</strong>: The Colombia National Police and Ministry of Defense have issued a letter stating that after investigating the issue, and working with the intelligence group, they have reached the same conclusion - this is NOT a letter that FARC has produced (duh - FARC would have done a much better job!), and is a fake. There is obviously no risk to the recipients of the letter. See you all in Colombia in a couple of days!</div>
 <div></div>

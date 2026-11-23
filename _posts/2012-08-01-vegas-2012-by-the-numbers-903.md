@@ -3,6 +3,7 @@ layout: post
 title: "Vegas 2012 by the Numbers"
 date: 2012-08-01
 permalink: /blog/vegas-2012-by-the-numbers/
+categories: [community]
 ---
 
 So, I'm finally back from a very long week in Vegas. How long you ask? well, here are some numbers that start to reflect how it felt:

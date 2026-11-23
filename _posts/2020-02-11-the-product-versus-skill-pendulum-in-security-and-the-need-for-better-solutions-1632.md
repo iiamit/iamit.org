@@ -3,6 +3,7 @@ layout: post
 title: "The Product Versus Skill Pendulum In Security And The Need For Better Solutions"
 date: 2020-02-11
 permalink: /blog/the-product-versus-skill-pendulum-in-security-and-the-need-for-better-solutions/
+categories: [strategy-risk, cloud-devops]
 ---
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
@@ -25,7 +26,7 @@ training.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Weâ€™ve reached a point where products matter less and less. Remember 
+<p>We’ve reached a point where products matter less and less. Remember
 when the first action when getting a new PC was to install an AV on it 
 and try to beat the clock before it got exploited? Now, PCs are pretty 
 much secure out of the box thanks to the native malware detection and 
@@ -34,10 +35,10 @@ mitigation tools that are part of the operating system.</p>
 
 <!-- wp:paragraph -->
 <p>However, when looking at the security industry, we still see a lot of
- relics of the old-school way of operating. Iâ€™m not looking to explore 
-whoâ€™s to blame (VCs? Startups? Consumers? Analysts? Your bet is as good 
+ relics of the old-school way of operating. I’m not looking to explore
+who’s to blame (VCs? Startups? Consumers? Analysts? Your bet is as good
 as mine), but a lot of security vendors still treat the world in a 
-binary fashion. If you look at marketing claims, for instance, itâ€™s 
+binary fashion. If you look at marketing claims, for instance, it’s
 either you have their product, or you are not secure.</p>
 <!-- /wp:paragraph -->
 
@@ -45,27 +46,27 @@ either you have their product, or you are not secure.</p>
 <p>This brings me to my main point: A lot of security organizations are 
 already through the pendulum shift. They are much more data- and 
 customer-focused and are prioritizing their risk decisions around this 
-rather than around the binary checklist of products. If thatâ€™s the case,
+rather than around the binary checklist of products. If that’s the case,
  where does that leave most industry vendors, especially with products 
-that are not designed around the customerâ€™s actual needs?</p>
+that are not designed around the customer’s actual needs?</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>As an example, our security organization at Cimpress has been pretty 
 adamant about practicing this customer-focused approach. We make it 
-clear what our needs are and the features/capabilities weâ€™d like to have
+clear what our needs are and the features/capabilities we’d like to have
  based on our threat models and current capabilities. However, this 
 leads to several problems.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>First, a lot of vendors donâ€™t know how to address that. They have a 
-list of features and their marketing pitch, and thatâ€™s it. We're looking
+<p>First, a lot of vendors don’t know how to address that. They have a
+list of features and their marketing pitch, and that’s it. We're looking
  for specific answers--possibly answers that include road map 
 milestones--and are not expecting a single product to address all of our
  needs. Vendors, on the other hand, find it difficult to adjust their 
 sales process (and pricing) to address customers' specific needs, 
-leaving frustrated after being told that weâ€™re not using 80% of the 
+leaving frustrated after being told that we’re not using 80% of the
 product capabilities but would love to pay for the 20% we actually need.</p>
 <!-- /wp:paragraph -->
 
@@ -90,7 +91,7 @@ product-centric and more data/process-centric expertise increases.</p>
 
 <!-- wp:paragraph -->
 <p>What to do? Simple: Enjoy the sound of silence for a moment, 
-especially as a vendor. Donâ€™t incessantly ask what a potential 
+especially as a vendor. Don’t incessantly ask what a potential
 customer's current challenges are while trying to calculate what part of
  the answer you can anchor on to and sell your product through. We need 
 to "shift left" that question from sales back to product design and even
@@ -101,7 +102,7 @@ partial or no solutions.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Iâ€™ve been fortunate to work with a few VCs and startups that do just 
+<p>I’ve been fortunate to work with a few VCs and startups that do just
 that and have the foresight to validate these needs and keep driving 
 their solution to address them or pivot their product so that it truly 
 addresses the core issues.</p>
@@ -114,7 +115,7 @@ worse, resort to speaking ill of their competition. Statements like, "We
  see a lot of customers of vendor X come to us after two years, and now,
  with our product, they are happy," should be banned from sales 
 discussions and replaced with, "Vendor X? Yes! I hear that their product
- is really good and addresses a certain set of problems really well. Iâ€™d
+ is really good and addresses a certain set of problems really well. I’d
  love to know what your threat model and priorities are to better 
 understand whether it is X you should go with or maybe find a different 
 set of solutions."</p>
@@ -122,10 +123,10 @@ set of solutions."</p>
 
 <!-- wp:paragraph -->
 <p>And as much as innovative products sometimes need to educate the 
-market (Iâ€™ve been there and am actively working with companies like that
- as well), most times, the reverse is whatâ€™s needed: truly understanding
+market (I’ve been there and am actively working with companies like that
+ as well), most times, the reverse is what’s needed: truly understanding
  what the industry needs right now and providing true minimal viable 
-products (MVPs) that solve these often basic problems. Thereâ€™s money in 
+products (MVPs) that solve these often basic problems. There’s money in
 solving seemingly simple issues, especially if they have been around for
  a long time and are considered "the norm" or something that people need
  to just accept as suboptimal.</p>

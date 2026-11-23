@@ -3,9 +3,10 @@ layout: post
 title: "ExoticLiability podcast interview"
 date: 2010-03-08
 permalink: /blog/exoticliability-podcast-interview/
+categories: [community]
 ---
 
-<img class="alignright" title="ExoticLiability" src="https://dl.dropbox.com/u/1545684/EL2.jpg" alt="ExoticLiability  logo" width="173" height="69" />OK, so a quick shameless plug for me and a couple of good friends at EL: I had theÂ pleasure of throwing it all out with the ExoticLiability crew over the weekend, which ended up in a pretty cool podcast. Check it out at <a href="http://www.exoticliability.com">www.exoticliability.com</a> (episode 51).
+<img class="alignright" title="ExoticLiability" src="https://dl.dropbox.com/u/1545684/EL2.jpg" alt="ExoticLiability  logo" width="173" height="69" />OK, so a quick shameless plug for me and a couple of good friends at EL: I had the pleasure of throwing it all out with the ExoticLiability crew over the weekend, which ended up in a pretty cool podcast. Check it out at <a href="http://www.exoticliability.com">www.exoticliability.com</a> (episode 51).
 
 May not be completely safe for listening to at work (especially not with speakers...).
 

@@ -3,6 +3,7 @@ layout: post
 title: "Twitter spam - Spitter? Tpam?"
 date: 2009-07-06
 permalink: /blog/twitter-spam-spitter-tpam/
+categories: [research]
 ---
 
 Unless you've been living under a rock in the past couple of years, you have been exposed to Twitter in some shape or form. Having adopted the means of socializing myself not too long ago (been researching it's security since day-0, jumped on the bandwagon a few months ago), you have to live with the bad aspects of social networks again.

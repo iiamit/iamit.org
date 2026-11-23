@@ -3,6 +3,7 @@ layout: post
 title: "Random CSO Musing"
 date: 2018-11-08
 permalink: /blog/random-cso-musing/
+categories: [strategy-risk]
 ---
 
 One of the biggest challenges of running a security organization is balancing the ongoing efforts, with strategic directions, all while keeping the "pressure" on to increase the maturity across the prioritized elements that give you the most risk reduction over time.

@@ -3,6 +3,7 @@ layout: post
 title: "Security and maturity - beating the averages"
 date: 2014-06-01
 permalink: /blog/security-and-maturity-beating-the-averages/
+categories: [strategy-risk]
 ---
 
 So, There's this new (for me) LinkedIn "publishing" thing, that prompted me to try it as I was posting a semi-rant there.

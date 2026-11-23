@@ -3,6 +3,7 @@ layout: post
 title: "Getting things right goes a long way when you are bleeding"
 date: 2014-04-14
 permalink: /blog/getting-things-right-goes-a-long-way-when-you-are-bleeding/
+categories: [research, strategy-risk]
 ---
 
 I'm starting to see a trend here with the weekend posts. I can stomach most of the FUD during the work days, but things get to me through the weekend. Oh well. There goes a "mandatory" heartbleed post:

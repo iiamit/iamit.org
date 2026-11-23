@@ -3,6 +3,7 @@ layout: post
 title: "Mapping and Security Research"
 date: 2009-12-04
 permalink: /blog/mapping-and-security-research/
+categories: [research]
 ---
 
 From the "We should have trademarked this" department: McAfee came out with their "<a href="http://us.mcafee.com/en-us/local/docs/Mapping_Mal_Web.pdf">Mapping the Mal Web</a>"[PDF] report and are proving that innovation is best left for the smaller players to meddle with, only to be used later by the big guys.

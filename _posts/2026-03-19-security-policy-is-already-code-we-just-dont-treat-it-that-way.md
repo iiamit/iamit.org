@@ -2,7 +2,8 @@
 layout: post
 title: "Security Policy Is Already Code—We Just Don’t Treat It That Way"
 date: 2026-03-19
-categories: [forbes, security, devops, ai]
+categories: [cloud-devops, strategy-risk]
+publication: Forbes
 ---
 
 Organizations have more security policies than ever before: more frameworks to align to, more controls to implement, more documentation to maintain. Entire teams define, refine and map policy to technical standards. On paper, coverage has never looked stronger.

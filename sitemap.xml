@@ -16,7 +16,8 @@ layout: null
     {% endif %}
   {% endfor %}
 
-  {% for post in site.posts %}
+  {% assign listed_posts = site.posts | where_exp: "post", "post.archive_hidden != true" %}
+  {% for post in listed_posts %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>

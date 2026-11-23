@@ -3,15 +3,16 @@ layout: post
 title: "Do as I say, not as I do. RSA, Bit9, Adobe, and others..."
 date: 2013-02-09
 permalink: /blog/do-as-i-say-not-as-i-do-rsa-bit9-adobe-and-others/
+categories: [strategy-risk, research]
 ---
 
 So you thought you had everything nailed down. You might have even gone past the "best practice" (which would have driven you to compliance, and your security to the gutter), and focused on protecting your assets by applying the right controls in a risk-focused way.
 
 You had your processes, technologies, and logs all figured out.
 
-But you still got owned. Want to know why? Because you are still a littleÂ naÃ¯ve.
+But you still got owned. Want to know why? Because you are still a little naïve.
 
-<img class="alignright" alt="" src="http://api.ning.com/files/18ErKoZMIAG5zLj2sYclrlvvgnu7RsHzYcKO8Edb-A3NKZYZSndBPPcUCs-0iDlK*bs0R0p*47PyXOUNyS7YAZoRzFTKEKPf/Hypocrite1.jpg" width="321" height="257" />You put your trust in big name vendors that preached for you to get your stuff together. You listened to them, were convinced by their pitch, and you might have even put their products through rigorous testing to make sure they deliver. But you forgot one thing. Big ticket vendors are no much different from aÂ zealotÂ church.
+<img class="alignright" alt="" src="http://api.ning.com/files/18ErKoZMIAG5zLj2sYclrlvvgnu7RsHzYcKO8Edb-A3NKZYZSndBPPcUCs-0iDlK*bs0R0p*47PyXOUNyS7YAZoRzFTKEKPf/Hypocrite1.jpg" width="321" height="257" />You put your trust in big name vendors that preached for you to get your stuff together. You listened to them, were convinced by their pitch, and you might have even put their products through rigorous testing to make sure they deliver. But you forgot one thing. Big ticket vendors are no much different from a zealot church.
 
 They will preach, and guide you through to the righteous passage. But when you look behind the curtain, well, you know what I mean...
 

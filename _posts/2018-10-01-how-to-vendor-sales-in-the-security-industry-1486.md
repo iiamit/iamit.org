@@ -3,6 +3,7 @@ layout: post
 title: "How to Vendor/Sales in the Security Industry"
 date: 2018-10-01
 permalink: /blog/how-to-vendor-sales-in-the-security-industry/
+categories: [strategy-risk]
 ---
 
 I've been on the receiving end of sales pitches for years now. Ever since I took on senior leadership roles the constant trickle of various sales pitches just kept increasing.

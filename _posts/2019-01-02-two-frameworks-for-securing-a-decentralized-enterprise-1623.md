@@ -3,6 +3,7 @@ layout: post
 title: "Two Frameworks For Securing A Decentralized Enterprise"
 date: 2019-01-02
 permalink: /blog/two-frameworks-for-securing-a-decentralized-enterprise/
+categories: [strategy-risk]
 ---
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
@@ -45,12 +46,12 @@ achieve this.</p>
 <p>For security maturity metrics, we chose NIST-CSF: the NIST 
 Cybersecurity Framework. This framework provides a consistent and clear 
 indication of security maturity across over 100 categories and 
-subcategories of an organizationâ€™s defense capabilities. There are many 
+subcategories of an organization’s defense capabilities. There are many
 approaches to using this framework, ranging from self-attested surveys 
 to fully automated and continuously updating platforms. The technique is
  less of an issue than the ability to create a clear reflection of each 
-businessâ€™ maturity levels and, of course, set a minimal&nbsp;or sought-after 
-maturity level (again, this doesnâ€™t have to exist across all the 
+business’ maturity levels and, of course, set a minimal&nbsp;or sought-after
+maturity level (again, this doesn’t have to exist across all the
 subcategories). This baselining allows businesses to better align 
 themselves with existing policies (which are translated to the minimal 
 required maturity levels) and map out their tactical security gaps.</p>
@@ -78,8 +79,8 @@ of the expected loss. Behind the scenes, we map the relevant controls to
 <!-- wp:paragraph -->
 <p>Beyond providing a more realistic reflection of risk (while shying 
 away from high/medium, red/green, etc. qualitative measures), we also 
-create an immediate feedback loop. At this point, weâ€™ve turned security 
-and risk management into a business problem thatâ€™s more â€œeasilyâ€ solved 
+create an immediate feedback loop. At this point, we’ve turned security
+and risk management into a business problem that’s more “easily” solved
 through financial measurements of recommended changes and their impact 
 to previously expected losses.</p>
 <!-- /wp:paragraph -->

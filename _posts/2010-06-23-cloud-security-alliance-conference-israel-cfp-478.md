@@ -3,6 +3,7 @@ layout: post
 title: "Cloud Security Alliance Conference (Israel) - CFP"
 date: 2010-06-23
 permalink: /blog/cloud-security-alliance-conference-israel-cfp/
+categories: [community, cloud-devops]
 ---
 
 Just wanted to let you all know (as a member of the CSA-IL board) that we will be having a conference on September 2nd who's title is "Cloud Security Technology and Innovations" in Tel-Aviv, Israel.

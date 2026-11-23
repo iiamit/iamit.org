@@ -3,9 +3,10 @@ layout: post
 title: "Defense through Offense, and how APT fits there"
 date: 2011-04-03
 permalink: /blog/defense-through-offense-and-how-apt-fits-there/
+categories: [offensive-security, strategy-risk]
 ---
 
-<a title="it's for your own good" href="http://flickr.com/photos/48553010@N00/511998078"><img class="alignright" src="http://farm1.static.flickr.com/227/511998078_5dfa03412a_m.jpg" alt="" width="180" height="240" /></a>I'm guessing that having "APT" in anything that goes outside for  public consumption these days is mandatory, but this post actually has a  good reason to do so. If you look back just <a href="http://www.iamit.org/blog/2011/03/defining-penetration-testing/">one post in the past</a>,  we were discussing the new initiative to define "Penetration Testing".  The post, and the proposed standard itself really take a good look at  what organizations need, and how to address such needs from a practical  point of view, rather than from a compliance or a "check-box ticking"  perspective.
+<a title="it's for your own good" href="http://flickr.com/photos/48553010@N00/511998078"><img class="alignright" src="http://farm1.static.flickr.com/227/511998078_5dfa03412a_m.jpg" alt="" width="180" height="240" /></a>I'm guessing that having "APT" in anything that goes outside for  public consumption these days is mandatory, but this post actually has a  good reason to do so. If you look back just <a href="/blog/defining-penetration-testing/">one post in the past</a>,  we were discussing the new initiative to define "Penetration Testing".  The post, and the proposed standard itself really take a good look at  what organizations need, and how to address such needs from a practical  point of view, rather than from a compliance or a "check-box ticking"  perspective.
 
 For me this is one of the things that the security industry has done a  great disservice to. It is exactly why companies are announcing that  for every time they get breached, it was an advanced attack. An attack  so sophisticated, that managed to stay persistent in their network and  exfiltrate lots of sensitive information, that no reasonable control  could have prevented or detected it. The all dreaded "APT".
 

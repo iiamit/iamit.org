@@ -3,6 +3,7 @@ layout: post
 title: "Security Awareness and Security Context - Aitel and Krypt3ia are both wrong?"
 date: 2012-07-20
 permalink: /blog/security-awareness-and-security-context-aitel-and-krypt3ia-are-both-wrong/
+categories: [strategy-risk, community]
 ---
 
 It was pretty obvious that after an Information Security persona such as Dave Aitel has posted his "<a href="http://www.csoonline.com/article/711412/why-you-shouldn-t-train-employees-for-security-awareness">Why you shouldn't train employees for security awareness</a>" article, there would be a lot of flak from the industry. A lot has been said about training employees to be somewhat more savvy users when dealing with corporate equipment and data (i.e. "stop clicking shit"). And even one of my favorite and outspoken Information Security personal had a great rebuttal on the matter - Krypt3ia's "<a href="http://krypt3ia.wordpress.com/2012/07/20/throwing-out-the-baby-with-the-bath-water-dave-aitels-approach-to-infosec/">Throwing out the baby with the bathwater: Dave Aitel's approach to INFOSEC</a>".
@@ -27,7 +28,7 @@ Having said that, saying that employee awareness should be out of this list is w
 
 Which brings me back to my first (and only) point - stop thinking of information security as an industry of blinkenlights and snazzy software solutions. It's about hacking, and hacking as we all know never stops at gadgets and code. Think of information security like an ATTACKER. Think about _their_ scope, and realize how your organization looks from that perspective. Now, take your budget and spend it on the areas where attackers could have compromised your informational integrity (HEY! Don't touch that Nessus scan result! I told you to THINK goddamnit!).
 
-And with that, I'll leave you to your wonderful weekend before Vegas (one last self-serving statement - go check out "<a href="https://www.blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Amit">Sexy Defense</a>" if you are really interestedÂ in an effective defensive strategy that goes beyond blogging and writing articles :-) ).
+And with that, I'll leave you to your wonderful weekend before Vegas (one last self-serving statement - go check out "<a href="https://www.blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Amit">Sexy Defense</a>" if you are really interested in an effective defensive strategy that goes beyond blogging and writing articles :-) ).
 
 Happy hacking!
 

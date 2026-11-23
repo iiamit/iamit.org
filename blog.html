@@ -1,5 +1,6 @@
 ---
 layout: null
+permalink: /blog/
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -13,19 +14,25 @@ layout: null
     <meta property="og:description" content="Field notes on security, AI, risk and what actually works in practice.">
     <meta property="og:url" content="{{ site.url }}/blog/">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ site.url }}/assets/images/og-ian-amit.jpg">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-ian-amit-card.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Ian Amit — Security executive. Builder. Operator.">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <nav class="navbar" aria-label="Primary" data-site-nav>
         <div class="container nav-container">
             <div class="nav-left">
                 <a href="/" class="logo">iamit<span class="blink">_</span></a>
-                <span class="session-chip">session · online</span>
             </div>
 
             <button type="button" class="menu-toggle" popovertarget="site-menu" aria-controls="site-menu" aria-label="Menu">
@@ -35,15 +42,16 @@ layout: null
             </button>
 
             <ul class="nav-links" id="site-menu" popover="auto">
+                <li><a href="/blog/" aria-current="page">~/writing</a></li>
                 <li><a href="/#about">~/about</a></li>
-                <li><a href="/#experience">~/experience</a></li>
+                <li><a href="/#experience">~/career</a></li>
                 <li><a href="/#speaking">~/speaking</a></li>
-                <li><a href="/blog/" aria-current="page">~/blog</a></li>
+                <li><a href="/aviation/">~/aviation</a></li>
             </ul>
         </div>
     </nav>
 
-    <main>
+    <main id="main-content" tabindex="-1">
 
     <!-- Feed header -->
     <div class="feed-head">
@@ -51,33 +59,33 @@ layout: null
             <div class="crumb">~/blog · intelligence log</div>
             <h1>Intelligence log.</h1>
             <p class="feed-lede">Field notes on security, AI, risk and what actually works in practice. New entries roughly monthly.</p>
-            <div class="toolbar">
+            <div class="toolbar" role="group" aria-label="Filter entries by topic">
                 <button class="filter on" data-filter="all">All <span class="count" id="count-all"></span></button>
                 <button class="filter" data-filter="ai">AI <span class="count" id="count-ai"></span></button>
-                <button class="filter" data-filter="cloud">Cloud <span class="count" id="count-cloud"></span></button>
-                <button class="filter" data-filter="risk">Risk <span class="count" id="count-risk"></span></button>
-                <button class="filter" data-filter="leadership">Leadership <span class="count" id="count-leadership"></span></button>
-                <button class="filter" data-filter="offense">Offense <span class="count" id="count-offense"></span></button>
+                <button class="filter" data-filter="aviation">Aviation <span class="count" id="count-aviation"></span></button>
             </div>
+            <p class="filter-status" id="filter-status" role="status"></p>
         </div>
     </div>
 
     <!-- Featured post (latest) -->
-    {% assign featured = site.posts.first %}
+    {% assign listed_posts = site.posts | where_exp: "post", "post.archive_hidden != true" %}
+    {% assign featured = listed_posts.first %}
     {% if featured %}
     {% assign feat_words = featured.content | strip_html | number_of_words %}
     {% assign feat_minutes = feat_words | divided_by: 200 | at_least: 1 %}
-    <div class="feed-featured">
-        <div class="container" style="display:grid;grid-template-columns:1fr 360px;gap:56px;align-items:start;">
+    <div class="feed-featured" data-tags="{{ featured.categories | join: ',' | downcase | escape }}">
+        <div class="container">
             <div>
-                <div class="feat-mark">▸ Latest dispatch · {{ featured.date | date: "%b %-d, %Y" }}</div>
+                <div class="feat-mark">▸ Latest article · {{ featured.date | date: "%b %-d, %Y" }}</div>
                 <h2><a href="{{ featured.url }}">{{ featured.title }}</a></h2>
                 <p class="feat-excerpt">{{ featured.description | default: featured.excerpt | strip_html | truncatewords: 40 }}</p>
                 <div class="meta-row">
                     <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
                     <span>{{ feat_minutes }} min read</span>
+                    {% if featured.publication %}<span>Published in <cite>{{ featured.publication | escape }}</cite></span>{% endif %}
                     {% for tag in featured.categories limit:3 %}
-                    <span class="tag">{{ tag }}</span>
+                    <span class="tag">{{ tag | replace: '-', ' ' | escape }}</span>
                     {% endfor %}
                 </div>
             </div>
@@ -93,10 +101,10 @@ layout: null
     <div class="feed-list">
         <div class="container">
             <div class="insights-list" id="feed">
-                {% for post in site.posts offset:1 %}
+                {% for post in listed_posts offset:1 %}
                 {% assign words = post.content | strip_html | number_of_words %}
                 {% assign minutes = words | divided_by: 200 | at_least: 1 %}
-                <a href="{{ post.url }}" class="insight-row" data-tags="{{ post.categories | join: ',' | downcase }}">
+                <a href="{{ post.url }}" class="insight-row" data-tags="{{ post.categories | join: ',' | downcase | escape }}">
                     <div class="when">{{ post.date | date: "%Y&#x2011;%m&#x2011;%d" }}</div>
                     <div>
                         <div class="ins-title">{{ post.title }}</div>
@@ -104,7 +112,7 @@ layout: null
                         {% if post.categories.size > 0 %}
                         <div class="ins-tags">
                             {% for tag in post.categories limit:3 %}
-                            <span>{{ tag }}</span>
+                            <span>{{ tag | replace: '-', ' ' | escape }}</span>
                             {% endfor %}
                         </div>
                         {% endif %}
@@ -129,22 +137,30 @@ layout: null
 <script>
     // Filter chips
     const filters = document.querySelectorAll('.filter');
-    const rows = document.querySelectorAll('#feed .insight-row');
+    const rows = document.querySelectorAll('[data-tags]');
+    const status = document.getElementById('filter-status');
 
     function getActiveFilter() {
         return new URLSearchParams(location.search).get('topic') || 'all';
     }
 
     function applyFilter(topic) {
-        filters.forEach(btn => btn.classList.toggle('on', btn.dataset.filter === topic));
-        rows.forEach(row => {
-            if (topic === 'all') {
-                row.style.display = '';
-            } else {
-                const tags = (row.dataset.tags || '').split(',').map(t => t.trim());
-                row.style.display = tags.includes(topic) ? '' : 'none';
-            }
+        if (![...filters].some(btn => btn.dataset.filter === topic)) topic = 'all';
+        filters.forEach(btn => {
+            const selected = btn.dataset.filter === topic;
+            btn.classList.toggle('on', selected);
+            btn.setAttribute('aria-pressed', String(selected));
         });
+        let count = 0;
+        rows.forEach(row => {
+            const tags = (row.dataset.tags || '').split(',').map(t => t.trim());
+            const visible = topic === 'all' || tags.includes(topic);
+            row.style.display = visible ? '' : 'none';
+            if (visible) count++;
+        });
+        status.textContent = count
+            ? `${count} ${count === 1 ? 'entry' : 'entries'} · ${topic === 'all' ? 'all topics' : topic}`
+            : 'No entries for this topic yet. Choose All to see every entry.';
         const url = new URL(location);
         if (topic === 'all') {
             url.searchParams.delete('topic');
@@ -159,7 +175,7 @@ layout: null
     });
 
     // Compute tag counts from rendered rows
-    const filterKeys = ['ai', 'cloud', 'risk', 'leadership', 'offense'];
+    const filterKeys = ['ai', 'aviation'];
     document.getElementById('count-all').textContent = rows.length;
     filterKeys.forEach(function(key) {
         const el = document.getElementById('count-' + key);

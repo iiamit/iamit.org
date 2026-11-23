@@ -1,0 +1,1832 @@
+[
+  {
+    "file": "_posts/2007-05-31-malicious-code-exploit-vectors-or-top-programmer-job-10.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "You are probably looking at this and thinking, â€œok, what is he going to show us now â€“ some newfangled attack vector, spyware drive-by installer, local system accessâ€¦â€. Guess again.",
+        "after": "You are probably looking at this and thinking, “ok, what is he going to show us now – some newfangled attack vector, spyware drive-by installer, local system access…”. Guess again."
+      },
+      {
+        "before": "Sample #1 is coming from Yahoo.com (more specifically <a href=\"http://cn.zs.yahoo.com/func.vbs\">http://cn.zs.yahoo.com/func.vbs</a>), and yes â€“ you saw that correctly, is creating the CnsHelper.CH object â€“ an object that multiple source",
+        "after": "Sample #1 is coming from Yahoo.com (more specifically <a href=\"http://cn.zs.yahoo.com/func.vbs\">http://cn.zs.yahoo.com/func.vbs</a>), and yes – you saw that correctly, is creating the CnsHelper.CH object – an object that multiple sources co"
+      },
+      {
+        "before": "SampleÂ  #2 is unreal. Well, actually itâ€™s real. Real.com. (<a href=\"http://uk.real.com/js/playerdetection.js?rev=9507\">http://uk.real.com/js/playerdetection.js?rev=9507</a>). This is how a developer tests to see if the browser looking at",
+        "after": "Sample  #2 is unreal. Well, actually it’s real. Real.com. (<a href=\"http://uk.real.com/js/playerdetection.js?rev=9507\">http://uk.real.com/js/playerdetection.js?rev=9507</a>). This is how a developer tests to see if the browser looking at th"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2007-06-21-malicious-space-on-myspace-15.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "Last Wednesday (June 13th), <a href=\"http://securebrowsing.finjan.com/\" target=\"_blank\">SecureBrowsing</a> has alerted us on a â€œcuteâ€ MySpace profile being used as a malicious code attack vector. This is not the first catch by SecureBro",
+        "after": "Last Wednesday (June 13th), <a href=\"http://securebrowsing.finjan.com/\" target=\"_blank\">SecureBrowsing</a> has alerted us on a “cute” MySpace profile being used as a malicious code attack vector. This is not the first catch by SecureBrowsin"
+      },
+      {
+        "before": "The security violations were found on two different profiles, and contained two different malicious attacks (see below) â€“ the first picture shows a QuickTime exploit that contained a Trojan Downloader, and the second one is a WMA exploit ",
+        "after": "The security violations were found on two different profiles, and contained two different malicious attacks (see below) – the first picture shows a QuickTime exploit that contained a Trojan Downloader, and the second one is a WMA exploit co"
+      },
+      {
+        "before": "Obviously our customers have been protected from these kind of attacks for a long time, and can fearlessly browse the internet, as well as SecureBrowsing users who got alerted on the <strong>specific</strong> profile that contained the mali",
+        "after": "Obviously our customers have been protected from these kind of attacks for a long time, and can fearlessly browse the internet, as well as SecureBrowsing users who got alerted on the <strong>specific</strong> profile that contained the mali"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2007-08-21-the-perils-of-running-a-security-blog-22.md",
+    "changed_lines": 5,
+    "examples": [
+      {
+        "before": "Knowing first-hand that we don't have any malicious code on our blog (I personally approve every post, and when needed \"censor\" the code in order to make sure that script kiddies won't have a too-easy job), I tested some of the posts agains",
+        "after": "Knowing first-hand that we don't have any malicious code on our blog (I personally approve every post, and when needed \"censor\" the code in order to make sure that script kiddies won't have a too-easy job), I tested some of the posts agains"
+      },
+      {
+        "before": "\t<li>The code we post on the blog is in a presentational context, without any accompanying scripts that may turn it into active scripting code. It just canâ€™t run...</li>",
+        "after": "\t<li>The code we post on the blog is in a presentational context, without any accompanying scripts that may turn it into active scripting code. It just can’t run...</li>"
+      },
+      {
+        "before": "\t<li>The code is always sanitized. The malicious parts are being cut in a way that makes them unusable for any malicious purposes. Sometimes though, the surrounding code is left intact. This surrounding code may happen to be a de-obfuscatio",
+        "after": "\t<li>The code is always sanitized. The malicious parts are being cut in a way that makes them unusable for any malicious purposes. Sometimes though, the surrounding code is left intact. This surrounding code may happen to be a de-obfuscatio"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2007-09-20-hitting-the-nail-on-the-head-24.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "When we here at the MCRC are publishing our quarterly trends reports (<a href=\"http://www.finjan.com/Content.aspx?id=827\">http://www.finjan.com/Content.aspx?id=827</a>), we are always facing the possibility that what we have been working on",
+        "after": "When we here at the MCRC are publishing our quarterly trends reports (<a href=\"http://www.finjan.com/Content.aspx?id=827\">http://www.finjan.com/Content.aspx?id=827</a>), we are always facing the possibility that what we have been working on"
+      },
+      {
+        "before": "We were always able to step back and see how what we have been analyzing in the last couple of months is becoming the new pet-peeve of the web security community and its surrounding media coverage. So once again, thank you <a href=\"http://s",
+        "after": "We were always able to step back and see how what we have been analyzing in the last couple of months is becoming the new pet-peeve of the web security community and its surrounding media coverage. So once again, thank you <a href=\"http://s"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2007-09-23-widgetsadvertisements-26.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "Coincidence or just sheer luck, but I just happened to stumble upon <a href=\"http://www.betanews.com/article/Google_Introduces_Widget_Ads/1190215311\" target=\"_blank\">this article</a> announcing that Google has come up with a widget that ser",
+        "after": "Coincidence or just sheer luck, but I just happened to stumble upon <a href=\"http://www.betanews.com/article/Google_Introduces_Widget_Ads/1190215311\" target=\"_blank\">this article</a> announcing that Google has come up with a widget that ser"
+      },
+      {
+        "before": "As we have been covering these two â€œproblematicâ€ areas from the security standpoint (<a href=\"http://www.finjan.com/GetObject.aspx?ObjId=443\">Advertisements as a vector for distributing malicious code</a>, and <a href=\"http://www.finjan",
+        "after": "As we have been covering these two “problematic” areas from the security standpoint (<a href=\"http://www.finjan.com/GetObject.aspx?ObjId=443\">Advertisements as a vector for distributing malicious code</a>, and <a href=\"http://www.finjan.com"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2007-10-07-playing-with-obfuscators-teaching-an-old-dog-new-tricks-28.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "So our <a href=\"http://www.finjan.com/GetObject.aspx?ObjId=513&amp;Openform=50\">Malicious Page of the Month for September</a> is out now. Going over the details of the document, I wanted to re-visit an old habit I had back in the days of pu",
+        "after": "So our <a href=\"http://www.finjan.com/GetObject.aspx?ObjId=513&amp;Openform=50\">Malicious Page of the Month for September</a> is out now. Going over the details of the document, I wanted to re-visit an old habit I had back in the days of pu"
+      },
+      {
+        "before": "So here are the basics â€“ index.php is a highly malicious page being served by a crimeware toolkit somewhere (see the MPOM for the specifics). It contains a de-obfuscation function (df) and a call to it with a long parameter that looks lik",
+        "after": "So here are the basics – index.php is a highly malicious page being served by a crimeware toolkit somewhere (see the MPOM for the specifics). It contains a de-obfuscation function (df) and a call to it with a long parameter that looks like "
+      },
+      {
+        "before": "Running it through our friends at VirusTotal â€“ here is what comes up (not a competitive analysis, no one is responsible for the results, etc, etcâ€¦):",
+        "after": "Running it through our friends at VirusTotal – here is what comes up (not a competitive analysis, no one is responsible for the results, etc, etc…):"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2007-10-25-iframe-is-a-security-risk-30.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "Ok, I have just read the latest in â€œIFRAME Securityâ€ articles and had to write something about it. While going through my usual RSS feeds, I stumbled onto <a href=\"http://www.thespanner.co.uk/2007/10/24/iframes-security-summary/\" target",
+        "after": "Ok, I have just read the latest in “IFRAME Security” articles and had to write something about it. While going through my usual RSS feeds, I stumbled onto <a href=\"http://www.thespanner.co.uk/2007/10/24/iframes-security-summary/\" target=\"_b"
+      },
+      {
+        "before": "Scrutinizing the mere existence of an IFRAME element (as we all remember â€“ a <a href=\"http://www.w3.org/TR/html401/present/frames.html#h-16.5\" target=\"_blank\">standard HTML element</a>), sounds pretty bad. Now, we were asking ourselves, h",
+        "after": "Scrutinizing the mere existence of an IFRAME element (as we all remember – a <a href=\"http://www.w3.org/TR/html401/present/frames.html#h-16.5\" target=\"_blank\">standard HTML element</a>), sounds pretty bad. Now, we were asking ourselves, how"
+      },
+      {
+        "before": "Just to set things straight â€“ the security model we should be looking at should detect actual malicious code in real-time. The source (URL, Domain, etc...) should not matter, and neither shouldÂ  the looks (iframe, packed code, etcâ€¦). B",
+        "after": "Just to set things straight – the security model we should be looking at should detect actual malicious code in real-time. The source (URL, Domain, etc...) should not matter, and neither should  the looks (iframe, packed code, etc…). By ana"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2007-12-20-new-orkut-worm-takes-us-back-in-the-wayback-machine-32.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "I just love it how old news are recycled with a bit of a flare when they become relevant again. The latest <a href=\"http://blog.trendmicro.com/orkutgoogle-worms-compromise-over-400000-accounts/\" target=\"_blank\">Orkut worm</a> reports talk a",
+        "after": "I just love it how old news are recycled with a bit of a flare when they become relevant again. The latest <a href=\"http://blog.trendmicro.com/orkutgoogle-worms-compromise-over-400000-accounts/\" target=\"_blank\">Orkut worm</a> reports talk a"
+      },
+      {
+        "before": "This brings us back to our <a href=\"http://www.finjan.com/MCRCblog.aspx?EntryId=1696\">August post on obfuscators</a> (that are obviously easily detected and processed by us) which talked about the â€œpackedâ€ strand of JS obfuscation...",
+        "after": "This brings us back to our <a href=\"http://www.finjan.com/MCRCblog.aspx?EntryId=1696\">August post on obfuscators</a> (that are obviously easily detected and processed by us) which talked about the “packed” strand of JS obfuscation..."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-01-06-and-the-winner-for-top-virus-of-2007-is-34.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "Not a virus. Not even a malware. Neither is the runner upâ€¦ It's the method of how malware is populated.",
+        "after": "Not a virus. Not even a malware. Neither is the runner up… It's the method of how malware is populated."
+      },
+      {
+        "before": "In Finjanâ€™s terminology, the top-ranked virus IFRAME is not a malware or a virus, it's more like how criminals are directing usersâ€™ browsers to a malware. Interestingly enough â€“ the runner-up is â€œMal/ObfJSâ€ â€“ Obfuscated javascri",
+        "after": "In Finjan’s terminology, the top-ranked virus IFRAME is not a malware or a virus, it's more like how criminals are directing users’ browsers to a malware. Interestingly enough – the runner-up is “Mal/ObfJS” – Obfuscated javascript, again no"
+      },
+      {
+        "before": "How come? Well, remember that signature-based solutions are in a dire need to be able to stop the more common techniques employed by attackers (we have actually started to report on them during 2006),Â since the detection technology is limi",
+        "after": "How come? Well, remember that signature-based solutions are in a dire need to be able to stop the more common techniques employed by attackers (we have actually started to report on them during 2006), since the detection technology is limit"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-01-17-the-impact-of-just-5-random-letters-36.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "We have been watching in amazementÂ the impact our latest <a href=\"http://www.finjan.com/GetObject.aspx?ObjId=550&amp;Openform=50\">Malicious Page of the Month</a> had on the industry and media.",
+        "after": "We have been watching in amazement the impact our latest <a href=\"http://www.finjan.com/GetObject.aspx?ObjId=550&amp;Openform=50\">Malicious Page of the Month</a> had on the industry and media."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-02-28-crimeware-server-and-the-international-man-of-mystery-38.md",
+    "changed_lines": 56,
+    "examples": [
+      {
+        "before": "Well then, back to our little server â€“ the domain name hosting the crimeware (Neosploit 2.0.13) was hosted in Hong-Kong (see below)",
+        "after": "Well then, back to our little server – the domain name hosting the crimeware (Neosploit 2.0.13) was hosted in Hong-Kong (see below)"
+      },
+      {
+        "before": "So that does not bring us any closer to who is this â€“ as the address is located at a hosting company. Fortunately, our research brought in some additional IP addresses. We managed to grab these from the web server just like we have uncove",
+        "after": "So that does not bring us any closer to who is this – as the address is located at a hosting company. Fortunately, our research brought in some additional IP addresses. We managed to grab these from the web server just like we have uncovere"
+      },
+      {
+        "before": "<td valign=\"top\">inetnum:Â Â Â Â Â Â Â  78.109.19.160 - 78.109.19.167",
+        "after": "<td valign=\"top\">inetnum:        78.109.19.160 - 78.109.19.167"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-03-16-optimizing-cross-site-scripting-and-general-security-practices-40.md",
+    "changed_lines": 11,
+    "examples": [
+      {
+        "before": "We have been working recently on a XSS attack that impactedÂ  a huge number ofÂ  potential victims, as the attack itself has been â€œoptimizedâ€ by SEO (Seacrh Engine Optimization) practices that pushed it to Googleâ€™s indexes.",
+        "after": "We have been working recently on a XSS attack that impacted  a huge number of  potential victims, as the attack itself has been “optimized” by SEO (Seacrh Engine Optimization) practices that pushed it to Google’s indexes."
+      },
+      {
+        "before": "In itself, this is not a new technique, but the sheer size of it made us take a second look (incidentally, another <a href=\"http://ddanchev.blogspot.com/2008/03/zdnet-asia-and-torrentreactor-iframe-ed.html\" target=\"_blank\">security research",
+        "after": "In itself, this is not a new technique, but the sheer size of it made us take a second look (incidentally, another <a href=\"http://ddanchev.blogspot.com/2008/03/zdnet-asia-and-torrentreactor-iframe-ed.html\" target=\"_blank\">security research"
+      },
+      {
+        "before": "\t<li>Decide what you want your victim to â€œexperienceâ€ â€“ this can vary from serving some malicious code, to pureÂ  Crimeware marketing (lessons learned from â€œwhat to avoidâ€Â  from SPAM email marketing).</li>",
+        "after": "\t<li>Decide what you want your victim to “experience” – this can vary from serving some malicious code, to pure  Crimeware marketing (lessons learned from “what to avoid”  from SPAM email marketing).</li>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-03-19-taking-down-a-malicious-site-the-good-the-bad-and-the-ugly-42.md",
+    "changed_lines": 8,
+    "examples": [
+      {
+        "before": "(note that this screenshot is rather old and contains data on the first half of February onlyâ€¦ nevertheless, almost 300k visits were logged to the main user and 150k more on the second user)",
+        "after": "(note that this screenshot is rather old and contains data on the first half of February only… nevertheless, almost 300k visits were logged to the main user and 150k more on the second user)"
+      },
+      {
+        "before": "Looking into the whois record for spywaresafe.net would yield a disappointment â€“ it is hidden using a service provided by <a href=\"http://privacyprotect.org/\" target=\"_blank\">privacyprotect.org</a>. This service allows domain owners to hi",
+        "after": "Looking into the whois record for spywaresafe.net would yield a disappointment – it is hidden using a service provided by <a href=\"http://privacyprotect.org/\" target=\"_blank\">privacyprotect.org</a>. This service allows domain owners to hide"
+      },
+      {
+        "before": "Wellâ€¦ that didn't really work. Sending a couple of these forms in the past month got us absolutely nowhere. No response, not even a decline for our request. These guys must be doing a too good of a job protecting something (definitely not",
+        "after": "Well… that didn't really work. Sending a couple of these forms in the past month got us absolutely nowhere. No response, not even a decline for our request. These guys must be doing a too good of a job protecting something (definitely not i"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-03-26-on-the-dismerits-of-privacy-44.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "For any further updates on this matter, you can contact ESTDOMAINS, INC.Â  , the sponsoring Registrar for \"SPYWARESAFE.NET\".",
+        "after": "For any further updates on this matter, you can contact ESTDOMAINS, INC.  , the sponsoring Registrar for \"SPYWARESAFE.NET\"."
+      },
+      {
+        "before": "Itâ€™s interesting to note how a little exposure, combined with an email pointing out that the privacy protection is in direct violation of the service terms, gets some gears in motion. Donâ€™t expect though to get complete verifiable detai",
+        "after": "It’s interesting to note how a little exposure, combined with an email pointing out that the privacy protection is in direct violation of the service terms, gets some gears in motion. Don’t expect though to get complete verifiable details o"
+      },
+      {
+        "before": "PavelÂ Â Â Â Â Â Â  (<a href=\"mailto:linkwork@mail.ru\">linkwork@mail.ru</a>)",
+        "after": "Pavel        (<a href=\"mailto:linkwork@mail.ru\">linkwork@mail.ru</a>)"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-05-06-crimeware-server-catering-to-%e2%80%9cgrab-and-run%e2%80%9d-criminals-46.md",
+    "changed_lines": 9,
+    "examples": [
+      {
+        "before": "During our research for the latest <a href=\"http://www.finjan.com/GetObject.aspx?ObjId=606\">Malicious Page of the Month</a> that has just been released, we came across a domain that was being used as a command and control for the Crimeware ",
+        "after": "During our research for the latest <a href=\"http://www.finjan.com/GetObject.aspx?ObjId=606\">Malicious Page of the Month</a> that has just been released, we came across a domain that was being used as a command and control for the Crimeware "
+      },
+      {
+        "before": "We changed/blurred information to protect peopleâ€™s and companies' privacy.",
+        "after": "We changed/blurred information to protect people’s and companies' privacy."
+      },
+      {
+        "before": "<div><span style=\"border: 1px solid #000000; display: block; width: 560px;\"><em>http://...../de...nts/.../MedicalRecordReview/ \"Diagnosis=Admitted for IV abx 2nd spinal rod infection. Hx of SMA, wheelchair bound, on bipap c back up rate. ES",
+        "after": "<div><span style=\"border: 1px solid #000000; display: block; width: 560px;\"><em>http://...../de...nts/.../MedicalRecordReview/ \"Diagnosis=Admitted for IV abx 2nd spinal rod infection. Hx of SMA, wheelchair bound, on bipap c back up rate. ES"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-09-14-chrome-ie8-ff3-is-there-anything-new-99.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "As websites are getting to be treated more like applications, users, both end-users and especially business ones, are moving from traditional old-school desktop applications (remember when â€œclient-serverâ€ architecture was the thing?) to",
+        "after": "As websites are getting to be treated more like applications, users, both end-users and especially business ones, are moving from traditional old-school desktop applications (remember when “client-server” architecture was the thing?) to Sof"
+      },
+      {
+        "before": "This has been backed by the clear shift from email being the number one carrier of all things bad, to the web being the most prominent and efficient channel for cyber attacks. This shift â€“ both the usability one, as well as the security o",
+        "after": "This has been backed by the clear shift from email being the number one carrier of all things bad, to the web being the most prominent and efficient channel for cyber attacks. This shift – both the usability one, as well as the security one"
+      },
+      {
+        "before": "Nevertheless, the picture isnâ€™t that pretty on the security front after all. Both Mozilla and Google are facing some major vulnerabilities that have been disclosed shortly after releasing the browsers. IE8 is lurking on the sidelines tryi",
+        "after": "Nevertheless, the picture isn’t that pretty on the security front after all. Both Mozilla and Google are facing some major vulnerabilities that have been disclosed shortly after releasing the browsers. IE8 is lurking on the sidelines trying"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-09-18-less-phish-more-meat-malweb-proving-to-be-more-efficient-than-phishing-scams-101.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "In a startling (although expected) contrast â€“ reports on crimeware, malware, Trojans and other malicious code (all delivered by Malweb!) is on the rise as the attack vector that uses Malweb is proving to be the most efficient ROI-wise.",
+        "after": "In a startling (although expected) contrast – reports on crimeware, malware, Trojans and other malicious code (all delivered by Malweb!) is on the rise as the attack vector that uses Malweb is proving to be the most efficient ROI-wise."
+      },
+      {
+        "before": "Our view on this â€“ obvious!. Phishing is a one-off that targets a single institution. It may be efficient for a short time, as these sites are being detected and brought down rather quickly. Malweb on the other hand is a long term investm",
+        "after": "Our view on this – obvious!. Phishing is a one-off that targets a single institution. It may be efficient for a short time, as these sites are being detected and brought down rather quickly. Malweb on the other hand is a long term investmen"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-09-18-snooping-into-palin-emails-watch-out-for-the-criminals-snooping-on-you-103.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Our assumptions are that as usersÂ  foundÂ  the original site unavailable, they started resorting to deepening their searches to try and find other copies of the original images. It seems that e-Criminals are just in-tune with the latest ne",
+        "after": "Our assumptions are that as users  found  the original site unavailable, they started resorting to deepening their searches to try and find other copies of the original images. It seems that e-Criminals are just in-tune with the latest news"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-09-22-blocking-legitimate-sites-in-real-time-105.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "The root of the problem here lies in the concept that someone (even if it's Google) presumes that providingÂ a list of \"bad\" sites can be used to provide security to users. It's just not going to work no matter how fast the list is updated,",
+        "after": "The root of the problem here lies in the concept that someone (even if it's Google) presumes that providing a list of \"bad\" sites can be used to provide security to users. It's just not going to work no matter how fast the list is updated, "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-09-26-neosploit-the-rumors-of-my-demise-have-been-greatly-exaggerated-107.md",
+    "changed_lines": 5,
+    "examples": [
+      {
+        "before": "Despite being reported as â€œout of businessâ€ in late July/August, (see <a href=\"http://blog.wired.com/sterling/2008/08/web-fraud-outfi.html\" target=\"_blank\">this blog</a>, and <a href=\"http://www.computerworld.com/action/article.do?artic",
+        "after": "Despite being reported as “out of business” in late July/August, (see <a href=\"http://blog.wired.com/sterling/2008/08/web-fraud-outfi.html\" target=\"_blank\">this blog</a>, and <a href=\"http://www.computerworld.com/action/article.do?articleId"
+      },
+      {
+        "before": "Itâ€™s clear that Neospolit actually planned to create Neosploit 3.1 and has actually made it available for at least the last few weeks on a significant scale.",
+        "after": "It’s clear that Neospolit actually planned to create Neosploit 3.1 and has actually made it available for at least the last few weeks on a significant scale."
+      },
+      {
+        "before": "What does all this mean? Itâ€™s a truly notable instance where the actual business side of running cybercrime operations pulled a fast one on the thousands of experts tasked with following the latest Web threats. They not only see the profi",
+        "after": "What does all this mean? It’s a truly notable instance where the actual business side of running cybercrime operations pulled a fast one on the thousands of experts tasked with following the latest Web threats. They not only see the profita"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-10-12-taking-the-red-pill-down-the-rabbit-hole-109.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "Iâ€™ve been contemplating a title for this post for a long time, eventually I decided to merge two of my favorites (and leave the third alone: looking for the cuckooâ€™s egg). Basically, after a couple of weeks of almost nonstop work on a m",
+        "after": "I’ve been contemplating a title for this post for a long time, eventually I decided to merge two of my favorites (and leave the third alone: looking for the cuckoo’s egg). Basically, after a couple of weeks of almost nonstop work on a major"
+      },
+      {
+        "before": "Recap: so, we saw that Neosploit was back, even after the groupâ€™s demise in July, we clearly saw that its activity has not subsided and that a build, dated August, is pretty much active and doing its rounds on the net (see <a href=\"http:/",
+        "after": "Recap: so, we saw that Neosploit was back, even after the group’s demise in July, we clearly saw that its activity has not subsided and that a build, dated August, is pretty much active and doing its rounds on the net (see <a href=\"http://w"
+      },
+      {
+        "before": "You are probably familiar with the numbers; over 200,000 credentials to servers around the world (mainly focused on western Europe and the US), tons of back-end applications that the criminals used to manage their operations, and even a bri",
+        "after": "You are probably familiar with the numbers; over 200,000 credentials to servers around the world (mainly focused on western Europe and the US), tons of back-end applications that the criminals used to manage their operations, and even a bri"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-10-28-obama-leads-in-us-presidential-election-poll-the-ecrime-way-111.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "As always, and as we have reported in the <a href=\"http://www.aladdin.com/pdf/airc/AIRC-Monthly-Malweb-continues-to-make-waves.pdf\" target=\"_blank\">past</a>, those behind eCrime are watching the news as diligently as the rest of us and are ",
+        "after": "As always, and as we have reported in the <a href=\"http://www.aladdin.com/pdf/airc/AIRC-Monthly-Malweb-continues-to-make-waves.pdf\" target=\"_blank\">past</a>, those behind eCrime are watching the news as diligently as the rest of us and are "
+      },
+      {
+        "before": "Now, given that this example is just the tip of the iceberg, and only gives a general idea on one specific attack vector, the conclusion is pretty obvious in terms of the global magnitude of having relevant sites infected with Malweb. Do th",
+        "after": "Now, given that this example is just the tip of the iceberg, and only gives a general idea on one specific attack vector, the conclusion is pretty obvious in terms of the global magnitude of having relevant sites infected with Malweb. Do th"
+      },
+      {
+        "before": "(Image showing Googleâ€™s trends search volume for the phrases â€œjohn mccainâ€ and â€œbarack obamaâ€)",
+        "after": "(Image showing Google’s trends search volume for the phrases “john mccain” and “barack obama”)"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-11-12-hosting-provider-crackdown-113.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "It seems like the combination of law enforcement investigations with a recent <a href=\"http://voices.washingtonpost.com/securityfix/2008/11/major_source_of_online_scams_a.html\" target=\"_blank\">story by the Washington Post</a> have made thei",
+        "after": "It seems like the combination of law enforcement investigations with a recent <a href=\"http://voices.washingtonpost.com/securityfix/2008/11/major_source_of_online_scams_a.html\" target=\"_blank\">story by the Washington Post</a> have made thei"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-11-18-airc-threat-report-and-the-link-to-mccolo-115.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "And as also promised, the link to McColo is revealed here â€“ during the time when we were looking at the criminal server, we have had the opportunity to observe that someone is logged onto the server at the same time, and the connection ca",
+        "after": "And as also promised, the link to McColo is revealed here – during the time when we were looking at the criminal server, we have had the opportunity to observe that someone is logged onto the server at the same time, and the connection came"
+      },
+      {
+        "before": "For those of you who are wondering â€“ no, we did not â€œhackâ€, â€œinfiltrateâ€ or â€œbreakâ€ into the server. Sometimes the simplest things let you see whatâ€™s behind the mirror (and legally).</div>",
+        "after": "For those of you who are wondering – no, we did not “hack”, “infiltrate” or “break” into the server. Sometimes the simplest things let you see what’s behind the mirror (and legally).</div>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-12-04-christmas-shopping-online-make-sure-you-get-what-you-pay-for-117.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "In the line of our ongoing â€œeducationâ€, we all know by now that eCrime is no longer lurking right there waiting for victims to come knocking, but is rather working vigilantly to ensure that whatever picks up the most interest online at ",
+        "after": "In the line of our ongoing “education”, we all know by now that eCrime is no longer lurking right there waiting for victims to come knocking, but is rather working vigilantly to ensure that whatever picks up the most interest online at any "
+      },
+      {
+        "before": "Having said that, starting to look for online shopping sites and figuring out whatâ€™s the best Christmas e-tailer to hit on was a bit too much of a hard work. The target picked for this seasonâ€™s eCrime heist was a payment provider noneth",
+        "after": "Having said that, starting to look for online shopping sites and figuring out what’s the best Christmas e-tailer to hit on was a bit too much of a hard work. The target picked for this season’s eCrime heist was a payment provider nonetheles"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2008-12-22-who-owns-your-online-identity-facebook-squatters-on-the-rise-119.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "I have just read a couple of excellent posts (on <a href=\"http://squaredpeg.com/index.php/2008/12/18/facebook-pay-attention/\" target=\"_blank\">SquaredPeg</a>, and <a href=\"http://www.insidefacebook.com/2008/12/21/facebook-marketing-college-p",
+        "after": "I have just read a couple of excellent posts (on <a href=\"http://squaredpeg.com/index.php/2008/12/18/facebook-pay-attention/\" target=\"_blank\">SquaredPeg</a>, and <a href=\"http://www.insidefacebook.com/2008/12/21/facebook-marketing-college-p"
+      },
+      {
+        "before": "Motive? In this incident, itâ€™s mostly marketing â€“ getting ahead start on the right audience can go a long way nowadays.",
+        "after": "Motive? In this incident, it’s mostly marketing – getting ahead start on the right audience can go a long way nowadays."
+      },
+      {
+        "before": "This is not the last of it. In what may have been the first more publicly exposed online identity â€œsquattingâ€ (remember the domain name cyber squatters of the 90sâ€¦) I do expect a lot more to come on that front. So , if you havenâ€™t g",
+        "after": "This is not the last of it. In what may have been the first more publicly exposed online identity “squatting” (remember the domain name cyber squatters of the 90s…) I do expect a lot more to come on that front. So , if you haven’t got a Fac"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-01-08-social-networking-strikes-again-121.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Besides saying the ever satisfying â€œtold you soâ€, nothing much to add here. More bogus profiles enticing users to connect to them, look at the content, and catch the same old nastiness â€“ only packaged in another format. Just remember ",
+        "after": "Besides saying the ever satisfying “told you so”, nothing much to add here. More bogus profiles enticing users to connect to them, look at the content, and catch the same old nastiness – only packaged in another format. Just remember that s"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-01-20-conficker-continues-its-rounds-hits-9-million-mark-123.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "It is funny how security works, isnâ€™t it? When you think you got rid of the old-school (aka â€œstupidâ€) threats, reality hits you right back. Confiker/Downadup is a simple worm;Â  it exploits a Microsoft Windows vulnerability, that can ",
+        "after": "It is funny how security works, isn’t it? When you think you got rid of the old-school (aka “stupid”) threats, reality hits you right back. Confiker/Downadup is a simple worm;  it exploits a Microsoft Windows vulnerability, that can only be"
+      },
+      {
+        "before": "Why is it so annoying? Well, getting to 9 million infected machines (as per external reports) is pretty impressive for such a classic infection vector (considering that there is no communication attack vector at all â€“ no internet needed, ",
+        "after": "Why is it so annoying? Well, getting to 9 million infected machines (as per external reports) is pretty impressive for such a classic infection vector (considering that there is no communication attack vector at all – no internet needed, no"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-01-26-supreme-court-freedom-of-speech-and-internet-filtering-125.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "It was bound to happen. It didnâ€™t work in Third World countries, attempts to do it in Western civilization failed one by one, and now it is proven again that you canâ€™t really prohibit people by law from viewing certain content on the in",
+        "after": "It was bound to happen. It didn’t work in Third World countries, attempts to do it in Western civilization failed one by one, and now it is proven again that you can’t really prohibit people by law from viewing certain content on the intern"
+      },
+      {
+        "before": "Another thing to note is how the rules and legislation are facing the harsh reality that technology changes over time, and laws really canâ€™t catch up. Until weâ€™ll see more cooperation happening on the cross-border legislative front (fro",
+        "after": "Another thing to note is how the rules and legislation are facing the harsh reality that technology changes over time, and laws really can’t catch up. Until we’ll see more cooperation happening on the cross-border legislative front (from la"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-01-27-whats-been-on-peoples-minds-lately-127.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "As we have been predicting (and following during 2008), the criminalâ€™s mind is very much attuned to public mind. The current issues that everyone (well, at least a lot of us) has been dealing with are the current economical situation, and",
+        "after": "As we have been predicting (and following during 2008), the criminal’s mind is very much attuned to public mind. The current issues that everyone (well, at least a lot of us) has been dealing with are the current economical situation, and w"
+      },
+      {
+        "before": "As usual, no much surprise here (read more details about the â€œalmanacâ€ of web security <a href=\"http://kn.theiet.org/magazine/issues/0901/attack-almanac-0901.cfm\" target=\"_blank\">here</a>), still, be careful out there â€“ even on sites ",
+        "after": "As usual, no much surprise here (read more details about the “almanac” of web security <a href=\"http://kn.theiet.org/magazine/issues/0901/attack-almanac-0901.cfm\" target=\"_blank\">here</a>), still, be careful out there – even on sites which "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-01-28-gear-up-predictions-for-2009-has-begun-to-materialize-129.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "The AIRC annual threat report with the 2009 predictions could not have been published in a better timing. As you may have noted, one of our predictions focused on the anticipated broader use of the browser as an â€œoperating systemâ€ â€“ w",
+        "after": "The AIRC annual threat report with the 2009 predictions could not have been published in a better timing. As you may have noted, one of our predictions focused on the anticipated broader use of the browser as an “operating system” – which m"
+      },
+      {
+        "before": "Googleâ€™s Gears was namely one of the technologies I named that should be followed as it basically enables a broader and easier use of web applications â€“ even when you are offline. This means that you can still edit documents, and now re",
+        "after": "Google’s Gears was namely one of the technologies I named that should be followed as it basically enables a broader and easier use of web applications – even when you are offline. This means that you can still edit documents, and now read a"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-02-05-bluehat-post-on-the-state-of-web-security-133.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Iâ€™ve been asked to contribute once again to the Microsoft BlueHat blog, and have written a quick â€œstate of the web securityâ€ post. Check it out, and as always, feel free to comment or discuss whether in agreement or not.",
+        "after": "I’ve been asked to contribute once again to the Microsoft BlueHat blog, and have written a quick “state of the web security” post. Check it out, and as always, feel free to comment or discuss whether in agreement or not."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-02-08-fighting-an-infection-vector-with-new-standards-clickjacking-135.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "If you havenâ€™t heard yet, the newest version of Microsoftâ€™s Internet Explorer 8 (RC1) have been endowed with support for â€œAnti-Clickjackingâ€ (for more background on clickjacking, check out: <a href=\"http://ha.ckers.org/blog/20080915",
+        "after": "If you haven’t heard yet, the newest version of Microsoft’s Internet Explorer 8 (RC1) have been endowed with support for “Anti-Clickjacking” (for more background on clickjacking, check out: <a href=\"http://ha.ckers.org/blog/20080915/clickja"
+      },
+      {
+        "before": "This new feature is basically an implementation for a new header (X-FRAME-OPTIONS) that is returned from a server which defines the scope of â€œnetsingâ€ that is allowed for a specific site. This means that sites can potentially have contr",
+        "after": "This new feature is basically an implementation for a new header (X-FRAME-OPTIONS) that is returned from a server which defines the scope of “netsing” that is allowed for a specific site. This means that sites can potentially have control o"
+      },
+      {
+        "before": "Now with only Chrome and Opera to jump on the bandwagon, we might actually have a chance to see some changes in the web security landscape (as you may remember â€“ most of the web borne attacks are delivered through the inclusion of an invi",
+        "after": "Now with only Chrome and Opera to jump on the bandwagon, we might actually have a chance to see some changes in the web security landscape (as you may remember – most of the web borne attacks are delivered through the inclusion of an invisi"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-02-09-blocking-facebook-not-popular-and-not-effective-137.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "OK, so we know that social networking sites have their issues and threats associated with them, weâ€™ll be the <a href=\"http://www.aladdin.com/pdf/airc/AIRC-Annual-Threat-Report2008.pdf\" target=\"_blank\">first to admit it</a>. But on the sam",
+        "after": "OK, so we know that social networking sites have their issues and threats associated with them, we’ll be the <a href=\"http://www.aladdin.com/pdf/airc/AIRC-Annual-Threat-Report2008.pdf\" target=\"_blank\">first to admit it</a>. But on the same "
+      },
+      {
+        "before": "Itâ€™s a lose-lose situation. You lose the added value of using social networking to leverage business, you <a href=\"http://www.juddlegum.com/blog/2009/02/update-maryland-republicans-allege-facebook-ban-is-politically-motivated/\" target=\"_b",
+        "after": "It’s a lose-lose situation. You lose the added value of using social networking to leverage business, you <a href=\"http://www.juddlegum.com/blog/2009/02/update-maryland-republicans-allege-facebook-ban-is-politically-motivated/\" target=\"_bla"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-02-15-social-networking-threats-the-hacker-story-139.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "As the social networking threats angle is picking up a lot of traction lately &lt;pat_on_own_back&gt;,Â  the folks at Netragard have posted a great write-up on using social networks as an attack tool â€“ involving both social engineering as",
+        "after": "As the social networking threats angle is picking up a lot of traction lately &lt;pat_on_own_back&gt;,  the folks at Netragard have posted a great write-up on using social networks as an attack tool – involving both social engineering as we"
+      },
+      {
+        "before": "<blockquote><em>â€œThe social reconnaissance enabled us to identify 1402 employees 906 of which used facebook. We didn't read all 906 profiles but we did read around 200 which gave us sufficient information to create a fake employee profile",
+        "after": "<blockquote><em>“The social reconnaissance enabled us to identify 1402 employees 906 of which used facebook. We didn't read all 906 profiles but we did read around 200 which gave us sufficient information to create a fake employee profile” "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-02-18-the-oracle-strikes-again-browser-os-threats-start-to-appear-141.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "Moving on from the social networking issues we outlined in the past couple of weeks, after following the predictions, and their materialization (<a href=\"/blog/social-networking-threats-the-hacker-story/\" target=\"_blank\">here</a>, <a href=\"",
+        "after": "Moving on from the social networking issues we outlined in the past couple of weeks, after following the predictions, and their materialization (<a href=\"/blog/social-networking-threats-the-hacker-story/\" target=\"_blank\">here</a>, <a href=\""
+      },
+      {
+        "before": "As per a recent <a href=\"http://www.theregister.co.uk/2009/02/18/google_gears_hack_attack/\" target=\"_blank\">Register article</a>, threats related to Google Gearsâ„¢ have started to appear â€“ taking advantage of the extended capabilities gr",
+        "after": "As per a recent <a href=\"http://www.theregister.co.uk/2009/02/18/google_gears_hack_attack/\" target=\"_blank\">Register article</a>, threats related to Google Gears™ have started to appear – taking advantage of the extended capabilities grante"
+      },
+      {
+        "before": "As always, we are not here to say â€œnayâ€ to every new technology â€“ just the opposite these technologies are the future, and they enable businesses and individuals alike to be more productive and have a better web experience. The only c",
+        "after": "As always, we are not here to say “nay” to every new technology – just the opposite these technologies are the future, and they enable businesses and individuals alike to be more productive and have a better web experience. The only claim h"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-02-19-if-gears-was-a-problem-then-how-about-running-gmail-offline-on-air-143.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "So, yesterday I <a href=\"http://www.iamit.org/blog/?p=141\" target=\"_blank\">wrote about</a> the new (and much expected) vulnerabilities in Googleâ€™s Gears technology. The issue is clear â€“ Gears is picking up speed and traction as Googleâ€",
+        "after": "So, yesterday I <a href=\"http://www.iamit.org/blog/?p=141\" target=\"_blank\">wrote about</a> the new (and much expected) vulnerabilities in Google’s Gears technology. The issue is clear – Gears is picking up speed and traction as Google’s app"
+      },
+      {
+        "before": "Just like Gears, Air has its benefits, (admittedly, I'm using them both), but seriously, this is just too much! So whatâ€™s the next step? Gmail offline using Adobe Air with Silverlight UI running through Yahoo! Pipes backend? Back in the d",
+        "after": "Just like Gears, Air has its benefits, (admittedly, I'm using them both), but seriously, this is just too much! So what’s the next step? Gmail offline using Adobe Air with Silverlight UI running through Yahoo! Pipes backend? Back in the day"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-02-23-more-on-the-browser-os-from-microsoft-research-145.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "After talking about how your next operating system is not going to be related to Windows or Mac or Linux (hint â€“ you are reading this post using itâ€¦ more details on our <a href=\"http://www.aladdin.com/pdf/airc/AIRC-Annual-Threat-Report2",
+        "after": "After talking about how your next operating system is not going to be related to Windows or Mac or Linux (hint – you are reading this post using it… more details on our <a href=\"http://www.aladdin.com/pdf/airc/AIRC-Annual-Threat-Report2008."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-03-01-its-a-browser-its-an-operating-system-its-broser-147.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "After looking into the <a href=\"http://www.iamit.org/blog/?p=145\" target=\"_blank\">security issues and requirements</a> that Microsoft has been working on in terms of the future browser, and based on <a href=\"http://www.aladdin.com/pdf/airc/",
+        "after": "After looking into the <a href=\"http://www.iamit.org/blog/?p=145\" target=\"_blank\">security issues and requirements</a> that Microsoft has been working on in terms of the future browser, and based on <a href=\"http://www.aladdin.com/pdf/airc/"
+      },
+      {
+        "before": "<blockquote><em>â€œThe web is becoming an integral part of the computer and the basic distinction between the OS and the browser doesn't matter very much any more.â€</em></blockquote>",
+        "after": "<blockquote><em>“The web is becoming an integral part of the computer and the basic distinction between the OS and the browser doesn't matter very much any more.”</em></blockquote>"
+      },
+      {
+        "before": "Great stuff and definitely something to watch for from Google as well (competition is wonderful isnâ€™t it?).</div>",
+        "after": "Great stuff and definitely something to watch for from Google as well (competition is wonderful isn’t it?).</div>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-03-03-the-great-av-vs-av-debacle-starts-again-149.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "Itâ€™s been a while since security vendors clashed on technology and made â€œboldâ€ statements referring to the competition. Maybe is the recession, and in an attempt to grab some attention (and bolster sales), come statements such as â€œ<",
+        "after": "It’s been a while since security vendors clashed on technology and made “bold” statements referring to the competition. Maybe is the recession, and in an attempt to grab some attention (and bolster sales), come statements such as “<a href=\""
+      },
+      {
+        "before": "My positions on these are clear â€“ signatures are pretty much the past, but still have their place as a â€œlast mileâ€ solution that can speed up scanning for known threats. Heuristics are the natural evolution of signatures in the binary",
+        "after": "My positions on these are clear – signatures are pretty much the past, but still have their place as a “last mile” solution that can speed up scanning for known threats. Heuristics are the natural evolution of signatures in the binary world"
+      },
+      {
+        "before": "Not to side with anyone particular on this matter, this kind of communication is usually not that helpful for people looking to get a security solution. I would opt for the more educational â€œthis is what the threat looks like, this is wha",
+        "after": "Not to side with anyone particular on this matter, this kind of communication is usually not that helpful for people looking to get a security solution. I would opt for the more educational “this is what the threat looks like, this is what "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-03-17-social-aspects-of-web-security-the-march-edition-151.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "Itâ€™s that time of the year againâ€¦ March madness is engulfing us with news and pre-season activities, and everyone is out and about to see what we would be seeing in the coming months. Just as we have <a href=\"http://kn.theiet.org/magazi",
+        "after": "It’s that time of the year again… March madness is engulfing us with news and pre-season activities, and everyone is out and about to see what we would be seeing in the coming months. Just as we have <a href=\"http://kn.theiet.org/magazine/i"
+      },
+      {
+        "before": "As usual â€“ itâ€™s the same technique all over again â€“ using SEO (Search Engine Optimization) to grab high ranking in search results and leading users clicking on the related links to a variety of malicious content. We have see similar t",
+        "after": "As usual – it’s the same technique all over again – using SEO (Search Engine Optimization) to grab high ranking in search results and leading users clicking on the related links to a variety of malicious content. We have see similar techniq"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-03-30-conficker-madness-good-or-bad-153.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "Just like BBCâ€™s botnet debacle which fueled a vivid discussion amongst security circles, debating if the exposure is good (i.e., raising awareness to the threat) or bad (i.e., not really ethical, everyone knew about the ability to rent a ",
+        "after": "Just like BBC’s botnet debacle which fueled a vivid discussion amongst security circles, debating if the exposure is good (i.e., raising awareness to the threat) or bad (i.e., not really ethical, everyone knew about the ability to rent a bo"
+      },
+      {
+        "before": "On one hand, getting more awareness out there is great â€“ not a lot of people realize how real the threat is, and how organized is the business of managing that threat (favorite quotes â€“ itâ€™s like a business, and uses advertising to pr",
+        "after": "On one hand, getting more awareness out there is great – not a lot of people realize how real the threat is, and how organized is the business of managing that threat (favorite quotes – it’s like a business, and uses advertising to promote "
+      },
+      {
+        "before": "Bottom line â€“ keep cool, make sure you surf securely, and don't click on every possible link you are presented with (think first, count to ten, and then click).</div>",
+        "after": "Bottom line – keep cool, make sure you surf securely, and don't click on every possible link you are presented with (think first, count to ten, and then click).</div>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-04-01-are-you-conficker-proof-do-you-really-need-to-be-155.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "What a great way to sum up my last couple of posts â€“ the <a href=\"/blog/conficker-madness-good-or-bad/\" target=\"_blank\">Conficker media frenzy</a>, and <a href=\"/blog/social-aspects-of-web-security-the-march-edition/\" target=\"_blank\">soci",
+        "after": "What a great way to sum up my last couple of posts – the <a href=\"/blog/conficker-madness-good-or-bad/\" target=\"_blank\">Conficker media frenzy</a>, and <a href=\"/blog/social-aspects-of-web-security-the-march-edition/\" target=\"_blank\">social"
+      },
+      {
+        "before": "Side effect #1 of the media frenzy is the probable increase in the number of people buying security (AV) software (remember who was pitching the scare the hardestâ€¦ see the ad just before the 60 minute spot on the previous post, and check ",
+        "after": "Side effect #1 of the media frenzy is the probable increase in the number of people buying security (AV) software (remember who was pitching the scare the hardest… see the ad just before the 60 minute spot on the previous post, and check ou"
+      },
+      {
+        "before": "Side effect #2 leads us to my previous-previous post and â€“ you guessed it right, Rogue AV are taking advantage of the fact that people are searching for security solutions to protect themselves from Conficker, and manipulate users to inst",
+        "after": "Side effect #2 leads us to my previous-previous post and – you guessed it right, Rogue AV are taking advantage of the fact that people are searching for security solutions to protect themselves from Conficker, and manipulate users to instal"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-04-05-fighting-ecrime-we-are-not-there-yet-157.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "I was just reviewing the latest <a href=\"http://www.ic3.gov/media/2009/090331.aspx\" target=\"_blank\">FBI report</a> from the Internet Crime Complaint Center (IC3) <a href=\"http://www.ic3.gov/media/annualreport/2008_IC3Report.pdf\" target=\"_bl",
+        "after": "I was just reviewing the latest <a href=\"http://www.ic3.gov/media/2009/090331.aspx\" target=\"_blank\">FBI report</a> from the Internet Crime Complaint Center (IC3) <a href=\"http://www.ic3.gov/media/annualreport/2008_IC3Report.pdf\" target=\"_bl"
+      },
+      {
+        "before": "Another insight on how eCrime actually works can be learned from the amounts reported (average) per complaint type â€“ the â€œnon-deliveryâ€ types (of merchandise or money) ranges around $800 per complaint, while check and confidence fraud",
+        "after": "Another insight on how eCrime actually works can be learned from the amounts reported (average) per complaint type – the “non-delivery” types (of merchandise or money) ranges around $800 per complaint, while check and confidence fraud are a"
+      },
+      {
+        "before": "The bright side is that there is more awareness in the public (hence the rising numbers â€“ remember that these are based on REPORTED casesâ€¦). Although the main focus as I mentioned is still on the perimeter of the business model, hopeful",
+        "after": "The bright side is that there is more awareness in the public (hence the rising numbers – remember that these are based on REPORTED cases…). Although the main focus as I mentioned is still on the perimeter of the business model, hopefully t"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-04-22-credit-cards-on-a-clearance-sale-and-your-internet-security-160.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "You may have already gotten yourself familiar with how eCrime works from our past research and field presence, but here is one more great example of this fascinating business: <a href=\"http://voices.washingtonpost.com/securityfix/2009/04/gl",
+        "after": "You may have already gotten yourself familiar with how eCrime works from our past research and field presence, but here is one more great example of this fascinating business: <a href=\"http://voices.washingtonpost.com/securityfix/2009/04/gl"
+      },
+      {
+        "before": "Just to complement the article, another contributing factor to the surge in availability is also attributed to the fact that there has been a surge in the availability of FTP credentials leading to legitimate sites. How does these two conne",
+        "after": "Just to complement the article, another contributing factor to the surge in availability is also attributed to the fact that there has been a surge in the availability of FTP credentials leading to legitimate sites. How does these two conne"
+      },
+      {
+        "before": "Simply put, the whole picture is what counts, rather than specific incidents. Protection on the other hand, is regarded to as â€œI have an AVâ€â€¦ leaving virtually millions of systems in the hands of MalWeb and other web threats that have",
+        "after": "Simply put, the whole picture is what counts, rather than specific incidents. Protection on the other hand, is regarded to as “I have an AV”… leaving virtually millions of systems in the hands of MalWeb and other web threats that have prove"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-04-26-are-you-linkedinfacebookedtwitteredbeboedviadeoedetc-162.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "Iâ€™ve just finished reading a great little note from Brian Krebs on the Washington Post that enabled me to â€œoutâ€ (donâ€™t worry, I wonâ€™t) an incident that some of us in the security industry have been following in the last few days. ",
+        "after": "I’ve just finished reading a great little note from Brian Krebs on the Washington Post that enabled me to “out” (don’t worry, I won’t) an incident that some of us in the security industry have been following in the last few days. One of “ou"
+      },
+      {
+        "before": "This makes you think again of what we have been discussing in the annual threat report on social networking threats getting real. Once again, our recommendation is â€“ get your online identity straightened out. Make sure you are aware of wh",
+        "after": "This makes you think again of what we have been discussing in the annual threat report on social networking threats getting real. Once again, our recommendation is – get your online identity straightened out. Make sure you are aware of who "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-06-02-getting-a-business-degree-as-part-of-security-research-178.md",
+    "changed_lines": 8,
+    "examples": [
+      {
+        "before": "What a great time to start thinking of travel â€“ the weather is fairing up, June is here, and fortunately for me, I have a chance to take the driver seat again at another BlueHat conference! This time itâ€™s in <a title=\"Announcing the Blu",
+        "after": "What a great time to start thinking of travel – the weather is fairing up, June is here, and fortunately for me, I have a chance to take the driver seat again at another BlueHat conference! This time it’s in <a title=\"Announcing the BlueHat"
+      },
+      {
+        "before": "Nevertheless, just this step of mapping out the threats is probably more than what most businesses do (the common M.O. is unfortunately, â€œignorance = blissâ€). Having said that, there still are a lot of solutions available that can provi",
+        "after": "Nevertheless, just this step of mapping out the threats is probably more than what most businesses do (the common M.O. is unfortunately, “ignorance = bliss”). Having said that, there still are a lot of solutions available that can provide a"
+      },
+      {
+        "before": "Letâ€™s take a closer look at both sides of the fence â€“ the threats and the solutions required to counter them.",
+        "after": "Let’s take a closer look at both sides of the fence – the threats and the solutions required to counter them."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-07-27-practical-vs-regulatory-the-votes-are-in-349.md",
+    "changed_lines": 5,
+    "examples": [
+      {
+        "before": "The basic realm of what we are all doing on a daily basis (at least the ones that deal with information security and risk management) is trying to make sure that we keep our information intact, comply with the relevant regulation for our in",
+        "after": "The basic realm of what we are all doing on a daily basis (at least the ones that deal with information security and risk management) is trying to make sure that we keep our information intact, comply with the relevant regulation for our in"
+      },
+      {
+        "before": "Unfortunately, the practical approach that fuels logical thinking, understanding your assets, risks, threats and resources available, and tries to constantly adapt your security measures to them is rarely adopted, and I have only seen a few",
+        "after": "Unfortunately, the practical approach that fuels logical thinking, understanding your assets, risks, threats and resources available, and tries to constantly adapt your security measures to them is rarely adopted, and I have only seen a few"
+      },
+      {
+        "before": "I truly think that the gap between the practical approach and the regulatory one is not that big (guess which one I endorseâ€¦). The root cause for what brought most of the commercial and financial organizations to adopt the regulatory appr",
+        "after": "I truly think that the gap between the practical approach and the regulatory one is not that big (guess which one I endorse…). The root cause for what brought most of the commercial and financial organizations to adopt the regulatory approa"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-09-29-malicious-ads-circa-2007-374.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "Having been running this blog which saves all of my \"historical\" posts, there is even one dating back to <a href=\"/blog/widgetsadvertisements/\">September 2007 here</a>, which references a report I issued for the 2nd quarter of 2007 (means i",
+        "after": "Having been running this blog which saves all of my \"historical\" posts, there is even one dating back to <a href=\"/blog/widgetsadvertisements/\">September 2007 here</a>, which references a report I issued for the 2nd quarter of 2007 (means i"
+      },
+      {
+        "before": "<blockquote>As websites depend more on advertising revenues, they often display ads from third party advertising networks, over which they have little or no control. While legitimate website owners trust advertisers to display non-malicious",
+        "after": "<blockquote>As websites depend more on advertising revenues, they often display ads from third party advertising networks, over which they have little or no control. While legitimate website owners trust advertisers to display non-malicious"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-10-30-clouds-and-the-winds-that-blows-them-away-376.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "First things first - the main reason for abstaining from the cloud security discussion was simply the lack of definition (andÂ existence) of clouds... True - Amazon has provided the infrastructure to the first layers of building cloud solut",
+        "after": "First things first - the main reason for abstaining from the cloud security discussion was simply the lack of definition (and existence) of clouds... True - Amazon has provided the infrastructure to the first layers of building cloud soluti"
+      },
+      {
+        "before": "Point three - what's the market for your cloud offering? The last hurdle that all these new cloud companies face is choosing (or defining) a direction. Do you see yourself providing a solution for the end users? for businesses? for the clou",
+        "after": "Point three - what's the market for your cloud offering? The last hurdle that all these new cloud companies face is choosing (or defining) a direction. Do you see yourself providing a solution for the end users? for businesses? for the clou"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-11-15-defcon-17-talk-video-available-379.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "For your viewing pleasure - if youÂ happenedÂ to miss out on DefCon 17 earlier this year, the full video and slides of my talk \"<a href=\"https://media.defcon.org/dc-17/video/DEFCON%2017%20Hacking%20Conference%20Presentation%20By%20Iftach%20",
+        "after": "For your viewing pleasure - if you happened to miss out on DefCon 17 earlier this year, the full video and slides of my talk \"<a href=\"https://media.defcon.org/dc-17/video/DEFCON%2017%20Hacking%20Conference%20Presentation%20By%20Iftach%20Ia"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-11-25-excaliburcon-summary-and-general-china-notes-382.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "I also watched the Joe McCray deliver his \"this is so easy\" advanced SQL-Injection attack talk with the style we always expect Joe to deliver. Adam Laurie (Major Malfunction) has been wrecking havoc with his RFIdiots talk as usual (and in s",
+        "after": "I also watched the Joe McCray deliver his \"this is so easy\" advanced SQL-Injection attack talk with the style we always expect Joe to deliver. Adam Laurie (Major Malfunction) has been wrecking havoc with his RFIdiots talk as usual (and in s"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2009-12-02-aha-a-blast-from-the-past-389.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "I just ran across this great <a href=\"http://web2.sys-con.com/node/1204447\">blog post</a> from Lori MacVittie at Web2.0 Journal. Can't say exactly why it sparked my interest, but after reading it I realized this may beÂ Freudian... The prop",
+        "after": "I just ran across this great <a href=\"http://web2.sys-con.com/node/1204447\">blog post</a> from Lori MacVittie at Web2.0 Journal. Can't say exactly why it sparked my interest, but after reading it I realized this may be Freudian... The propo"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-03-08-exoticliability-podcast-interview-411.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "<img class=\"alignright\" title=\"ExoticLiability\" src=\"https://dl.dropbox.com/u/1545684/EL2.jpg\" alt=\"ExoticLiability  logo\" width=\"173\" height=\"69\" />OK, so a quick shameless plug for me and a couple of good friends at EL: I had theÂ pleasur",
+        "after": "<img class=\"alignright\" title=\"ExoticLiability\" src=\"https://dl.dropbox.com/u/1545684/EL2.jpg\" alt=\"ExoticLiability  logo\" width=\"173\" height=\"69\" />OK, so a quick shameless plug for me and a couple of good friends at EL: I had the pleasure"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-03-18-its-all-about-the-money-417.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Well - it might seem as non-news for readers of this blog (or people who were in my presentations at <a href=\"http://www.blackhat.com/html/bh-europe-08/bh-eu-08-archives.html#Amit\">BlackHat</a>, <a href=\"http://defcon.org/html/links/dc-arch",
+        "after": "Well - it might seem as non-news for readers of this blog (or people who were in my presentations at <a href=\"http://www.blackhat.com/html/bh-europe-08/bh-eu-08-archives.html#Amit\">BlackHat</a>, <a href=\"http://defcon.org/html/links/dc-arch"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-03-26-cyberfudfare-repost-from-fudsec-com-425.md",
+    "changed_lines": 9,
+    "examples": [
+      {
+        "before": "Iâ€™ve been intravenously fed with FUD for as long as Iâ€™ve been in the business.",
+        "after": "I’ve been intravenously fed with FUD for as long as I’ve been in the business."
+      },
+      {
+        "before": "The main strategy for understanding that you are facing FUD is to realize that there is a financial motivation behind the FUD-spreading entity. This has served me well over the years and managed to keep me out of trouble (i.e. buying/sellin",
+        "after": "The main strategy for understanding that you are facing FUD is to realize that there is a financial motivation behind the FUD-spreading entity. This has served me well over the years and managed to keep me out of trouble (i.e. buying/sellin"
+      },
+      {
+        "before": "I have to admit that when I started seeing what the media is doing to the term CyberWar, I was a bit baffled. Whatâ€™s the motivation? Itâ€™s not like we can run to the local RadioShack and buy an Anti-CyberWar overpriced box of solutions f",
+        "after": "I have to admit that when I started seeing what the media is doing to the term CyberWar, I was a bit baffled. What’s the motivation? It’s not like we can run to the local RadioShack and buy an Anti-CyberWar overpriced box of solutions for j"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-05-02-being-in-the-middle-440.md",
+    "changed_lines": 11,
+    "examples": [
+      {
+        "before": "<img class=\"alignright size-medium wp-image-441\" title=\"Guess_SurfingProseries_Bermuda_Orange\" src=\"http://www.iamit.org/assets/uploads/2010/05/Guess_SurfingProseries_Bermuda_Orange-300x293.jpg\" alt=\"\" width=\"229\" height=\"224\" />This post i",
+        "after": "<img class=\"alignright size-medium wp-image-441\" title=\"Guess_SurfingProseries_Bermuda_Orange\" src=\"http://www.iamit.org/assets/uploads/2010/05/Guess_SurfingProseries_Bermuda_Orange-300x293.jpg\" alt=\"\" width=\"229\" height=\"224\" />This post i"
+      },
+      {
+        "before": "What have we learned over the past decade in the security business - letâ€™s see: AV is pretty much the same as it was in 2000 (which is the same as it was in 1990, you get the point). Firewalls do pretty much the same give or take a couple",
+        "after": "What have we learned over the past decade in the security business - let’s see: AV is pretty much the same as it was in 2000 (which is the same as it was in 1990, you get the point). Firewalls do pretty much the same give or take a couple o"
+      },
+      {
+        "before": "We have almost no technological advantage over what we used to have 10 years ago. So, you must say, we learnt that we as security people must have gone through so much that we manage and deal with the risks and threats much better. Yes, tha",
+        "after": "We have almost no technological advantage over what we used to have 10 years ago. So, you must say, we learnt that we as security people must have gone through so much that we manage and deal with the risks and threats much better. Yes, tha"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-06-02-the-community-to-the-rescue-again-457.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "Iâ€™ve had some hard time coming up with this post. I had the great opportunity to travel quite a bit lately - specifically to Berlin where basically EVERYBODY in security was at <a href=\"http://ph-neutral.darklab.org/talks.html\">ph-neutral",
+        "after": "I’ve had some hard time coming up with this post. I had the great opportunity to travel quite a bit lately - specifically to Berlin where basically EVERYBODY in security was at <a href=\"http://ph-neutral.darklab.org/talks.html\">ph-neutral</"
+      },
+      {
+        "before": "It all started in Berlin when I realized what an amazing community we have. People from all over the world coming over for 3 days of sharing, networking and listening to talks (oh, and partying). I also have the great honor of calling a few",
+        "after": "It all started in Berlin when I realized what an amazing community we have. People from all over the world coming over for 3 days of sharing, networking and listening to talks (oh, and partying). I also have the great honor of calling a few"
+      },
+      {
+        "before": "I saw borders dissolve in an instant as politics, geography and history dropped in sight of a beer or a cool PoC demo on someoneâ€™s PC, and I had great conversations with people I just got to know and am sure will run into again in the fut",
+        "after": "I saw borders dissolve in an instant as politics, geography and history dropped in sight of a beer or a cool PoC demo on someone’s PC, and I had great conversations with people I just got to know and am sure will run into again in the futur"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-06-07-identity-crisis-462.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "Hereâ€™s a common question I get asked a lot: â€œWhat technology should I use to secure my server/network/[some technology]?â€",
+        "after": "Here’s a common question I get asked a lot: “What technology should I use to secure my server/network/[some technology]?”"
+      },
+      {
+        "before": "<img class=\"alignright\" src=\"http://www.iamit.org/assets/uploads/2010/06/wpid-IdentityCrisis-2010-06-7-14-11.jpg\" alt=\"wpid-IdentityCrisis-2010-06-7-14-11.jpg\" width=\"167\" height=\"133\" />The question is usually presented by someone whoâ€™s ",
+        "after": "<img class=\"alignright\" src=\"http://www.iamit.org/assets/uploads/2010/06/wpid-IdentityCrisis-2010-06-7-14-11.jpg\" alt=\"wpid-IdentityCrisis-2010-06-7-14-11.jpg\" width=\"167\" height=\"133\" />The question is usually presented by someone who’s in"
+      },
+      {
+        "before": "\t<li>You should not be looking for â€œtechnologyâ€. Buying a product is not going to make you more secure or less secure.</li>",
+        "after": "\t<li>You should not be looking for “technology”. Buying a product is not going to make you more secure or less secure.</li>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-06-21-first-and-il-cert-476.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Wish me (us?) luck and godspeed. And thanks again to everyone who I met at FIRST-2010 and have reinforced my crazyÂ endeavor.",
+        "after": "Wish me (us?) luck and godspeed. And thanks again to everyone who I met at FIRST-2010 and have reinforced my crazy endeavor."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-07-08-how-not-to-scam-security-people-483.md",
+    "changed_lines": 82,
+    "examples": [
+      {
+        "before": "I have been playing around with some wireless security for one of my customers lately. Having a pretty solid understanding of how things work, but also having been challenged to try out â€œeverything there is to tryâ€ by the client, I went",
+        "after": "I have been playing around with some wireless security for one of my customers lately. Having a pretty solid understanding of how things work, but also having been challenged to try out “everything there is to try” by the client, I went off"
+      },
+      {
+        "before": "It did not take too long, and with the accidental help of <a href=\"http://techcrunch.com/2010/07/05/employees-challenged-to-crack-facebook-security-succeed/\">TechCrunch</a> (btw TechCrunch - you may want to change this link to something els",
+        "after": "It did not take too long, and with the accidental help of <a href=\"http://techcrunch.com/2010/07/05/employees-challenged-to-crack-facebook-security-succeed/\">TechCrunch</a> (btw TechCrunch - you may want to change this link to something els"
+      },
+      {
+        "before": "Yes, I know, the design is horrible, the scrolling thing on the top of the page is just missing a &lt;blink&gt; tag to drive you into an epileptic seizure, and the music, well, itâ€™s music as part of a website - welcome to the 80â€™s.",
+        "after": "Yes, I know, the design is horrible, the scrolling thing on the top of the page is just missing a &lt;blink&gt; tag to drive you into an epileptic seizure, and the music, well, it’s music as part of a website - welcome to the 80’s."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-07-19-the-turkish-hack-and-another-case-for-il-cert-499.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "\t<li>Coordination and notification to government related bodies wouldÂ  be handled through the <a href=\"http://cert.gov.il/\">ILGOV-CERT </a>(although their website is not too promising, there are ways to reach them...). Additionally, collat",
+        "after": "\t<li>Coordination and notification to government related bodies would  be handled through the <a href=\"http://cert.gov.il/\">ILGOV-CERT </a>(although their website is not too promising, there are ways to reach them...). Additionally, collate"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-08-05-remembering-the-shoe-516.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "If you have been listening to any security podcasts in the past year or so, Iâ€™m sure you must have stumbled across the <a href=\"http://www.isdpodcast.com/\">ISDPodcast</a> (InfoSec Daily). If you havenâ€™t, nowâ€™s the time to do so.",
+        "after": "If you have been listening to any security podcasts in the past year or so, I’m sure you must have stumbled across the <a href=\"http://www.isdpodcast.com/\">ISDPodcast</a> (InfoSec Daily). If you haven’t, now’s the time to do so."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-08-12-updated-speaking-schedule-517.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "<img class=\"alignright\" title=\"Source logo\" src=\"http://www.sourceconference.com/templates/rt_nexus_j15_green/images/header/dark/logo.png\" alt=\"\" width=\"244\" height=\"61\" />So, down to business, <a href=\"http://www.sourceconference.com/index",
+        "after": "<img class=\"alignright\" title=\"Source logo\" src=\"http://www.sourceconference.com/templates/rt_nexus_j15_green/images/header/dark/logo.png\" alt=\"\" width=\"244\" height=\"61\" />So, down to business, <a href=\"http://www.sourceconference.com/index"
+      },
+      {
+        "before": "<a href=\"http://www.iamit.org/assets/uploads/2010/05/1.jpg\"><img class=\"alignleft size-full wp-image-455\" title=\"1\" src=\"http://www.iamit.org/assets/uploads/2010/05/1.jpg\" alt=\"\" width=\"128\" height=\"128\" /></a>Next up is <a href=\"http://201",
+        "after": "<a href=\"http://www.iamit.org/assets/uploads/2010/05/1.jpg\"><img class=\"alignleft size-full wp-image-455\" title=\"1\" src=\"http://www.iamit.org/assets/uploads/2010/05/1.jpg\" alt=\"\" width=\"128\" height=\"128\" /></a>Next up is <a href=\"http://201"
+      },
+      {
+        "before": "<img class=\"alignright\" src=\"http://api.ning.com/files/jUHg0Ixbxo29hveVb0x42SaqpLXQ*aqhTqbDOQjh8LR0xJR6YWZY1EQMlV2ICqy-vXPnBPSxmrI29Lc4GU4cpHq7xIgnFstr/1.jpg?size=173&amp;crop=1:1\" alt=\"\" width=\"143\" height=\"143\" />Last but definitely not l",
+        "after": "<img class=\"alignright\" src=\"http://api.ning.com/files/jUHg0Ixbxo29hveVb0x42SaqpLXQ*aqhTqbDOQjh8LR0xJR6YWZY1EQMlV2ICqy-vXPnBPSxmrI29Lc4GU4cpHq7xIgnFstr/1.jpg?size=173&amp;crop=1:1\" alt=\"\" width=\"143\" height=\"143\" />Last but definitely not l"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-08-31-security-innovation-is-an-art-now-524.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "<a href=\"http://www.iamit.org/assets/uploads/2010/08/SecInnovArt.png\"><img class=\"alignright size-medium wp-image-525\" title=\"SecInnovArt\" src=\"http://www.iamit.org/assets/uploads/2010/08/SecInnovArt-259x300.png\" alt=\"\" width=\"259\" height=\"",
+        "after": "<a href=\"http://www.iamit.org/assets/uploads/2010/08/SecInnovArt.png\"><img class=\"alignright size-medium wp-image-525\" title=\"SecInnovArt\" src=\"http://www.iamit.org/assets/uploads/2010/08/SecInnovArt-259x300.png\" alt=\"\" width=\"259\" height=\""
+      },
+      {
+        "before": "After a long period of working alongside several great companies, I am proud to announce that the current activities of Security &amp; Innovations are merged with Security Art. Some of you are already familiar with the ongoing relationships",
+        "after": "After a long period of working alongside several great companies, I am proud to announce that the current activities of Security &amp; Innovations are merged with Security Art. Some of you are already familiar with the ongoing relationships"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-10-11-learning-from-stux-and-connecting-more-dots-in-infosec-537.md",
+    "changed_lines": 10,
+    "examples": [
+      {
+        "before": "Iâ€™m really hoping that the technical analysis would help us get a better grip on what kind of risk a persistent and well-funded attacker poses to a target. Nevertheless, itâ€™s almost as we have not really learned a lot from past events -",
+        "after": "I’m really hoping that the technical analysis would help us get a better grip on what kind of risk a persistent and well-funded attacker poses to a target. Nevertheless, it’s almost as we have not really learned a lot from past events - and"
+      },
+      {
+        "before": "For starters - stuxnet could not have gotten to where it did without the â€œhuman factorâ€. Someone needed to carry the infected USB thumbdribve and stick it into some system that was in the separate network. Call it a hostile agent, call ",
+        "after": "For starters - stuxnet could not have gotten to where it did without the “human factor”. Someone needed to carry the infected USB thumbdribve and stick it into some system that was in the separate network. Call it a hostile agent, call it a"
+      },
+      {
+        "before": "Now that we established that the â€œmatrixâ€ could not have just jumped across networks, letâ€™s see what else can we learn from such an incident. As in learn whether this could affect us, and how. Which brings me to the second point:",
+        "after": "Now that we established that the “matrix” could not have just jumped across networks, let’s see what else can we learn from such an incident. As in learn whether this could affect us, and how. Which brings me to the second point:"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-10-25-the-botnet-wars-industry-qa-543.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "I was approached recently by <a href=\"http://twitter.com/bartblaze\">Bart P</a>Â from Panda security in order to participate in an industry expert Q&amp;A about the botnet wars (apparently he did his homework as he got quite the lineup to pa",
+        "after": "I was approached recently by <a href=\"http://twitter.com/bartblaze\">Bart P</a> from Panda security in order to participate in an industry expert Q&amp;A about the botnet wars (apparently he did his homework as he got quite the lineup to par"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-10-29-stuxnet-analysis-report-544.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Kudos to all the great contributions from the <a href=\"http://www.linkedin.com/groups?mostPopular=&amp;gid=2611337\">CSFI-CWD</a> (Cyber Security Forum Initiative - Cyber Warfare Division)Â  fellows!",
+        "after": "Kudos to all the great contributions from the <a href=\"http://www.linkedin.com/groups?mostPopular=&amp;gid=2611337\">CSFI-CWD</a> (Cyber Security Forum Initiative - Cyber Warfare Division)  fellows!"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2010-11-02-the-power-of-collaboration-bluehat-post-549.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Some additional <a href=\"http://technet.microsoft.com/en-us/security/ff967505.aspx\">BlueHat </a>wrap-upÂ - Â a <a href=\"http://blogs.technet.com/b/bluehat/archive/2010/11/02/getting-into-information-security-intelligence-gathering-a-bluehat",
+        "after": "Some additional <a href=\"http://technet.microsoft.com/en-us/security/ff967505.aspx\">BlueHat </a>wrap-up -  a <a href=\"http://blogs.technet.com/b/bluehat/archive/2010/11/02/getting-into-information-security-intelligence-gathering-a-bluehat-v"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-02-14-about-cyberwar-deterrence-and-espionage-568.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "First - the ever provoking \"there is no CyberWar\" statement. Immediately followed by \"this is the definition of CyberWar as I see it\"... Obviously, with a definition that closely resembles war as defined in other domains (land, sea, air, sp",
+        "after": "First - the ever provoking \"there is no CyberWar\" statement. Immediately followed by \"this is the definition of CyberWar as I see it\"... Obviously, with a definition that closely resembles war as defined in other domains (land, sea, air, sp"
+      },
+      {
+        "before": "The second issue is deterrence. On this one I almost completely agree with Martin's approach which speculates whether real deterrence can be subjected into the domain. Nevertheless, I do believe that sustained and proven threat over the opp",
+        "after": "The second issue is deterrence. On this one I almost completely agree with Martin's approach which speculates whether real deterrence can be subjected into the domain. Nevertheless, I do believe that sustained and proven threat over the opp"
+      },
+      {
+        "before": "Which leads to the last issue, which has surprisingly raised a lot of eyebrows lately - even from people who I consider proficient in the \"Art\" of international relationships and diplomacy: the \"legality\" of espionage. Face it - espionage h",
+        "after": "Which leads to the last issue, which has surprisingly raised a lot of eyebrows lately - even from people who I consider proficient in the \"Art\" of international relationships and diplomacy: the \"legality\" of espionage. Face it - espionage h"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-03-04-defining-penetration-testing-573.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "It has been a topic that has been abused, cannibalized, and lowered toÂ a level where we (as in people in the industry) could not relate to it anymore. It was time to get the fake stuff out, and focus on content. We were all getting tired o",
+        "after": "It has been a topic that has been abused, cannibalized, and lowered to a level where we (as in people in the industry) could not relate to it anymore. It was time to get the fake stuff out, and focus on content. We were all getting tired of"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-05-15-how-great-perimeter-defenses-are-hurting-you-617.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "I have looked for a good example for a real-world security practice that is misconceived and that also applies to information security. Recently I have had a chance to read an opinion article that talks about physical security measures that",
+        "after": "I have looked for a good example for a real-world security practice that is misconceived and that also applies to information security. Recently I have had a chance to read an opinion article that talks about physical security measures that"
+      },
+      {
+        "before": "The real effect of such a â€œsecurityâ€ fence is very low. These fences can be easily bypassed with very basic skills and tools.",
+        "after": "The real effect of such a “security” fence is very low. These fences can be easily bypassed with very basic skills and tools."
+      },
+      {
+        "before": "However, the perceived effect of such fences is incredible. On one hand, the protected population sees that there is a fence that goes around the entire perimeter, and immediately think â€œcool! we are well protectedâ€. They can SEE the pe",
+        "after": "However, the perceived effect of such fences is incredible. On one hand, the protected population sees that there is a fence that goes around the entire perimeter, and immediately think “cool! we are well protected”. They can SEE the perime"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-07-09-what-the-is-wrong-with-mobile-security-620.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "<img class=\"alignleft\" src=\"http://1.bp.blogspot.com/--Sq9kLRUzpo/TeULWlexHWI/AAAAAAAAIqA/nFR5LhqZUtU/s1600/BACK_TO_SCHOOL.jpg\" alt=\"\" width=\"259\" height=\"185\" />Go back to basics. Ummmm, like, SSL? It has been too many times that you see a",
+        "after": "<img class=\"alignleft\" src=\"http://1.bp.blogspot.com/--Sq9kLRUzpo/TeULWlexHWI/AAAAAAAAIqA/nFR5LhqZUtU/s1600/BACK_TO_SCHOOL.jpg\" alt=\"\" width=\"259\" height=\"185\" />Go back to basics. Ummmm, like, SSL? It has been too many times that you see a"
+      },
+      {
+        "before": "<img class=\"alignright\" src=\"http://img.ehowcdn.com/article-page-main/ehow/images/a06/91/59/criminal-behavioral-profiling_-800x800.jpg\" alt=\"\" width=\"158\" height=\"154\" />We need to put our foot down and say \"no more\". We need both the big g",
+        "after": "<img class=\"alignright\" src=\"http://img.ehowcdn.com/article-page-main/ehow/images/a06/91/59/criminal-behavioral-profiling_-800x800.jpg\" alt=\"\" width=\"158\" height=\"154\" />We need to put our foot down and say \"no more\". We need both the big g"
+      },
+      {
+        "before": "We just need to pull our heads out of the sand and smell the napalm. It's a war out there, and your shiny device doesn't give a small rodent's rear-endÂ about your security as long as it looks good.",
+        "after": "We just need to pull our heads out of the sand and smell the napalm. It's a war out there, and your shiny device doesn't give a small rodent's rear-end about your security as long as it looks good."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-07-10-upcoming-conferences-schedule-august-november-2011-627.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "<a href=\"http://www.securitybsides.com/w/page/37015560/BSidesLV-2011\">BSidesLV</a>Â (August 3-4). If you are in Vegas in August, this is THE place to be. I'll be running a couple of talks there - one with my colleague Itzik Kotler on VoIP b",
+        "after": "<a href=\"http://www.securitybsides.com/w/page/37015560/BSidesLV-2011\">BSidesLV</a> (August 3-4). If you are in Vegas in August, this is THE place to be. I'll be running a couple of talks there - one with my colleague Itzik Kotler on VoIP bo"
+      },
+      {
+        "before": "<a href=\"https://www.defcon.org/html/defcon-19/dc-19-index.html\">DefCon</a>Â (August 5-7). I'll also be presenting at DefCon with Itzik on VoiP botnets.",
+        "after": "<a href=\"https://www.defcon.org/html/defcon-19/dc-19-index.html\">DefCon</a> (August 5-7). I'll also be presenting at DefCon with Itzik on VoiP botnets."
+      },
+      {
+        "before": "<a href=\"http://2011.brucon.org/index.php/Main_Page\">Brucon</a>Â (September 19-20). Seriously one of the best cons out there. And you get to enjoy the Belgian beer. What can go wrong? :-)",
+        "after": "<a href=\"http://2011.brucon.org/index.php/Main_Page\">Brucon</a> (September 19-20). Seriously one of the best cons out there. And you get to enjoy the Belgian beer. What can go wrong? :-)"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-08-01-7-steps-to-consider-when-running-a-vulnerability-assessment-640.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "Using default vendor passwords is more common than you may think â€“ but since those passwords are usually publicly-known, they are often the first ones used during hacking attempts. Secure passwords should always be used in favor of the ve",
+        "after": "Using default vendor passwords is more common than you may think – but since those passwords are usually publicly-known, they are often the first ones used during hacking attempts. Secure passwords should always be used in favor of the vend"
+      },
+      {
+        "before": "Many services and network hardware have the capability of encrypting traffic, which decreases the likelihood of information being â€œsniffedâ€ out of your network. When transmitting sensitive data, such as passwords, always use an encrypte",
+        "after": "Many services and network hardware have the capability of encrypting traffic, which decreases the likelihood of information being “sniffed” out of your network. When transmitting sensitive data, such as passwords, always use an encrypted co"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-08-23-career-in-information-security-657.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Bottom line, It's one of the more exciting (and scary) phases that aÂ boutiqueÂ company such as ours goes through, and we are looking for more talents to join our team.",
+        "after": "Bottom line, It's one of the more exciting (and scary) phases that a boutique company such as ours goes through, and we are looking for more talents to join our team."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-10-25-information-security-homeland-security-and-finding-someone-to-pin-it-on-668.md",
+    "changed_lines": 5,
+    "examples": [
+      {
+        "before": "As computer systems are reigning most of the control over our daily lives â€“ from transportation, through financial systems, and up to government facilities that provide research, analysis and even critical infrastructure to support what w",
+        "after": "As computer systems are reigning most of the control over our daily lives – from transportation, through financial systems, and up to government facilities that provide research, analysis and even critical infrastructure to support what we "
+      },
+      {
+        "before": "Nevertheless, blame by itself (or attribution as we like to refer to it in the more politically-correct industry circles) wonâ€™t help us in mitigating such attacks. It may be helpful for organizations to have someone to pin the â€œadversar",
+        "after": "Nevertheless, blame by itself (or attribution as we like to refer to it in the more politically-correct industry circles) won’t help us in mitigating such attacks. It may be helpful for organizations to have someone to pin the “adversary” t"
+      },
+      {
+        "before": "On the other hand, when viewed from a strategic/political stance, it can be easily seen how a string of breaches in facilities that share a common ground (such as the one presented by Rafal Los of HP in his great article â€œ<a href=\"http://",
+        "after": "On the other hand, when viewed from a strategic/political stance, it can be easily seen how a string of breaches in facilities that share a common ground (such as the one presented by Rafal Los of HP in his great article “<a href=\"http://h3"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-12-11-introducing-sexydefence-678.md",
+    "changed_lines": 5,
+    "examples": [
+      {
+        "before": "0. Rediscover your passion for the job you have instead of whining about the job you donâ€™t have.",
+        "after": "0. Rediscover your passion for the job you have instead of whining about the job you don’t have."
+      },
+      {
+        "before": "1. Wake the fuck up and learn how your company works (for realz â€“ not just the techie stuff)",
+        "after": "1. Wake the fuck up and learn how your company works (for realz – not just the techie stuff)"
+      },
+      {
+        "before": "2. Use everything you have. whatever the â€œbadâ€ guys use is fair game for u as well. research vulns on attack toolsâ€¦",
+        "after": "2. Use everything you have. whatever the “bad” guys use is fair game for u as well. research vulns on attack tools…"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-12-12-so-what-about-that-securityzone-682.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Running a full day red-team workshop with Chris Nickerson was totally awesome (and yes - we plan to take it on the road for 2012). What made it even more over the top were the schoolkids not only doingÂ simultaneousÂ translation, but alsoÂ ",
+        "after": "Running a full day red-team workshop with Chris Nickerson was totally awesome (and yes - we plan to take it on the road for 2012). What made it even more over the top were the schoolkids not only doing simultaneous translation, but also lea"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2011-12-22-offtopic-airplay-on-the-home-network-705.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "<a href=\"http://www.iamit.org/assets/uploads/2011/12/ap_f_airplay1.jpg\"><img class=\"alignright size-full wp-image-712\" title=\"ap_f_airplay\" src=\"http://www.iamit.org/assets/uploads/2011/12/ap_f_airplay1.jpg\" alt=\"\" width=\"144\" height=\"134\" ",
+        "after": "<a href=\"http://www.iamit.org/assets/uploads/2011/12/ap_f_airplay1.jpg\"><img class=\"alignright size-full wp-image-712\" title=\"ap_f_airplay\" src=\"http://www.iamit.org/assets/uploads/2011/12/ap_f_airplay1.jpg\" alt=\"\" width=\"144\" height=\"134\" "
+      },
+      {
+        "before": "Pascal Widdershoven has published a really simple and quick to install script here:Â <a href=\"https://github.com/PascalW/Airplayer\">Airplayer</a>",
+        "after": "Pascal Widdershoven has published a really simple and quick to install script here: <a href=\"https://github.com/PascalW/Airplayer\">Airplayer</a>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-01-03-il-cert-finally-picking-up-speed-772.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Incidents <a href=\"/blog/the-turkish-hack-and-another-case-for-il-cert/\">came and went</a>, <a href=\"/blog/local-paypal-phishing-and-why-we-need-a-cert/\">rants</a> were made, I let the project simmer, and almost die completely as we were en",
+        "after": "Incidents <a href=\"/blog/the-turkish-hack-and-another-case-for-il-cert/\">came and went</a>, <a href=\"/blog/local-paypal-phishing-and-why-we-need-a-cert/\">rants</a> were made, I let the project simmer, and almost die completely as we were en"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-01-09-advanced-data-exfiltration-779.md",
+    "changed_lines": 33,
+    "examples": [
+      {
+        "before": "This paper has been published in several security conferences during 2011, and is now being made fully available (as well as a <a href=\"http://www.iamit.org/assets/uploads/2012/01/Advanced-data-exfiltration-â€“-the-way-Q-would-have-done-it.",
+        "after": "This paper has been published in several security conferences during 2011, and is now being made fully available (as well as a <a href=\"http://www.iamit.org/assets/uploads/2012/01/Advanced-data-exfiltration-–-the-way-Q-would-have-done-it.pd"
+      },
+      {
+        "before": "The ability to â€œbreak intoâ€ an organization is fairly well documented and accepted, but the realization that attacks do not stop at the first system compromised did not get to all business owners. As such, this paper describes multiple ",
+        "after": "The ability to “break into” an organization is fairly well documented and accepted, but the realization that attacks do not stop at the first system compromised did not get to all business owners. As such, this paper describes multiple ways"
+      },
+      {
+        "before": "From a technical perspective, even though information security as a practice has been around ever since computer systems have been in use, organizations tend to focus on the issues that are well documented, and have a plethora of products t",
+        "after": "From a technical perspective, even though information security as a practice has been around ever since computer systems have been in use, organizations tend to focus on the issues that are well documented, and have a plethora of products t"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-01-19-hackers-credit-cards-and-the-media-807.md",
+    "changed_lines": 5,
+    "examples": [
+      {
+        "before": "<a href=\"http://www.iamit.org/assets/uploads/2012/01/recycledcard.png\"><img class=\"alignleft size-full wp-image-809\" title=\"recycledcard\" src=\"http://www.iamit.org/assets/uploads/2012/01/recycledcard.png\" alt=\"\" width=\"121\" height=\"113\" /><",
+        "after": "<a href=\"http://www.iamit.org/assets/uploads/2012/01/recycledcard.png\"><img class=\"alignleft size-full wp-image-809\" title=\"recycledcard\" src=\"http://www.iamit.org/assets/uploads/2012/01/recycledcard.png\" alt=\"\" width=\"121\" height=\"113\" /><"
+      },
+      {
+        "before": "\t<li>Several groups of script kiddies from Israel started working on aÂ <a href=\"http://www.bbc.co.uk/news/world-middle-east-16526067\">vengeanceÂ against Saudi credit card holders</a>.</li>",
+        "after": "\t<li>Several groups of script kiddies from Israel started working on a <a href=\"http://www.bbc.co.uk/news/world-middle-east-16526067\">vengeance against Saudi credit card holders</a>.</li>"
+      },
+      {
+        "before": "The next action, although not a real escalation yet, showed how 0xOmar turned essentially into a brand much like Anonymous, where information on alleged Israeli \"SCADA\" systems logins and gov.il email addresses was made public. This leak, n",
+        "after": "The next action, although not a real escalation yet, showed how 0xOmar turned essentially into a brand much like Anonymous, where information on alleged Israeli \"SCADA\" systems logins and gov.il email addresses was made public. This leak, n"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-01-25-guest-post-why-you-need-patch-management-818.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "Be it a coding mishap, a combination of inputs that the developer didnâ€™t foresee, or even an unexpected interaction between the billions of low level instructions, an application can have a vulnerability that would allow someone to malici",
+        "after": "Be it a coding mishap, a combination of inputs that the developer didn’t foresee, or even an unexpected interaction between the billions of low level instructions, an application can have a vulnerability that would allow someone to maliciou"
+      },
+      {
+        "before": "One also needs to take a holistic approach to patch management.Â  As in all security cases, it is the weakest link in the system that is exploited. An attacker does not need to compromise all your systemsâ€™ vulnerabilities, they only need ",
+        "after": "One also needs to take a holistic approach to patch management.  As in all security cases, it is the weakest link in the system that is exploited. An attacker does not need to compromise all your systems’ vulnerabilities, they only need to "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-02-17-cyber-cyber-cyber-what-are-we-talking-about-anyway-823.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "2.Â a territory over which dominion is exercised</blockquote>",
+        "after": "2. a territory over which dominion is exercised</blockquote>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-04-18-sexy-defense-850.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "So, <a href=\"http://www.sourceconference.com/boston/speakers_2012.asp#iamit\">Source Boston</a> proved to be a great venue for theÂ inaugurationÂ of the Sexy Defense paper and talk that I was working on recently. Had a great time both develo",
+        "after": "So, <a href=\"http://www.sourceconference.com/boston/speakers_2012.asp#iamit\">Source Boston</a> proved to be a great venue for the inauguration of the Sexy Defense paper and talk that I was working on recently. Had a great time both developi"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-05-21-so-you-thought-you-were-protected-how-hackers-can-break-into-your-business-874.md",
+    "changed_lines": 15,
+    "examples": [
+      {
+        "before": "If you believe hollywood, breaking into computers or networks is the easiest thing in the world. The hacker just sits in front of the keyboard, types in a few commands, and immediately finds itself in a top-secret database. In reality, it i",
+        "after": "If you believe hollywood, breaking into computers or networks is the easiest thing in the world. The hacker just sits in front of the keyboard, types in a few commands, and immediately finds itself in a top-secret database. In reality, it i"
+      },
+      {
+        "before": "In this article, in cooperation with experts from Security Art, among whichÂ Yoram Golandsky the CEO, and Iftach Ian Amit the Vice President of Consulting, we present the true work of hackers, and detail how a real breach into a secure comp",
+        "after": "In this article, in cooperation with experts from Security Art, among which Yoram Golandsky the CEO, and Iftach Ian Amit the Vice President of Consulting, we present the true work of hackers, and detail how a real breach into a secure compu"
+      },
+      {
+        "before": "The scenarios that we built here are based on actual attacks performed by Security Art (all client names have been dropped for confidentiality reasons). Others are probability scenarios - such that are based on the knowledge of Security Art",
+        "after": "The scenarios that we built here are based on actual attacks performed by Security Art (all client names have been dropped for confidentiality reasons). Others are probability scenarios - such that are based on the knowledge of Security Art"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-06-02-sexydefense-comes-to-vegas-883.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "So there you go - Vegas this year is shaping up to be really interesting. With BSidesLV (in which I'm also involved as a volunteer and mentor)Â running along BlackHat, and the 20th DefCon, you really can't miss it.",
+        "after": "So there you go - Vegas this year is shaping up to be really interesting. With BSidesLV (in which I'm also involved as a volunteer and mentor) running along BlackHat, and the 20th DefCon, you really can't miss it."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-07-08-this-one-time-at-defcon-a-blast-from-the-past-892.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "The post is right here:Â <a href=\"http://blog.ikotler.org/2012/07/modulation-and-data-loss-prevention-dlp.html\">http://blog.ikotler.org/2012/07/modulation-and-data-loss-prevention-dlp.html</a> so go check out Itzik's blog, and feel free to ",
+        "after": "The post is right here: <a href=\"http://blog.ikotler.org/2012/07/modulation-and-data-loss-prevention-dlp.html\">http://blog.ikotler.org/2012/07/modulation-and-data-loss-prevention-dlp.html</a> so go check out Itzik's blog, and feel free to <"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-07-20-security-awareness-and-security-context-aitel-and-krypt3ia-are-both-wrong-899.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "And with that, I'll leave you to your wonderful weekend before Vegas (one last self-serving statement - go check out \"<a href=\"https://www.blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Amit\">Sexy Defense</a>\" if you are really interest",
+        "after": "And with that, I'll leave you to your wonderful weekend before Vegas (one last self-serving statement - go check out \"<a href=\"https://www.blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Amit\">Sexy Defense</a>\" if you are really interest"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-08-24-apple-meet-gpg-gpg-meet-apple-913.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "The guys at GPGTools are doing some fantastic work in bringing a comprehensive GPG implementation into Mac OS X, and Apple seem to not only ignore the need for such an important tool, but consistently screw things up with Mail such that eve",
+        "after": "The guys at GPGTools are doing some fantastic work in bringing a comprehensive GPG implementation into Mac OS X, and Apple seem to not only ignore the need for such an important tool, but consistently screw things up with Mail such that eve"
+      },
+      {
+        "before": "\t<li>InstallÂ <a href=\"http://www.enigmail.net/home/index.php\">Enigmail</a>. This is a \"just works\" plugin for Thunderbird to handle GPG. It simply just works. No hassle, great default config, recipient rules, the works...</li>",
+        "after": "\t<li>Install <a href=\"http://www.enigmail.net/home/index.php\">Enigmail</a>. This is a \"just works\" plugin for Thunderbird to handle GPG. It simply just works. No hassle, great default config, recipient rules, the works...</li>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-10-24-ambulance-chasing-or-dna-research-928.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "I am fortunate enough that some of the new topics that I have discusd lately have generated interest in the community and the industry. As such, there are obviously Â voices that do not agree with the approach (I still like to call is SexyD",
+        "after": "I am fortunate enough that some of the new topics that I have discusd lately have generated interest in the community and the industry. As such, there are obviously  voices that do not agree with the approach (I still like to call is SexyDe"
+      },
+      {
+        "before": "<img class=\" wp-image-930 alignright\" title=\"Ambulance Chaser\" src=\"http://www.iamit.org/assets/uploads/2012/10/Ambulance_Chaser_Victim_of_-267x300.jpeg\" alt=\"\" width=\"214\" height=\"240\" />Yes, I'm mostly an offensive security person. I cann",
+        "after": "<img class=\" wp-image-930 alignright\" title=\"Ambulance Chaser\" src=\"http://www.iamit.org/assets/uploads/2012/10/Ambulance_Chaser_Victim_of_-267x300.jpeg\" alt=\"\" width=\"214\" height=\"240\" />Yes, I'm mostly an offensive security person. I cann"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2012-11-30-phishingthreatening-done-wrong-935.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "<div>Although we won't have the red-team class next week, I highly suggest whoever tried this to spring up the money and fly to The Hague for the <a href=\"https://www.ncsc.nl/conference/conference-2013/training-sessions/red-teaming\">NCSC Â ",
+        "after": "<div>Although we won't have the red-team class next week, I highly suggest whoever tried this to spring up the money and fly to The Hague for the <a href=\"https://www.ncsc.nl/conference/conference-2013/training-sessions/red-teaming\">NCSC  C"
+      },
+      {
+        "before": "<div>I personally promise free drinks fromÂ <a href=\"https://www.facebook.com/indigosax\" data-hovercard=\"/ajax/hovercard/user.php?id=500490370\">Chris Nickerson</a>Â and myself if you can prove that you sent the email. And you know what - th",
+        "after": "<div>I personally promise free drinks from <a href=\"https://www.facebook.com/indigosax\" data-hovercard=\"/ajax/hovercard/user.php?id=500490370\">Chris Nickerson</a> and myself if you can prove that you sent the email. And you know what - the "
+      },
+      {
+        "before": "<div>Here's the PDF if you are so inclined to have a laugh:Â <a href=\"http://www.iamit.org/assets/uploads/2012/11/Invitacion_FARC-EP.pdf\">Invitacion_FARC-EP</a></div>",
+        "after": "<div>Here's the PDF if you are so inclined to have a laugh: <a href=\"http://www.iamit.org/assets/uploads/2012/11/Invitacion_FARC-EP.pdf\">Invitacion_FARC-EP</a></div>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2013-02-09-do-as-i-say-not-as-i-do-rsa-bit9-adobe-and-others-952.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "But you still got owned. Want to know why? Because you are still a littleÂ naÃ¯ve.",
+        "after": "But you still got owned. Want to know why? Because you are still a little naïve."
+      },
+      {
+        "before": "<img class=\"alignright\" alt=\"\" src=\"http://api.ning.com/files/18ErKoZMIAG5zLj2sYclrlvvgnu7RsHzYcKO8Edb-A3NKZYZSndBPPcUCs-0iDlK*bs0R0p*47PyXOUNyS7YAZoRzFTKEKPf/Hypocrite1.jpg\" width=\"321\" height=\"257\" />You put your trust in big name vendors",
+        "after": "<img class=\"alignright\" alt=\"\" src=\"http://api.ning.com/files/18ErKoZMIAG5zLj2sYclrlvvgnu7RsHzYcKO8Edb-A3NKZYZSndBPPcUCs-0iDlK*bs0R0p*47PyXOUNyS7YAZoRzFTKEKPf/Hypocrite1.jpg\" width=\"321\" height=\"257\" />You put your trust in big name vendors"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2013-06-25-hiding-behing-the-keyboard-978.md",
+    "changed_lines": 7,
+    "examples": [
+      {
+        "before": "The story starts when a small number of member in the DC9723 group on Facebook started trolling (posting annoying messages, discrediting others, and then postingÂ misogynistic comments that were borderline racist). As an open group that I a",
+        "after": "The story starts when a small number of member in the DC9723 group on Facebook started trolling (posting annoying messages, discrediting others, and then posting misogynistic comments that were borderline racist). As an open group that I am"
+      },
+      {
+        "before": "Unlike the conversation above, I'll have to comment inline, as most of the chat was in Hebrew (see theÂ <a href=\"http://www.iamit.org/assets/uploads/2013/06/daniel-ian-bilingual.txt\">original transcript</a> from Facebook, which also has the",
+        "after": "Unlike the conversation above, I'll have to comment inline, as most of the chat was in Hebrew (see the <a href=\"http://www.iamit.org/assets/uploads/2013/06/daniel-ian-bilingual.txt\">original transcript</a> from Facebook, which also has the "
+      },
+      {
+        "before": "<em>(This image is basically the conversation between us, at the \"Ars\" part, pointing to his public Google+ picture, and back to where he's shooting racistÂ homophobicÂ profanities. Then him responding to my claim that he should calm down w",
+        "after": "<em>(This image is basically the conversation between us, at the \"Ars\" part, pointing to his public Google+ picture, and back to where he's shooting racist homophobic profanities. Then him responding to my claim that he should calm down wit"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2013-07-04-mail-encryption-for-android-1010.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "So, when I found _another_ mail app that claims to be able to do GPG, and Exchange, and isn't aÂ UI disaster, I had to give it a go.",
+        "after": "So, when I found _another_ mail app that claims to be able to do GPG, and Exchange, and isn't a UI disaster, I had to give it a go."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2013-10-22-trip-down-memory-lane-1028.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "I guess that for me it's the mixture of technical and non-technical elements and how these apply in the real worldâ€¦ It kind of goes back to my alma-mater (The Interdisciplinary Center) where I had a chance to hone some of these research s",
+        "after": "I guess that for me it's the mixture of technical and non-technical elements and how these apply in the real world… It kind of goes back to my alma-mater (The Interdisciplinary Center) where I had a chance to hone some of these research ski"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2013-11-04-on-badbios-and-bad-behavior-1035.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "<blockquote>More on my ongoing chase ofÂ <a href=\"https://www.facebook.com/hashtag/badbios\" data-ft=\"{&quot;tn&quot;:&quot;*N&quot;,&quot;type&quot;:104}\">#badBIOS</a>Â malware. It's been difficult to confirm this as I'm down to a precious ",
+        "after": "<blockquote>More on my ongoing chase of <a href=\"https://www.facebook.com/hashtag/badbios\" data-ft=\"{&quot;tn&quot;:&quot;*N&quot;,&quot;type&quot;:104}\">#badBIOS</a> malware. It's been difficult to confirm this as I'm down to a precious fe"
+      },
+      {
+        "before": "Nevertheless, the industry exploded. From more sensible breakdowns of the elements mentioned by Dragos - such as <a href=\"http://blog.erratasec.com/2013/10/badbios-features-explained.html#.Une0eZQkGQM\">Errata's Robert Graham's post</a>, to ",
+        "after": "Nevertheless, the industry exploded. From more sensible breakdowns of the elements mentioned by Dragos - such as <a href=\"http://blog.erratasec.com/2013/10/badbios-features-explained.html#.Une0eZQkGQM\">Errata's Robert Graham's post</a>, to "
+      },
+      {
+        "before": "Then came the naysayers, with more elaborate explanations of why this can't happen, focusing specifically on the parts they felt they had the most experience with - and while at it, completely ignoring what was reported and the context of t",
+        "after": "Then came the naysayers, with more elaborate explanations of why this can't happen, focusing specifically on the parts they felt they had the most experience with - and while at it, completely ignoring what was reported and the context of t"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2013-12-30-breaking-news-spy-agencies-are-spying-1044.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "First - I think that the Der Spiegel article that covers the \"latest\" NSA spying capabilities (<a href=\"http://www.spiegel.de/netzwelt/netzpolitik/quantumtheory-wie-die-nsa-weltweit-rechner-hackt-a-941149.html\">http://www.spiegel.de/netzwel",
+        "after": "First - I think that the Der Spiegel article that covers the \"latest\" NSA spying capabilities (<a href=\"http://www.spiegel.de/netzwelt/netzpolitik/quantumtheory-wie-die-nsa-weltweit-rechner-hackt-a-941149.html\">http://www.spiegel.de/netzwel"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2014-02-27-women-in-infosec-that-thing-again-1058.md",
+    "changed_lines": 4,
+    "examples": [
+      {
+        "before": "I usually don't weigh in on the topic, well, because I don't have the right equipment for once, and furthermore, I think that the majority of discussions around it areÂ ledÂ by people who woefully misrepresent most of the women in infosec t",
+        "after": "I usually don't weigh in on the topic, well, because I don't have the right equipment for once, and furthermore, I think that the majority of discussions around it are led by people who woefully misrepresent most of the women in infosec tha"
+      },
+      {
+        "before": "<img class=\"alignleft\" alt=\"courtesy: http://meanwomensuck.com/ (seriously!)\" src=\"http://meanwomensuck.com/assets/uploads/2009/12/Backstabbing_Workplace11.gif\" width=\"210\" height=\"158\" />But I have to share this: Jennifer J. Minella (<a hr",
+        "after": "<img class=\"alignleft\" alt=\"courtesy: http://meanwomensuck.com/ (seriously!)\" src=\"http://meanwomensuck.com/assets/uploads/2009/12/Backstabbing_Workplace11.gif\" width=\"210\" height=\"158\" />But I have to share this: Jennifer J. Minella (<a hr"
+      },
+      {
+        "before": "<img class=\"alignright\" alt=\"\" src=\"http://soho20gallery.com/assets/uploads/2013/05/WOMEN-IN-CHARGE-PHOTO.jpg\" width=\"214\" height=\"239\" />The second example is layering - having mixed groups of the male and female persuasion Â usually ends ",
+        "after": "<img class=\"alignright\" alt=\"\" src=\"http://soho20gallery.com/assets/uploads/2013/05/WOMEN-IN-CHARGE-PHOTO.jpg\" width=\"214\" height=\"239\" />The second example is layering - having mixed groups of the male and female persuasion  usually ends u"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2014-03-22-hacking-business-and-politics-1076.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "Iâ€™ve recently had the great fortune to be called in as an industry expert to comment on current news at the Fox Business â€œMoney with Melissa Francisâ€. Iâ€™ll be the first one to tell you that every (read: EVERY) mass media outlet has ",
+        "after": "I’ve recently had the great fortune to be called in as an industry expert to comment on current news at the Fox Business “Money with Melissa Francis”. I’ll be the first one to tell you that every (read: EVERY) mass media outlet has an agend"
+      },
+      {
+        "before": "As it came about, my latest commentary on the show was on the meeting held between President Obama and a few tech company CEOs in light of the NSA surveillance mandate. As always - Iâ€™m keeping a fair separation between my business and hac",
+        "after": "As it came about, my latest commentary on the show was on the meeting held between President Obama and a few tech company CEOs in light of the NSA surveillance mandate. As always - I’m keeping a fair separation between my business and hacki"
+      },
+      {
+        "before": "I do think that there needs to be a â€œbalancingâ€ voice whenever topics of this nature are brought up to a public discussion, and if you ask me the discussion shouldnâ€™t be political as in â€œthis guy is bad, and the other guy is goodâ€",
+        "after": "I do think that there needs to be a “balancing” voice whenever topics of this nature are brought up to a public discussion, and if you ask me the discussion shouldn’t be political as in “this guy is bad, and the other guy is good”, but more"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2014-04-06-relying-on-av-really-1083.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Oh, and here's a late edition just to top it off:Â <a href=\"http://mincore.c9x.org/breaking_av_software.pdf\">http://mincore.c9x.org/breaking_av_software.pdf</a>Â (Breaking AV Software - from Syscan 2014).",
+        "after": "Oh, and here's a late edition just to top it off: <a href=\"http://mincore.c9x.org/breaking_av_software.pdf\">http://mincore.c9x.org/breaking_av_software.pdf</a> (Breaking AV Software - from Syscan 2014)."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2014-10-29-to_the_full_extent_of_their_capabilities-1154.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "So, just to set things straight: I agree with the first pointÂ that talk about how working at the NSA consists of abiding with a metric ton of rules, regulations and bureaucratic nightmares. It's also true for most modern western intelligen",
+        "after": "So, just to set things straight: I agree with the first point that talk about how working at the NSA consists of abiding with a metric ton of rules, regulations and bureaucratic nightmares. It's also true for most modern western intelligenc"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2014-12-20-when-a-door-is-not-a-door-1163.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Looking at TTPs (Tools, Tactics, and Procedures) only in order to derive attribution is not enough. Without being to link real activities to a human actor, and follow up with a more \"traditional\" investigation (motivation, funding, accessib",
+        "after": "Looking at TTPs (Tools, Tactics, and Procedures) only in order to derive attribution is not enough. Without being to link real activities to a human actor, and follow up with a more \"traditional\" investigation (motivation, funding, accessib"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-01-15-killing-innovation-in-the-name-of-the-law-1173.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "This, however, is a constant balancing act, especially in light of the proposed cybersecurity bill. The proposed legislation basically expands the CFAA (Computer Fraud and Abuse Act), and not in the right directions. As-is, the CFAA is drac",
+        "after": "This, however, is a constant balancing act, especially in light of the proposed cybersecurity bill. The proposed legislation basically expands the CFAA (Computer Fraud and Abuse Act), and not in the right directions. As-is, the CFAA is drac"
+      },
+      {
+        "before": "A couple of good reads on this are here for your background: <a href=\"http://www.washingtonpost.com/news/volokh-conspiracy/wp/2015/01/14/obamas-proposed-changes-to-the-computer-hacking-statute-a-deep-dive/\">Orin Kerr</a>Â and a shameless pl",
+        "after": "A couple of good reads on this are here for your background: <a href=\"http://www.washingtonpost.com/news/volokh-conspiracy/wp/2015/01/14/obamas-proposed-changes-to-the-computer-hacking-statute-a-deep-dive/\">Orin Kerr</a> and a shameless plu"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-01-19-sensationalism-doing-more-damage-than-good-1176.md",
+    "changed_lines": 8,
+    "examples": [
+      {
+        "before": "1. I think the way that <a href=\"https://twitter.com/ZeroFOX\">@ZeroFOX</a> handled this was impeccable. As far as \"we\" are concerned this issue wasÂ to bed once the instigator (<a href=\"https://twitter.com/avriette\">@avriette</a>) balked ou",
+        "after": "1. I think the way that <a href=\"https://twitter.com/ZeroFOX\">@ZeroFOX</a> handled this was impeccable. As far as \"we\" are concerned this issue was to bed once the instigator (<a href=\"https://twitter.com/avriette\">@avriette</a>) balked out"
+      },
+      {
+        "before": "Nevertheless, I did want to put my personal thoughts on this out there (specifically since I don't think that ZeroFOX needs to handle this anymore, and since I have already voiced my thoughts about this before:Â <a href=\"/blog/women-in-info",
+        "after": "Nevertheless, I did want to put my personal thoughts on this out there (specifically since I don't think that ZeroFOX needs to handle this anymore, and since I have already voiced my thoughts about this before: <a href=\"/blog/women-in-infos"
+      },
+      {
+        "before": "So here goes: During a presentation at Shmoocon, that discussed research conducted with John's Hopkins University about a red team / blue team exerciseÂ over social media. As such, the students have learned about attack vectors that were ef",
+        "after": "So here goes: During a presentation at Shmoocon, that discussed research conducted with John's Hopkins University about a red team / blue team exercise over social media. As such, the students have learned about attack vectors that were eff"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-03-05-honest-review-csicyber-1186.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "1. Hacking into baby cameras. Totally true.Â <a href=\"http://www.cnet.com/news/hacker-shouts-at-baby-through-baby-monitor/\">http://www.cnet.com/news/hacker-shouts-at-baby-through-baby-monitor/</a>",
+        "after": "1. Hacking into baby cameras. Totally true. <a href=\"http://www.cnet.com/news/hacker-shouts-at-baby-through-baby-monitor/\">http://www.cnet.com/news/hacker-shouts-at-baby-through-baby-monitor/</a>"
+      },
+      {
+        "before": "4. The camera ball used to survey a site before entering it.Â <a href=\"http://bounceimaging.com/\">http://bounceimaging.com/</a>",
+        "after": "4. The camera ball used to survey a site before entering it. <a href=\"http://bounceimaging.com/\">http://bounceimaging.com/</a>"
+      },
+      {
+        "before": "5. Usage of malware (RAT) to spy on people. Welcome to the last 17 years of my professional career. And yes - you can buy this on the \"surface web\" (WTF - can't you just say Internet?). <a href=\"https://en.wikipedia.org/wiki/Blackshades\">Bl",
+        "after": "5. Usage of malware (RAT) to spy on people. Welcome to the last 17 years of my professional career. And yes - you can buy this on the \"surface web\" (WTF - can't you just say Internet?). <a href=\"https://en.wikipedia.org/wiki/Blackshades\">Bl"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-03-09-ists12-keynote-and-red-team-1195.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "The keynote wasn't recorded (thankfully?) but here are the slides that were used as the backdrop for it.Â I ended up coming back with some insights from the keynote (as I usually try not just to provide information, but also learn new thing",
+        "after": "The keynote wasn't recorded (thankfully?) but here are the slides that were used as the backdrop for it. I ended up coming back with some insights from the keynote (as I usually try not just to provide information, but also learn new things"
+      },
+      {
+        "before": "The next day was spent with the red team, which was a great opportunity to catch up on some skills that I left behind (always pick the task that you are less familiar with!), and really kick some ass with the team. <a href=\"https://twitter.",
+        "after": "The next day was spent with the red team, which was a great opportunity to catch up on some skills that I left behind (always pick the task that you are less familiar with!), and really kick some ass with the team. <a href=\"https://twitter."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-04-13-may-the-force-may-in-full-force-1199.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "May marks a busy month where I'll be bouncing around a few places (SÃ£o Paulo, North Carolina, and locally here in NYC) to talk about it.",
+        "after": "May marks a busy month where I'll be bouncing around a few places (São Paulo, North Carolina, and locally here in NYC) to talk about it."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-04-27-post-rsa-musings-1206.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Last (and I saved the downer for here) - the show floor. After getting over the sheer size of the convention (no worries - BlackHat has a way to go until it becomes an RSA), I had my expectations adjusted a bit. Walking through the halls, y",
+        "after": "Last (and I saved the downer for here) - the show floor. After getting over the sheer size of the convention (no worries - BlackHat has a way to go until it becomes an RSA), I had my expectations adjusted a bit. Walking through the halls, y"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-06-21-yes-you-knew-exactly-what-you-were-walking-into-1227.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "Dave quotes Mikko Hypponen, F-Secure's Chief Research officer who keynoted the FIRST conference last week in Berlin, saying \"I didnâ€™t sign up for this\".",
+        "after": "Dave quotes Mikko Hypponen, F-Secure's Chief Research officer who keynoted the FIRST conference last week in Berlin, saying \"I didn’t sign up for this\"."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-09-10-hacking-community-friends-and-professionalism-1237.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "We are hackers (at least a lot of my friends and who I consider theÂ more \"fun\" part of the infosec community). As such, yes, we tend to have personalities that can become borderline, but at the end of the day we learn how to deal with each",
+        "after": "We are hackers (at least a lot of my friends and who I consider the more \"fun\" part of the infosec community). As such, yes, we tend to have personalities that can become borderline, but at the end of the day we learn how to deal with each "
+      },
+      {
+        "before": "However, in the past few years, a weird spin is developing around this community. This spin (like many) brings good as well as bad to us. The good part, is more visibility and attention from the \"muggles\". The outside world. The business, m",
+        "after": "However, in the past few years, a weird spin is developing around this community. This spin (like many) brings good as well as bad to us. The good part, is more visibility and attention from the \"muggles\". The outside world. The business, m"
+      },
+      {
+        "before": "<strong>Update</strong>: because I'm lazy I didn't sum up the gist of said drama. Here's a summary from someone less lazy:Â <a href=\"http://blog.erratasec.com/2015/09/whats-that-drama.html\">http://blog.erratasec.com/2015/09/whats-that-drama",
+        "after": "<strong>Update</strong>: because I'm lazy I didn't sum up the gist of said drama. Here's a summary from someone less lazy: <a href=\"http://blog.erratasec.com/2015/09/whats-that-drama.html\">http://blog.erratasec.com/2015/09/whats-that-drama."
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-11-13-amazonian-trojans-and-marketing-fear-mongering-1263.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "As most marketing organizations know, sometimes you need to be a little creative when coming up with news and research. You draw a target forÂ your security researchers to hit, and hope they come back with meaningful data that'll make it to",
+        "after": "As most marketing organizations know, sometimes you need to be a little creative when coming up with news and research. You draw a target for your security researchers to hit, and hope they come back with meaningful data that'll make it to "
+      },
+      {
+        "before": "But worry not, only afterÂ actually reading the details of the article (<a href=\"http://www.net-security.org/malware_news.php?id=3152\">http://www.net-security.org/malware_news.php?id=3152</a>) and the original research report (<a href=\"http",
+        "after": "But worry not, only after actually reading the details of the article (<a href=\"http://www.net-security.org/malware_news.php?id=3152\">http://www.net-security.org/malware_news.php?id=3152</a>) and the original research report (<a href=\"http:"
+      },
+      {
+        "before": "So after sorting out the FUD, we are left with no much of a scare. Suspiciously cheap tablets, marketed mostly as \"no brand\" (or other brands which at least I've never heard of), are filledÂ with questionable software. Kind'a reminds me of ",
+        "after": "So after sorting out the FUD, we are left with no much of a scare. Suspiciously cheap tablets, marketed mostly as \"no brand\" (or other brands which at least I've never heard of), are filled with questionable software. Kind'a reminds me of e"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2015-11-24-an-obituary-to-pentesting-1269.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "I just saw a <a href=\"http://xiphosresearch.com/2015/11/23/Out-of-step-killing-the-thing-we-love.html\">blog post in which Mike Kemp discovers the realities of 2010</a>Â (<a href=\"https://www.linkedin.com/pulse/out-step-killing-thing-we-love",
+        "after": "I just saw a <a href=\"http://xiphosresearch.com/2015/11/23/Out-of-step-killing-the-thing-we-love.html\">blog post in which Mike Kemp discovers the realities of 2010</a> (<a href=\"https://www.linkedin.com/pulse/out-step-killing-thing-we-love-"
+      },
+      {
+        "before": "\t<li>Penetration TestingÂ is dead. Overrated, and abused by fancy vulnerability scanning, it died a few years ago. If you are still paying for one - check carefully what you are actually getting...</li>",
+        "after": "\t<li>Penetration Testing is dead. Overrated, and abused by fancy vulnerability scanning, it died a few years ago. If you are still paying for one - check carefully what you are actually getting...</li>"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2016-02-17-thoughts-about-the-apple-vs-fbi-iphone-firmware-case-1291.md",
+    "changed_lines": 11,
+    "examples": [
+      {
+        "before": "Not trying to provide the full story here, just a few thoughts and directions as to security, privacy and civil rights. (for the backdrop - Appleâ€™s Tim Cook letter explains it best: <a href=\"https://www.apple.com/customer-letter/\">https:/",
+        "after": "Not trying to provide the full story here, just a few thoughts and directions as to security, privacy and civil rights. (for the backdrop - Apple’s Tim Cook letter explains it best: <a href=\"https://www.apple.com/customer-letter/\">https://w"
+      },
+      {
+        "before": "From a technical perspective, Apple is fully capable to alleviating a lot of the barriers the FBI is currently facing with unlocking the phone (evidence) in question. It is an iPhone 5C, which does not have the enhanced security features im",
+        "after": "From a technical perspective, Apple is fully capable to alleviating a lot of the barriers the FBI is currently facing with unlocking the phone (evidence) in question. It is an iPhone 5C, which does not have the enhanced security features im"
+      },
+      {
+        "before": "But from a legal perspective we are facing not only a slippery slope, but a cliff as someone eloquently noted on twitter. Abiding by a legal claim based on an archaic law (<a href=\"https://en.wikipedia.org/wiki/All_Writs_Act\">All Writs act<",
+        "after": "But from a legal perspective we are facing not only a slippery slope, but a cliff as someone eloquently noted on twitter. Abiding by a legal claim based on an archaic law (<a href=\"https://en.wikipedia.org/wiki/All_Writs_Act\">All Writs act<"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2016-06-16-infosec-conferencestalks-redux-1332.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": " \t<li>Show relevant data on how this new thing improved your life (professional life included). Show the situation before, and after new thing wasÂ applied. Data is cool, and you can't argue with it (as opposed to \"hey, look at me doing thi",
+        "after": " \t<li>Show relevant data on how this new thing improved your life (professional life included). Show the situation before, and after new thing was applied. Data is cool, and you can't argue with it (as opposed to \"hey, look at me doing this"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2016-09-02-ptes-remaining-impartial-and-insisting-on-high-standards-1342.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "For some reason, in the past week or so IÂ wasÂ approached by two different vendors, in attempts to either use their platform or writeup about how their suite of products provide \"the best coverage for the PTES\". I'm sure that I'm not alone",
+        "after": "For some reason, in the past week or so I was approached by two different vendors, in attempts to either use their platform or writeup about how their suite of products provide \"the best coverage for the PTES\". I'm sure that I'm not alone i"
+      },
+      {
+        "before": "The standard is written for us. Practitioners, customers, organization, anyone and everyone who's dealing with penetration testing. It is not about a specific product, or even a specific approach or methodology for testing. It's about defin",
+        "after": "The standard is written for us. Practitioners, customers, organization, anyone and everyone who's dealing with penetration testing. It is not about a specific product, or even a specific approach or methodology for testing. It's about defin"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2017-06-10-when-great-ideas-go-to-the-wrong-places-1395.md",
+    "changed_lines": 6,
+    "examples": [
+      {
+        "before": "<p class=\"p1\">TL;DR: hacking is an art and a science, computer attacks (cyber these days) are only one manifestation of an aggressor, which has very limited traits that can trace it to its origin. Relying on technical evidence without addit",
+        "after": "<p class=\"p1\">TL;DR: hacking is an art and a science, computer attacks (cyber these days) are only one manifestation of an aggressor, which has very limited traits that can trace it to its origin. Relying on technical evidence without addit"
+      },
+      {
+        "before": "<p class=\"p1\">So, apparently, some really smart people at RAND corporation and Microsoft have decided that they are going to solver the worldâ€™s computer Bourne attack problems by creating a new global NGO to unmask and apply attribution t",
+        "after": "<p class=\"p1\">So, apparently, some really smart people at RAND corporation and Microsoft have decided that they are going to solver the world’s computer Bourne attack problems by creating a new global NGO to unmask and apply attribution to "
+      },
+      {
+        "before": "<p class=\"p1\">The only problem is that the attribution game is not won on technical merit only. And guess what? Attackers know that very well. Even the US government knows that (or at least the organization responsible for launching such at",
+        "after": "<p class=\"p1\">The only problem is that the attribution game is not won on technical merit only. And guess what? Attackers know that very well. Even the US government knows that (or at least the organization responsible for launching such at"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2017-09-11-dumpster-fires-and-security-incidents-1412.md",
+    "changed_lines": 2,
+    "examples": [
+      {
+        "before": "A lot wasÂ said and written on the Equifax hack (check out <a href=\"https://krebsonsecurity.com/2017/09/equifax-breach-response-turns-dumpster-fire/\">Brian's coverage</a> for most of it). Mostly about how badly Equifax handled their securit",
+        "after": "A lot was said and written on the Equifax hack (check out <a href=\"https://krebsonsecurity.com/2017/09/equifax-breach-response-turns-dumpster-fire/\">Brian's coverage</a> for most of it). Mostly about how badly Equifax handled their security"
+      },
+      {
+        "before": "Companies this size that go through a major breach and do not have a very strong leadership internally, tend to fall into mode of operation where all the executives areÂ taking care of themselves, and have zero to negative cooperation. Ever",
+        "after": "Companies this size that go through a major breach and do not have a very strong leadership internally, tend to fall into mode of operation where all the executives are taking care of themselves, and have zero to negative cooperation. Every"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2018-09-04-basic-is-great-1464.md",
+    "changed_lines": 3,
+    "examples": [
+      {
+        "before": "<p>Which gets me to the basics.Â </p>",
+        "after": "<p>Which gets me to the basics. </p>"
+      },
+      {
+        "before": "<p>The reason being, I still see a lot of organizations trying to decipher how they are going to integrate saidÂ [insert cyber-marketing-buzz/fud] product, while failing to have a basic security program.</p>",
+        "after": "<p>The reason being, I still see a lot of organizations trying to decipher how they are going to integrate said [insert cyber-marketing-buzz/fud] product, while failing to have a basic security program.</p>"
+      },
+      {
+        "before": "<p>Compound that with an approach which I sadly see some of my colleagues take, which says - forget about all those products, you are going to get breached. You need to embrace the [other-fud-buzz-cyber] approach where attackers [pre-cog / ",
+        "after": "<p>Compound that with an approach which I sadly see some of my colleagues take, which says - forget about all those products, you are going to get breached. You need to embrace the [other-fud-buzz-cyber] approach where attackers [pre-cog / "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2019-01-02-two-frameworks-for-securing-a-decentralized-enterprise-1623.md",
+    "changed_lines": 5,
+    "examples": [
+      {
+        "before": "subcategories of an organizationâ€™s defense capabilities. There are many ",
+        "after": "subcategories of an organization’s defense capabilities. There are many "
+      },
+      {
+        "before": "businessâ€™ maturity levels and, of course, set a minimal&nbsp;or sought-after ",
+        "after": "business’ maturity levels and, of course, set a minimal&nbsp;or sought-after "
+      },
+      {
+        "before": "maturity level (again, this doesnâ€™t have to exist across all the ",
+        "after": "maturity level (again, this doesn’t have to exist across all the "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2019-02-01-why-you-should-go-beyond-the-typical-penetration-test-1628.md",
+    "changed_lines": 5,
+    "examples": [
+      {
+        "before": "<p>If youâ€™ve ever run across a penetration  test report, they usually look bleak. I should know; Iâ€™ve authored  hundreds of them. By their very nature, they try to focus on the most  egregious security issues within a system or network.",
+        "after": "<p>If you’ve ever run across a penetration  test report, they usually look bleak. I should know; I’ve authored  hundreds of them. By their very nature, they try to focus on the most  egregious security issues within a system or network. Hav"
+      },
+      {
+        "before": " a companyâ€™s security organization can provide context for such ",
+        "after": " a company’s security organization can provide context for such "
+      },
+      {
+        "before": " and align it with business risks, we should keep asking â€œwhy/what.â€ Why",
+        "after": " and align it with business risks, we should keep asking “why/what.” Why"
+      }
+    ]
+  },
+  {
+    "file": "_posts/2019-03-14-trust-building-for-security-1630.md",
+    "changed_lines": 8,
+    "examples": [
+      {
+        "before": "<p>Trust is a fickle thing. And, weirdly  enough, the basic assumption of a lot of security practices seems to  include a certain level of trust in users that is pretty hard to justify  these days. This is why we see so many successful brea",
+        "after": "<p>Trust is a fickle thing. And, weirdly  enough, the basic assumption of a lot of security practices seems to  include a certain level of trust in users that is pretty hard to justify  these days. This is why we see so many successful brea"
+      },
+      {
+        "before": "would be scrutinized both on a temporal perspective (â€œIs it the right ",
+        "after": "would be scrutinized both on a temporal perspective (“Is it the right "
+      },
+      {
+        "before": "time of the quarter?â€) as well as on a trustworthiness level (â€œCan we ",
+        "after": "time of the quarter?”) as well as on a trustworthiness level (“Can we "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2020-02-11-the-product-versus-skill-pendulum-in-security-and-the-need-for-better-solutions-1632.md",
+    "changed_lines": 16,
+    "examples": [
+      {
+        "before": "<p>Weâ€™ve reached a point where products matter less and less. Remember ",
+        "after": "<p>We’ve reached a point where products matter less and less. Remember "
+      },
+      {
+        "before": " relics of the old-school way of operating. Iâ€™m not looking to explore ",
+        "after": " relics of the old-school way of operating. I’m not looking to explore "
+      },
+      {
+        "before": "whoâ€™s to blame (VCs? Startups? Consumers? Analysts? Your bet is as good ",
+        "after": "who’s to blame (VCs? Startups? Consumers? Analysts? Your bet is as good "
+      }
+    ]
+  },
+  {
+    "file": "_posts/2020-03-14-incentives-and-metrics-1668.md",
+    "changed_lines": 1,
+    "examples": [
+      {
+        "before": "<p>I'll start with the first (quite miserable) realization: if you work for a company that boasts fancy office perks, you are underpaid and are incentivized to spend more time in the office. The latter is pretty obvious, and I am sure you r",
+        "after": "<p>I'll start with the first (quite miserable) realization: if you work for a company that boasts fancy office perks, you are underpaid and are incentivized to spend more time in the office. The latter is pretty obvious, and I am sure you r"
+      }
+    ]
+  }
+]

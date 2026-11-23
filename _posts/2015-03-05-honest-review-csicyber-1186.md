@@ -3,6 +3,7 @@ layout: post
 title: "Honest review - CSI:Cyber"
 date: 2015-03-05
 permalink: /blog/honest-review-csicyber/
+categories: [community]
 ---
 
 There seems to be a lot of chatter (at least on my highly biased Twitter and Facebook feeds) about how terrible of a show <a href="http://www.cbs.com/shows/csi-cyber/">CSI:Cyber</a> was. People seem to be extremely concerned about the fact that the show did not portray all the hacking related activities (cyber, infosec, whatever you want to call it) precisely as it is in real life. So here's my take at it.
@@ -11,15 +12,15 @@ First - I'm not talking about the overall quality of the show. I'm not a TV crit
 
 So let's talk about some (again <strong>some</strong>!) of the technical elements that show up there:
 
-1. Hacking into baby cameras. Totally true.Â <a href="http://www.cnet.com/news/hacker-shouts-at-baby-through-baby-monitor/">http://www.cnet.com/news/hacker-shouts-at-baby-through-baby-monitor/</a>
+1. Hacking into baby cameras. Totally true. <a href="http://www.cnet.com/news/hacker-shouts-at-baby-through-baby-monitor/">http://www.cnet.com/news/hacker-shouts-at-baby-through-baby-monitor/</a>
 
 2. Social media being a major source for intelligence. Been using it for a decade now through red teaming. Actually joined a social risk management company as it's that big of an issue. (<a href="http://www.zerofox.com">www.zerofox.com</a>)
 
 3. Social engineering - micro expressions, cold reading, etc. Legit. Again - red teaming. We even teach it on our red team classes.
 
-4. The camera ball used to survey a site before entering it.Â <a href="http://bounceimaging.com/">http://bounceimaging.com/</a>
+4. The camera ball used to survey a site before entering it. <a href="http://bounceimaging.com/">http://bounceimaging.com/</a>
 
-5. Usage of malware (RAT) to spy on people. Welcome to the last 17 years of my professional career. And yes - you can buy this on the "surface web" (WTF - can't you just say Internet?). <a href="https://en.wikipedia.org/wiki/Blackshades">Blackshades</a>Â used to go for about $40-$50 a pop as far as I recall (and no, not going to do the homework for you and link to a live site that sells this. Google it.).
+5. Usage of malware (RAT) to spy on people. Welcome to the last 17 years of my professional career. And yes - you can buy this on the "surface web" (WTF - can't you just say Internet?). <a href="https://en.wikipedia.org/wiki/Blackshades">Blackshades</a> used to go for about $40-$50 a pop as far as I recall (and no, not going to do the homework for you and link to a live site that sells this. Google it.).
 
 6. Companies that release products with known flaws in them? Yeah, you are probably reading this from one of those. Welcome to reality, where business decisions trump technical purity and security. Companies want to make money. Fast. If fixing all the flaws found in the software or hardware will keep them from making money, guess what - they will prioritize these to a point where they can get $ in the bank.
 

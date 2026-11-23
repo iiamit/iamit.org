@@ -3,6 +3,7 @@ layout: post
 title: "CyberCrime, CyberWarfare, and 2010"
 date: 2010-01-01
 permalink: /blog/cybercrime-cyberwarfare-and-2010/
+categories: [cyber-policy, research]
 ---
 
 I'll spare you the "2009 security in review" which you can read just about anywhere else you go now. I'll also avoid the "what to expect in security in 2010" because everyone would just reiterate the same stuff they saw coming to life in 2009...

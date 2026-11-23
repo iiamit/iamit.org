@@ -3,6 +3,7 @@ layout: post
 title: "Information Security Intelligence Report for 2010 and Predictions for 2011"
 date: 2011-01-24
 permalink: /blog/information-security-intelligence-report-for-2010-and-predictions-for-2011/
+categories: [strategy-risk, research]
 ---
 
 Looking back at 2010 shows a widening gap between cybercrime and law  enforcement capabilities, in conjunction to nations that have started  the cyber-race to develop defensive and offensive capabilities. Most of  the attacks analyzed in 2010 depict organizations that fall behind in  their defensive strategies as attackers take advantage of a hybrid  approach that merges technical merits alongside human weaknesses to  cash-out on their attacks.

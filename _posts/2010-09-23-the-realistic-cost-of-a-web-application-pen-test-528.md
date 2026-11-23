@@ -3,6 +3,7 @@ layout: post
 title: "The realistic cost of a web application pen-test"
 date: 2010-09-23
 permalink: /blog/the-realistic-cost-of-a-web-application-pen-test/
+categories: [offensive-security, strategy-risk]
 ---
 
 So I was having some really interesting conversations over the last couple of days with some of the best people I know in the security industry (yeah, I'm looking at you guys...), and one topic came up on which we all agreed and shared mutual frustrations about: the ability to evaluate the quality of a "standard" web application pen-test (web app pen test was taken just as an example for one of the many security assessments and management services we all provide).

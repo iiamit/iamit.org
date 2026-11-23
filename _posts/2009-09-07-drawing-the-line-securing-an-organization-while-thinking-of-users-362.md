@@ -3,6 +3,7 @@ layout: post
 title: "Drawing the line - securing an organization while thinking of users..."
 date: 2009-09-07
 permalink: /blog/drawing-the-line-securing-an-organization-while-thinking-of-users/
+categories: [strategy-risk]
 ---
 
 My latest post on the Israeli Insurance Association (<a href="http://www.igudbit.org.il/Index.asp?ArticleID=1235&amp;CategoryID=98">http://www.igudbit.org.il/Index.asp?ArticleID=1235&amp;CategoryID=98</a> [HEBREW]) discusses the challanges of managing risk in a complex organizational environment where you have to take into account end-users meddling with data.

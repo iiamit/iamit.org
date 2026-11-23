@@ -3,6 +3,7 @@ layout: post
 title: "Seeing RED in your future? - Recap from DerbyCon 3.0"
 date: 2013-09-30
 permalink: /blog/seeing-red-in-your-future-recap-from-derbycon-3-0/
+categories: [offensive-security, offensive-security]
 ---
 
 Yes, I know, It's been a while since I updated anything here. Work, life, etc...

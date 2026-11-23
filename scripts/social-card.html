@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1200, initial-scale=1">
+  <title>Ian Amit social sharing card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1200px;
+      height: 627px;
+      padding: 64px 72px;
+      background: #0A0D14;
+      color: #EEF2F7;
+      font-family: Inter, sans-serif;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+    .brand, footer { font-family: 'JetBrains Mono', monospace; font-size: 24px; }
+    .brand span, .role { color: #7CF0C8; }
+    main { display: flex; align-items: center; justify-content: space-between; gap: 64px; }
+    h1 { margin: 0 0 20px; font-size: 88px; font-weight: 600; line-height: 1; letter-spacing: -0.035em; }
+    .role { margin: 0; font-size: 34px; line-height: 1.4; }
+    img { display: block; width: 296px; height: 296px; }
+    footer { padding-top: 24px; border-top: 1px solid #303743; color: #AAB3C0; }
+  </style>
+</head>
+<body>
+  <div class="brand">iamit<span>_</span></div>
+  <main>
+    <div>
+      <h1>Ian Amit</h1>
+      <p class="role">Security executive.<br>Builder. Operator.</p>
+    </div>
+    <img src="/assets/images/og-ian-amit.jpg" alt="Ian Amit" width="296" height="296">
+  </main>
+  <footer>iamit.org</footer>
+</body>
+</html>

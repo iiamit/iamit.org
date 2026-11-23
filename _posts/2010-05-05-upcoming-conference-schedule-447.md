@@ -3,11 +3,12 @@ layout: post
 title: "Upcoming Conference Schedule"
 date: 2010-05-05
 permalink: /blog/upcoming-conference-schedule/
+categories: [community]
 ---
 
 I have been fortunate enough to be picked up by several CFP of great conferences, which basically gave me the opportunity to participate at conferences I wanted to go to anyway, as well as to present some of the research in the CyberCrime/CyberWar field.
 
-After BlackHat Europe (see <a href="http://www.iamit.org/blog/2010/04/cybercrimewar-connecting-the-dots-blackhat-eu-2010/">related post</a>), I will be speaking at:
+After BlackHat Europe (see <a href="/blog/cybercrimewar-connecting-the-dots-blackhat-eu-2010/">related post</a>), I will be speaking at:
 
 <img class="alignnone" src="http://ph-neutral.darklab.org/images/ph_head.gif" alt="" width="436" height="71" />
 

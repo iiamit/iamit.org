@@ -3,6 +3,7 @@ layout: post
 title: "Red Team Training Comes to Vegas!"
 date: 2013-05-22
 permalink: /blog/red-team-training-comes-to-vegas/
+categories: [offensive-security, community]
 ---
 
 So, as you might have heard, Chris Nickerson and I have been accepted to run training at BlackHat USA 2013.

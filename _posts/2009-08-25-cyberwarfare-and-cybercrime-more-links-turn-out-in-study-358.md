@@ -3,6 +3,7 @@ layout: post
 title: "Cyberwarfare and Cybercrime - more links turn out in study"
 date: 2009-08-25
 permalink: /blog/cyberwarfare-and-cybercrime-more-links-turn-out-in-study/
+categories: [cyber-policy, research]
 ---
 
 Whenever you look at cybercrime/eCrime, the question always pops up - what is the link between this highly sofisticated economy and aggregation of technologies, with government affairs or cyberwarfare. The answer would usually be "it depends"... Actually depending on who you ask, and what level of involvement they have with studying cyberwarfare as well as cybercrime.

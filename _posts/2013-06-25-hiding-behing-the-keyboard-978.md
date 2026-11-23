@@ -3,13 +3,14 @@ layout: post
 title: "Hiding behing the keyboard"
 date: 2013-06-25
 permalink: /blog/hiding-behing-the-keyboard/
+categories: [community]
 ---
 
 This post is basically a placeholder to make sure that the materials concerning an ongoing investigation are published for everyone to see. The other reason is that it seems like people think they can get away with anything when hiding behind a keyboard.
 
 <strong>WARNING - this post contains direct transcripts from online chats, some of which have been translated to the best of my knowledge from Hebrew to English in an attempt to preserve the original meaning. It contains foul language, profanities, and visual and direct threats of violence. It's NSFW.</strong>
 
-The story starts when a small number of member in the DC9723 group on Facebook started trolling (posting annoying messages, discrediting others, and then postingÂ misogynistic comments that were borderline racist). As an open group that I am proud to be one of the founders of for over 2 years, the line taken is usually conservative in terms of moderation. This time we had to step in and remove some of the comments, and eventually some of the members (with an open invitation for them to come back once they realize the code of conduct in a group that is supposed to represent most how people should behave online).
+The story starts when a small number of member in the DC9723 group on Facebook started trolling (posting annoying messages, discrediting others, and then posting misogynistic comments that were borderline racist). As an open group that I am proud to be one of the founders of for over 2 years, the line taken is usually conservative in terms of moderation. This time we had to step in and remove some of the comments, and eventually some of the members (with an open invitation for them to come back once they realize the code of conduct in a group that is supposed to represent most how people should behave online).
 
 For some reason these actions led to some nasty conversations starting with a person who's not just hiding behind a thin profile, but a full-on fake one - "John Smith" (I kid you not).
 
@@ -66,7 +67,7 @@ That seemed to take care of that.
 Momentarily. As another member started arguing and trolling again in the discussion that spoke about ethics and code of conduct. That member was Daniel Feldman.<a href="http://www.iamit.org/assets/uploads/2013/06/daniel-ian-bilingual.txt">
 </a>
 
-Unlike the conversation above, I'll have to comment inline, as most of the chat was in Hebrew (see theÂ <a href="http://www.iamit.org/assets/uploads/2013/06/daniel-ian-bilingual.txt">original transcript</a> from Facebook, which also has the translation at the end), and contained references to local lingo and other elements. The public discussion quickly deteriorated to Daniel attacking me personally, and thus a private chat has been initiated.
+Unlike the conversation above, I'll have to comment inline, as most of the chat was in Hebrew (see the <a href="http://www.iamit.org/assets/uploads/2013/06/daniel-ian-bilingual.txt">original transcript</a> from Facebook, which also has the translation at the end), and contained references to local lingo and other elements. The public discussion quickly deteriorated to Daniel attacking me personally, and thus a private chat has been initiated.
 
 A couple of notes - I thought about trying to translate "<a href="http://en.wikipedia.org/wiki/Ars_(slang)">Ars</a>" but found it hard. It's something between a lowlife, a pimp, sprinkle in a bit of redneck, guido?, and pimp. Not really the type you want to mingle with (but which unfortunately plagues large parts of Israel - especially outside of Tel-Aviv).
 
@@ -74,21 +75,21 @@ Also - the spelling mistakes in the translation are way funnier in Hebrew. I jus
 
 <a href="http://www.iamit.org/assets/uploads/2013/06/Untitled-1.jpg"><img class="aligncenter size-large wp-image-980" alt="Untitled-1" src="http://www.iamit.org/assets/uploads/2013/06/Untitled-1-700x525.jpg" width="584" height="438" /></a>
 
-<em>(This image is basically the conversation between us, at the "Ars" part, pointing to his public Google+ picture, and back to where he's shooting racistÂ homophobicÂ profanities. Then him responding to my claim that he should calm down with the epic "I'm calm you son of a bitch!" - with the obvious "You mad bro" meme).</em>
+<em>(This image is basically the conversation between us, at the "Ars" part, pointing to his public Google+ picture, and back to where he's shooting racist homophobic profanities. Then him responding to my claim that he should calm down with the epic "I'm calm you son of a bitch!" - with the obvious "You mad bro" meme).</em>
 
-At some point, Daniel probably freaks out as he thought he's completely protected behind the keyboard. Now there's a picture of him, and he probably also knows that I know that he lives inÂ <a href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Nazareth+Illit,+Israel&amp;aq=0&amp;oq=nazeret+illit,+&amp;sll=37.0625,-95.677068&amp;sspn=46.946584,93.076172&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Nazareth+Illit,+Israel&amp;t=m&amp;z=12&amp;iwloc=A">Nazareth Illit </a>.
+At some point, Daniel probably freaks out as he thought he's completely protected behind the keyboard. Now there's a picture of him, and he probably also knows that I know that he lives in <a href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Nazareth+Illit,+Israel&amp;aq=0&amp;oq=nazeret+illit,+&amp;sll=37.0625,-95.677068&amp;sspn=46.946584,93.076172&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Nazareth+Illit,+Israel&amp;t=m&amp;z=12&amp;iwloc=A">Nazareth Illit </a>.
 
 Eventually, I had to take it to the police. Getting specific threats (promises), which included my family isn't joking matter. There isn't really a point in dealing with these kinds of trolls, but there's a message that I personally believe needs to get by - you can't be a complete dick on the internet, and expect to get away with it. You can be a troll (and I completely get the fine art of trolling where trolling is due), you and be a bit of a dick, but when it gets to very specific "promises" like this, you have crossed the line. Now time to deal with it.
 
-So it goes - to <strong>Daniel Feldman</strong> (<strong>m.f.g.witchcraft@gmail.com</strong>), Drupal developer out of Nazareth Illit, Israel. Have a great life, and a successful career. Just make sure you don't try to attack this site directly from your home IP address (<strong>85.64.57.192</strong> on June 22nd 23:49 Israel time, andÂ <strong>84.229.202.243</strong> on June 24th, 16:06 Israel time). Definitely try not to fall for tricks like WebLabyrinth when scanning with w3af as it's most likely to crash :-)
+So it goes - to <strong>Daniel Feldman</strong> (<strong>m.f.g.witchcraft@gmail.com</strong>), Drupal developer out of Nazareth Illit, Israel. Have a great life, and a successful career. Just make sure you don't try to attack this site directly from your home IP address (<strong>85.64.57.192</strong> on June 22nd 23:49 Israel time, and <strong>84.229.202.243</strong> on June 24th, 16:06 Israel time). Definitely try not to fall for tricks like WebLabyrinth when scanning with w3af as it's most likely to crash :-)
 <p style="text-align: center;"><a href="http://www.iamit.org/assets/uploads/2013/06/S-Memo-1.jpg"><img class="aligncenter  wp-image-981" alt="S Memo-1" src="http://www.iamit.org/assets/uploads/2013/06/S-Memo-1-504x700.jpg" width="403" height="560" /></a></p>
-<p style="text-align: center;">Â Police complaint filing. Case number 274719/2013</p>
+<p style="text-align: center;"> Police complaint filing. Case number 274719/2013</p>
 I'll keep posting updates here if they become relevant, hopefully with some good news (and not how I found my premature departure because of an idiot who had a public Google+ profile with him picture and home address there).
 
 BTW - if it wasn't clear enough - I didn't even try too hard to out the guys :-| Here's how it looked on Google's image search yesterday (after he deleted his Google+ profile):
 <p style="text-align: center;"><a href="http://www.iamit.org/assets/uploads/2013/06/Screen-Shot-2013-06-24-at-7.47.35-PM.png"><img class="aligncenter  wp-image-982" alt="Screen Shot 2013-06-24 at 7.47.35 PM" src="http://www.iamit.org/assets/uploads/2013/06/Screen-Shot-2013-06-24-at-7.47.35-PM-545x700.png" width="436" height="560" /></a></p>
 And here's his full resolution picture taken from Google+ on Saturday when he freaked out:
-<p style="text-align: center;"><a href="http://www.iamit.org/assets/uploads/2013/06/×ª×ž×•× ×”-×©×œ×™-×ž×ª×•×§×Ÿ-×§×˜×Ÿ.jpg"><img class="aligncenter  wp-image-983" alt="Daniel Feldman m.f.g.witchcraft@gmail.com" src="http://www.iamit.org/assets/uploads/2013/06/×ª×ž×•× ×”-×©×œ×™-×ž×ª×•×§×Ÿ-×§×˜×Ÿ.jpg" width="420" height="419" /></a></p>
+<p style="text-align: center;"><a href="http://www.iamit.org/assets/uploads/2013/06/תמונה-שלי-מתוקן-קטן.jpg"><img class="aligncenter  wp-image-983" alt="Daniel Feldman m.f.g.witchcraft@gmail.com" src="http://www.iamit.org/assets/uploads/2013/06/תמונה-שלי-מתוקן-קטן.jpg" width="420" height="419" /></a></p>
 &nbsp;
 <p style="text-align: center;">"Daniel Feldman" (sometimes goes by "Danny Feldman"). Image file aptly named "My picture corrected small.jpg"</p>
 Lovely, I know :-)

@@ -2,6 +2,7 @@
 layout: post
 title: "CyberQRM: Making Cyber Risk Quantification Actually Accessible"
 date: 2026-04-13
+categories: [strategy-risk]
 ---
 
 I've been consulting with organizations on cyber risk for years, and one pattern keeps repeating: security leaders recognize the need for quantitative risk assessment, but the gap between knowing you should do it and actually doing it is vast. The tools are expensive, the frameworks are complex, and the open-source options are... well, they're not great.

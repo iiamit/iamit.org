@@ -3,12 +3,13 @@ layout: post
 title: "Yes, you knew exactly what you were walking into..."
 date: 2015-06-21
 permalink: /blog/yes-you-knew-exactly-what-you-were-walking-into/
+categories: [cyber-policy, research]
 ---
 
 I'm writing this in response to a very well put together article written by my friend <a href="https://twitter.com/gattaca">Dave Lewis</a> on CSO Online: "<a href="http://www.csoonline.com/article/2936614/advanced-persistent-threats/are-you-a-legitimate-military-target.html">Are you a legitimate military target?</a>".
 In the article Dave talks about how security researchers, practitioners, and security vendors are suddenly "surprised" to find themselves potentially being under the scrutiny of foreign (and guess what - domestic) governments and militaries.
 
-Dave quotes Mikko Hypponen, F-Secure's Chief Research officer who keynoted the FIRST conference last week in Berlin, saying "I didnâ€™t sign up for this".
+Dave quotes Mikko Hypponen, F-Secure's Chief Research officer who keynoted the FIRST conference last week in Berlin, saying "I didn’t sign up for this".
 Well, sorry to take the other side - but you did. We all did. Even those of us who have been in the industry for almost 20 years. We grew up on movies like "<a href="http://www.imdb.com/title/tt0086567/">War Games</a>", on the stories such as Cliff Stoll's "<a href="https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg">The Cuckoo's Egg</a>", and those of us who were pushing the boundaries and practicing security research, also knew that we were playing fast and loose with the law a lot of times (successfully for those of us with a clear record).
 Well ,guess what, just like a nuclear physicist becomes a target (legitimate or not) for a foreign nation because they are associated with another nation's nuclear program, so are we.
 

@@ -3,13 +3,14 @@ layout: post
 title: "Breaking news: Spy agencies are spying!"
 date: 2013-12-30
 permalink: /blog/breaking-news-spy-agencies-are-spying/
+categories: [cyber-policy, research]
 ---
 
 <a title="Stop the Presses! White Background" href="http://flickr.com/photos/60141638@N06/8921449236"><img class="alignright" alt="" src="http://farm8.static.flickr.com/7434/8921449236_98689a719a_m.jpg" width="180" height="135" /></a>Please say it ain't so! Spy agencies are spying?
 
 I'm actually going to go out on a limb here and present my (again - MY) opinion, which might pass as complicated by people with very deterministic views (or are being spoon-fed said views through the media of their choice).
 
-First - I think that the Der Spiegel article that covers the "latest" NSA spying capabilities (<a href="http://www.spiegel.de/netzwelt/netzpolitik/quantumtheory-wie-die-nsa-weltweit-rechner-hackt-a-941149.html">http://www.spiegel.de/netzwelt/netzpolitik/quantumtheory-wie-die-nsa-weltweit-rechner-hackt-a-941149.html</a>) is very important, and I applaud Jake and the crew that covered this. If you haven't yet, go read it and go over the slides. Also make sure to read through the "product catalog" here:Â <a href="http://leaksource.wordpress.com/2013/12/30/nsas-ant-division-catalog-of-exploits-for-nearly-every-major-software-hardware-firmware/">http://leaksource.wordpress.com/2013/12/30/nsas-ant-division-catalog-of-exploits-for-nearly-every-major-software-hardware-firmware/</a>
+First - I think that the Der Spiegel article that covers the "latest" NSA spying capabilities (<a href="http://www.spiegel.de/netzwelt/netzpolitik/quantumtheory-wie-die-nsa-weltweit-rechner-hackt-a-941149.html">http://www.spiegel.de/netzwelt/netzpolitik/quantumtheory-wie-die-nsa-weltweit-rechner-hackt-a-941149.html</a>) is very important, and I applaud Jake and the crew that covered this. If you haven't yet, go read it and go over the slides. Also make sure to read through the "product catalog" here: <a href="http://leaksource.wordpress.com/2013/12/30/nsas-ant-division-catalog-of-exploits-for-nearly-every-major-software-hardware-firmware/">http://leaksource.wordpress.com/2013/12/30/nsas-ant-division-catalog-of-exploits-for-nearly-every-major-software-hardware-firmware/</a>
 
 <a title="The Cavalry" href="http://flickr.com/photos/12426416@N00/207380760"><img class="alignleft" alt="" src="http://farm1.static.flickr.com/91/207380760_621e9795e9_m.jpg" width="240" height="180" /></a>So you are back? Great! That being said, I do think that spy agencies should continue spying. BLAM! And yes, it makes total sense to me. Because I do think that spy agencies should keep spying in order to keep their corresponding nations safe. It's all about the tradecraft and trying to keep a step ahead of your potential enemies.
 

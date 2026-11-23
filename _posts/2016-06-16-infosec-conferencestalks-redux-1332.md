@@ -3,6 +3,7 @@ layout: post
 title: "Infosec conferences/talks redux"
 date: 2016-06-16
 permalink: /blog/infosec-conferencestalks-redux/
+categories: [community]
 ---
 
 Don't mind me, just poking my head in here to make sure the cobwebs haven't taken over this place yet :-P
@@ -28,7 +29,7 @@ Now, realizing that you may have no idea how to present this new thing, do two t
  	<li>Why did you go out to invent/find said new thing? What was the motivation? What gap does this fill?</li>
  	<li>How did you go about researching and finding the new thing? What challenges did you face doing so? What didn't work through your process (much more interesting and relevant than what did work)?</li>
  	<li>How do you use this new thing? How can I use it (assuming I don't have to sell a kidney to do so. If so, pass this along to your marketing guys so they can get ready for RSA)?</li>
- 	<li>Show relevant data on how this new thing improved your life (professional life included). Show the situation before, and after new thing wasÂ applied. Data is cool, and you can't argue with it (as opposed to "hey, look at me doing this thing one time with no context and no goal and how badass I am").</li>
+	<li>Show relevant data on how this new thing improved your life (professional life included). Show the situation before, and after new thing was applied. Data is cool, and you can't argue with it (as opposed to "hey, look at me doing this thing one time with no context and no goal and how badass I am").</li>
  	<li>Give credit. Understanding that you are probably not alone researching new thing in complete void - give some props to the people/projects who have inspired you, helped you move along your research, or have done similar things, and you have build on their things to get to your new thing. (i.e. don't be an asshole).</li>
 </ol>
 </li>

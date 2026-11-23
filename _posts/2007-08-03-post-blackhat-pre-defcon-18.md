@@ -3,6 +3,7 @@ layout: post
 title: "Post BlackHat, pre DefCon"
 date: 2007-08-03
 permalink: /blog/post-blackhat-pre-defcon/
+categories: [community]
 ---
 
 So it's been a really hectic couple of days here in Vegas. We are here (myself and 2 members of MCRC - Aviv &amp; Amir), running between presentations, and handling booth/media traffic.

@@ -2,7 +2,8 @@
 layout: post
 title: "The Missing Layer In AI-Driven Engineering: Reliable Execution"
 date: 2026-05-05
-categories: [forbes, security, devops, ai]
+categories: [ai, cloud-devops]
+publication: Forbes
 ---
 
 Engineering teams have adopted AI at a remarkable pace. Code is being generated faster, infrastructure is being designed through prompts, and security issues are being surfaced in real time.

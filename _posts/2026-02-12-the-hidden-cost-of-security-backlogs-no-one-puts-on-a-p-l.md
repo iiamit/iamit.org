@@ -2,7 +2,8 @@
 layout: post
 title: "The Hidden Cost Of Security Backlogs No One Puts On A P&L"
 date: 2026-02-12
-categories: [forbes, security, devops, ai]
+categories: [strategy-risk, cloud-devops]
+publication: Forbes
 ---
 
 On paper, everything looks fine. Release milestones are met. Cloud uptime holds. Audits pass. Yet quarter after quarter, delivery slows in ways hard to explain. Engineering leaders see it in small frictions that never quite rise to a crisis. Security findings stack up quietly in Jira tickets and scanner dashboards, waiting for "later." Nothing's on fire, but nothing is getting faster.
